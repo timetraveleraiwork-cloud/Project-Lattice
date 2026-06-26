@@ -34,4 +34,4 @@ def call_model(prompt, schema):
         if attempt == 2:
             raise
 
-        time.sleep(1)
+        time.sleep(5 * (attempt + 1))

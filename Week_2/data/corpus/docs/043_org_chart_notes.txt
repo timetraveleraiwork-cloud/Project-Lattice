@@ -1,0 +1,45 @@
+Preliminary Org Chart Review - Internal Notes
+
+Date: 2024-07-25Attendees (Key Discussion Points):
+* Vikram Patel (Executive Director)
+* Priya Nair (Finance Manager)
+* Kavita Rao (HR Business Partner)
+* Sandeep Menon (Compliance Officer)
+* Arjun Verma (Project Manager)
+* Rahul Sharma (IT Administrator)
+
+Notes from 24/07 Leadership Meeting - Org Structure Discussion
+
+Overall Observation: Current structure generally effective, but some areas require optimization for FY25 goals. We need to ensure clear reporting lines and efficient cross-functional support, especially with the upcoming [Project Phoenix] project.
+
+Departmental Focus Areas:
+
+1. IT Department:
+    * Rahul Sharma: Doing a solid job managing core infrastructure.
+    * Ankit Gupta: Performance is strong, especially with SecureNet Systems integration.
+    * Rohan Das: Intern's progress is commendable. Rahul suggested potential full-time consideration post-internship, subject to budget approval from Finance (Priya Nair, FYI). This would free up some of Ankit's time for more strategic projects.
+    * Action: Kavita Rao to review HR implications for Rohan's potential FTE conversion. Rahul to draft a justification memo by EOD next week.
+    * Vendor Impact: Continued reliance on CloudKart Services and TechNova Solutions. Ensure SLAs are met.
+
+2. Procurement Department:
+    * Meera Iyer: Excellent work streamlining vendor selection.
+    * Collaboration with Finance: Priya Nair and Meera to re-evaluate the approval matrix for high-value contracts (e.g., BuildRight Contractors for office expansion, GreenByte Energy for new initiatives). Streamline process to avoid bottlenecks.
+    * Compliance Overlay: Sandeep Menon to review all new vendor agreements with Meera to ensure adherence to ComplyHub Consulting guidelines.
+
+3. Project Management / Operations:
+    * Arjun Verma: Managing multiple critical projects. Need to ensure he has adequate resources.
+    * Neha Singh: Her data analytics support is proving invaluable for project tracking and KPI reporting. Consider formally embedding Neha's role more deeply within critical project teams, perhaps reporting functionally to Arjun for specific project phases. Currently, she's under Operations, but her support is heavily utilized by Project Management. This needs clearer definition.
+    * Action: Arjun and Neha to discuss and propose a revised workflow for data support by end of month.
+
+4. Finance & HR Overlap:
+    * Priya Nair highlighted the need for improved budget forecasting for new hires. Kavita Rao agrees.
+    * Action: Quarterly sync meeting between Finance and HR to align on headcount planning and budget allocations. First meeting to be scheduled ASAP.
+
+5. Compliance:
+    * Sandeep Menon: His recent audit of SecureNet Systems' data handling protocols was thorough and identified key areas for improvement. Critical for maintaining our certifications.
+    * Emphasize regular training refreshers for all staff, especially new hires, on data privacy and security, leveraging resources from ComplyHub Consulting.
+
+Next Steps:
+* Vikram to consolidate feedback.
+* Follow-up meeting in 2 weeks to review proposed adjustments.
+* Circulate preliminary draft of revised reporting lines for key roles by 08/08/2024.

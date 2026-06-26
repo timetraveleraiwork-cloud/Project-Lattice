@@ -1,0 +1,61 @@
+Vendor Agreement - SecureNet Systems Cybersecurity Solutions
+
+Contract ID: LD-PRO-SNS-2024-007B
+Effective Date: May 15, 2024
+Renewal Date: May 14, 2025
+
+VENDOR AGREEMENT
+
+This Vendor Agreement (the 'Agreement') is entered into on this **15th day of May, 2024** ('Effective Date'), by and between:
+
+**Lattice Dynamics Pvt. Ltd.**, a company incorporated under the laws of India, having its principal place of business at [Corporate Tower, Sector 18, Gurugram, India] (hereinafter referred to as 'Lattice Dynamics' or 'Client');
+
+AND
+
+**SecureNet Systems**, a company incorporated under the laws of India, having its principal place of business at [Tech Park, Phase 3, Bengaluru, India] (hereinafter referred to as 'Vendor').
+
+WHEREAS, Lattice Dynamics requires advanced cybersecurity and network security monitoring services; and
+WHEREAS, SecureNet Systems possesses the necessary expertise and resources to provide such services.
+
+NOW, THEREFORE, in consideration of the mutual covenants and agreements contained herein, the Parties agree as follows:
+
+1.  SCOPE OF SERVICES:
+    SecureNet Systems shall provide comprehensive cybersecurity solutions, including but not limited to, network perimeter defense, endpoint protection, intrusion detection/prevention systems (IDS/IPS) monitoring, and quarterly vulnerability assessments for Lattice Dynamics' critical IT infrastructure. Detailed deliverables and service level agreements (SLAs) are outlined in Appendix A, PFA. The IT Department will coordinate directly with Vendor for implementation support and issue resolution.
+
+2.  TERM AND RENEWAL:
+    This Agreement shall commence on the Effective Date and remain in full force and effect for an initial term of one (1) year, ending on **May 14, 2025**. This Agreement may be renewed for successive one-year terms upon mutual written agreement of both Parties, subject to review by the Procurement department prior to the Renewal Date. Any non-renewal notification must be given 60 days prior to the Renewal Date.
+
+3.  FEES AND PAYMENT:
+    Lattice Dynamics shall pay SecureNet Systems the fees as specified in Schedule B, attached hereto. Invoices will be submitted monthly on the 1st of each month and are due within thirty (30) days of receipt. All payments will be processed by the Finance Department after verification.
+
+4.  CONFIDENTIALITY:
+    Both Parties agree to maintain strict confidentiality regarding all proprietary and sensitive information exchanged during the course of this Agreement, including client data and system configurations. This obligation shall survive the termination or expiration of this Agreement. Refer to section 7.2 of general Terms and Conditions for further details.
+
+5.  TERMINATION:
+    Either Party may terminate this Agreement with thirty (30) days' written notice for material breach, provided such breach is not remedied within the notice period. Lattice Dynamics may also terminate for convenience with sixty (60) days' written notice to the Vendor.
+
+6.  GOVERNING LAW:
+    This Agreement shall be governed by and construed in accordance with the laws of India. Any disputes arising hereunder shall be subject to the exclusive jurisdiction of the courts in Gurugram, India.
+
+IN WITNESS WHEREOF, the Parties hereto have executed this Agreement as of the Effective Date first above written.
+
+**For Lattice Dynamics Pvt. Ltd.**
+
+_________________________
+Name: Meera Iyer
+Title: Procurement Lead
+Department: Procurement
+Date: May 15, 2024
+
+_________________________
+Name: Vikram Patel
+Title: Executive Director
+Department: Executive Office
+Date: May 15, 2024
+
+**For SecureNet Systems**
+
+_________________________
+Name: [Authorized Representative]
+Title: [Title]
+Date: May 15, 2024

@@ -1,0 +1,47 @@
+Expense Report - Project Falcon - Feb 2024 (Arjun Verma)
+
+Lattice Dynamics Pvt. Ltd. 
+
+Expense Report
+FEBRUARY 2024 - Project Falcon Initial Phase
+Expense ID: LDP_ER_FEB_24_001
+
+Employee Name: Arjun Verma
+Department: Operations (Project Management)
+Employee ID: LD-PM-007
+
+Reporting Period: February 1st, 2024 - February 29th, 2024
+
+Dear Finance Team,
+
+PFA my expense report for the month of February 2024. These expenses are primarily related to the initial setup and essential travel for the 'Project Falcon' initiative. I've endeavored to capture all relevant costs accurately for your review.
+
+Expense Details:
+----------------------------------------------------------------------------------------------------------------------------------------------
+Date           | Vendor                     | Description/Purpose                                                                   | Category          | Amount (INR) | Receipt Attached?
+----------------------------------------------------------------------------------------------------------------------------------------------
+05/02/2024     | SwiftTravel Co.            | Round-trip airfare, Delhi-Bangalore, for initial client meeting for Project Falcon.   | Travel            | 12,500.00    | Y
+10/02/2024     | OfficeHive Supplies        | Stationery and presentation materials for initial project team brainstorming sessions.| Office Supplies   | 3,250.00     | Y
+14/02/2024     | TechNova Solutions Pvt Ltd | Temporary software license for specialized project planning & resource allocation tool.| Software/IT       | 7,800.00     | Y
+19/02/2024     | SwiftTravel Co.            | Local taxi fares for multiple site visits and vendor meetings (Bangalore).            | Local Transport   | 1,800.00     | Y
+26/02/2024     | OfficeHive Supplies        | Whiteboard markers, flipcharts, and sticky notes for ongoing project workshops.       | Office Supplies   | 950.00       | Y
+----------------------------------------------------------------------------------------------------------------------------------------------
+Total Reimbursement Requested: INR 26,300.00
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+Notes/Justification:
+The air travel to Bangalore was critical for the kickoff meetings with our key client, as pre-approved and authorized by Vikram Patel (Executive Director). This early engagement was crucial for setting the project scope and expectations. The temporary software license acquired from TechNova Solutions Pvt Ltd was a short-term necessity to enable our team to perform critical path analysis and resource allocation for Project Falcon, prior to the full enterprise project management software suite being procured and deployed by the IT department. This helped us avoid initial delays and maintain project momentum. All other expenses listed are standard operational costs associated with the preliminary phase of a project of this scale. I confirm that these expenses are within the allocated budget for Project Falcon's initial phase. Please find all original receipts attached for your review and auditing purposes. Let me know if you require any further documentation or clarification ASAP. I will be forwarding the detailed travel itinerary to Kavita Rao in HR for their record-keeping separately.
+
+Submitted By:
+Arjun Verma
+Project Manager, Operations Department
+Date: March 5, 2024
+
+Approval Status: PENDING
+
+For Finance Department Use Only:
+Approved By: ___________________________
+Priya Nair
+Finance Manager
+Date of Approval: _______________________
+Remarks: [] 

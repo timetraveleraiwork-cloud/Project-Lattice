@@ -1,0 +1,49 @@
+Incident Report: Critical Cloud Service Disruption (LD-IT-2024-007)
+
+INCIDENT REPORT
+
+INCIDENT ID: LD-IT-2024-007
+DATE OF REPORT: October 26, 2024
+
+REPORTING EMPLOYEE: Rahul Sharma, IT Administrator
+DEPARTMENT: IT
+
+1. INCIDENT OVERVIEW
+
+Time of Incident: October 26, 2024, 09:30 AM IST (approx.)
+Time of Detection: October 26, 2024, 09:45 AM IST
+Impacted Services: CloudKart Services storage, DataWeave Analytics platform integration
+Impacted Departments: Operations, Executive Office (data access), Data Analysts (Neha Singh reported issues)
+
+Description: Intermittent access failures and data synchronization errors observed across multiple critical business applications reliant on CloudKart Services and DataWeave Analytics. Users reported inability to retrieve current operational data and execute routine analytical queries. FYI, this caused significant operational delays for the morning reporting cycle.
+
+2. ROOT CAUSE ANALYSIS
+
+Initial investigation by the IT department (Rahul Sharma, Ankit Gupta) confirmed that the disruption originated from a recent maintenance update performed by CloudKart Services. A specific API configuration change implemented during their scheduled update at approximately 09:00 AM IST on 26/10/2024 led to a communication breakdown with DataWeave Analytics. This affected data streams and file access.
+
+Evidence suggested a misconfiguration during CloudKart's deployment process, rather than a security breach or internal network issue. Ankit Gupta confirmed internal network integrity, narrowing the scope to external vendor services.
+
+3. RESOLUTION ACTIONS
+
+3.1 Immediate Actions:
+- IT Team (Rahul Sharma, Ankit Gupta) commenced diagnosis ASAP upon receiving initial reports from Operations.
+- Notified CloudKart Services and DataWeave Analytics support teams immediately.
+- Implemented a temporary workaround for critical data access by manually retrieving key reports where possible. Neha Singh was instrumental in identifying the specific data discrepancies.
+- Engaged Sandeep Menon (Compliance) for awareness regarding potential data access implications.
+- Informed Vikram Patel (Executive Director) of the ongoing critical incident and ETA for initial resolution.
+
+3.2 Resolution:
+- CloudKart Services performed a rollback of their recent update at 11:30 AM IST.
+- Full service restoration was observed by 12:15 PM IST. PFA screenshot of system status post-resolution. (Note: Actual attachment not included)
+- Verified data integrity and access with DataWeave Analytics and internal users. All systems confirmed operational by EOD.
+
+4. FOLLOW-UP & PREVENTATIVE MEASURES
+
+- Schedule a joint post-incident review meeting with CloudKart Services and DataWeave Analytics to discuss their change management protocols and prevent recurrence. Rahul Sharma to coordinate.
+- Review Lattice Dynamics' internal protocols for monitoring third-party service updates and enhancing early detection mechanisms.
+- Consider implementing redundant data pathways or local caching for critical analytical datasets to mitigate future vendor-side outages.
+- Develop a more robust communication plan for service disruptions involving external vendors.
+
+This report summarizes the incident and immediate actions. A detailed RCA will be circulated post-vendor review.
+
+[End of Report]

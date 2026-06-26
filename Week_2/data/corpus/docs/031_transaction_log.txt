@@ -1,0 +1,43 @@
+Lattice Dynamics Pvt. Ltd. - Q3 2024 Transaction Log
+
+Lattice Dynamics Pvt. Ltd.
+Q3 2024 Financial Transaction Log
+Reporting Period: July 1, 2024 – September 30, 2024
+
+Prepared By: Priya Nair, Finance Department
+
+This log details key financial transactions processed or initiated during Q3 2024. Please note that statuses are current as of October 2, 2024, and some items may still be awaiting final reconciliation or payment processing. For any discrepancies or required clarifications, please contact the Finance Department.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Transaction ID    | Invoice Number    | Vendor                         | Department         | Amount (INR)     | Status           | Notes
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+LD-TRX-07-001     | INV-TNS-2024-01   | TechNova Solutions Pvt Ltd     | IT                   | 150,000.00       | Processed        | Software license renewal for core systems. Payment initiated by Rahul Sharma.
+LD-TRX-07-002     | INV-OHS-2024-07   | OfficeHive Supplies            | Operations           | 12,500.00        | Processed        | Bulk office stationery order. Approved by Arjun Verma.
+LD-TRX-07-003     | INV-SNS-2024-03   | SecureNet Systems              | IT                   | 85,000.00        | Pending          | Quarterly network security services. Awaiting final sign-off from Vikram Patel. []
+LD-TRX-07-004     | INV-DWA-2024-02   | DataWeave Analytics            | Executive Office     | 210,000.00       | Processed        | Q2 data insights report delivery. Neha Singh confirmed receipt.
+LD-TRX-08-001     | INV-CPS-2024-08   | CloudKart Services             | IT                   | 67,000.00        | Processed        | Monthly cloud infrastructure subscription. Managed by Ankit Gupta.
+LD-TRX-08-002     | INV-CHC-2024-01   | ComplyHub Consulting           | Compliance           | 95,000.00        | Pending          | Annual compliance audit services. Sandeep Menon is reviewing findings. ETA: EOD next week.
+LD-TRX-08-003     | INV-PPT-2024-08   | PrintPro India                 | HR                   | 5,500.00         | Processed        | Printing of updated Employee Handbooks. Kavita Rao approved.
+LD-TRX-08-004     | INV-SWT-2024-05   | SwiftTravel Co.                | Executive Office     | 45,000.00        | Processed        | Travel expenses for Vikram Patel's industry conference.
+LD-TRX-09-001     | INV-GRN-2024-03   | GreenByte Energy               | Operations           | 38,000.00        | Pending          | Office energy efficiency assessment. Meera Iyer liaising for details.
+LD-TRX-09-002     | INV-TNS-2024-02   | TechNova Solutions Pvt Ltd     | IT                   | 18,000.00        | Processed        | Ad-hoc support for server migration project. Rahul Sharma oversaw the task.
+LD-TRX-09-003     | INV-BRC-2024-01   | BuildRight Contractors         | Operations           | 320,000.00       | Awaiting Invoice | Minor office renovation project, Phase 1 completion. Arjun Verma confirmed work complete, awaiting final bill.
+LD-TRX-09-004     | INV-DWA-2024-03   | DataWeave Analytics            | Operations           | 180,000.00       | Awaiting Invoice | Q3 market analysis report. Neha Singh requires this ASAP for strategy review.
+LD-TRX-09-005     | INV-OHS-2024-09   | OfficeHive Supplies            | Procurement          | 8,200.00         | Processed        | Office pantry restocking. Initiated by Rohan Das under Meera Iyer's guidance.
+LD-TRX-09-006     | INV-SWT-2024-06   | SwiftTravel Co.                | HR                   | 15,000.00        | Processed        | New hire relocation package. Approved by Kavita Rao.
+LD-TRX-09-007     | INV-CPS-2024-09   | CloudKart Services             | IT                   | 72,000.00        | Pending          | Increased cloud storage allocation request. Ankit Gupta escalated the urgency.
+LD-TRX-09-008     | INV-CHC-2024-02   | ComplyHub Consulting           | Compliance           | 110,000.00       | Awaiting Payment | Follow-up recommendations from prior audit. Sandeep Menon has provided sign-off.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Summary for Q3 2024:
+Total Processed Transactions: 10
+Total Pending Transactions: 5
+Total Awaiting Invoice/Payment: 3
+
+Overall Projected Spend (Including Pending & Awaiting): INR 1,438,200.00
+
+Key Observations & Action Items:
+- Several invoices, particularly from IT and Compliance, remain in 'Pending' status due to internal approval delays. Priya Nair will be coordinating with department heads to streamline these workflows, FYI. Rahul Sharma and Sandeep Menon, please provide an update on your respective pending items by end of day Friday.
+- The invoice for BuildRight Contractors (LD-TRX-09-003) is expected by October 5th. Arjun Verma confirmed project completion. Finance will process payment immediately upon receipt.
+- Neha Singh urgently requires the Q3 market analysis report from DataWeave Analytics (LD-TRX-09-004) for upcoming executive meetings. Procurement (Meera Iyer) please follow up with the vendor ASAP for the invoice and report delivery.
+- A detailed reconciliation of Q3 transactions will be completed by Priya Nair by October 15th. PFA the previous quarter's log for comparative analysis, distributed via internal share drive.

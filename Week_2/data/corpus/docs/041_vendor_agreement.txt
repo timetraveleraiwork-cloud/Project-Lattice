@@ -1,0 +1,63 @@
+Vendor Agreement - Cloud Infrastructure Services
+
+VENDOR AGREEMENT
+
+Contract ID: LD-ITS-2024-007-CK
+Effective Date: July 1, 2024
+Renewal Date: June 30, 2025
+
+This Vendor Agreement (“Agreement”) is made and entered into on the Effective Date by and between:
+
+Lattice Dynamics Pvt. Ltd.
+(Hereinafter referred to as “Lattice Dynamics” or “Company”)
+Having its principal place of business at 101, Innovatech Tower, Sector 18, Gurugram
+
+AND
+
+CloudKart Services
+(Hereinafter referred to as “Vendor”)
+Having its principal place of business at 45, Cyber City, Phase III, Bengaluru
+
+**1. SCOPE OF SERVICES**
+The Vendor shall provide comprehensive cloud infrastructure services to Lattice Dynamics, encompassing virtual compute resources, scalable data storage solutions, network capabilities, and associated managed services (collectively, the “Services”). This includes primary hosting for core applications and disaster recovery solutions as detailed in Exhibit A [Service Specification]. Rahul Sharma from our IT Department will be the primary technical liaison for day-to-day operations.
+
+**2. SERVICE LEVEL AGREEMENT (SLA)**
+The Vendor commits to an uptime guarantee of 99.9% for core infrastructure components, with detailed performance metrics and remedies for non-compliance outlined in Appendix B [SLA Document]. Incident response times for critical issues are set at within 1 hour, 24/7. Ankit Gupta will monitor service delivery for the IT team.
+
+**3. FEES AND PAYMENT TERMS**
+Lattice Dynamics agrees to pay CloudKart Services the monthly fees as specified in Exhibit C [Pricing Schedule]. Invoices will be issued on the first business day of each month and are due Net 30 days from the invoice date. Late payments may incur interest at 1.5% per month. Priya Nair, Finance Manager, will oversee all payment approvals.
+
+**4. DATA SECURITY AND CONFIDENTIALITY**
+CloudKart Services shall implement and maintain industry-standard security measures to protect Lattice Dynamics’ data from unauthorized access, disclosure, alteration, or destruction. All data processed or stored under this Agreement shall be considered Confidential Information. The Vendor shall comply with all applicable data protection laws and Lattice Dynamics' internal Data Handling Policy. Sandeep Menon (Compliance Officer) has reviewed and approved the security clauses.
+
+**5. TERM AND TERMINATION**
+This Agreement shall remain in effect for an initial term of one (1) year from the Effective Date. The Agreement will automatically renew for subsequent one-year terms unless either party provides written notice of non-renewal at least ninety (90) days prior to the then-current Renewal Date. Termination for cause requires a thirty (30) day written notice for breach of material terms, allowing for a cure period.
+
+**6. GOVERNING LAW**
+This Agreement shall be governed by and construed in accordance with the laws of India.
+
+**7. GENERAL PROVISIONS**
+Any amendments to this Agreement must be in writing and signed by authorized representatives of both parties. This Agreement, including all Exhibits and Appendices referenced herein, constitutes the entire agreement between the parties regarding its subject matter.
+
+IN WITNESS WHEREOF, the parties have executed this Agreement as of the Effective Date.
+
+**FOR LATTICE DYNAMICS PVT. LTD.**
+
+_____________________________
+Vikram Patel
+Executive Director
+Date: July 1, 2024
+
+
+**FOR CLOUDKART SERVICES**
+
+_____________________________
+[Authorized Signatory Name]
+Head of Cloud Operations
+Date: July 1, 2024
+
+
+Reviewed and Approved by:
+Meera Iyer, Procurement Lead
+Priya Nair, Finance Manager
+Sandeep Menon, Compliance Officer

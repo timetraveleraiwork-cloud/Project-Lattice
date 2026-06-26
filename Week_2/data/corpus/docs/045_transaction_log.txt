@@ -1,0 +1,22 @@
+Lattice Dynamics Pvt. Ltd. - Q2 FY24 Vendor Payment Transaction Log
+
+Lattice Dynamics Pvt. Ltd.
+Finance Department
+
+TRANSACTION LOG
+For Q2 Fiscal Year 2024 (April 1, 2024 - June 30, 2024)
+
+This log details key vendor transactions and their current processing status for the second fiscal quarter.
+
+Transaction ID    Invoice Number            Vendor                          Amount      Payment Date  Status              Processed By    Notes
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TD-Q2-001         INV-TNS-04-24-001         TechNova Solutions Pvt Ltd      15,200.00   2024-04-15    Completed           Priya Nair      Software license renewal for Q2. All good. No issues.
+TD-Q2-002         INV-CK-04-24-005          CloudKart Services              8,950.00    2024-04-20    Completed           Priya Nair      Monthly cloud hosting fees. Reviewed by IT [Rahul Sharma].
+TD-Q2-003         INV-OHS-05-24-012         OfficeHive Supplies             2,100.00    2024-05-03    Completed           Priya Nair      General office stationery and consumables. PFA receipt.
+TD-Q2-004         INV-SNS-05-24-003         SecureNet Systems               7,600.00    2024-05-10    Pending Approval    Meera Iyer      Annual network security subscription. Waiting for final sign-off from IT Admin (Rahul Sharma) before releasing payment. ETA: 2024-05-16.
+TD-Q2-005         INV-CHC-05-24-001         ComplyHub Consulting            12,500.00   2024-05-15    Completed           Priya Nair      Q1 compliance audit fees. Invoice cleared after review by Sandeep Menon.
+TD-Q2-006         INV-TNS-05-24-002         TechNova Solutions Pvt Ltd      3,100.00    2024-05-22    Pending Payment     Priya Nair      Ad-hoc tech support for server migration. Invoice received; payment due EOD 2024-05-24. Will be processed ASAP.
+TD-Q2-007         INV-CK-06-24-008          CloudKart Services              9,100.00    2024-06-01    In Progress         Priya Nair      Q3 advanced services prepay. Requires internal budget reallocation approval from Project Manager Arjun Verma. FYI, the full scope is attached separately.
+TD-Q2-008         INV-OHS-06-24-015         OfficeHive Supplies             1,850.00    2024-06-07    Completed           Priya Nair      Ergonomic equipment for new hires. Checked against procurement records by Meera Iyer.
+TD-Q2-009         INV-SNS-06-24-004         SecureNet Systems               4,200.00    2024-06-14    Completed           Meera Iyer      Firewall firmware update service. Completed successfully. Approved by IT [Rahul Sharma].
+TD-Q2-010         INV-CHC-06-24-002         ComplyHub Consulting            6,000.00    2024-06-20    Pending Approval    Sandeep Menon   Regulatory update workshop for compliance team. Awaiting final budget approval from Executive Director Vikram Patel. Deadline for this is end of month.

@@ -1,0 +1,73 @@
+PROJECT MEMO - Project Aurora: Data Infrastructure Upgrade Status
+
+PROJECT MEMO
+
+TO: Vikram Patel, Executive Director
+FROM: Arjun Verma, Project Manager
+CC: Priya Nair (Finance), Rahul Sharma (IT), Sandeep Menon (Compliance), Neha Singh (Data Analytics)
+DATE: 2024-07-18
+
+SUBJECT: Project "Aurora" - Data Infrastructure Upgrade Initiative Status Update
+
+---
+
+1. Project Name:
+    Project "Aurora" - Modernizing Data Infrastructure
+
+2. Project Overview:
+This memo provides an update on Project "Aurora", our strategic initiative to overhaul and upgrade Lattice Dynamics' core data infrastructure. The primary objectives are to enhance data processing capabilities, improve scalability, strengthen data security, and ensure compliance with evolving regulatory standards. This upgrade is crucial for supporting our analytical needs and future growth.
+
+3. Team Members:
+*   Arjun Verma (Project Manager - Operations)
+*   Rahul Sharma (IT Administrator - IT)
+*   Neha Singh (Data Analyst - Operations)
+*   Ankit Gupta (Support Engineer - IT)
+*   Sandeep Menon (Compliance Officer - Compliance)
+*   Priya Nair (Finance Manager - Finance - *advisory role, primarily budget oversight*)
+
+4. Key Progress & Milestones (To Date):
+
+*   Phase 1 - Requirements Gathering & Vendor Selection: Completed 2024-06-30. Selected **DataWeave Analytics** for data migration and analytics platform integration, and **CloudKart Services** for scalable cloud infrastructure. **SecureNet Systems** is engaged for a pre-implementation security audit.
+*   Phase 2 - Environment Setup & Initial Migration: Currently 60% complete. Staging environments for new data warehouse and analytical tools are operational. Initial, non-critical data sets are being migrated. Rahul Sharma's team is doing a commendable job here.
+
+5. Identified Risks & Mitigation Strategies:
+
+*   R-01: Data Migration Integrity Issues:
+    *   *Risk:* Potential for data corruption or loss during transfer.
+    *   *Mitigation:* Rigorous testing protocols, parallel data runs, daily backups, and phased migration approach. DataWeave Analytics has provided robust tools. Neha Singh is leading data validation efforts.
+*   R-02: Vendor Delays (DataWeave/CloudKart):
+    *   *Risk:* Any delays from our key vendors could impact project timelines significantly.
+    *   *Mitigation:* Weekly syncs with vendor leads, clear Service Level Agreements (SLAs), and contingency plans for resource reallocation. Meera Iyer (Procurement) is closely monitoring vendor performance.
+*   R-03: Budget Overruns:
+    *   *Risk:* Unexpected costs could exceed the allocated budget.
+    *   *Mitigation:* Continuous budget tracking by Priya Nair's team. Strict change management process for any scope additions. [] We've already identified a potential for a slight overrun on storage costs for CloudKart.
+*   R-04: Security Vulnerabilities:
+    *   *Risk:* New infrastructure might introduce unforeseen security gaps.
+    *   *Mitigation:* SecureNet Systems' pre-implementation audit, regular penetration testing post-deployment, and adherence to Sandeep Menon's compliance guidelines.
+
+6. Deadlines:
+
+*   Phase 2 Completion (Staging & Initial Migration): Target EOD 2024-08-15
+*   Phase 3 (Core Data Migration & Analytics Platform Integration): Target 2024-09-30
+*   Phase 4 (Testing, User Acceptance & Go-Live): Target 2024-10-31
+*   Project Completion: ETA 2024-11-15 (allowing for a reasonable buffer)
+
+7. Budget Status (as of 2024-07-18):
+*   Initial Allocation: INR 12,500,000
+*   Expenditure to Date: INR 4,800,000 (Primarily vendor retainers, hardware procurement, and initial CloudKart setup fees)
+*   Remaining Budget: INR 7,700,000
+*   Forecasted Remaining Costs: INR 7,950,000 (Slight projected overrun of INR 250,000 due to increased cloud storage needs identified during initial setup. FYI, a budget revision request will be submitted ASAP by Finance.)
+
+8. Next Steps:
+*   Review SecureNet Systems' preliminary audit report (expected by 2024-07-25). PFA the initial scope document.
+*   Finalize migration plan for critical datasets with DataWeave.
+*   Schedule a review meeting with all stakeholders for 2024-07-29 at 10:00 AM in Conference Room B, to discuss progress and potential budget adjustments.
+
+Please let me know if you require any further information or clarification.
+
+Best regards,
+
+Arjun Verma
+Project Manager
+Operations Department
+Lattice Dynamics Pvt. Ltd.

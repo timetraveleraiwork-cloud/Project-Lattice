@@ -1,0 +1,58 @@
+Project Memo: SecureNet Infrastructure Upgrade Project
+
+PROJECT MEMO
+
+TO: Vikram Patel, Executive Director; Priya Nair, Finance Manager; Sandeep Menon, Compliance Officer
+FROM: Arjun Verma, Project Manager
+DATE: June 20, 2024
+SUBJECT: Kick-off: SecureNet Infrastructure Upgrade Project
+
+Project Name: SecureNet Infrastructure Upgrade
+
+We are officially initiating the "SecureNet Infrastructure Upgrade" project, a critical initiative to enhance our network security posture and improve overall IT infrastructure reliability. This project aims to replace aging network hardware and implement advanced security protocols in collaboration with our trusted vendor, SecureNet Systems.
+
+Team Members:
+* Arjun Verma (Project Manager) - Overall project oversight, stakeholder communication, Operations Department.
+* Rahul Sharma (IT Administrator) - Technical lead, implementation, configuration, IT Department.
+* Ankit Gupta (Support Engineer) - Assistance with deployment, post-implementation support planning, IT Department.
+* Meera Iyer (Procurement Lead) - Vendor management with SecureNet Systems, contract negotiations, Procurement Department.
+* Neha Singh (Data Analyst) - Post-implementation performance monitoring & reporting, IT Department.
+* Sandeep Menon (Compliance Officer) - Review of security measures for regulatory adherence, Compliance Department.
+
+Key Objectives:
+1. Upgrade core network switches and firewalls to current industry standards.
+2. Implement a new intrusion detection/prevention system (IDPS) for enhanced threat detection.
+3. Ensure seamless integration with existing IT systems and applications.
+4. Achieve compliance with upcoming data security regulations, specifically pertaining to network infrastructure.
+
+Risks:
+* Vendor Delays: Reliance on SecureNet Systems for timely hardware delivery and specialized service deployment. Mitigated by regular check-ins and clear contractual SLAs managed by Meera Iyer. 
+* Budget Overruns: Potential for unforeseen costs related to complex integration or unexpected hardware requirements. Regular budget reviews with Priya Nair (Finance Department) are scheduled. 
+* Operational Disruption: Risk of downtime during the transition phase, impacting business continuity. Detailed cut-over plans and extensive pre-deployment testing will be in place, coordinated by Rahul Sharma. []
+* Data Integrity: Potential for data loss or corruption during migration or system cut-over. Comprehensive backup and recovery protocols will be enforced and tested rigorously.
+
+Deadlines:
+Phase 1: Planning & Architecture Review (Internal & SecureNet Systems collaboration)
+  - Completion Date: July 15, 2024
+Phase 2: Hardware Procurement & Installation
+  - ETA for hardware delivery: August 30, 2024
+  - Installation Completion: September 30, 2024
+Phase 3: Testing, User Acceptance & Go-Live
+  - Testing & UAT: October 15, 2024
+  - Project Go-Live: October 31, 2024
+All EOD deadlines are firm.
+
+Budget:
+Initial Estimate: INR 1,500,000 (exclusive of contingency fund)
+  - Hardware (SecureNet Systems): Approx. INR 950,000
+  - Services (SecureNet Systems): Approx. INR 400,000
+  - Internal Resource Allocation & Contingency: Approx. INR 150,000
+
+Priya Nair will receive a detailed budget breakdown by EOD tomorrow, June 21, 2024, for initial approval. FYI, we are planning a kick-off meeting with all involved team members and SecureNet Systems representatives early next week. Rahul Sharma will send out a calendar invite ASAP.
+
+Your support and input on this critical project are highly valued by the entire project team.
+
+Arjun Verma
+Project Manager
+Operations Department
+Lattice Dynamics Pvt. Ltd.

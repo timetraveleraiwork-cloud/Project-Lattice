@@ -1,0 +1,98 @@
+Email Thread: Urgent: Data Migration Issues with CloudKart Services - Project Phoenix
+
+From: Rahul Sharma <rahul.sharma@latticedynamics.com>
+To: Arjun Verma <arjun.verma@latticedynamics.com>, Vikram Patel <vikram.patel@latticedynamics.com>
+CC: Neha Singh <neha.singh@latticedynamics.com>
+Subject: URGENT: Data Migration Issues with CloudKart Services - Project Phoenix
+Date: 2024-07-22 10:30 AM
+
+Hi Arjun, Vikram,
+
+FYI, we're encountering critical issues with the ongoing data migration to CloudKart Services. The data integrity checks are failing for several key datasets, particularly those related to legacy financial records. Neha has flagged multiple discrepancies during her analysis.
+
+This is significantly impacting our Project Phoenix timeline. The ETA for completion has been pushed back indefinitely until we resolve these foundational issues. We've been in touch with CloudKart support, but their initial response has been slow.
+
+Could we schedule an urgent meeting this afternoon to discuss this? I've attached a preliminary report outlining the specific data corruption points. [PFA]
+
+Regards,
+
+Rahul Sharma
+IT Administrator
+Lattice Dynamics Pvt. Ltd.
+
+---
+
+From: Arjun Verma <arjun.verma@latticedynamics.com>
+To: Rahul Sharma <rahul.sharma@latticedynamics.com>, Vikram Patel <vikram.patel@latticedynamics.com>
+CC: Neha Singh <neha.singh@latticedynamics.com>
+Subject: RE: URGENT: Data Migration Issues with CloudKart Services - Project Phoenix
+Date: 2024-07-22 11:15 AM
+
+Rahul,
+
+Thanks for the heads-up. This is indeed concerning. Project Phoenix relies heavily on accurate financial data for its phase 2 rollout. We cannot afford further delays.
+
+Vikram, I concur with Rahul. A meeting ASAP is essential. My calendar is open after 2 PM today. Please confirm what time works for you. Neha, please come prepared with your detailed findings.
+
+Best,
+
+Arjun Verma
+Project Manager
+Lattice Dynamics Pvt. Ltd.
+
+---
+
+From: Vikram Patel <vikram.patel@latticedynamics.com>
+To: Arjun Verma <arjun.verma@latticedynamics.com>, Rahul Sharma <rahul.sharma@latticedynamics.com>
+CC: Neha Singh <neha.singh@latticedynamics.com>
+Subject: RE: URGENT: Data Migration Issues with CloudKart Services - Project Phoenix
+Date: 2024-07-22 11:30 AM
+
+Arjun, Rahul,
+
+Agreed. Let's aim for 3:00 PM today. Please book the Executive Boardroom, Arjun. This needs immediate attention. I want an action plan by EOD.
+
+We need to understand the root cause from CloudKart Services and what compensation/remedy they propose. Meera Iyer from Procurement might need to get involved if this impacts our vendor agreement.
+
+Vikram Patel
+Executive Director
+Lattice Dynamics Pvt. Ltd.
+
+---
+
+From: Neha Singh <neha.singh@latticedynamics.com>
+To: Vikram Patel <vikram.patel@latticedynamics.com>, Arjun Verma <arjun.verma@latticedynamics.com>, Rahul Sharma <rahul.sharma@latticedynamics.com>
+Subject: RE: URGENT: Data Migration Issues with CloudKart Services - Project Phoenix
+Date: 2024-07-22 11:45 AM
+
+Hi All,
+
+Just wanted to confirm receipt. I'll consolidate all my findings and be ready for the 3 PM meeting.
+
+The critical areas showing data integrity issues are predominantly in the historical transaction logs and certain customer profile tables. It looks like a schema mismatch or transformation error during the initial load process. I've highlighted the specific data sets where the most significant discrepancies are occurring, impacting our [] key metrics.
+
+See you at 3.
+
+Thanks,
+Neha Singh
+Data Analyst
+Lattice Dynamics Pvt. Ltd.
+
+---
+
+From: Rahul Sharma <rahul.sharma@latticedynamics.com>
+To: Neha Singh <neha.singh@latticedynamics.com>, Vikram Patel <vikram.patel@latticedynamics.com>, Arjun Verma <arjun.verma@latticedynamics.com>
+Subject: RE: URGENT: Data Migration Issues with CloudKart Services - Project Phoenix
+Date: 2024-07-22 12:00 PM
+
+Thanks, Neha. That aligns with what our team observed.
+
+Arjun, I've booked the Executive Boardroom for 3 PM. Sending out the calendar invite now.
+
+Looking forward to discussing solutions.
+
+Regards,
+
+Rahul Sharma
+IT Administrator
+Lattice Dynamics Pvt. Ltd.

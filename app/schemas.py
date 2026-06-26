@@ -1,7 +1,6 @@
 from pydantic import BaseModel
 
 
-class Student(BaseModel):
-    name: str
-    age: int
-    branch: str
+class GeneratedDocument(BaseModel):
+    title: str
+    content: str

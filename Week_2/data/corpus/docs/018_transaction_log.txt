@@ -1,0 +1,56 @@
+Transaction Log - Q3 FY24 Procurement & IT Expenses
+
+Date: October 10, 2024
+Prepared By: Priya Nair, Finance Department
+
+This log provides a summary of key transactions processed during Q3 FY24, primarily focusing on Procurement and IT-related expenditures. For detailed breakdowns, please refer to individual invoice records stored in the Finance ERP system. Any discrepancies should be reported to the Finance Department ASAP.
+
+Transaction ID    Invoice Number   Vendor                        Department  Amount (INR)   Status           Notes
+----------------  ----------------  ----------------------------  ----------  -------------  ---------------  ----------------------------------------------------------------------------------
+TRN-LD-2024-001   INV-TNS-2345      TechNova Solutions Pvt Ltd    IT          1,500,000.00   Paid             Server Upgrade Project - Phase 1. Approved by Vikram Patel.
+TRN-LD-2024-002   INV-CKS-7890      CloudKart Services            IT          250,000.00     Paid             Monthly Cloud Hosting Fees (July). Reviewed by Rahul Sharma.
+TRN-LD-2024-003   INV-OHS-1122      OfficeHive Supplies           Operations  75,500.00      Paid             Office stationery stock replenishment. Procured by Meera Iyer.
+TRN-LD-2024-004   INV-PRI-5566      PrintPro India                HR          12,000.00      Paid             Employee onboarding kits for Q3.
+TRN-LD-2024-005   INV-TNS-2346      TechNova Solutions Pvt Ltd    IT          850,000.00     Pending Approval Server Upgrade Project - Phase 2 Hardware. Awaiting final sign-off from Executive Office.
+TRN-LD-2024-006   INV-CKS-7891      CloudKart Services            IT          250,000.00     Outstanding      Monthly Cloud Hosting Fees (August). Payment due by EOD 15-Oct.
+TRN-LD-2024-007   INV-OHS-1123      OfficeHive Supplies           Operations  42,300.00      Paid             Cafeteria supplies. Checked by Procurement.
+
+
+Additional Comments/Internal Notes:
+
+From: Priya Nair, Finance Manager
+To: Meera Iyer, Procurement Lead; Rahul Sharma, IT Administrator; Sandeep Menon, Compliance Officer
+Date: 2024-10-10
+
+Hi Team,
+FYI, I've compiled the Q3 transaction log, PFA a preliminary draft.
+Meera, for TRN-LD-2024-005, the second phase payment to TechNova Solutions is still pending Vikram Patel's final approval. Could you please follow up with the Executive Office regarding this? It's crucial we get this processed soon to avoid any project delays. The invoice has been sitting for almost a week.
+Rahul, please ensure CloudKart Services (INV-CKS-7891) payment is prioritized. The auto-debit for August did not go through for some reason, and we need to clear it by EOD 15-Oct to avoid late fees. Can you look into why the auto-debit failed? Is it an issue on our end or CloudKart's?
+Sandeep, could you quickly review the larger transactions, specifically TRN-LD-2024-001 and TRN-LD-2024-005, to ensure all procurement protocols were duly followed? We want to make sure we're fully compliant, especially with these significant IT infrastructure investments.
+I've attached the full log (Q3_Transactions_FY24_Draft.xlsx) for your reference.
+Thanks,
+Priya
+
+From: Meera Iyer, Procurement Lead
+To: Priya Nair, Finance Manager; Vikram Patel, Executive Director
+CC: Rahul Sharma, IT Administrator
+Date: 2024-10-11
+Subject: RE: Q3 FY24 Transaction Log & Pending Approvals
+
+Priya,
+Thanks for the update. I've already pinged Vikram's office regarding TRN-LD-2024-005. I believe there was a minor query from his side about the exact specs for the next batch of servers, which Rahul's team should have clarified. Rahul, can you confirm if the technical details for Phase 2 hardware (the ones required for [] expansion) were fully submitted and understood by Vikram's office? We need to push this forward ASAP.
+I'll check with Finance if any additional documentation is needed from our end for expedited approval.
+Regards,
+Meera
+
+From: Rahul Sharma, IT Administrator
+To: Meera Iyer, Procurement Lead; Priya Nair, Finance Manager
+CC: Vikram Patel, Executive Director
+Date: 2024-10-11
+Subject: RE: Q3 FY24 Transaction Log & Pending Approvals
+
+Hi Meera, Priya,
+Regarding TRN-LD-2024-005: Yes, all technical specifications for the Phase 2 hardware were submitted to Vikram's EA on 2024-09-28. I can resend them if needed. We specifically highlighted the requirements for virtual machine hosting capacity, which is critical for the upcoming data analytics project.
+Regarding TRN-LD-2024-006 (CloudKart): I'm investigating the auto-debit failure. It seems there was an expired payment method on file, which has now been updated. I've initiated a manual payment request, it should reflect as 'Paid' by tomorrow EOD. I'll confirm once it's through.
+Thanks,
+Rahul

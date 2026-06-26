@@ -1,0 +1,38 @@
+Incident Report: Critical Application Downtime - Cloud Services Outage
+
+Incident ID: IT-INC-2024-07-15-001
+Date: July 15, 2024
+
+TIME OF DISCOVERY: 09:30 AM IST
+TIME OF RESOLUTION: 01:45 PM IST
+
+REPORTED BY: Rahul Sharma, IT Administrator
+AFFECTED SYSTEMS/SERVICES:
+- Internal Project Management Portal (PMP)
+- Sales CRM Application
+- Data Analytics Dashboard
+
+IMPACTED DEPARTMENTS: Operations, Project Management, Sales, Finance (limited access to some data dashboards).
+
+INCIDENT DESCRIPTION:
+On Monday, July 15, 2024, at approximately 09:30 AM IST, a significant outage was detected affecting several critical internal applications, including the Project Management Portal (PMP), Sales CRM, and Data Analytics Dashboard. Users reported inability to access these services, leading to immediate operational disruptions across multiple departments. The issue was initially identified by Ankit Gupta, Support Engineer, following multiple user reports from Operations and Finance teams. This incident caused a temporary halt in project updates and sales activities for a critical period.
+
+ROOT CAUSE ANALYSIS:
+Initial investigation by the IT Department, led by Rahul Sharma, identified the root cause as a service disruption from our primary cloud services vendor, CloudKart Services. Specifically, there was an unexpected regional server cluster failure affecting our dedicated instances. While CloudKart Services has robust redundancy protocols, a specific configuration error on their end during a routine maintenance window led to a cascade failure in one of their availability zones, directly impacting our hosted applications. PFA the preliminary report from CloudKart Services for technical details []. This was not a security breach, but a service availability issue that highlighted vulnerabilities in our current setup with a single vendor.
+
+RESOLUTION STEPS:
+1. 09:35 AM IST: IT team initiated diagnostic protocols and confirmed external connectivity issues with CloudKart Services.
+2. 09:45 AM IST: Contact established with CloudKart Services technical support. Escalation initiated to their Tier 2 support, highlighting the critical business impact.
+3. 10:30 AM IST: CloudKart Services confirmed a regional outage impacting our services and began remedial action. ETA for initial recovery was communicated as 12:00 PM IST.
+4. 11:15 AM IST: IT team began preparations for failover to a secondary, lower-capacity instance hosted in a different region, as per our disaster recovery plan. This was a manual activation as automated failover was not immediate due to the nature of the CloudKart outage.
+5. 12:30 PM IST: Partial service restoration achieved for PMP and CRM via secondary instance, allowing critical operations to resume. Users were notified ASAP.
+6. 01:00 PM IST: CloudKart Services reported primary services restored in the affected region.
+7. 01:45 PM IST: Full system functionality verified by Ankit Gupta and Rahul Sharma. All applications operational and data integrity confirmed. Users were informed by EOD.
+
+RECOMMENDATIONS & PREVENTATIVE MEASURES:
+1. Enhanced Vendor SLA Review: Meera Iyer (Procurement Lead) to initiate a review of the existing SLA with CloudKart Services, with assistance from Sandeep Menon (Compliance Officer), to ensure stricter uptime guarantees and quicker response times for critical incidents.
+2. Disaster Recovery (DR) Plan Drill: Schedule a comprehensive DR drill for Q4 2024 to test failover procedures and secondary instance readiness. Arjun Verma (Project Manager) to coordinate this with IT to ensure all critical applications are included.
+3. Multi-Cloud Strategy Exploration: Vikram Patel (Executive Director) has requested IT to explore diversifying critical application hosting across multiple cloud vendors (e.g., evaluating TechNova Solutions for specific non-critical applications) to minimize single-point-of-failure risks. A report detailing options is due next month.
+4. Internal Communication Protocol: Refine internal incident communication protocols to ensure faster and clearer updates to affected departments like Operations and Finance during outages. Kavita Rao (HR Business Partner) to assist with drafting a clear internal comms template.
+
+Reviewed By: Sandeep Menon, Compliance Officer (2024-07-16)

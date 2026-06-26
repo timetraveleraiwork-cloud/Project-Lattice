@@ -1,0 +1,24 @@
+Lattice Dynamics Pvt. Ltd. - Monthly Transaction Log - May 2024
+
+LATTICE DYNAMICS PVT. LTD.
+MONTHLY TRANSACTION LOG - MAY 2024
+
+PREPARED BY: Priya Nair, Finance Manager
+DATE OF REPORT: June 5, 2024
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TRANSACTION ID | INVOICE NUMBER  | VENDOR                    | DEPARTMENT     | AMOUNT (INR) | STATUS                | NOTES
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+LD-TL-2405-001   | INV-TNS-05-01     | TechNova Solutions Pvt Ltd  | IT           | 185,000.00   | Paid                  | Q2 software license renewal. Processed after Rahul Sharma's verification. Payment cleared May 10.
+LD-TL-2405-002   | INV-DWA-05-02     | DataWeave Analytics         | Operations     | 75,500.00    | Pending Approval      | Strategic data insights for H1. Waiting on Vikram Patel for final sign-off. ETA: EOD 06/06.
+LD-TL-2405-003   | INV-COS-05-03     | CloudKart Services          | IT           | 42,300.00    | Paid                  | Monthly cloud hosting fees. Reviewed by Ankit Gupta. No issues identified.
+LD-TL-2405-004   | INV-OHS-05-04     | OfficeHive Supplies         | Procurement    | 12,850.00    | Paid                  | Bulk purchase of stationery and pantry items. Meera Iyer confirmed delivery.
+LD-TL-2405-005   | INV-SNS-05-05     | SecureNet Systems           | IT           | 55,000.00    | Paid                  | Quarterly network security update & audit. Completed May 22.
+LD-TL-2405-006   | INV-CHB-05-06     | ComplyHub Consulting        | Compliance     | 110,000.00   | Pending Payment       | Annual compliance advisory retainer. Sandeep Menon has approved the invoice. Awaiting final payment processing ASAP.
+LD-TL-2405-007   | INV-PRI-05-07     | PrintPro India              | HR           | 8,900.00     | Paid                  | Printing for new hire orientation materials. Kavita Rao's team utilized this.
+LD-TL-2405-008   | INV-GBE-05-08     | GreenByte Energy            | Operations     | 28,150.00    | Paid                  | Office utility charges for April consumption. Payment made May 15.
+LD-TL-2405-009   | INV-STC-05-09     | SwiftTravel Co.             | Executive Office | 34,700.00    | Paid                  | Business travel arrangements for Vikram Patel, Europe trip. Confirmed by Executive Office admin.
+LD-TL-2405-010   | INV-BRC-05-10     | BuildRight Contractors      | Operations     | 210,000.00   | Pending Verification  | Payment for Phase 1 completion of office expansion. Arjun Verma to conduct site inspection before full release. Need to verify that all work is within [] agreed specifications.
+LD-TL-2405-011   | INV-COS-05-11     | CloudKart Services          | IT           | 7,200.00     | Paid                  | Ad-hoc cloud storage for Neha Singh's project files. Approved by IT.
+LD-TL-2405-012   | INV-DWA-05-12     | DataWeave Analytics         | IT           | 15,000.00    | Pending               | One-time data migration support. Rahul Sharma requested this. Still awaiting final invoice from vendor.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
