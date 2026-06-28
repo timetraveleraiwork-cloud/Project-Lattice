@@ -1,0 +1,128 @@
+{
+    "document": "005_employee_bio.txt",
+    "entities": [
+        {
+            "type": "Person",
+            "name": "Priya Nair"
+        },
+        {
+            "type": "Organization",
+            "name": "Lattice Dynamics Pvt. Ltd."
+        },
+        {
+            "type": "Department",
+            "name": "Finance Department"
+        },
+        {
+            "type": "Person",
+            "name": "Rahul Sharma"
+        },
+        {
+            "type": "Department",
+            "name": "IT Department"
+        },
+        {
+            "type": "System",
+            "name": "ERP System"
+        },
+        {
+            "type": "Company",
+            "name": "CloudKart Services"
+        },
+        {
+            "type": "Company",
+            "name": "OfficeHive Supplies"
+        },
+        {
+            "type": "Person",
+            "name": "Meera Iyer"
+        },
+        {
+            "type": "Department",
+            "name": "Procurement"
+        },
+        {
+            "type": "Person",
+            "name": "Vikram Patel"
+        },
+        {
+            "type": "Department",
+            "name": "Executive Office"
+        },
+        {
+            "type": "Person",
+            "name": "Sandeep Menon"
+        },
+        {
+            "type": "Department",
+            "name": "Compliance"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Priya Nair",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "EMPLOYEE_OF"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Finance Department",
+            "relation": "MANAGES"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "ERP System",
+            "relation": "LED_IMPLEMENTATION_OF"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Rahul Sharma",
+            "relation": "COLLABORATED_WITH"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "IT Department",
+            "relation": "COLLABORATED_WITH"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "CloudKart Services",
+            "relation": "NEGOTIATED_WITH"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "OfficeHive Supplies",
+            "relation": "NEGOTIATED_WITH"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Meera Iyer",
+            "relation": "LIAISES_WITH"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Procurement",
+            "relation": "WORKS_IN"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Vikram Patel",
+            "relation": "LIAISES_WITH"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Executive Office",
+            "relation": "WORKS_IN"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Sandeep Menon",
+            "relation": "WORKS_WITH"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Compliance",
+            "relation": "WORKS_IN"
+        }
+    ]
+}

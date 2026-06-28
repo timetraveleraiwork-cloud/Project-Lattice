@@ -1,0 +1,711 @@
+{
+    "document": "023_project_memo.txt",
+    "entities": [
+        {
+            "type": "Person",
+            "name": "Vikram Patel"
+        },
+        {
+            "type": "Role",
+            "name": "Executive Director"
+        },
+        {
+            "type": "Person",
+            "name": "Arjun Verma"
+        },
+        {
+            "type": "Role",
+            "name": "Project Manager"
+        },
+        {
+            "type": "Date",
+            "name": "October 26, 2024"
+        },
+        {
+            "type": "Project",
+            "name": "Q3 Data Infrastructure Upgrade & Security Enhancements"
+        },
+        {
+            "type": "Organization",
+            "name": "Lattice Dynamics"
+        },
+        {
+            "type": "Objective",
+            "name": "modernize core data infrastructure"
+        },
+        {
+            "type": "Objective",
+            "name": "migrate legacy databases to scalable cloud solutions"
+        },
+        {
+            "type": "Objective",
+            "name": "bolster overall data security posture"
+        },
+        {
+            "type": "Department",
+            "name": "Operations"
+        },
+        {
+            "type": "Person",
+            "name": "Rahul Sharma"
+        },
+        {
+            "type": "Role",
+            "name": "Lead IT Administrator"
+        },
+        {
+            "type": "Department",
+            "name": "IT Department"
+        },
+        {
+            "type": "Person",
+            "name": "Neha Singh"
+        },
+        {
+            "type": "Role",
+            "name": "Data Migration Lead"
+        },
+        {
+            "type": "Department",
+            "name": "IT/Data Analytics"
+        },
+        {
+            "type": "Person",
+            "name": "Ankit Gupta"
+        },
+        {
+            "type": "Role",
+            "name": "Technical Support"
+        },
+        {
+            "type": "Person",
+            "name": "Rohan Das"
+        },
+        {
+            "type": "Role",
+            "name": "Project Assistant"
+        },
+        {
+            "type": "Role",
+            "name": "Intern"
+        },
+        {
+            "type": "Vendor",
+            "name": "CloudKart Services"
+        },
+        {
+            "type": "Service",
+            "name": "scalable cloud hosting and infrastructure services"
+        },
+        {
+            "type": "Vendor",
+            "name": "SecureNet Systems"
+        },
+        {
+            "type": "Service",
+            "name": "comprehensive security audits and vulnerability assessments"
+        },
+        {
+            "type": "Vendor",
+            "name": "DataWeave Analytics"
+        },
+        {
+            "type": "Service",
+            "name": "specialized consultation for complex data migration strategies"
+        },
+        {
+            "type": "Milestone",
+            "name": "Phase 1: Planning & Vendor Finalization"
+        },
+        {
+            "type": "Date",
+            "name": "Oct 20, 2024"
+        },
+        {
+            "type": "Milestone",
+            "name": "Phase 2: Cloud Environment Setup"
+        },
+        {
+            "type": "Date",
+            "name": "November 15, 2024"
+        },
+        {
+            "type": "Milestone",
+            "name": "Phase 3: Data Migration & Integration"
+        },
+        {
+            "type": "Date",
+            "name": "December 20, 2024"
+        },
+        {
+            "type": "Milestone",
+            "name": "Phase 4: Security Audit & Hardening"
+        },
+        {
+            "type": "Date",
+            "name": "January 15, 2025"
+        },
+        {
+            "type": "Milestone",
+            "name": "Project Completion & Go-Live"
+        },
+        {
+            "type": "Date",
+            "name": "End of January 2025"
+        },
+        {
+            "type": "Budget",
+            "name": "INR 75,00,000"
+        },
+        {
+            "type": "Budget Category",
+            "name": "Cloud Services"
+        },
+        {
+            "type": "Amount",
+            "name": "INR 40,00,000"
+        },
+        {
+            "type": "Budget Category",
+            "name": "Security Audit & Solutions"
+        },
+        {
+            "type": "Amount",
+            "name": "INR 15,00,000"
+        },
+        {
+            "type": "Budget Category",
+            "name": "Data Migration Consultation"
+        },
+        {
+            "type": "Amount",
+            "name": "INR 10,00,000"
+        },
+        {
+            "type": "Budget Category",
+            "name": "Contingency & Internal Resources"
+        },
+        {
+            "type": "Person",
+            "name": "Priya Nair"
+        },
+        {
+            "type": "Department",
+            "name": "Finance"
+        },
+        {
+            "type": "Risk",
+            "name": "Data Loss during Migration"
+        },
+        {
+            "type": "Mitigation",
+            "name": "Comprehensive backup strategy"
+        },
+        {
+            "type": "Mitigation",
+            "name": "phased migration"
+        },
+        {
+            "type": "Mitigation",
+            "name": "rigorous testing"
+        },
+        {
+            "type": "Risk",
+            "name": "Extended Downtime"
+        },
+        {
+            "type": "Mitigation",
+            "name": "Schedule migration during off-peak hours"
+        },
+        {
+            "type": "Mitigation",
+            "name": "detailed rollback plan"
+        },
+        {
+            "type": "Mitigation",
+            "name": "clear communication strategy"
+        },
+        {
+            "type": "Task",
+            "name": "system availability"
+        },
+        {
+            "type": "Risk",
+            "name": "Security Vulnerabilities"
+        },
+        {
+            "type": "Mitigation",
+            "name": "Pre-migration security checks"
+        },
+        {
+            "type": "Mitigation",
+            "name": "post-migration audit"
+        },
+        {
+            "type": "Mitigation",
+            "name": "ongoing monitoring"
+        },
+        {
+            "type": "Person",
+            "name": "Sandeep Menon"
+        },
+        {
+            "type": "Department",
+            "name": "Compliance"
+        },
+        {
+            "type": "Task",
+            "name": "regulatory adherence"
+        },
+        {
+            "type": "Risk",
+            "name": "Budget Overruns"
+        },
+        {
+            "type": "Mitigation",
+            "name": "Strict expenditure tracking"
+        },
+        {
+            "type": "Mitigation",
+            "name": "regular review meetings"
+        },
+        {
+            "type": "Mitigation",
+            "name": "prioritizing critical features"
+        },
+        {
+            "type": "Event",
+            "name": "Kick-off meeting"
+        },
+        {
+            "type": "Date",
+            "name": "November 1, 2024"
+        },
+        {
+            "type": "Department",
+            "name": "Executive Office"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Arjun Verma",
+            "target": "Vikram Patel",
+            "relation": "SENT_MEMO_TO"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Executive Director",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Project Manager",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Q3 Data Infrastructure Upgrade & Security Enhancements",
+            "target": "October 26, 2024",
+            "relation": "LAUNCHED_ON"
+        },
+        {
+            "source": "Q3 Data Infrastructure Upgrade & Security Enhancements",
+            "target": "modernize core data infrastructure",
+            "relation": "HAS_OBJECTIVE"
+        },
+        {
+            "source": "Q3 Data Infrastructure Upgrade & Security Enhancements",
+            "target": "migrate legacy databases to scalable cloud solutions",
+            "relation": "HAS_OBJECTIVE"
+        },
+        {
+            "source": "Q3 Data Infrastructure Upgrade & Security Enhancements",
+            "target": "bolster overall data security posture",
+            "relation": "HAS_OBJECTIVE"
+        },
+        {
+            "source": "Lattice Dynamics",
+            "target": "Q3 Data Infrastructure Upgrade & Security Enhancements",
+            "relation": "OWNS_PROJECT"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Operations",
+            "relation": "WORKS_IN_DEPARTMENT"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Q3 Data Infrastructure Upgrade & Security Enhancements",
+            "relation": "MANAGES_PROJECT"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Lead IT Administrator",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "IT Department",
+            "relation": "WORKS_IN_DEPARTMENT"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Q3 Data Infrastructure Upgrade & Security Enhancements",
+            "relation": "IS_TEAM_MEMBER_OF"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Data Migration Lead",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "IT/Data Analytics",
+            "relation": "WORKS_IN_DEPARTMENT"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Q3 Data Infrastructure Upgrade & Security Enhancements",
+            "relation": "IS_TEAM_MEMBER_OF"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "Technical Support",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "IT Department",
+            "relation": "WORKS_IN_DEPARTMENT"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "Q3 Data Infrastructure Upgrade & Security Enhancements",
+            "relation": "IS_TEAM_MEMBER_OF"
+        },
+        {
+            "source": "Rohan Das",
+            "target": "Project Assistant",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Rohan Das",
+            "target": "Intern",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Rohan Das",
+            "target": "IT Department",
+            "relation": "WORKS_IN_DEPARTMENT"
+        },
+        {
+            "source": "Rohan Das",
+            "target": "Q3 Data Infrastructure Upgrade & Security Enhancements",
+            "relation": "IS_TEAM_MEMBER_OF"
+        },
+        {
+            "source": "CloudKart Services",
+            "target": "Q3 Data Infrastructure Upgrade & Security Enhancements",
+            "relation": "IS_VENDOR_FOR"
+        },
+        {
+            "source": "CloudKart Services",
+            "target": "scalable cloud hosting and infrastructure services",
+            "relation": "PROVIDES_SERVICE"
+        },
+        {
+            "source": "SecureNet Systems",
+            "target": "Q3 Data Infrastructure Upgrade & Security Enhancements",
+            "relation": "IS_VENDOR_FOR"
+        },
+        {
+            "source": "SecureNet Systems",
+            "target": "comprehensive security audits and vulnerability assessments",
+            "relation": "PROVIDES_SERVICE"
+        },
+        {
+            "source": "DataWeave Analytics",
+            "target": "Q3 Data Infrastructure Upgrade & Security Enhancements",
+            "relation": "IS_VENDOR_FOR"
+        },
+        {
+            "source": "DataWeave Analytics",
+            "target": "specialized consultation for complex data migration strategies",
+            "relation": "PROVIDES_SERVICE"
+        },
+        {
+            "source": "Q3 Data Infrastructure Upgrade & Security Enhancements",
+            "target": "Phase 1: Planning & Vendor Finalization",
+            "relation": "HAS_MILESTONE"
+        },
+        {
+            "source": "Phase 1: Planning & Vendor Finalization",
+            "target": "Oct 20, 2024",
+            "relation": "COMPLETED_BY"
+        },
+        {
+            "source": "Q3 Data Infrastructure Upgrade & Security Enhancements",
+            "target": "Phase 2: Cloud Environment Setup",
+            "relation": "HAS_MILESTONE"
+        },
+        {
+            "source": "Phase 2: Cloud Environment Setup",
+            "target": "November 15, 2024",
+            "relation": "TARGET_DATE"
+        },
+        {
+            "source": "Phase 2: Cloud Environment Setup",
+            "target": "CloudKart Services",
+            "relation": "INVOLVES_VENDOR"
+        },
+        {
+            "source": "Q3 Data Infrastructure Upgrade & Security Enhancements",
+            "target": "Phase 3: Data Migration & Integration",
+            "relation": "HAS_MILESTONE"
+        },
+        {
+            "source": "Phase 3: Data Migration & Integration",
+            "target": "December 20, 2024",
+            "relation": "TARGET_DATE"
+        },
+        {
+            "source": "Phase 3: Data Migration & Integration",
+            "target": "DataWeave Analytics",
+            "relation": "SUPPORTED_BY"
+        },
+        {
+            "source": "Q3 Data Infrastructure Upgrade & Security Enhancements",
+            "target": "Phase 4: Security Audit & Hardening",
+            "relation": "HAS_MILESTONE"
+        },
+        {
+            "source": "Phase 4: Security Audit & Hardening",
+            "target": "January 15, 2025",
+            "relation": "TARGET_DATE"
+        },
+        {
+            "source": "Phase 4: Security Audit & Hardening",
+            "target": "SecureNet Systems",
+            "relation": "INVOLVES_VENDOR"
+        },
+        {
+            "source": "Q3 Data Infrastructure Upgrade & Security Enhancements",
+            "target": "Project Completion & Go-Live",
+            "relation": "HAS_MILESTONE"
+        },
+        {
+            "source": "Project Completion & Go-Live",
+            "target": "End of January 2025",
+            "relation": "TARGET_DATE"
+        },
+        {
+            "source": "Q3 Data Infrastructure Upgrade & Security Enhancements",
+            "target": "INR 75,00,000",
+            "relation": "HAS_APPROVED_BUDGET"
+        },
+        {
+            "source": "INR 75,00,000",
+            "target": "Cloud Services",
+            "relation": "INCLUDES_CATEGORY"
+        },
+        {
+            "source": "Cloud Services",
+            "target": "INR 40,00,000",
+            "relation": "ALLOCATED_AMOUNT"
+        },
+        {
+            "source": "Cloud Services",
+            "target": "CloudKart Services",
+            "relation": "ALLOCATED_TO_VENDOR"
+        },
+        {
+            "source": "INR 75,00,000",
+            "target": "Security Audit & Solutions",
+            "relation": "INCLUDES_CATEGORY"
+        },
+        {
+            "source": "Security Audit & Solutions",
+            "target": "INR 15,00,000",
+            "relation": "ALLOCATED_AMOUNT"
+        },
+        {
+            "source": "Security Audit & Solutions",
+            "target": "SecureNet Systems",
+            "relation": "ALLOCATED_TO_VENDOR"
+        },
+        {
+            "source": "INR 75,00,000",
+            "target": "Data Migration Consultation",
+            "relation": "INCLUDES_CATEGORY"
+        },
+        {
+            "source": "Data Migration Consultation",
+            "target": "INR 10,00,000",
+            "relation": "ALLOCATED_AMOUNT"
+        },
+        {
+            "source": "Data Migration Consultation",
+            "target": "DataWeave Analytics",
+            "relation": "ALLOCATED_TO_VENDOR"
+        },
+        {
+            "source": "INR 75,00,000",
+            "target": "Contingency & Internal Resources",
+            "relation": "INCLUDES_CATEGORY"
+        },
+        {
+            "source": "Contingency & Internal Resources",
+            "target": "INR 10,00,000",
+            "relation": "ALLOCATED_AMOUNT"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Finance",
+            "relation": "WORKS_IN_DEPARTMENT"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "INR 75,00,000",
+            "relation": "APPROVED_BUDGET"
+        },
+        {
+            "source": "Q3 Data Infrastructure Upgrade & Security Enhancements",
+            "target": "Data Loss during Migration",
+            "relation": "HAS_RISK"
+        },
+        {
+            "source": "Comprehensive backup strategy",
+            "target": "Data Loss during Migration",
+            "relation": "MITIGATES"
+        },
+        {
+            "source": "phased migration",
+            "target": "Data Loss during Migration",
+            "relation": "MITIGATES"
+        },
+        {
+            "source": "rigorous testing",
+            "target": "Data Loss during Migration",
+            "relation": "MITIGATES"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "rigorous testing",
+            "relation": "PERFORMS"
+        },
+        {
+            "source": "Q3 Data Infrastructure Upgrade & Security Enhancements",
+            "target": "Extended Downtime",
+            "relation": "HAS_RISK"
+        },
+        {
+            "source": "Schedule migration during off-peak hours",
+            "target": "Extended Downtime",
+            "relation": "MITIGATES"
+        },
+        {
+            "source": "detailed rollback plan",
+            "target": "Extended Downtime",
+            "relation": "MITIGATES"
+        },
+        {
+            "source": "clear communication strategy",
+            "target": "Extended Downtime",
+            "relation": "MITIGATES"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "system availability",
+            "relation": "MANAGES"
+        },
+        {
+            "source": "Q3 Data Infrastructure Upgrade & Security Enhancements",
+            "target": "Security Vulnerabilities",
+            "relation": "HAS_RISK"
+        },
+        {
+            "source": "Pre-migration security checks",
+            "target": "Security Vulnerabilities",
+            "relation": "MITIGATES"
+        },
+        {
+            "source": "post-migration audit",
+            "target": "Security Vulnerabilities",
+            "relation": "MITIGATES"
+        },
+        {
+            "source": "SecureNet Systems",
+            "target": "post-migration audit",
+            "relation": "PERFORMS"
+        },
+        {
+            "source": "ongoing monitoring",
+            "target": "Security Vulnerabilities",
+            "relation": "MITIGATES"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "regulatory adherence",
+            "relation": "OVERSEES"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Compliance",
+            "relation": "WORKS_IN_DEPARTMENT"
+        },
+        {
+            "source": "Q3 Data Infrastructure Upgrade & Security Enhancements",
+            "target": "Budget Overruns",
+            "relation": "HAS_RISK"
+        },
+        {
+            "source": "Strict expenditure tracking",
+            "target": "Budget Overruns",
+            "relation": "MITIGATES"
+        },
+        {
+            "source": "regular review meetings",
+            "target": "Budget Overruns",
+            "relation": "MITIGATES"
+        },
+        {
+            "source": "Finance",
+            "target": "regular review meetings",
+            "relation": "INVOLVED_IN"
+        },
+        {
+            "source": "prioritizing critical features",
+            "target": "Budget Overruns",
+            "relation": "MITIGATES"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Budget Overruns",
+            "relation": "APPROVES_DEVIATION"
+        },
+        {
+            "source": "Q3 Data Infrastructure Upgrade & Security Enhancements",
+            "target": "Kick-off meeting",
+            "relation": "HAS_NEXT_STEP"
+        },
+        {
+            "source": "Kick-off meeting",
+            "target": "November 1, 2024",
+            "relation": "SCHEDULED_FOR"
+        },
+        {
+            "source": "Kick-off meeting",
+            "target": "Q3 Data Infrastructure Upgrade & Security Enhancements",
+            "relation": "RELATED_TO_PROJECT"
+        },
+        {
+            "source": "Lattice Dynamics",
+            "target": "Arjun Verma",
+            "relation": "EMPLOYS"
+        },
+        {
+            "source": "Executive Office",
+            "target": "Q3 Data Infrastructure Upgrade & Security Enhancements",
+            "relation": "RECEIVES_UPDATES_ON"
+        }
+    ]
+}

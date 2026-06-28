@@ -1,0 +1,333 @@
+{
+    "document": "015_email_thread.txt",
+    "entities": [
+        {
+            "type": "Person",
+            "name": "Rahul Sharma"
+        },
+        {
+            "type": "Person",
+            "name": "Arjun Verma"
+        },
+        {
+            "type": "Person",
+            "name": "Priya Nair"
+        },
+        {
+            "type": "Person",
+            "name": "Sandeep Menon"
+        },
+        {
+            "type": "Person",
+            "name": "Vikram Patel"
+        },
+        {
+            "type": "Person",
+            "name": "Meera Iyer"
+        },
+        {
+            "type": "Organization",
+            "name": "Lattice Dynamics Pvt. Ltd."
+        },
+        {
+            "type": "Organization",
+            "name": "TechNova Solutions Pvt Ltd"
+        },
+        {
+            "type": "Role",
+            "name": "IT Administrator"
+        },
+        {
+            "type": "Role",
+            "name": "Project Manager"
+        },
+        {
+            "type": "Role",
+            "name": "Compliance Officer"
+        },
+        {
+            "type": "Role",
+            "name": "Finance Manager"
+        },
+        {
+            "type": "Role",
+            "name": "Procurement Lead"
+        },
+        {
+            "type": "Project",
+            "name": "Project Orion"
+        },
+        {
+            "type": "Event",
+            "name": "Hardware Upgrade"
+        },
+        {
+            "type": "Location",
+            "name": "Server Room"
+        },
+        {
+            "type": "Location",
+            "name": "Server Rack A2"
+        },
+        {
+            "type": "Budget",
+            "name": "FY2024 IT Budget"
+        },
+        {
+            "type": "Contract",
+            "name": "SLA"
+        },
+        {
+            "type": "Contract",
+            "name": "Annual Maintenance Contract"
+        },
+        {
+            "type": "Document",
+            "name": "Detailed Upgrade Plan"
+        },
+        {
+            "type": "Document",
+            "name": "Security Clearance Document"
+        },
+        {
+            "type": "Action",
+            "name": "Budget Clearance"
+        },
+        {
+            "type": "Action",
+            "name": "Security Protocols Review"
+        },
+        {
+            "type": "Document",
+            "name": "Invoice"
+        },
+        {
+            "type": "Request",
+            "name": "Server Room Access Request"
+        },
+        {
+            "type": "Department",
+            "name": "Compliance Department"
+        },
+        {
+            "type": "Department",
+            "name": "Finance Department"
+        },
+        {
+            "type": "Impact",
+            "name": "Hardware Upgrade Downtime"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Rahul Sharma",
+            "target": "IT Administrator",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Project Manager",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Finance Manager",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Compliance Officer",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Procurement Lead",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "WORKS_FOR"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "WORKS_FOR"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "WORKS_FOR"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "WORKS_FOR"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "WORKS_FOR"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "WORKS_FOR"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Server Room Access Request",
+            "relation": "INITIATES"
+        },
+        {
+            "source": "Server Room Access Request",
+            "target": "Hardware Upgrade",
+            "relation": "FOR_EVENT"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Arjun Verma",
+            "relation": "REQUESTS_APPROVAL_FROM"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Compliance Department",
+            "relation": "REQUESTS_SIGN_OFF_FROM"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Finance Department",
+            "relation": "REQUESTS_SIGN_OFF_FROM"
+        },
+        {
+            "source": "TechNova Solutions Pvt Ltd",
+            "target": "Hardware Upgrade",
+            "relation": "PERFORMS"
+        },
+        {
+            "source": "Hardware Upgrade",
+            "target": "Server Room",
+            "relation": "TAKES_PLACE_IN"
+        },
+        {
+            "source": "Hardware Upgrade",
+            "target": "Server Rack A2",
+            "relation": "TARGETS"
+        },
+        {
+            "source": "Server Rack A2",
+            "target": "Server Room",
+            "relation": "IS_PART_OF"
+        },
+        {
+            "source": "Hardware Upgrade",
+            "target": "Project Orion",
+            "relation": "IMPACTS"
+        },
+        {
+            "source": "Hardware Upgrade",
+            "target": "Project Orion",
+            "relation": "CRUCIAL_FOR"
+        },
+        {
+            "source": "Project Orion",
+            "target": "FY2024 IT Budget",
+            "relation": "HAS_BUDGET"
+        },
+        {
+            "source": "Hardware Upgrade",
+            "target": "Annual Maintenance Contract",
+            "relation": "COVERED_BY"
+        },
+        {
+            "source": "Annual Maintenance Contract",
+            "target": "TechNova Solutions Pvt Ltd",
+            "relation": "WITH_VENDOR"
+        },
+        {
+            "source": "SLA",
+            "target": "TechNova Solutions Pvt Ltd",
+            "relation": "WITH_VENDOR"
+        },
+        {
+            "source": "TechNova Solutions Pvt Ltd",
+            "target": "Detailed Upgrade Plan",
+            "relation": "PROVIDED"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Detailed Upgrade Plan",
+            "relation": "SHARED"
+        },
+        {
+            "source": "TechNova Solutions Pvt Ltd",
+            "target": "Security Clearance Document",
+            "relation": "PROVIDED"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Security Clearance Document",
+            "relation": "SHARED"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Security Protocols Review",
+            "relation": "REQUESTS"
+        },
+        {
+            "source": "Security Protocols Review",
+            "target": "Server Room Access Request",
+            "relation": "PART_OF"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Invoice",
+            "relation": "REQUESTS_ALIGNMENT_FOR"
+        },
+        {
+            "source": "Invoice",
+            "target": "FY2024 IT Budget",
+            "relation": "MUST_ALIGN_WITH"
+        },
+        {
+            "source": "Invoice",
+            "target": "TechNova Solutions Pvt Ltd",
+            "relation": "FROM_VENDOR"
+        },
+        {
+            "source": "Hardware Upgrade",
+            "target": "Hardware Upgrade Downtime",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "Hardware Upgrade Downtime",
+            "target": "Project Orion",
+            "relation": "IMPACTS_DEADLINES_FOR"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Meera Iyer",
+            "relation": "CROSS_CHECKED_WITH"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Project Orion",
+            "relation": "MANAGES"
+        },
+        {
+            "source": "Server Room Access Request",
+            "target": "Compliance Department",
+            "relation": "REQUIRES_APPROVAL_FROM"
+        },
+        {
+            "source": "Server Room Access Request",
+            "target": "Finance Department",
+            "relation": "REQUIRES_APPROVAL_FROM"
+        },
+        {
+            "source": "Server Room Access Request",
+            "target": "Arjun Verma",
+            "relation": "REQUIRES_APPROVAL_FROM"
+        }
+    ]
+}

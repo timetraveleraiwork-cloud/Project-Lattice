@@ -1,0 +1,482 @@
+{
+    "document": "020_email_thread.txt",
+    "entities": [
+        {
+            "type": "Person",
+            "name": "Arjun Verma"
+        },
+        {
+            "type": "Person",
+            "name": "Rahul Sharma"
+        },
+        {
+            "type": "Person",
+            "name": "Meera Iyer"
+        },
+        {
+            "type": "Person",
+            "name": "Vikram Patel"
+        },
+        {
+            "type": "Organization",
+            "name": "Lattice Dynamics Pvt. Ltd."
+        },
+        {
+            "type": "Role",
+            "name": "Project Manager"
+        },
+        {
+            "type": "Role",
+            "name": "IT Administrator"
+        },
+        {
+            "type": "Role",
+            "name": "Procurement Lead"
+        },
+        {
+            "type": "Project",
+            "name": "Q3 Infrastructure Upgrade Planning"
+        },
+        {
+            "type": "Project",
+            "name": "server virtualization project"
+        },
+        {
+            "type": "Project",
+            "name": "network security enhancements"
+        },
+        {
+            "type": "Project",
+            "name": "server virtualization (Phase 1)"
+        },
+        {
+            "type": "Concept",
+            "name": "technical requirements"
+        },
+        {
+            "type": "Concept",
+            "name": "virtualization specs"
+        },
+        {
+            "type": "Hardware",
+            "name": "new hardware"
+        },
+        {
+            "type": "Concept",
+            "name": "licensing needs"
+        },
+        {
+            "type": "Technology",
+            "name": "virtualization software"
+        },
+        {
+            "type": "Technology",
+            "name": "existing systems"
+        },
+        {
+            "type": "Concept",
+            "name": "internal IT resources"
+        },
+        {
+            "type": "Organization",
+            "name": "SecureNet Systems"
+        },
+        {
+            "type": "Organization",
+            "name": "CloudKart Services"
+        },
+        {
+            "type": "Concept",
+            "name": "initial quotes"
+        },
+        {
+            "type": "Concept",
+            "name": "Q3 rollout timeline"
+        },
+        {
+            "type": "Concept",
+            "name": "competitive pricing"
+        },
+        {
+            "type": "Concept",
+            "name": "standard SLAs"
+        },
+        {
+            "type": "Concept",
+            "name": "preliminary project timeline"
+        },
+        {
+            "type": "Concept",
+            "name": "budget overview"
+        },
+        {
+            "type": "Concept",
+            "name": "core requirements"
+        },
+        {
+            "type": "Concept",
+            "name": "vendor engagement"
+        },
+        {
+            "type": "Technology",
+            "name": "data management framework"
+        },
+        {
+            "type": "Organization",
+            "name": "DataWeave Analytics"
+        },
+        {
+            "type": "Hardware",
+            "name": "3 new servers"
+        },
+        {
+            "type": "Hardware",
+            "name": "high-performance CPUs"
+        },
+        {
+            "type": "Hardware",
+            "name": "256GB RAM"
+        },
+        {
+            "type": "Hardware",
+            "name": "storage arrays"
+        },
+        {
+            "type": "Concept",
+            "name": "~50 virtual machines"
+        },
+        {
+            "type": "Concept",
+            "name": "detailed doc"
+        },
+        {
+            "type": "Concept",
+            "name": "hardware configurations"
+        },
+        {
+            "type": "Technology",
+            "name": "existing network infrastructure"
+        },
+        {
+            "type": "Technology",
+            "name": "SecureNet Systems firewalls"
+        },
+        {
+            "type": "Concept",
+            "name": "maintenance and support agreements"
+        },
+        {
+            "type": "Concept",
+            "name": "RFI"
+        },
+        {
+            "type": "Concept",
+            "name": "existing service contracts"
+        },
+        {
+            "type": "Concept",
+            "name": "network security expertise"
+        },
+        {
+            "type": "Concept",
+            "name": "server support"
+        },
+        {
+            "type": "Concept",
+            "name": "vendor engagement form"
+        },
+        {
+            "type": "Concept",
+            "name": "IT confirmation"
+        },
+        {
+            "type": "Concept",
+            "name": "cost savings"
+        },
+        {
+            "type": "Concept",
+            "name": "urgency"
+        },
+        {
+            "type": "Concept",
+            "name": "budget constraints"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Arjun Verma",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "WORKS_FOR"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Project Manager",
+            "relation": "PERFORMS_ROLE"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "WORKS_FOR"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "IT Administrator",
+            "relation": "PERFORMS_ROLE"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "WORKS_FOR"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Procurement Lead",
+            "relation": "PERFORMS_ROLE"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "WORKS_FOR"
+        },
+        {
+            "source": "Q3 Infrastructure Upgrade Planning",
+            "target": "server virtualization project",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "Q3 Infrastructure Upgrade Planning",
+            "target": "network security enhancements",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "technical requirements",
+            "relation": "IS_TASKED_WITH_PROVIDING"
+        },
+        {
+            "source": "technical requirements",
+            "target": "server virtualization (Phase 1)",
+            "relation": "FOR"
+        },
+        {
+            "source": "technical requirements",
+            "target": "new hardware",
+            "relation": "INCLUDES_MINIMUM_SPECIFICATIONS_FOR"
+        },
+        {
+            "source": "technical requirements",
+            "target": "licensing needs",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "technical requirements",
+            "target": "virtualization software",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "technical requirements",
+            "target": "existing systems",
+            "relation": "HAS_DEPENDENCIES_ON"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "internal IT resources",
+            "relation": "IS_TASKED_WITH_CONFIRMING"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "SecureNet Systems",
+            "relation": "IS_TASKED_WITH_INITIATING_CONTACT_WITH"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "CloudKart Services",
+            "relation": "IS_TASKED_WITH_INITIATING_CONTACT_WITH"
+        },
+        {
+            "source": "SecureNet Systems",
+            "target": "Q3 rollout timeline",
+            "relation": "CAPACITY_TO_MEET"
+        },
+        {
+            "source": "CloudKart Services",
+            "target": "Q3 rollout timeline",
+            "relation": "CAPACITY_TO_MEET"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "competitive pricing",
+            "relation": "FOCUSED_ON_ENSURING"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "standard SLAs",
+            "relation": "FOCUSED_ON_ADHERENCE_TO"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "preliminary project timeline",
+            "relation": "IS_TASKED_WITH_DRAFTING"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "budget overview",
+            "relation": "IS_TASKED_WITH_DRAFTING"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Vikram Patel",
+            "relation": "NOTIFIES"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Rahul Sharma",
+            "relation": "INSTRUCTS_TO_PRIORITIZE"
+        },
+        {
+            "source": "virtualization specs",
+            "target": "vendor engagement",
+            "relation": "ENABLES_FASTER"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "technical requirements",
+            "relation": "IS_FINALIZING"
+        },
+        {
+            "source": "virtualization software",
+            "target": "data management framework",
+            "relation": "INTEGRATES_WELL_WITH"
+        },
+        {
+            "source": "DataWeave Analytics",
+            "target": "virtualization software",
+            "relation": "HAS_FAMILIARITY_WITH"
+        },
+        {
+            "source": "technical requirements",
+            "target": "3 new servers",
+            "relation": "SPECIFIES"
+        },
+        {
+            "source": "3 new servers",
+            "target": "high-performance CPUs",
+            "relation": "REQUIRE"
+        },
+        {
+            "source": "3 new servers",
+            "target": "256GB RAM",
+            "relation": "REQUIRE"
+        },
+        {
+            "source": "3 new servers",
+            "target": "storage arrays",
+            "relation": "REQUIRE"
+        },
+        {
+            "source": "technical requirements",
+            "target": "licensing needs",
+            "relation": "ESTIMATES"
+        },
+        {
+            "source": "licensing needs",
+            "target": "~50 virtual machines",
+            "relation": "FOR"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "detailed doc",
+            "relation": "WILL_ATTACH"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "hardware configurations",
+            "relation": "CONSIDERS"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "existing network infrastructure",
+            "relation": "CONSIDERS_COMPATIBILITY_WITH"
+        },
+        {
+            "source": "existing network infrastructure",
+            "target": "SecureNet Systems firewalls",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "maintenance and support agreements",
+            "relation": "EXPLORES"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "technical requirements",
+            "relation": "RECEIVED_FROM"
+        },
+        {
+            "source": "SecureNet Systems",
+            "target": "RFI",
+            "relation": "CONFIRMED_RECEIPT_OF"
+        },
+        {
+            "source": "CloudKart Services",
+            "target": "RFI",
+            "relation": "CONFIRMED_RECEIPT_OF"
+        },
+        {
+            "source": "SecureNet Systems",
+            "target": "initial quotes",
+            "relation": "WILL_PROVIDE"
+        },
+        {
+            "source": "CloudKart Services",
+            "target": "initial quotes",
+            "relation": "WILL_PROVIDE"
+        },
+        {
+            "source": "initial quotes",
+            "target": "urgency",
+            "relation": "EMPHASIZED_FOR"
+        },
+        {
+            "source": "initial quotes",
+            "target": "competitive pricing",
+            "relation": "EMPHASIZED_FOR"
+        },
+        {
+            "source": "Lattice Dynamics Pvt. Ltd.",
+            "target": "budget constraints",
+            "relation": "HAS"
+        },
+        {
+            "source": "budget constraints",
+            "target": "Q3",
+            "relation": "FOR"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "cost savings",
+            "relation": "EXPLORES"
+        },
+        {
+            "source": "cost savings",
+            "target": "existing service contracts",
+            "relation": "THROUGH_CONSOLIDATING"
+        },
+        {
+            "source": "SecureNet Systems",
+            "target": "network security expertise",
+            "relation": "CAN_BUNDLE_WITH"
+        },
+        {
+            "source": "SecureNet Systems",
+            "target": "server support",
+            "relation": "CAN_BUNDLE_WITH"
+        },
+        {
+            "source": "vendor engagement form",
+            "target": "IT confirmation",
+            "relation": "REQUIRES"
+        }
+    ]
+}

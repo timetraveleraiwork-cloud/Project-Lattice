@@ -1,0 +1,331 @@
+{
+    "document": "006_employee_bio.txt",
+    "entities": [
+        {
+            "type": "Person",
+            "name": "Kavita Rao"
+        },
+        {
+            "type": "Role",
+            "name": "HR Business Partner"
+        },
+        {
+            "type": "Organization",
+            "name": "Lattice Dynamics Pvt. Ltd."
+        },
+        {
+            "type": "Date",
+            "name": "January 2019"
+        },
+        {
+            "type": "Area of Expertise",
+            "name": "human resources management"
+        },
+        {
+            "type": "Area of Expertise",
+            "name": "employee relations"
+        },
+        {
+            "type": "Area of Expertise",
+            "name": "talent acquisition"
+        },
+        {
+            "type": "Area of Expertise",
+            "name": "HR policy development"
+        },
+        {
+            "type": "Organization",
+            "name": "multinational tech firm"
+        },
+        {
+            "type": "Process",
+            "name": "global onboarding processes"
+        },
+        {
+            "type": "Initiative",
+            "name": "employee experience enhancement"
+        },
+        {
+            "type": "Initiative",
+            "name": "inclusive workplace culture fostering"
+        },
+        {
+            "type": "System",
+            "name": "performance management system"
+        },
+        {
+            "type": "Date",
+            "name": "Q3 2020"
+        },
+        {
+            "type": "Person",
+            "name": "Rahul Sharma"
+        },
+        {
+            "type": "Department",
+            "name": "IT"
+        },
+        {
+            "type": "System",
+            "name": "HRIS module"
+        },
+        {
+            "type": "Category",
+            "name": "HR software solutions"
+        },
+        {
+            "type": "Program",
+            "name": "updated Employee Wellness Program"
+        },
+        {
+            "type": "Date",
+            "name": "early 2023"
+        },
+        {
+            "type": "Department",
+            "name": "Finance"
+        },
+        {
+            "type": "Department",
+            "name": "Operations"
+        },
+        {
+            "type": "Person",
+            "name": "Sandeep Menon"
+        },
+        {
+            "type": "Role",
+            "name": "Compliance Officer"
+        },
+        {
+            "type": "Regulation",
+            "name": "labor laws"
+        },
+        {
+            "type": "Organization",
+            "name": "ComplyHub Consulting"
+        },
+        {
+            "type": "Principle",
+            "name": "ethical practices"
+        },
+        {
+            "type": "Principle",
+            "name": "legal practices"
+        },
+        {
+            "type": "Person",
+            "name": "Arjun Verma"
+        },
+        {
+            "type": "Role",
+            "name": "Project Manager"
+        },
+        {
+            "type": "Program",
+            "name": "training programs"
+        },
+        {
+            "type": "Organization",
+            "name": "external training providers"
+        },
+        {
+            "type": "Plan",
+            "name": "FY24 Talent Development Plan"
+        },
+        {
+            "type": "Degree",
+            "name": "Master's degree in Human Resource Management"
+        },
+        {
+            "type": "Certification",
+            "name": "certified professional in HR"
+        },
+        {
+            "type": "Department",
+            "name": "HR department"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Kavita Rao",
+            "target": "HR Business Partner",
+            "relation": "is_a"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "joined"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "January 2019",
+            "relation": "joined_on"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "human resources management",
+            "relation": "has_expertise_in"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "employee relations",
+            "relation": "has_expertise_in"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "talent acquisition",
+            "relation": "has_foundation_in"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "HR policy development",
+            "relation": "has_foundation_in"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "multinational tech firm",
+            "relation": "previously_worked_at"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "global onboarding processes",
+            "relation": "streamlined"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "employee experience enhancement",
+            "relation": "spearheaded"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "inclusive workplace culture fostering",
+            "relation": "spearheaded"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "performance management system",
+            "relation": "overhauled"
+        },
+        {
+            "source": "performance management system",
+            "target": "Q3 2020",
+            "relation": "overhauled_in"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "Rahul Sharma",
+            "relation": "collaborated_with"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "IT",
+            "relation": "works_in"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "HRIS module",
+            "relation": "deployed"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "HR software solutions",
+            "relation": "led_review_for"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "updated Employee Wellness Program",
+            "relation": "rolled_out"
+        },
+        {
+            "source": "updated Employee Wellness Program",
+            "target": "early 2023",
+            "relation": "launched_in"
+        },
+        {
+            "source": "updated Employee Wellness Program",
+            "target": "Finance",
+            "relation": "has_engagement_from"
+        },
+        {
+            "source": "updated Employee Wellness Program",
+            "target": "Operations",
+            "relation": "has_engagement_from"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "Sandeep Menon",
+            "relation": "coordinated_with"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Compliance Officer",
+            "relation": "is_a"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "labor laws",
+            "relation": "ensured_compliance_with"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "ComplyHub Consulting",
+            "relation": "engaged_with"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "ensured_ethical_practices_for"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "ensured_legal_practices_for"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Project Manager",
+            "relation": "is_a"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Kavita Rao",
+            "relation": "praised"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "training programs",
+            "relation": "developed"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "external training providers",
+            "relation": "liaised_with"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "FY24 Talent Development Plan",
+            "relation": "contributed_to"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "Master's degree in Human Resource Management",
+            "relation": "holds_degree"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "certified professional in HR",
+            "relation": "holds_certification"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "works_for"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "HR department",
+            "relation": "is_part_of"
+        }
+    ]
+}

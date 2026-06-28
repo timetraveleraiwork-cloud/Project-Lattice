@@ -1,0 +1,371 @@
+{
+    "document": "032_expense_report.txt",
+    "entities": [
+        {
+            "type": "Company",
+            "name": "Lattice Dynamics Pvt. Ltd."
+        },
+        {
+            "type": "Department",
+            "name": "Finance Department"
+        },
+        {
+            "type": "Department",
+            "name": "Operations Department"
+        },
+        {
+            "type": "Department",
+            "name": "IT Department"
+        },
+        {
+            "type": "Department",
+            "name": "Compliance & HR departments"
+        },
+        {
+            "type": "Department",
+            "name": "HR department"
+        },
+        {
+            "type": "Person",
+            "name": "Arjun Verma"
+        },
+        {
+            "type": "Person",
+            "name": "Priya"
+        },
+        {
+            "type": "Person",
+            "name": "Neha Singh"
+        },
+        {
+            "type": "Person",
+            "name": "Meera Iyer"
+        },
+        {
+            "type": "Person",
+            "name": "Rahul Sharma"
+        },
+        {
+            "type": "Person",
+            "name": "Rohan Das"
+        },
+        {
+            "type": "Person",
+            "name": "Sandeep Menon"
+        },
+        {
+            "type": "Person",
+            "name": "Ankit Gupta"
+        },
+        {
+            "type": "Person",
+            "name": "Vikram Patel"
+        },
+        {
+            "type": "Person",
+            "name": "Kavita Rao"
+        },
+        {
+            "type": "Role",
+            "name": "Project Manager"
+        },
+        {
+            "type": "Vendor",
+            "name": "SwiftTravel Co."
+        },
+        {
+            "type": "Vendor",
+            "name": "CloudKart Services"
+        },
+        {
+            "type": "Vendor",
+            "name": "OfficeHive Supplies"
+        },
+        {
+            "type": "Vendor",
+            "name": "SecureNet Systems"
+        },
+        {
+            "type": "Vendor",
+            "name": "PrintPro India"
+        },
+        {
+            "type": "Vendor",
+            "name": "ComplyHub Consulting"
+        },
+        {
+            "type": "Vendor",
+            "name": "TechNova Solutions Pvt Ltd"
+        },
+        {
+            "type": "Expense",
+            "name": "LD-EXP-2024-001"
+        },
+        {
+            "type": "Expense",
+            "name": "LD-EXP-2024-002"
+        },
+        {
+            "type": "Expense",
+            "name": "LD-EXP-2024-003"
+        },
+        {
+            "type": "Expense",
+            "name": "LD-EXP-2024-004"
+        },
+        {
+            "type": "Expense",
+            "name": "LD-EXP-2024-005"
+        },
+        {
+            "type": "Expense",
+            "name": "LD-EXP-2024-006"
+        },
+        {
+            "type": "Expense",
+            "name": "LD-EXP-2024-007"
+        },
+        {
+            "type": "Activity",
+            "name": "Project X Kick-off"
+        },
+        {
+            "type": "Activity",
+            "name": "DataWeave Analytics integration"
+        },
+        {
+            "type": "Activity",
+            "name": "Cloud storage subscription renewal"
+        },
+        {
+            "type": "Activity",
+            "name": "New office workstation chairs & ergonomic accessories"
+        },
+        {
+            "type": "Activity",
+            "name": "Annual license renewal for network security software"
+        },
+        {
+            "type": "Activity",
+            "name": "Printing services for Q2 marketing materials"
+        },
+        {
+            "type": "Activity",
+            "name": "Intern project support"
+        },
+        {
+            "type": "Activity",
+            "name": "Regulatory compliance workshop"
+        },
+        {
+            "type": "Activity",
+            "name": "Emergency hardware replacement for server rack"
+        },
+        {
+            "type": "Report",
+            "name": "Expense Report Summary - Q2 FY24"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Arjun Verma",
+            "target": "Expense Report Summary - Q2 FY24",
+            "relation": "prepared_by"
+        },
+        {
+            "source": "Expense Report Summary - Q2 FY24",
+            "target": "Finance Department",
+            "relation": "prepared_for"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Project Manager",
+            "relation": "has_role"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Operations Department",
+            "relation": "works_in"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "affiliated_with"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Priya",
+            "relation": "addressed_to"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "LD-EXP-2024-001",
+            "relation": "submitted"
+        },
+        {
+            "source": "LD-EXP-2024-001",
+            "target": "SwiftTravel Co.",
+            "relation": "paid_to"
+        },
+        {
+            "source": "LD-EXP-2024-001",
+            "target": "Project X Kick-off",
+            "relation": "related_to"
+        },
+        {
+            "source": "LD-EXP-2024-001",
+            "target": "DataWeave Analytics integration",
+            "relation": "related_to"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "LD-EXP-2024-001",
+            "relation": "approved"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "LD-EXP-2024-002",
+            "relation": "submitted"
+        },
+        {
+            "source": "LD-EXP-2024-002",
+            "target": "CloudKart Services",
+            "relation": "paid_to"
+        },
+        {
+            "source": "LD-EXP-2024-002",
+            "target": "Cloud storage subscription renewal",
+            "relation": "related_to"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "LD-EXP-2024-002",
+            "relation": "approved"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "LD-EXP-2024-003",
+            "relation": "submitted"
+        },
+        {
+            "source": "LD-EXP-2024-003",
+            "target": "OfficeHive Supplies",
+            "relation": "paid_to"
+        },
+        {
+            "source": "LD-EXP-2024-003",
+            "target": "New office workstation chairs & ergonomic accessories",
+            "relation": "related_to"
+        },
+        {
+            "source": "IT Department",
+            "target": "New office workstation chairs & ergonomic accessories",
+            "relation": "requested"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "LD-EXP-2024-003",
+            "relation": "approved"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "LD-EXP-2024-004",
+            "relation": "submitted"
+        },
+        {
+            "source": "LD-EXP-2024-004",
+            "target": "SecureNet Systems",
+            "relation": "paid_to"
+        },
+        {
+            "source": "LD-EXP-2024-004",
+            "target": "Annual license renewal for network security software",
+            "relation": "related_to"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "LD-EXP-2024-004",
+            "relation": "approved"
+        },
+        {
+            "source": "Rohan Das",
+            "target": "LD-EXP-2024-005",
+            "relation": "submitted"
+        },
+        {
+            "source": "LD-EXP-2024-005",
+            "target": "PrintPro India",
+            "relation": "paid_to"
+        },
+        {
+            "source": "LD-EXP-2024-005",
+            "target": "Printing services for Q2 marketing materials",
+            "relation": "related_to"
+        },
+        {
+            "source": "LD-EXP-2024-005",
+            "target": "Intern project support",
+            "relation": "related_to"
+        },
+        {
+            "source": "HR department",
+            "target": "Intern project support",
+            "relation": "supported"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "LD-EXP-2024-005",
+            "relation": "approved"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "LD-EXP-2024-006",
+            "relation": "submitted"
+        },
+        {
+            "source": "LD-EXP-2024-006",
+            "target": "ComplyHub Consulting",
+            "relation": "paid_to"
+        },
+        {
+            "source": "LD-EXP-2024-006",
+            "target": "Regulatory compliance workshop",
+            "relation": "related_to"
+        },
+        {
+            "source": "Regulatory compliance workshop",
+            "target": "Compliance & HR departments",
+            "relation": "for_department"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "LD-EXP-2024-006",
+            "relation": "approved"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "LD-EXP-2024-007",
+            "relation": "submitted"
+        },
+        {
+            "source": "LD-EXP-2024-007",
+            "target": "TechNova Solutions Pvt Ltd",
+            "relation": "paid_to"
+        },
+        {
+            "source": "LD-EXP-2024-007",
+            "target": "Emergency hardware replacement for server rack",
+            "relation": "related_to"
+        },
+        {
+            "source": "Emergency hardware replacement for server rack",
+            "target": "IT Department",
+            "relation": "for_department"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "LD-EXP-2024-007",
+            "relation": "approved"
+        }
+    ]
+}

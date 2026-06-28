@@ -1,0 +1,250 @@
+{
+    "document": "021_vendor_agreement.txt",
+    "entities": [
+        {
+            "type": "Agreement",
+            "name": "Vendor Agreement"
+        },
+        {
+            "type": "Organization",
+            "name": "Lattice Dynamics Pvt. Ltd."
+        },
+        {
+            "type": "Organization",
+            "name": "TechNova Solutions Pvt Ltd"
+        },
+        {
+            "type": "Executive Director",
+            "name": "Vikram Patel"
+        },
+        {
+            "type": "Managing Director",
+            "name": "Rajesh Kumar"
+        },
+        {
+            "type": "Location",
+            "name": "Mumbai, India"
+        },
+        {
+            "type": "Location",
+            "name": "Bengaluru, India"
+        },
+        {
+            "type": "Service",
+            "name": "IT Infrastructure Support"
+        },
+        {
+            "type": "Service",
+            "name": "Software Licensing Services"
+        },
+        {
+            "type": "Service",
+            "name": "Network Maintenance"
+        },
+        {
+            "type": "Service",
+            "name": "Server Management"
+        },
+        {
+            "type": "Service",
+            "name": "End-User Technical Assistance"
+        },
+        {
+            "type": "Service",
+            "name": "Software Solutions Procurement and Licensing"
+        },
+        {
+            "type": "Service",
+            "name": "Regular System Audits"
+        },
+        {
+            "type": "Service",
+            "name": "Proactive Monitoring"
+        },
+        {
+            "type": "Procurement Lead",
+            "name": "Meera Iyer"
+        },
+        {
+            "type": "Finance Manager",
+            "name": "Priya Nair"
+        },
+        {
+            "type": "Compliance Officer",
+            "name": "Sandeep Menon"
+        },
+        {
+            "type": "IT Administrator",
+            "name": "Rahul Sharma"
+        },
+        {
+            "type": "Schedule",
+            "name": "Schedule A"
+        },
+        {
+            "type": "Schedule",
+            "name": "Schedule B"
+        },
+        {
+            "type": "Schedule",
+            "name": "Schedule C"
+        },
+        {
+            "type": "Agreement",
+            "name": "Service Level Agreement (SLA)"
+        },
+        {
+            "type": "Jurisdiction",
+            "name": "India"
+        },
+        {
+            "type": "Date",
+            "name": "June 10, 2024"
+        },
+        {
+            "type": "Date",
+            "name": "June 09, 2025"
+        },
+        {
+            "type": "Date",
+            "name": "June 08, 2024"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Vendor Agreement",
+            "target": "June 10, 2024",
+            "relation": "HAS_EFFECTIVE_DATE"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "June 09, 2025",
+            "relation": "HAS_RENEWAL_DATE"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "CLIENT"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "TechNova Solutions Pvt Ltd",
+            "relation": "VENDOR"
+        },
+        {
+            "source": "Lattice Dynamics Pvt. Ltd.",
+            "target": "Mumbai, India",
+            "relation": "LOCATED_AT"
+        },
+        {
+            "source": "Lattice Dynamics Pvt. Ltd.",
+            "target": "Vikram Patel",
+            "relation": "REPRESENTED_BY"
+        },
+        {
+            "source": "TechNova Solutions Pvt Ltd",
+            "target": "Bengaluru, India",
+            "relation": "LOCATED_AT"
+        },
+        {
+            "source": "TechNova Solutions Pvt Ltd",
+            "target": "Rajesh Kumar",
+            "relation": "REPRESENTED_BY"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "IT Infrastructure Support",
+            "relation": "COVERS_SERVICE"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "Software Licensing Services",
+            "relation": "COVERS_SERVICE"
+        },
+        {
+            "source": "IT Infrastructure Support",
+            "target": "Network Maintenance",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "IT Infrastructure Support",
+            "target": "Server Management",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "IT Infrastructure Support",
+            "target": "End-User Technical Assistance",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "Software Solutions Procurement and Licensing",
+            "relation": "COVERS_SERVICE"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "Regular System Audits",
+            "relation": "COVERS_SERVICE"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "Proactive Monitoring",
+            "relation": "COVERS_SERVICE"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "Schedule A",
+            "relation": "DETAILS_SERVICES_IN"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "Schedule B",
+            "relation": "DETAILS_PAYMENT_IN"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "Schedule C",
+            "relation": "DETAILS_SLA_IN"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "Meera Iyer",
+            "relation": "CONTACT_FOR_NON_RENEWAL"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "Priya Nair",
+            "relation": "CONTACT_FOR_BILLING"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "Sandeep Menon",
+            "relation": "CONTACT_FOR_COMPLIANCE"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "Rahul Sharma",
+            "relation": "CONTACT_FOR_PERFORMANCE"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "India",
+            "relation": "GOVERNED_BY"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "Service Level Agreement (SLA)",
+            "relation": "REFERENCES"
+        },
+        {
+            "source": "Lattice Dynamics Pvt. Ltd.",
+            "target": "June 08, 2024",
+            "relation": "SIGNED_ON"
+        },
+        {
+            "source": "TechNova Solutions Pvt Ltd",
+            "target": "June 08, 2024",
+            "relation": "SIGNED_ON"
+        }
+    ]
+}

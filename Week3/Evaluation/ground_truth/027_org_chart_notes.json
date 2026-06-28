@@ -1,0 +1,398 @@
+{
+    "document": "027_org_chart_notes.txt",
+    "entities": [
+        {
+            "type": "Company",
+            "name": "Lattice Dynamics"
+        },
+        {
+            "type": "Document",
+            "name": "Internal Org Structure Review Notes"
+        },
+        {
+            "type": "Person",
+            "name": "Vikram Patel"
+        },
+        {
+            "type": "Department",
+            "name": "Executive Office"
+        },
+        {
+            "type": "Person",
+            "name": "Neha Singh"
+        },
+        {
+            "type": "Role",
+            "name": "Data Analyst"
+        },
+        {
+            "type": "Department",
+            "name": "Operations"
+        },
+        {
+            "type": "Department",
+            "name": "IT"
+        },
+        {
+            "type": "Department",
+            "name": "Data Analytics"
+        },
+        {
+            "type": "Person",
+            "name": "Rahul Sharma"
+        },
+        {
+            "type": "Role",
+            "name": "IT Administrator"
+        },
+        {
+            "type": "Unit",
+            "name": "Data & Systems unit"
+        },
+        {
+            "type": "Person",
+            "name": "Ankit Gupta"
+        },
+        {
+            "type": "Function",
+            "name": "Support function"
+        },
+        {
+            "type": "Person",
+            "name": "Meera Iyer"
+        },
+        {
+            "type": "Role",
+            "name": "Procurement Lead"
+        },
+        {
+            "type": "Person",
+            "name": "Arjun Verma"
+        },
+        {
+            "type": "Role",
+            "name": "Project Manager"
+        },
+        {
+            "type": "Company",
+            "name": "BuildRight Contractors"
+        },
+        {
+            "type": "Company",
+            "name": "TechNova Solutions Pvt Ltd"
+        },
+        {
+            "type": "Role",
+            "name": "Project Procurement Liaison"
+        },
+        {
+            "type": "Company",
+            "name": "CloudKart Services"
+        },
+        {
+            "type": "Project",
+            "name": "DataWeave Analytics project"
+        },
+        {
+            "type": "Document",
+            "name": "vendor performance report"
+        },
+        {
+            "type": "Person",
+            "name": "Kavita Rao"
+        },
+        {
+            "type": "Role",
+            "name": "HR Business Partner"
+        },
+        {
+            "type": "Person",
+            "name": "Sandeep Menon"
+        },
+        {
+            "type": "Role",
+            "name": "Compliance Officer"
+        },
+        {
+            "type": "Company",
+            "name": "ComplyHub Consulting"
+        },
+        {
+            "type": "Process",
+            "name": "compliance training modules"
+        },
+        {
+            "type": "Initiative",
+            "name": "HR-Compliance initiative"
+        },
+        {
+            "type": "Person",
+            "name": "Rohan Das"
+        },
+        {
+            "type": "Role",
+            "name": "Intern"
+        },
+        {
+            "type": "Material",
+            "name": "training material inventory"
+        },
+        {
+            "type": "Document",
+            "name": "previous training matrix"
+        },
+        {
+            "type": "Person",
+            "name": "Priya Nair"
+        },
+        {
+            "type": "Role",
+            "name": "Finance Manager"
+        },
+        {
+            "type": "Process",
+            "name": "Q4 budget allocation process"
+        },
+        {
+            "type": "Tool",
+            "name": "new budget tools"
+        },
+        {
+            "type": "Group",
+            "name": "department heads"
+        },
+        {
+            "type": "Document",
+            "name": "Org Chart document"
+        },
+        {
+            "type": "Process",
+            "name": "Project-specific vendor onboarding"
+        },
+        {
+            "type": "Department",
+            "name": "Procurement"
+        },
+        {
+            "type": "Department",
+            "name": "Project Management"
+        },
+        {
+            "type": "Department",
+            "name": "HR"
+        },
+        {
+            "type": "Department",
+            "name": "Compliance"
+        },
+        {
+            "type": "Department",
+            "name": "Finance"
+        },
+        {
+            "type": "Process",
+            "name": "unified calendar for Q4 2024"
+        },
+        {
+            "type": "Process",
+            "name": "corporate training"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Internal Org Structure Review Notes",
+            "target": "Lattice Dynamics",
+            "relation": "pertains to"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Executive Office",
+            "relation": "is in"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Data Analyst",
+            "relation": "has role"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Operations",
+            "relation": "reports to"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "IT Administrator",
+            "relation": "has role"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Vikram Patel",
+            "relation": "discussed with"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Data & Systems unit",
+            "relation": "to draft proposal for"
+        },
+        {
+            "source": "Data Analytics",
+            "target": "IT",
+            "relation": "potential tie to"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "Support function",
+            "relation": "has"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "IT",
+            "relation": "could be integrated with"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Procurement Lead",
+            "relation": "has role"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Project Manager",
+            "relation": "has role"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Project-specific vendor onboarding",
+            "relation": "highlighted inefficiencies in"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "BuildRight Contractors",
+            "relation": "deals with"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "TechNova Solutions Pvt Ltd",
+            "relation": "deals with"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Project-specific vendor onboarding",
+            "relation": "confirmed delays due to"
+        },
+        {
+            "source": "Project Procurement Liaison",
+            "target": "Meera Iyer",
+            "relation": "under"
+        },
+        {
+            "source": "Project Procurement Liaison",
+            "target": "CloudKart Services",
+            "relation": "to support dealings with"
+        },
+        {
+            "source": "vendor performance report",
+            "target": "DataWeave Analytics project",
+            "relation": "pertains to"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Meera Iyer",
+            "relation": "to meet with"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Arjun Verma",
+            "relation": "to meet with"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "HR Business Partner",
+            "relation": "has role"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Compliance Officer",
+            "relation": "has role"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "compliance training modules",
+            "relation": "raised concerns about"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "ComplyHub Consulting",
+            "relation": "works with"
+        },
+        {
+            "source": "HR-Compliance initiative",
+            "target": "corporate training",
+            "relation": "to consolidate"
+        },
+        {
+            "source": "Rohan Das",
+            "target": "Intern",
+            "relation": "has role"
+        },
+        {
+            "source": "Rohan Das",
+            "target": "training material inventory",
+            "relation": "could assist with"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "Sandeep Menon",
+            "relation": "to co-lead task force with"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Kavita Rao",
+            "relation": "to co-lead task force with"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "unified calendar for Q4 2024",
+            "relation": "to propose"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "unified calendar for Q4 2024",
+            "relation": "to propose"
+        },
+        {
+            "source": "previous training matrix",
+            "target": "HR",
+            "relation": "pertains to"
+        },
+        {
+            "source": "previous training matrix",
+            "target": "Compliance",
+            "relation": "pertains to"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Finance Manager",
+            "relation": "has role"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Q4 budget allocation process",
+            "relation": "is optimizing"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "department heads",
+            "relation": "to schedule workshop with"
+        },
+        {
+            "source": "department heads",
+            "target": "new budget tools",
+            "relation": "to walk through"
+        },
+        {
+            "source": "Org Chart document",
+            "target": "Lattice Dynamics",
+            "relation": "pertains to"
+        }
+    ]
+}

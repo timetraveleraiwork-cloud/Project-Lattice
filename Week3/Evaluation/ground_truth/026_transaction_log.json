@@ -1,0 +1,694 @@
+{
+    "document": "026_transaction_log.txt",
+    "entities": [
+        {
+            "type": "Company",
+            "name": "Lattice Dynamics Pvt. Ltd."
+        },
+        {
+            "type": "Report",
+            "name": "Monthly Transaction Log - May 2024"
+        },
+        {
+            "type": "Month",
+            "name": "May 2024"
+        },
+        {
+            "type": "Person",
+            "name": "Priya Nair"
+        },
+        {
+            "type": "Date",
+            "name": "June 5, 2024"
+        },
+        {
+            "type": "Transaction",
+            "name": "LD-TL-2405-001"
+        },
+        {
+            "type": "Invoice",
+            "name": "INV-TNS-05-01"
+        },
+        {
+            "type": "Vendor",
+            "name": "TechNova Solutions Pvt Ltd"
+        },
+        {
+            "type": "Department",
+            "name": "IT"
+        },
+        {
+            "type": "Status",
+            "name": "Paid"
+        },
+        {
+            "type": "Service",
+            "name": "Q2 software license renewal"
+        },
+        {
+            "type": "Person",
+            "name": "Rahul Sharma"
+        },
+        {
+            "type": "Date",
+            "name": "May 10"
+        },
+        {
+            "type": "Transaction",
+            "name": "LD-TL-2405-002"
+        },
+        {
+            "type": "Invoice",
+            "name": "INV-DWA-05-02"
+        },
+        {
+            "type": "Vendor",
+            "name": "DataWeave Analytics"
+        },
+        {
+            "type": "Department",
+            "name": "Operations"
+        },
+        {
+            "type": "Status",
+            "name": "Pending Approval"
+        },
+        {
+            "type": "Service",
+            "name": "Strategic data insights for H1"
+        },
+        {
+            "type": "Person",
+            "name": "Vikram Patel"
+        },
+        {
+            "type": "Transaction",
+            "name": "LD-TL-2405-003"
+        },
+        {
+            "type": "Invoice",
+            "name": "INV-COS-05-03"
+        },
+        {
+            "type": "Vendor",
+            "name": "CloudKart Services"
+        },
+        {
+            "type": "Service",
+            "name": "Monthly cloud hosting fees"
+        },
+        {
+            "type": "Person",
+            "name": "Ankit Gupta"
+        },
+        {
+            "type": "Transaction",
+            "name": "LD-TL-2405-004"
+        },
+        {
+            "type": "Invoice",
+            "name": "INV-OHS-05-04"
+        },
+        {
+            "type": "Vendor",
+            "name": "OfficeHive Supplies"
+        },
+        {
+            "type": "Department",
+            "name": "Procurement"
+        },
+        {
+            "type": "Item",
+            "name": "Bulk purchase of stationery and pantry items"
+        },
+        {
+            "type": "Person",
+            "name": "Meera Iyer"
+        },
+        {
+            "type": "Transaction",
+            "name": "LD-TL-2405-005"
+        },
+        {
+            "type": "Invoice",
+            "name": "INV-SNS-05-05"
+        },
+        {
+            "type": "Vendor",
+            "name": "SecureNet Systems"
+        },
+        {
+            "type": "Service",
+            "name": "Quarterly network security update & audit"
+        },
+        {
+            "type": "Date",
+            "name": "May 22"
+        },
+        {
+            "type": "Transaction",
+            "name": "LD-TL-2405-006"
+        },
+        {
+            "type": "Invoice",
+            "name": "INV-CHB-05-06"
+        },
+        {
+            "type": "Vendor",
+            "name": "ComplyHub Consulting"
+        },
+        {
+            "type": "Department",
+            "name": "Compliance"
+        },
+        {
+            "type": "Status",
+            "name": "Pending Payment"
+        },
+        {
+            "type": "Service",
+            "name": "Annual compliance advisory retainer"
+        },
+        {
+            "type": "Person",
+            "name": "Sandeep Menon"
+        },
+        {
+            "type": "Transaction",
+            "name": "LD-TL-2405-007"
+        },
+        {
+            "type": "Invoice",
+            "name": "INV-PRI-05-07"
+        },
+        {
+            "type": "Vendor",
+            "name": "PrintPro India"
+        },
+        {
+            "type": "Department",
+            "name": "HR"
+        },
+        {
+            "type": "Service",
+            "name": "Printing for new hire orientation materials"
+        },
+        {
+            "type": "Person",
+            "name": "Kavita Rao"
+        },
+        {
+            "type": "Transaction",
+            "name": "LD-TL-2405-008"
+        },
+        {
+            "type": "Invoice",
+            "name": "INV-GBE-05-08"
+        },
+        {
+            "type": "Vendor",
+            "name": "GreenByte Energy"
+        },
+        {
+            "type": "Service",
+            "name": "Office utility charges for April consumption"
+        },
+        {
+            "type": "Date",
+            "name": "May 15"
+        },
+        {
+            "type": "Transaction",
+            "name": "LD-TL-2405-009"
+        },
+        {
+            "type": "Invoice",
+            "name": "INV-STC-05-09"
+        },
+        {
+            "type": "Vendor",
+            "name": "SwiftTravel Co."
+        },
+        {
+            "type": "Department",
+            "name": "Executive Office"
+        },
+        {
+            "type": "Service",
+            "name": "Business travel arrangements"
+        },
+        {
+            "type": "Transaction",
+            "name": "LD-TL-2405-010"
+        },
+        {
+            "type": "Invoice",
+            "name": "INV-BRC-05-10"
+        },
+        {
+            "type": "Vendor",
+            "name": "BuildRight Contractors"
+        },
+        {
+            "type": "Status",
+            "name": "Pending Verification"
+        },
+        {
+            "type": "Project Phase",
+            "name": "Phase 1 completion of office expansion"
+        },
+        {
+            "type": "Person",
+            "name": "Arjun Verma"
+        },
+        {
+            "type": "Transaction",
+            "name": "LD-TL-2405-011"
+        },
+        {
+            "type": "Invoice",
+            "name": "INV-COS-05-11"
+        },
+        {
+            "type": "Service",
+            "name": "Ad-hoc cloud storage"
+        },
+        {
+            "type": "Person",
+            "name": "Neha Singh"
+        },
+        {
+            "type": "Transaction",
+            "name": "LD-TL-2405-012"
+        },
+        {
+            "type": "Invoice",
+            "name": "INV-DWA-05-12"
+        },
+        {
+            "type": "Status",
+            "name": "Pending"
+        },
+        {
+            "type": "Service",
+            "name": "One-time data migration support"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Lattice Dynamics Pvt. Ltd.",
+            "target": "Monthly Transaction Log - May 2024",
+            "relation": "OWNS"
+        },
+        {
+            "source": "Monthly Transaction Log - May 2024",
+            "target": "May 2024",
+            "relation": "FOR_MONTH"
+        },
+        {
+            "source": "Monthly Transaction Log - May 2024",
+            "target": "Priya Nair",
+            "relation": "PREPARED_BY"
+        },
+        {
+            "source": "Monthly Transaction Log - May 2024",
+            "target": "June 5, 2024",
+            "relation": "REPORT_DATE"
+        },
+        {
+            "source": "LD-TL-2405-001",
+            "target": "INV-TNS-05-01",
+            "relation": "ASSOCIATED_WITH_INVOICE"
+        },
+        {
+            "source": "LD-TL-2405-001",
+            "target": "TechNova Solutions Pvt Ltd",
+            "relation": "PAID_TO_VENDOR"
+        },
+        {
+            "source": "LD-TL-2405-001",
+            "target": "IT",
+            "relation": "FOR_DEPARTMENT"
+        },
+        {
+            "source": "LD-TL-2405-001",
+            "target": "Paid",
+            "relation": "HAS_STATUS"
+        },
+        {
+            "source": "LD-TL-2405-001",
+            "target": "Q2 software license renewal",
+            "relation": "FOR_SERVICE"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Q2 software license renewal",
+            "relation": "VERIFIED"
+        },
+        {
+            "source": "LD-TL-2405-001",
+            "target": "May 10",
+            "relation": "PAYMENT_CLEARED_ON"
+        },
+        {
+            "source": "LD-TL-2405-002",
+            "target": "INV-DWA-05-02",
+            "relation": "ASSOCIATED_WITH_INVOICE"
+        },
+        {
+            "source": "LD-TL-2405-002",
+            "target": "DataWeave Analytics",
+            "relation": "PAYABLE_TO_VENDOR"
+        },
+        {
+            "source": "LD-TL-2405-002",
+            "target": "Operations",
+            "relation": "FOR_DEPARTMENT"
+        },
+        {
+            "source": "LD-TL-2405-002",
+            "target": "Pending Approval",
+            "relation": "HAS_STATUS"
+        },
+        {
+            "source": "LD-TL-2405-002",
+            "target": "Strategic data insights for H1",
+            "relation": "FOR_SERVICE"
+        },
+        {
+            "source": "LD-TL-2405-002",
+            "target": "Vikram Patel",
+            "relation": "AWAITING_APPROVAL_FROM"
+        },
+        {
+            "source": "LD-TL-2405-003",
+            "target": "INV-COS-05-03",
+            "relation": "ASSOCIATED_WITH_INVOICE"
+        },
+        {
+            "source": "LD-TL-2405-003",
+            "target": "CloudKart Services",
+            "relation": "PAID_TO_VENDOR"
+        },
+        {
+            "source": "LD-TL-2405-003",
+            "target": "IT",
+            "relation": "FOR_DEPARTMENT"
+        },
+        {
+            "source": "LD-TL-2405-003",
+            "target": "Paid",
+            "relation": "HAS_STATUS"
+        },
+        {
+            "source": "LD-TL-2405-003",
+            "target": "Monthly cloud hosting fees",
+            "relation": "FOR_SERVICE"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "Monthly cloud hosting fees",
+            "relation": "REVIEWED"
+        },
+        {
+            "source": "LD-TL-2405-004",
+            "target": "INV-OHS-05-04",
+            "relation": "ASSOCIATED_WITH_INVOICE"
+        },
+        {
+            "source": "LD-TL-2405-004",
+            "target": "OfficeHive Supplies",
+            "relation": "PAID_TO_VENDOR"
+        },
+        {
+            "source": "LD-TL-2405-004",
+            "target": "Procurement",
+            "relation": "FOR_DEPARTMENT"
+        },
+        {
+            "source": "LD-TL-2405-004",
+            "target": "Paid",
+            "relation": "HAS_STATUS"
+        },
+        {
+            "source": "LD-TL-2405-004",
+            "target": "Bulk purchase of stationery and pantry items",
+            "relation": "FOR_ITEM"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Bulk purchase of stationery and pantry items",
+            "relation": "CONFIRMED_DELIVERY_OF"
+        },
+        {
+            "source": "LD-TL-2405-005",
+            "target": "INV-SNS-05-05",
+            "relation": "ASSOCIATED_WITH_INVOICE"
+        },
+        {
+            "source": "LD-TL-2405-005",
+            "target": "SecureNet Systems",
+            "relation": "PAID_TO_VENDOR"
+        },
+        {
+            "source": "LD-TL-2405-005",
+            "target": "IT",
+            "relation": "FOR_DEPARTMENT"
+        },
+        {
+            "source": "LD-TL-2405-005",
+            "target": "Paid",
+            "relation": "HAS_STATUS"
+        },
+        {
+            "source": "LD-TL-2405-005",
+            "target": "Quarterly network security update & audit",
+            "relation": "FOR_SERVICE"
+        },
+        {
+            "source": "LD-TL-2405-005",
+            "target": "May 22",
+            "relation": "COMPLETED_ON"
+        },
+        {
+            "source": "LD-TL-2405-006",
+            "target": "INV-CHB-05-06",
+            "relation": "ASSOCIATED_WITH_INVOICE"
+        },
+        {
+            "source": "LD-TL-2405-006",
+            "target": "ComplyHub Consulting",
+            "relation": "PAYABLE_TO_VENDOR"
+        },
+        {
+            "source": "LD-TL-2405-006",
+            "target": "Compliance",
+            "relation": "FOR_DEPARTMENT"
+        },
+        {
+            "source": "LD-TL-2405-006",
+            "target": "Pending Payment",
+            "relation": "HAS_STATUS"
+        },
+        {
+            "source": "LD-TL-2405-006",
+            "target": "Annual compliance advisory retainer",
+            "relation": "FOR_SERVICE"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "INV-CHB-05-06",
+            "relation": "APPROVED_INVOICE"
+        },
+        {
+            "source": "LD-TL-2405-007",
+            "target": "INV-PRI-05-07",
+            "relation": "ASSOCIATED_WITH_INVOICE"
+        },
+        {
+            "source": "LD-TL-2405-007",
+            "target": "PrintPro India",
+            "relation": "PAID_TO_VENDOR"
+        },
+        {
+            "source": "LD-TL-2405-007",
+            "target": "HR",
+            "relation": "FOR_DEPARTMENT"
+        },
+        {
+            "source": "LD-TL-2405-007",
+            "target": "Paid",
+            "relation": "HAS_STATUS"
+        },
+        {
+            "source": "LD-TL-2405-007",
+            "target": "Printing for new hire orientation materials",
+            "relation": "FOR_SERVICE"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "Printing for new hire orientation materials",
+            "relation": "UTILIZED_SERVICE"
+        },
+        {
+            "source": "LD-TL-2405-008",
+            "target": "INV-GBE-05-08",
+            "relation": "ASSOCIATED_WITH_INVOICE"
+        },
+        {
+            "source": "LD-TL-2405-008",
+            "target": "GreenByte Energy",
+            "relation": "PAID_TO_VENDOR"
+        },
+        {
+            "source": "LD-TL-2405-008",
+            "target": "Operations",
+            "relation": "FOR_DEPARTMENT"
+        },
+        {
+            "source": "LD-TL-2405-008",
+            "target": "Paid",
+            "relation": "HAS_STATUS"
+        },
+        {
+            "source": "LD-TL-2405-008",
+            "target": "Office utility charges for April consumption",
+            "relation": "FOR_SERVICE"
+        },
+        {
+            "source": "LD-TL-2405-008",
+            "target": "May 15",
+            "relation": "PAYMENT_MADE_ON"
+        },
+        {
+            "source": "LD-TL-2405-009",
+            "target": "INV-STC-05-09",
+            "relation": "ASSOCIATED_WITH_INVOICE"
+        },
+        {
+            "source": "LD-TL-2405-009",
+            "target": "SwiftTravel Co.",
+            "relation": "PAID_TO_VENDOR"
+        },
+        {
+            "source": "LD-TL-2405-009",
+            "target": "Executive Office",
+            "relation": "FOR_DEPARTMENT"
+        },
+        {
+            "source": "LD-TL-2405-009",
+            "target": "Paid",
+            "relation": "HAS_STATUS"
+        },
+        {
+            "source": "LD-TL-2405-009",
+            "target": "Business travel arrangements",
+            "relation": "FOR_SERVICE"
+        },
+        {
+            "source": "Business travel arrangements",
+            "target": "Vikram Patel",
+            "relation": "FOR_PERSON"
+        },
+        {
+            "source": "Executive Office",
+            "target": "Business travel arrangements",
+            "relation": "CONFIRMED_ARRANGEMENTS"
+        },
+        {
+            "source": "LD-TL-2405-010",
+            "target": "INV-BRC-05-10",
+            "relation": "ASSOCIATED_WITH_INVOICE"
+        },
+        {
+            "source": "LD-TL-2405-010",
+            "target": "BuildRight Contractors",
+            "relation": "PAYABLE_TO_VENDOR"
+        },
+        {
+            "source": "LD-TL-2405-010",
+            "target": "Operations",
+            "relation": "FOR_DEPARTMENT"
+        },
+        {
+            "source": "LD-TL-2405-010",
+            "target": "Pending Verification",
+            "relation": "HAS_STATUS"
+        },
+        {
+            "source": "LD-TL-2405-010",
+            "target": "Phase 1 completion of office expansion",
+            "relation": "FOR_PROJECT_PHASE"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Phase 1 completion of office expansion",
+            "relation": "TO_CONDUCT_INSPECTION_FOR"
+        },
+        {
+            "source": "LD-TL-2405-011",
+            "target": "INV-COS-05-11",
+            "relation": "ASSOCIATED_WITH_INVOICE"
+        },
+        {
+            "source": "LD-TL-2405-011",
+            "target": "CloudKart Services",
+            "relation": "PAID_TO_VENDOR"
+        },
+        {
+            "source": "LD-TL-2405-011",
+            "target": "IT",
+            "relation": "FOR_DEPARTMENT"
+        },
+        {
+            "source": "LD-TL-2405-011",
+            "target": "Paid",
+            "relation": "HAS_STATUS"
+        },
+        {
+            "source": "LD-TL-2405-011",
+            "target": "Ad-hoc cloud storage",
+            "relation": "FOR_SERVICE"
+        },
+        {
+            "source": "Ad-hoc cloud storage",
+            "target": "Neha Singh",
+            "relation": "FOR_PERSONS_PROJECT"
+        },
+        {
+            "source": "IT",
+            "target": "Ad-hoc cloud storage",
+            "relation": "APPROVED_SERVICE"
+        },
+        {
+            "source": "LD-TL-2405-012",
+            "target": "INV-DWA-05-12",
+            "relation": "ASSOCIATED_WITH_INVOICE"
+        },
+        {
+            "source": "LD-TL-2405-012",
+            "target": "DataWeave Analytics",
+            "relation": "PAYABLE_TO_VENDOR"
+        },
+        {
+            "source": "LD-TL-2405-012",
+            "target": "IT",
+            "relation": "FOR_DEPARTMENT"
+        },
+        {
+            "source": "LD-TL-2405-012",
+            "target": "Pending",
+            "relation": "HAS_STATUS"
+        },
+        {
+            "source": "LD-TL-2405-012",
+            "target": "One-time data migration support",
+            "relation": "FOR_SERVICE"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "One-time data migration support",
+            "relation": "REQUESTED"
+        }
+    ]
+}

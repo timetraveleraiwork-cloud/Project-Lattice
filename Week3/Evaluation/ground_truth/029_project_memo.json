@@ -1,0 +1,818 @@
+{
+    "document": "029_project_memo.txt",
+    "entities": [
+        {
+            "type": "Project",
+            "name": "SecureNet Integration Project \u2013 Phase 1"
+        },
+        {
+            "type": "Date",
+            "name": "October 26, 2023"
+        },
+        {
+            "type": "Person",
+            "name": "Arjun Verma"
+        },
+        {
+            "type": "Role",
+            "name": "Project Manager"
+        },
+        {
+            "type": "Person",
+            "name": "Vikram Patel"
+        },
+        {
+            "type": "Person",
+            "name": "Priya Nair"
+        },
+        {
+            "type": "Person",
+            "name": "Meera Iyer"
+        },
+        {
+            "type": "Person",
+            "name": "Rahul Sharma"
+        },
+        {
+            "type": "Person",
+            "name": "Neha Singh"
+        },
+        {
+            "type": "Person",
+            "name": "Ankit Gupta"
+        },
+        {
+            "type": "Person",
+            "name": "Sandeep Menon"
+        },
+        {
+            "type": "Company",
+            "name": "SecureNet Systems"
+        },
+        {
+            "type": "Objective",
+            "name": "Integrate SecureNet security protocols"
+        },
+        {
+            "type": "Objective",
+            "name": "Enhance data protection"
+        },
+        {
+            "type": "Objective",
+            "name": "Ensure compliance with regulatory standards"
+        },
+        {
+            "type": "Activity",
+            "name": "Network segmentation focus"
+        },
+        {
+            "type": "Activity",
+            "name": "Endpoint security rollout focus"
+        },
+        {
+            "type": "Software",
+            "name": "SecureNet endpoint protection software"
+        },
+        {
+            "type": "Date",
+            "name": "December 15, 2023"
+        },
+        {
+            "type": "Objective",
+            "name": "Implement network segmentation"
+        },
+        {
+            "type": "Department",
+            "name": "Finance department"
+        },
+        {
+            "type": "Department",
+            "name": "HR department"
+        },
+        {
+            "type": "Date",
+            "name": "January 31, 2024"
+        },
+        {
+            "type": "Objective",
+            "name": "Conduct vulnerability assessments"
+        },
+        {
+            "type": "Objective",
+            "name": "Align configurations with recommendations and policies"
+        },
+        {
+            "type": "Company",
+            "name": "ComplyHub Consulting"
+        },
+        {
+            "type": "Policy/Guideline",
+            "name": "ComplyHub Consulting's recommendations"
+        },
+        {
+            "type": "Policy/Guideline",
+            "name": "internal compliance policies"
+        },
+        {
+            "type": "Role",
+            "name": "IT Administrator"
+        },
+        {
+            "type": "Responsibility",
+            "name": "Overall project oversight"
+        },
+        {
+            "type": "Responsibility",
+            "name": "Stakeholder communication"
+        },
+        {
+            "type": "Responsibility",
+            "name": "Timeline management"
+        },
+        {
+            "type": "Responsibility",
+            "name": "Technical lead"
+        },
+        {
+            "type": "Responsibility",
+            "name": "Deployment"
+        },
+        {
+            "type": "Responsibility",
+            "name": "Configuration"
+        },
+        {
+            "type": "Responsibility",
+            "name": "Troubleshooting"
+        },
+        {
+            "type": "Role",
+            "name": "Data Analyst"
+        },
+        {
+            "type": "Responsibility",
+            "name": "Data integrity validation"
+        },
+        {
+            "type": "Responsibility",
+            "name": "Post-implementation reporting"
+        },
+        {
+            "type": "Role",
+            "name": "Support Engineer"
+        },
+        {
+            "type": "Responsibility",
+            "name": "End-user support"
+        },
+        {
+            "type": "Responsibility",
+            "name": "Documentation"
+        },
+        {
+            "type": "Responsibility",
+            "name": "Training assistance"
+        },
+        {
+            "type": "Role",
+            "name": "Compliance Officer"
+        },
+        {
+            "type": "Responsibility",
+            "name": "Regulatory adherence"
+        },
+        {
+            "type": "Responsibility",
+            "name": "Policy review"
+        },
+        {
+            "type": "Responsibility",
+            "name": "Risk assessment"
+        },
+        {
+            "type": "Role",
+            "name": "Procurement Lead"
+        },
+        {
+            "type": "Responsibility",
+            "name": "Vendor liaison"
+        },
+        {
+            "type": "Responsibility",
+            "name": "Contract management"
+        },
+        {
+            "type": "Role",
+            "name": "Finance Manager"
+        },
+        {
+            "type": "Responsibility",
+            "name": "Budget tracking"
+        },
+        {
+            "type": "Responsibility",
+            "name": "Financial approvals"
+        },
+        {
+            "type": "Activity",
+            "name": "SecureNet software licenses procurement"
+        },
+        {
+            "type": "Date",
+            "name": "Nov 10, 2023"
+        },
+        {
+            "type": "Activity",
+            "name": "Internal IT team training"
+        },
+        {
+            "type": "Date",
+            "name": "Nov 20, 2023"
+        },
+        {
+            "type": "Software",
+            "name": "SecureNet platform"
+        },
+        {
+            "type": "Activity",
+            "name": "Endpoint security rollout for all users"
+        },
+        {
+            "type": "Activity",
+            "name": "Network segmentation operationalization"
+        },
+        {
+            "type": "Activity",
+            "name": "Initial vulnerability assessment report generation"
+        },
+        {
+            "type": "Date",
+            "name": "Feb 15, 2024"
+        },
+        {
+            "type": "Risk",
+            "name": "Data Migration & Compatibility Issues"
+        },
+        {
+            "type": "Mitigation",
+            "name": "Thorough pre-deployment testing"
+        },
+        {
+            "type": "Mitigation",
+            "name": "Phased rollout"
+        },
+        {
+            "type": "Activity",
+            "name": "Compatibility checks"
+        },
+        {
+            "type": "Risk",
+            "name": "User Adoption Challenges"
+        },
+        {
+            "type": "Mitigation",
+            "name": "Comprehensive training and support resources"
+        },
+        {
+            "type": "Activity",
+            "name": "Provide training and support resources"
+        },
+        {
+            "type": "Risk",
+            "name": "Vendor Dependency (SecureNet Systems)"
+        },
+        {
+            "type": "Mitigation",
+            "name": "Regular communication and SLA monitoring"
+        },
+        {
+            "type": "Activity",
+            "name": "SLA monitoring"
+        },
+        {
+            "type": "Risk",
+            "name": "Compliance Breaches during Transition"
+        },
+        {
+            "type": "Mitigation",
+            "name": "Ongoing audits and policy reviews"
+        },
+        {
+            "type": "Activity",
+            "name": "Ongoing audits and policy reviews"
+        },
+        {
+            "type": "Risk",
+            "name": "Budget Overruns"
+        },
+        {
+            "type": "Mitigation",
+            "name": "Closely monitor expenditure and provide weekly updates"
+        },
+        {
+            "type": "Activity",
+            "name": "Monitor expenditure and provide weekly updates"
+        },
+        {
+            "type": "Budget Category",
+            "name": "Software Licenses"
+        },
+        {
+            "type": "Budget Category",
+            "name": "Consulting Services"
+        },
+        {
+            "type": "Budget Category",
+            "name": "Internal Labor/Overtime"
+        },
+        {
+            "type": "Budget Category",
+            "name": "Contingency"
+        },
+        {
+            "type": "Activity",
+            "name": "Initial project planning meeting"
+        },
+        {
+            "type": "Date",
+            "name": "EOD Oct 27"
+        },
+        {
+            "type": "Activity",
+            "name": "Kick-off meeting with vendors"
+        },
+        {
+            "type": "Date",
+            "name": "Nov 3"
+        },
+        {
+            "type": "Company",
+            "name": "Lattice Dynamics Pvt. Ltd."
+        },
+        {
+            "type": "Objective",
+            "name": "Bolster security posture"
+        },
+        {
+            "type": "Objective",
+            "name": "Remain at forefront of data protection"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "SecureNet Integration Project \u2013 Phase 1",
+            "target": "Arjun Verma",
+            "relation": "PREPARED_BY"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Project Manager",
+            "relation": "IS_A"
+        },
+        {
+            "source": "SecureNet Integration Project \u2013 Phase 1",
+            "target": "Vikram Patel",
+            "relation": "HAS_DISTRIBUTION"
+        },
+        {
+            "source": "SecureNet Integration Project \u2013 Phase 1",
+            "target": "Priya Nair",
+            "relation": "HAS_DISTRIBUTION"
+        },
+        {
+            "source": "SecureNet Integration Project \u2013 Phase 1",
+            "target": "Meera Iyer",
+            "relation": "HAS_DISTRIBUTION"
+        },
+        {
+            "source": "SecureNet Integration Project \u2013 Phase 1",
+            "target": "Rahul Sharma",
+            "relation": "HAS_DISTRIBUTION"
+        },
+        {
+            "source": "SecureNet Integration Project \u2013 Phase 1",
+            "target": "Neha Singh",
+            "relation": "HAS_DISTRIBUTION"
+        },
+        {
+            "source": "SecureNet Integration Project \u2013 Phase 1",
+            "target": "Ankit Gupta",
+            "relation": "HAS_DISTRIBUTION"
+        },
+        {
+            "source": "SecureNet Integration Project \u2013 Phase 1",
+            "target": "Sandeep Menon",
+            "relation": "HAS_DISTRIBUTION"
+        },
+        {
+            "source": "SecureNet Integration Project \u2013 Phase 1",
+            "target": "Integrate SecureNet security protocols",
+            "relation": "HAS_OBJECTIVE"
+        },
+        {
+            "source": "Integrate SecureNet security protocols",
+            "target": "SecureNet Systems",
+            "relation": "INVOLVES"
+        },
+        {
+            "source": "SecureNet Integration Project \u2013 Phase 1",
+            "target": "Enhance data protection",
+            "relation": "HAS_OBJECTIVE"
+        },
+        {
+            "source": "SecureNet Integration Project \u2013 Phase 1",
+            "target": "Ensure compliance with regulatory standards",
+            "relation": "HAS_OBJECTIVE"
+        },
+        {
+            "source": "SecureNet Integration Project \u2013 Phase 1",
+            "target": "Network segmentation focus",
+            "relation": "FOCUSES_ON"
+        },
+        {
+            "source": "SecureNet Integration Project \u2013 Phase 1",
+            "target": "Endpoint security rollout focus",
+            "relation": "FOCUSES_ON"
+        },
+        {
+            "source": "SecureNet Integration Project \u2013 Phase 1",
+            "target": "Deploy endpoint protection software",
+            "relation": "HAS_OBJECTIVE"
+        },
+        {
+            "source": "Deploy endpoint protection software",
+            "target": "SecureNet endpoint protection software",
+            "relation": "USES"
+        },
+        {
+            "source": "Deploy endpoint protection software",
+            "target": "December 15, 2023",
+            "relation": "HAS_DEADLINE"
+        },
+        {
+            "source": "SecureNet Integration Project \u2013 Phase 1",
+            "target": "Implement network segmentation",
+            "relation": "HAS_OBJECTIVE"
+        },
+        {
+            "source": "Implement network segmentation",
+            "target": "Finance department",
+            "relation": "TARGETS"
+        },
+        {
+            "source": "Implement network segmentation",
+            "target": "HR department",
+            "relation": "TARGETS"
+        },
+        {
+            "source": "Implement network segmentation",
+            "target": "January 31, 2024",
+            "relation": "HAS_DEADLINE"
+        },
+        {
+            "source": "SecureNet Integration Project \u2013 Phase 1",
+            "target": "Conduct vulnerability assessments",
+            "relation": "HAS_OBJECTIVE"
+        },
+        {
+            "source": "SecureNet Integration Project \u2013 Phase 1",
+            "target": "Align configurations with recommendations and policies",
+            "relation": "HAS_OBJECTIVE"
+        },
+        {
+            "source": "Align configurations with recommendations and policies",
+            "target": "ComplyHub Consulting's recommendations",
+            "relation": "BASED_ON"
+        },
+        {
+            "source": "Align configurations with recommendations and policies",
+            "target": "internal compliance policies",
+            "relation": "BASED_ON"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Project Manager",
+            "relation": "IS_A"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Overall project oversight",
+            "relation": "RESPONSIBLE_FOR"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Stakeholder communication",
+            "relation": "RESPONSIBLE_FOR"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Timeline management",
+            "relation": "RESPONSIBLE_FOR"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "IT Administrator",
+            "relation": "IS_A"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Technical lead",
+            "relation": "RESPONSIBLE_FOR"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Deployment",
+            "relation": "RESPONSIBLE_FOR"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Configuration",
+            "relation": "RESPONSIBLE_FOR"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Troubleshooting",
+            "relation": "RESPONSIBLE_FOR"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Data Analyst",
+            "relation": "IS_A"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Data integrity validation",
+            "relation": "RESPONSIBLE_FOR"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Post-implementation reporting",
+            "relation": "RESPONSIBLE_FOR"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "Support Engineer",
+            "relation": "IS_A"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "End-user support",
+            "relation": "RESPONSIBLE_FOR"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "Documentation",
+            "relation": "RESPONSIBLE_FOR"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "Training assistance",
+            "relation": "RESPONSIBLE_FOR"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Compliance Officer",
+            "relation": "IS_A"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Regulatory adherence",
+            "relation": "RESPONSIBLE_FOR"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Policy review",
+            "relation": "RESPONSIBLE_FOR"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Risk assessment",
+            "relation": "RESPONSIBLE_FOR"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Procurement Lead",
+            "relation": "IS_A"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Vendor liaison",
+            "relation": "RESPONSIBLE_FOR"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Contract management",
+            "relation": "RESPONSIBLE_FOR"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Finance Manager",
+            "relation": "IS_A"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Budget tracking",
+            "relation": "RESPONSIBLE_FOR"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Financial approvals",
+            "relation": "RESPONSIBLE_FOR"
+        },
+        {
+            "source": "SecureNet software licenses procurement",
+            "target": "Nov 10, 2023",
+            "relation": "HAS_DEADLINE"
+        },
+        {
+            "source": "SecureNet software licenses procurement",
+            "target": "Meera Iyer",
+            "relation": "INVOLVES"
+        },
+        {
+            "source": "SecureNet software licenses procurement",
+            "target": "Priya Nair",
+            "relation": "INVOLVES"
+        },
+        {
+            "source": "Internal IT team training",
+            "target": "Nov 20, 2023",
+            "relation": "HAS_DEADLINE"
+        },
+        {
+            "source": "Internal IT team training",
+            "target": "SecureNet platform",
+            "relation": "FOCUSES_ON"
+        },
+        {
+            "source": "Internal IT team training",
+            "target": "Rahul Sharma",
+            "relation": "LED_BY"
+        },
+        {
+            "source": "Endpoint security rollout for all users",
+            "target": "December 15, 2023",
+            "relation": "HAS_DEADLINE"
+        },
+        {
+            "source": "Endpoint security rollout for all users",
+            "target": "Rahul Sharma",
+            "relation": "INVOLVES"
+        },
+        {
+            "source": "Endpoint security rollout for all users",
+            "target": "Ankit Gupta",
+            "relation": "INVOLVES"
+        },
+        {
+            "source": "Network segmentation operationalization",
+            "target": "January 31, 2024",
+            "relation": "HAS_DEADLINE"
+        },
+        {
+            "source": "Network segmentation operationalization",
+            "target": "Rahul Sharma",
+            "relation": "LED_BY"
+        },
+        {
+            "source": "Initial vulnerability assessment report generation",
+            "target": "Feb 15, 2024",
+            "relation": "HAS_DEADLINE"
+        },
+        {
+            "source": "Initial vulnerability assessment report generation",
+            "target": "Sandeep Menon",
+            "relation": "INVOLVES"
+        },
+        {
+            "source": "Initial vulnerability assessment report generation",
+            "target": "Rahul Sharma",
+            "relation": "INVOLVES"
+        },
+        {
+            "source": "Initial vulnerability assessment report generation",
+            "target": "Neha Singh",
+            "relation": "INVOLVES"
+        },
+        {
+            "source": "Data Migration & Compatibility Issues",
+            "target": "Thorough pre-deployment testing",
+            "relation": "MITIGATED_BY"
+        },
+        {
+            "source": "Data Migration & Compatibility Issues",
+            "target": "Phased rollout",
+            "relation": "MITIGATED_BY"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Compatibility checks",
+            "relation": "LEADS_MITIGATION_FOR"
+        },
+        {
+            "source": "User Adoption Challenges",
+            "target": "Comprehensive training and support resources",
+            "relation": "MITIGATED_BY"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "Provide training and support resources",
+            "relation": "PROVIDES"
+        },
+        {
+            "source": "Vendor Dependency (SecureNet Systems)",
+            "target": "SecureNet Systems",
+            "relation": "RELATES_TO"
+        },
+        {
+            "source": "Vendor Dependency (SecureNet Systems)",
+            "target": "Regular communication and SLA monitoring",
+            "relation": "MITIGATED_BY"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "SLA monitoring",
+            "relation": "RESPONSIBLE_FOR"
+        },
+        {
+            "source": "Compliance Breaches during Transition",
+            "target": "Ongoing audits and policy reviews",
+            "relation": "MITIGATED_BY"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Ongoing audits and policy reviews",
+            "relation": "CONDUCTS"
+        },
+        {
+            "source": "Budget Overruns",
+            "target": "Closely monitor expenditure and provide weekly updates",
+            "relation": "MITIGATED_BY"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Monitor expenditure and provide weekly updates",
+            "relation": "RESPONSIBLE_FOR"
+        },
+        {
+            "source": "SecureNet Integration Project \u2013 Phase 1",
+            "target": "Software Licenses",
+            "relation": "HAS_BUDGET_CATEGORY"
+        },
+        {
+            "source": "SecureNet Integration Project \u2013 Phase 1",
+            "target": "Consulting Services",
+            "relation": "HAS_BUDGET_CATEGORY"
+        },
+        {
+            "source": "Consulting Services",
+            "target": "ComplyHub Consulting",
+            "relation": "PROVIDED_BY"
+        },
+        {
+            "source": "SecureNet Integration Project \u2013 Phase 1",
+            "target": "Internal Labor/Overtime",
+            "relation": "HAS_BUDGET_CATEGORY"
+        },
+        {
+            "source": "SecureNet Integration Project \u2013 Phase 1",
+            "target": "Contingency",
+            "relation": "HAS_BUDGET_CATEGORY"
+        },
+        {
+            "source": "Initial project planning meeting",
+            "target": "EOD Oct 27",
+            "relation": "HAS_DEADLINE"
+        },
+        {
+            "source": "Kick-off meeting with vendors",
+            "target": "Nov 3",
+            "relation": "HAS_DEADLINE"
+        },
+        {
+            "source": "Kick-off meeting with vendors",
+            "target": "SecureNet Systems",
+            "relation": "INVOLVES"
+        },
+        {
+            "source": "Kick-off meeting with vendors",
+            "target": "ComplyHub Consulting",
+            "relation": "INVOLVES"
+        },
+        {
+            "source": "SecureNet Integration Project \u2013 Phase 1",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "BENEFITS"
+        },
+        {
+            "source": "SecureNet Integration Project \u2013 Phase 1",
+            "target": "Bolster security posture",
+            "relation": "AIMS_TO"
+        },
+        {
+            "source": "SecureNet Integration Project \u2013 Phase 1",
+            "target": "Remain at forefront of data protection",
+            "relation": "AIMS_TO"
+        }
+    ]
+}

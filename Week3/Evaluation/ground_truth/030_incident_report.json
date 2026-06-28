@@ -1,0 +1,601 @@
+{
+    "document": "030_incident_report.txt",
+    "entities": [
+        {
+            "type": "Document",
+            "name": "Incident Report"
+        },
+        {
+            "type": "Incident ID",
+            "name": "LDPL-SRV-2024-007"
+        },
+        {
+            "type": "Incident ID",
+            "name": "INC-LDPL-2024-007"
+        },
+        {
+            "type": "Organization",
+            "name": "Lattice Dynamics Pvt. Ltd."
+        },
+        {
+            "type": "Date",
+            "name": "October 26, 2024"
+        },
+        {
+            "type": "Date",
+            "name": "October 25, 2024"
+        },
+        {
+            "type": "Time",
+            "name": "09:15 AM IST"
+        },
+        {
+            "type": "Time",
+            "name": "01:45 PM IST"
+        },
+        {
+            "type": "Duration",
+            "name": "4 hours 30 minutes"
+        },
+        {
+            "type": "Incident Type",
+            "name": "Critical System Outage - Core Infrastructure (Cloud-hosted VM)"
+        },
+        {
+            "type": "System",
+            "name": "ERP System"
+        },
+        {
+            "type": "System",
+            "name": "Internal Project Management Tool"
+        },
+        {
+            "type": "System",
+            "name": "Data Analytics Platform"
+        },
+        {
+            "type": "Department",
+            "name": "Finance"
+        },
+        {
+            "type": "Department",
+            "name": "Procurement"
+        },
+        {
+            "type": "Department",
+            "name": "Operations"
+        },
+        {
+            "type": "Quarter",
+            "name": "Q3"
+        },
+        {
+            "type": "Person",
+            "name": "Neha Singh"
+        },
+        {
+            "type": "Role",
+            "name": "Data Analyst"
+        },
+        {
+            "type": "Person",
+            "name": "Rahul Sharma"
+        },
+        {
+            "type": "Role",
+            "name": "IT Administrator"
+        },
+        {
+            "type": "Organization",
+            "name": "CloudKart Services"
+        },
+        {
+            "type": "System",
+            "name": "primary virtual machine"
+        },
+        {
+            "type": "Agreement",
+            "name": "Service Level Agreement (SLA)"
+        },
+        {
+            "type": "Contract ID",
+            "name": "CK-LDPL-2022-001"
+        },
+        {
+            "type": "Ticket ID",
+            "name": "CK-98765"
+        },
+        {
+            "type": "Person",
+            "name": "Ankit Gupta"
+        },
+        {
+            "type": "Role",
+            "name": "Support Engineer"
+        },
+        {
+            "type": "Infrastructure",
+            "name": "physical host infrastructure"
+        },
+        {
+            "type": "Root Cause",
+            "name": "unannounced host-level maintenance window"
+        },
+        {
+            "type": "Process",
+            "name": "routine patching cycle"
+        },
+        {
+            "type": "Issue",
+            "name": "host-level failure"
+        },
+        {
+            "type": "Issue",
+            "name": "SLA violation"
+        },
+        {
+            "type": "Issue",
+            "name": "breach of protocol"
+        },
+        {
+            "type": "Event",
+            "name": "abrupt termination of our dedicated server"
+        },
+        {
+            "type": "Time",
+            "name": "09:30 AM, Oct 25"
+        },
+        {
+            "type": "Time",
+            "name": "10:00 AM, Oct 25"
+        },
+        {
+            "type": "Time",
+            "name": "11:00 AM, Oct 25"
+        },
+        {
+            "type": "Time",
+            "name": "01:15 PM, Oct 25"
+        },
+        {
+            "type": "Time",
+            "name": "01:45 PM, Oct 25"
+        },
+        {
+            "type": "Action",
+            "name": "contingency operations"
+        },
+        {
+            "type": "Action",
+            "name": "restoration efforts"
+        },
+        {
+            "type": "Status",
+            "name": "Full service restoration"
+        },
+        {
+            "type": "Person",
+            "name": "Meera Iyer"
+        },
+        {
+            "type": "Role",
+            "name": "Procurement Lead"
+        },
+        {
+            "type": "Initiative",
+            "name": "SLA Review and renegotiation"
+        },
+        {
+            "type": "Policy Aspect",
+            "name": "stricter notification protocols"
+        },
+        {
+            "type": "Process",
+            "name": "all maintenance activities"
+        },
+        {
+            "type": "Project",
+            "name": "Enhanced Monitoring project"
+        },
+        {
+            "type": "Tool",
+            "name": "advanced proactive monitoring tools"
+        },
+        {
+            "type": "Event Type",
+            "name": "host-level anomalies"
+        },
+        {
+            "type": "Infrastructure",
+            "name": "cloud infrastructure"
+        },
+        {
+            "type": "Date",
+            "name": "Nov 15, 2024"
+        },
+        {
+            "type": "Document",
+            "name": "proposal"
+        },
+        {
+            "type": "Meeting",
+            "name": "Vendor Post-Mortem meeting"
+        },
+        {
+            "type": "Person",
+            "name": "Sandeep Menon"
+        },
+        {
+            "type": "Role",
+            "name": "Compliance Officer"
+        },
+        {
+            "type": "Person",
+            "name": "Priya Nair"
+        },
+        {
+            "type": "Role",
+            "name": "Finance Manager"
+        },
+        {
+            "type": "Topic",
+            "name": "compliance and financial implications"
+        },
+        {
+            "type": "Person",
+            "name": "Vikram Patel"
+        },
+        {
+            "type": "Role",
+            "name": "Executive Director"
+        },
+        {
+            "type": "Group",
+            "name": "Internal IT staff"
+        },
+        {
+            "type": "Procedure",
+            "name": "emergency backup and recovery procedures"
+        },
+        {
+            "type": "Capability",
+            "name": "faster manual failover options"
+        },
+        {
+            "type": "Date",
+            "name": "EOD, Oct 26, 2024"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Incident Report",
+            "target": "LDPL-SRV-2024-007",
+            "relation": "refers to"
+        },
+        {
+            "source": "Incident Report",
+            "target": "INC-LDPL-2024-007",
+            "relation": "covers"
+        },
+        {
+            "source": "Lattice Dynamics Pvt. Ltd.",
+            "target": "INC-LDPL-2024-007",
+            "relation": "experienced"
+        },
+        {
+            "source": "Incident Report",
+            "target": "October 26, 2024",
+            "relation": "prepared on"
+        },
+        {
+            "source": "INC-LDPL-2024-007",
+            "target": "October 25, 2024, 09:15 AM IST",
+            "relation": "discovered at"
+        },
+        {
+            "source": "INC-LDPL-2024-007",
+            "target": "October 25, 2024, 01:45 PM IST",
+            "relation": "resolved at"
+        },
+        {
+            "source": "INC-LDPL-2024-007",
+            "target": "4 hours 30 minutes",
+            "relation": "had downtime of"
+        },
+        {
+            "source": "INC-LDPL-2024-007",
+            "target": "Critical System Outage - Core Infrastructure (Cloud-hosted VM)",
+            "relation": "is of type"
+        },
+        {
+            "source": "Critical System Outage - Core Infrastructure (Cloud-hosted VM)",
+            "target": "ERP System",
+            "relation": "affected"
+        },
+        {
+            "source": "Critical System Outage - Core Infrastructure (Cloud-hosted VM)",
+            "target": "Internal Project Management Tool",
+            "relation": "affected"
+        },
+        {
+            "source": "Critical System Outage - Core Infrastructure (Cloud-hosted VM)",
+            "target": "Data Analytics Platform",
+            "relation": "affected"
+        },
+        {
+            "source": "Critical System Outage - Core Infrastructure (Cloud-hosted VM)",
+            "target": "Finance",
+            "relation": "impacted"
+        },
+        {
+            "source": "Critical System Outage - Core Infrastructure (Cloud-hosted VM)",
+            "target": "Procurement",
+            "relation": "impacted"
+        },
+        {
+            "source": "Critical System Outage - Core Infrastructure (Cloud-hosted VM)",
+            "target": "Operations",
+            "relation": "impacted"
+        },
+        {
+            "source": "Q3",
+            "target": "Finance",
+            "relation": "relevant for data aggregation for"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Data Analyst",
+            "relation": "has role"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Data Analytics Platform",
+            "relation": "unable to access"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "09:15 AM IST",
+            "relation": "reported outage at"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "IT Administrator",
+            "relation": "has role"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "primary virtual machine",
+            "relation": "confirmed outage of"
+        },
+        {
+            "source": "primary virtual machine",
+            "target": "CloudKart Services",
+            "relation": "hosted by"
+        },
+        {
+            "source": "primary virtual machine",
+            "target": "unannounced host-level maintenance window",
+            "relation": "shut down during"
+        },
+        {
+            "source": "CloudKart Services",
+            "target": "routine patching cycle",
+            "relation": "initiated"
+        },
+        {
+            "source": "routine patching cycle",
+            "target": "physical host infrastructure",
+            "relation": "on"
+        },
+        {
+            "source": "routine patching cycle",
+            "target": "abrupt termination of our dedicated server",
+            "relation": "led to"
+        },
+        {
+            "source": "CloudKart Services",
+            "target": "Service Level Agreement (SLA)",
+            "relation": "violated"
+        },
+        {
+            "source": "Service Level Agreement (SLA)",
+            "target": "CK-LDPL-2022-001",
+            "relation": "has ID"
+        },
+        {
+            "source": "breach of protocol",
+            "target": "INC-LDPL-2024-007",
+            "relation": "contributed to"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "CK-98765",
+            "relation": "opened ticket"
+        },
+        {
+            "source": "CK-98765",
+            "target": "CloudKart Services",
+            "relation": "addressed to"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "09:30 AM, Oct 25",
+            "relation": "opened ticket at"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "Support Engineer",
+            "relation": "has role"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "contingency operations",
+            "relation": "commenced"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "10:00 AM, Oct 25",
+            "relation": "commenced operations at"
+        },
+        {
+            "source": "CloudKart Services",
+            "target": "host-level failure",
+            "relation": "confirmed issue as"
+        },
+        {
+            "source": "CloudKart Services",
+            "target": "restoration efforts",
+            "relation": "began"
+        },
+        {
+            "source": "CloudKart Services",
+            "target": "primary virtual machine",
+            "relation": "prioritized restoration of"
+        },
+        {
+            "source": "restoration efforts",
+            "target": "SLA violation",
+            "relation": "due to"
+        },
+        {
+            "source": "CloudKart Services",
+            "target": "11:00 AM, Oct 25",
+            "relation": "confirmed issue at"
+        },
+        {
+            "source": "ERP System",
+            "target": "01:15 PM, Oct 25",
+            "relation": "brought back online by"
+        },
+        {
+            "source": "ERP System",
+            "target": "Rahul Sharma",
+            "relation": "verified stable by"
+        },
+        {
+            "source": "Full service restoration",
+            "target": "01:45 PM, Oct 25",
+            "relation": "confirmed at"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Procurement Lead",
+            "relation": "has role"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "SLA Review and renegotiation",
+            "relation": "to initiate"
+        },
+        {
+            "source": "SLA Review and renegotiation",
+            "target": "CloudKart Services",
+            "relation": "with"
+        },
+        {
+            "source": "SLA Review and renegotiation",
+            "target": "stricter notification protocols",
+            "relation": "to ensure"
+        },
+        {
+            "source": "stricter notification protocols",
+            "target": "all maintenance activities",
+            "relation": "for"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Enhanced Monitoring project",
+            "relation": "to lead"
+        },
+        {
+            "source": "Enhanced Monitoring project",
+            "target": "advanced proactive monitoring tools",
+            "relation": "to implement"
+        },
+        {
+            "source": "advanced proactive monitoring tools",
+            "target": "host-level anomalies",
+            "relation": "for detecting"
+        },
+        {
+            "source": "host-level anomalies",
+            "target": "cloud infrastructure",
+            "relation": "on"
+        },
+        {
+            "source": "proposal",
+            "target": "Nov 15, 2024",
+            "relation": "ETA for"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Compliance Officer",
+            "relation": "has role"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Vendor Post-Mortem meeting",
+            "relation": "will attend"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Finance Manager",
+            "relation": "has role"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Vendor Post-Mortem meeting",
+            "relation": "will attend"
+        },
+        {
+            "source": "Vendor Post-Mortem meeting",
+            "target": "CloudKart Services",
+            "relation": "with"
+        },
+        {
+            "source": "Vendor Post-Mortem meeting",
+            "target": "compliance and financial implications",
+            "relation": "to address"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Executive Director",
+            "relation": "has role"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Vendor Post-Mortem meeting",
+            "relation": "to oversee"
+        },
+        {
+            "source": "Internal IT staff",
+            "target": "emergency backup and recovery procedures",
+            "relation": "to receive training on"
+        },
+        {
+            "source": "emergency backup and recovery procedures",
+            "target": "faster manual failover options",
+            "relation": "focusing on"
+        },
+        {
+            "source": "Incident Report",
+            "target": "Rahul Sharma",
+            "relation": "prepared by"
+        },
+        {
+            "source": "Incident Report",
+            "target": "October 26, 2024",
+            "relation": "prepared on"
+        },
+        {
+            "source": "Incident Report",
+            "target": "Vikram Patel",
+            "relation": "approved by"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "EOD, Oct 26, 2024",
+            "relation": "awaiting sign-off by"
+        }
+    ]
+}

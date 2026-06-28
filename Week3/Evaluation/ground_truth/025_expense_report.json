@@ -1,0 +1,445 @@
+{
+    "document": "025_expense_report.txt",
+    "entities": [
+        {
+            "type": "Document",
+            "name": "Expense Report - February 2024"
+        },
+        {
+            "type": "Person",
+            "name": "Arjun Verma"
+        },
+        {
+            "type": "Organization",
+            "name": "Lattice Dynamics Pvt. Ltd."
+        },
+        {
+            "type": "Expense ID",
+            "name": "LD-ER-2024-02-007X"
+        },
+        {
+            "type": "Department",
+            "name": "Operations"
+        },
+        {
+            "type": "Department",
+            "name": "Project Management Office"
+        },
+        {
+            "type": "Date Range",
+            "name": "February 1st, 2024 - February 29th, 2024"
+        },
+        {
+            "type": "Expense Item",
+            "name": "Business Travel to Bengaluru (Airfare & ground transport)"
+        },
+        {
+            "type": "Vendor",
+            "name": "SwiftTravel Co."
+        },
+        {
+            "type": "Category",
+            "name": "Travel"
+        },
+        {
+            "type": "Amount",
+            "name": "13,700.00"
+        },
+        {
+            "type": "Expense Item",
+            "name": "Project Meeting Venue Rental (2 days)"
+        },
+        {
+            "type": "Vendor",
+            "name": "BuildRight Contractors"
+        },
+        {
+            "type": "Category",
+            "name": "Facilities"
+        },
+        {
+            "type": "Amount",
+            "name": "8,000.00"
+        },
+        {
+            "type": "Expense Item",
+            "name": "Annual Subscription Renewal - Project Mgmt SW"
+        },
+        {
+            "type": "Vendor",
+            "name": "DataWeave Analytics"
+        },
+        {
+            "type": "Category",
+            "name": "Software"
+        },
+        {
+            "type": "Amount",
+            "name": "25,000.00"
+        },
+        {
+            "type": "Expense Item",
+            "name": "Assorted Office Supplies for Project Team"
+        },
+        {
+            "type": "Vendor",
+            "name": "OfficeHive Supplies"
+        },
+        {
+            "type": "Category",
+            "name": "Office Supplies"
+        },
+        {
+            "type": "Amount",
+            "name": "3,450.00"
+        },
+        {
+            "type": "Expense Item",
+            "name": "Consultation Fee - Q1 Project Planning"
+        },
+        {
+            "type": "Vendor",
+            "name": "ComplyHub Consulting"
+        },
+        {
+            "type": "Category",
+            "name": "Consulting"
+        },
+        {
+            "type": "Amount",
+            "name": "5,800.00"
+        },
+        {
+            "type": "Person",
+            "name": "Meera Iyer"
+        },
+        {
+            "type": "Department",
+            "name": "Procurement"
+        },
+        {
+            "type": "Expense Item",
+            "name": "Critical Cloud Server Capacity Upgrade"
+        },
+        {
+            "type": "Vendor",
+            "name": "CloudKart Services"
+        },
+        {
+            "type": "Category",
+            "name": "IT Infrastructure"
+        },
+        {
+            "type": "Amount",
+            "name": "18,750.00"
+        },
+        {
+            "type": "Project",
+            "name": "Project Alpha"
+        },
+        {
+            "type": "Department",
+            "name": "IT"
+        },
+        {
+            "type": "Person",
+            "name": "Rahul Sharma"
+        },
+        {
+            "type": "Expense Item",
+            "name": "Initial Consultation Fee - Security Audit"
+        },
+        {
+            "type": "Vendor",
+            "name": "SecureNet Systems"
+        },
+        {
+            "type": "Amount",
+            "name": "15,000.00"
+        },
+        {
+            "type": "Amount",
+            "name": "89,700.00"
+        },
+        {
+            "type": "Amount",
+            "name": "0.00"
+        },
+        {
+            "type": "Date",
+            "name": "March 1st, 2024"
+        },
+        {
+            "type": "Person",
+            "name": "Priya Nair"
+        },
+        {
+            "type": "Role",
+            "name": "Finance Manager"
+        },
+        {
+            "type": "Department",
+            "name": "Finance"
+        },
+        {
+            "type": "Date",
+            "name": "March 4th, 2024"
+        },
+        {
+            "type": "Budget Code",
+            "name": "OPS-PA-FY24-Q3-EXP"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Arjun Verma",
+            "target": "Expense Report - February 2024",
+            "relation": "PREPARED"
+        },
+        {
+            "source": "Expense Report - February 2024",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "BELONGS_TO"
+        },
+        {
+            "source": "LD-ER-2024-02-007X",
+            "target": "Expense Report - February 2024",
+            "relation": "IS_ID_FOR"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "IS_EMPLOYEE_OF"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Operations",
+            "relation": "BELONGS_TO_DEPARTMENT"
+        },
+        {
+            "source": "Project Management Office",
+            "target": "Operations",
+            "relation": "IS_SUB_DEPARTMENT_OF"
+        },
+        {
+            "source": "Expense Report - February 2024",
+            "target": "February 1st, 2024 - February 29th, 2024",
+            "relation": "COVERS_PERIOD"
+        },
+        {
+            "source": "Business Travel to Bengaluru (Airfare & ground transport)",
+            "target": "SwiftTravel Co.",
+            "relation": "PROVIDED_BY"
+        },
+        {
+            "source": "Business Travel to Bengaluru (Airfare & ground transport)",
+            "target": "13,700.00",
+            "relation": "HAS_AMOUNT"
+        },
+        {
+            "source": "Business Travel to Bengaluru (Airfare & ground transport)",
+            "target": "Travel",
+            "relation": "IS_CATEGORY"
+        },
+        {
+            "source": "Business Travel to Bengaluru (Airfare & ground transport)",
+            "target": "Expense Report - February 2024",
+            "relation": "INCLUDED_IN"
+        },
+        {
+            "source": "Project Meeting Venue Rental (2 days)",
+            "target": "BuildRight Contractors",
+            "relation": "PROVIDED_BY"
+        },
+        {
+            "source": "Project Meeting Venue Rental (2 days)",
+            "target": "8,000.00",
+            "relation": "HAS_AMOUNT"
+        },
+        {
+            "source": "Project Meeting Venue Rental (2 days)",
+            "target": "Facilities",
+            "relation": "IS_CATEGORY"
+        },
+        {
+            "source": "Project Meeting Venue Rental (2 days)",
+            "target": "Expense Report - February 2024",
+            "relation": "INCLUDED_IN"
+        },
+        {
+            "source": "Annual Subscription Renewal - Project Mgmt SW",
+            "target": "DataWeave Analytics",
+            "relation": "PROVIDED_BY"
+        },
+        {
+            "source": "Annual Subscription Renewal - Project Mgmt SW",
+            "target": "25,000.00",
+            "relation": "HAS_AMOUNT"
+        },
+        {
+            "source": "Annual Subscription Renewal - Project Mgmt SW",
+            "target": "Software",
+            "relation": "IS_CATEGORY"
+        },
+        {
+            "source": "Annual Subscription Renewal - Project Mgmt SW",
+            "target": "Expense Report - February 2024",
+            "relation": "INCLUDED_IN"
+        },
+        {
+            "source": "Assorted Office Supplies for Project Team",
+            "target": "OfficeHive Supplies",
+            "relation": "PROVIDED_BY"
+        },
+        {
+            "source": "Assorted Office Supplies for Project Team",
+            "target": "3,450.00",
+            "relation": "HAS_AMOUNT"
+        },
+        {
+            "source": "Assorted Office Supplies for Project Team",
+            "target": "Office Supplies",
+            "relation": "IS_CATEGORY"
+        },
+        {
+            "source": "Assorted Office Supplies for Project Team",
+            "target": "Expense Report - February 2024",
+            "relation": "INCLUDED_IN"
+        },
+        {
+            "source": "Consultation Fee - Q1 Project Planning",
+            "target": "ComplyHub Consulting",
+            "relation": "PROVIDED_BY"
+        },
+        {
+            "source": "Consultation Fee - Q1 Project Planning",
+            "target": "5,800.00",
+            "relation": "HAS_AMOUNT"
+        },
+        {
+            "source": "Consultation Fee - Q1 Project Planning",
+            "target": "Consulting",
+            "relation": "IS_CATEGORY"
+        },
+        {
+            "source": "Consultation Fee - Q1 Project Planning",
+            "target": "Expense Report - February 2024",
+            "relation": "INCLUDED_IN"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Consultation Fee - Q1 Project Planning",
+            "relation": "INFORMED_ABOUT"
+        },
+        {
+            "source": "Procurement",
+            "target": "Consultation Fee - Q1 Project Planning",
+            "relation": "RECEIVED_INFORMATION_ABOUT"
+        },
+        {
+            "source": "Critical Cloud Server Capacity Upgrade",
+            "target": "CloudKart Services",
+            "relation": "PROVIDED_BY"
+        },
+        {
+            "source": "Critical Cloud Server Capacity Upgrade",
+            "target": "18,750.00",
+            "relation": "HAS_AMOUNT"
+        },
+        {
+            "source": "Critical Cloud Server Capacity Upgrade",
+            "target": "IT Infrastructure",
+            "relation": "IS_CATEGORY"
+        },
+        {
+            "source": "Critical Cloud Server Capacity Upgrade",
+            "target": "Project Alpha",
+            "relation": "ESSENTIAL_FOR"
+        },
+        {
+            "source": "Critical Cloud Server Capacity Upgrade",
+            "target": "Expense Report - February 2024",
+            "relation": "INCLUDED_IN"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Critical Cloud Server Capacity Upgrade",
+            "relation": "RECOMMENDED"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "IT",
+            "relation": "BELONGS_TO_DEPARTMENT"
+        },
+        {
+            "source": "Initial Consultation Fee - Security Audit",
+            "target": "SecureNet Systems",
+            "relation": "PROVIDED_BY"
+        },
+        {
+            "source": "Initial Consultation Fee - Security Audit",
+            "target": "15,000.00",
+            "relation": "HAS_AMOUNT"
+        },
+        {
+            "source": "Initial Consultation Fee - Security Audit",
+            "target": "Consulting",
+            "relation": "IS_CATEGORY"
+        },
+        {
+            "source": "Initial Consultation Fee - Security Audit",
+            "target": "Expense Report - February 2024",
+            "relation": "INCLUDED_IN"
+        },
+        {
+            "source": "89,700.00",
+            "target": "Expense Report - February 2024",
+            "relation": "IS_SUBTOTAL_FOR"
+        },
+        {
+            "source": "89,700.00",
+            "target": "Expense Report - February 2024",
+            "relation": "IS_TOTAL_REIMBURSABLE_FOR"
+        },
+        {
+            "source": "0.00",
+            "target": "Expense Report - February 2024",
+            "relation": "IS_ADVANCE_RECEIVED_FOR"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Expense Report - February 2024",
+            "relation": "DECLARED"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "March 1st, 2024",
+            "relation": "DECLARED_ON"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Finance Manager",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Finance",
+            "relation": "BELONGS_TO_DEPARTMENT"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Expense Report - February 2024",
+            "relation": "APPROVED"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "March 4th, 2024",
+            "relation": "APPROVED_ON"
+        },
+        {
+            "source": "Expense Report - February 2024",
+            "target": "OPS-PA-FY24-Q3-EXP",
+            "relation": "HAS_BUDGET_CODE"
+        }
+    ]
+}

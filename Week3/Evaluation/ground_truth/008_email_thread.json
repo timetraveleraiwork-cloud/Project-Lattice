@@ -1,0 +1,401 @@
+{
+    "document": "008_email_thread.txt",
+    "entities": [
+        {
+            "type": "Person",
+            "name": "Arjun Verma"
+        },
+        {
+            "type": "Organization",
+            "name": "Lattice Dynamics"
+        },
+        {
+            "type": "Role",
+            "name": "Project Manager"
+        },
+        {
+            "type": "Person",
+            "name": "Vikram Patel"
+        },
+        {
+            "type": "Person",
+            "name": "Priya Nair"
+        },
+        {
+            "type": "Person",
+            "name": "Rahul Sharma"
+        },
+        {
+            "type": "Person",
+            "name": "Meera Iyer"
+        },
+        {
+            "type": "Person",
+            "name": "Sandeep Menon"
+        },
+        {
+            "type": "Person",
+            "name": "Kavita Rao"
+        },
+        {
+            "type": "Person",
+            "name": "Neha Singh"
+        },
+        {
+            "type": "Project",
+            "name": "Q4 Data Analytics Platform Rollout"
+        },
+        {
+            "type": "Platform",
+            "name": "InsightStream"
+        },
+        {
+            "type": "Company",
+            "name": "DataWeave Analytics"
+        },
+        {
+            "type": "Phase",
+            "name": "User Acceptance Testing (UAT)"
+        },
+        {
+            "type": "Process",
+            "name": "data migration"
+        },
+        {
+            "type": "Department",
+            "name": "Operations"
+        },
+        {
+            "type": "Department",
+            "name": "Finance"
+        },
+        {
+            "type": "System",
+            "name": "legacy systems"
+        },
+        {
+            "type": "Service",
+            "name": "CloudKart Services"
+        },
+        {
+            "type": "Department",
+            "name": "HR"
+        },
+        {
+            "type": "Document",
+            "name": "training modules"
+        },
+        {
+            "type": "Event",
+            "name": "full system go-live"
+        },
+        {
+            "type": "System",
+            "name": "existing reporting tools"
+        },
+        {
+            "type": "Concept",
+            "name": "compliance observations"
+        },
+        {
+            "type": "Document",
+            "name": "InsightStream_ProjectPlan_V3.pdf"
+        },
+        {
+            "type": "Role",
+            "name": "IT Administrator"
+        },
+        {
+            "type": "Department",
+            "name": "IT"
+        },
+        {
+            "type": "Process",
+            "name": "infrastructure provisioning"
+        },
+        {
+            "type": "Process",
+            "name": "security patches"
+        },
+        {
+            "type": "Person",
+            "name": "Ankit Gupta"
+        },
+        {
+            "type": "Concept",
+            "name": "endpoint readiness"
+        },
+        {
+            "type": "Issue",
+            "name": "API integration points"
+        },
+        {
+            "type": "Issue",
+            "name": "access permissions discrepancy"
+        },
+        {
+            "type": "Role",
+            "name": "Procurement Lead"
+        },
+        {
+            "type": "Agreement",
+            "name": "DataWeave Analytics contract"
+        },
+        {
+            "type": "Financial Item",
+            "name": "invoice"
+        },
+        {
+            "type": "Concept",
+            "name": "budget forecast"
+        },
+        {
+            "type": "Event",
+            "name": "next sync-up"
+        },
+        {
+            "type": "Location",
+            "name": "War Room"
+        },
+        {
+            "type": "Document",
+            "name": "updated agenda"
+        },
+        {
+            "type": "Concept",
+            "name": "CloudKart Services tier requirements"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Arjun Verma",
+            "target": "Project Manager",
+            "relation": "has role"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Lattice Dynamics",
+            "relation": "works for"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Q4 Data Analytics Platform Rollout",
+            "relation": "manages"
+        },
+        {
+            "source": "Q4 Data Analytics Platform Rollout",
+            "target": "InsightStream",
+            "relation": "concerns platform"
+        },
+        {
+            "source": "InsightStream",
+            "target": "DataWeave Analytics",
+            "relation": "developed in collaboration with"
+        },
+        {
+            "source": "InsightStream",
+            "target": "User Acceptance Testing (UAT)",
+            "relation": "is in phase"
+        },
+        {
+            "source": "InsightStream",
+            "target": "data migration",
+            "relation": "is in phase"
+        },
+        {
+            "source": "User Acceptance Testing (UAT)",
+            "target": "Operations",
+            "relation": "involves team from"
+        },
+        {
+            "source": "User Acceptance Testing (UAT)",
+            "target": "Finance",
+            "relation": "involves team from"
+        },
+        {
+            "source": "data migration",
+            "target": "legacy systems",
+            "relation": "from"
+        },
+        {
+            "source": "data migration",
+            "target": "InsightStream",
+            "relation": "to"
+        },
+        {
+            "source": "data migration",
+            "target": "CloudKart Services",
+            "relation": "via"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "data migration",
+            "relation": "monitors"
+        },
+        {
+            "source": "HR",
+            "target": "training modules",
+            "relation": "developed"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "training modules",
+            "relation": "developed"
+        },
+        {
+            "source": "full system go-live",
+            "target": "Nov 20",
+            "relation": "targeted for"
+        },
+        {
+            "source": "InsightStream",
+            "target": "existing reporting tools",
+            "relation": "requires integration with"
+        },
+        {
+            "source": "InsightStream_ProjectPlan_V3.pdf",
+            "target": "Arjun Verma",
+            "relation": "attached by"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "IT Administrator",
+            "relation": "has role"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Lattice Dynamics",
+            "relation": "works for"
+        },
+        {
+            "source": "IT",
+            "target": "CloudKart Services",
+            "relation": "completes infrastructure provisioning on"
+        },
+        {
+            "source": "IT",
+            "target": "security patches",
+            "relation": "pushes out"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "endpoint readiness",
+            "relation": "confirmed"
+        },
+        {
+            "source": "IT",
+            "target": "DataWeave Analytics",
+            "relation": "works with"
+        },
+        {
+            "source": "IT",
+            "target": "API integration points",
+            "relation": "works on"
+        },
+        {
+            "source": "Operations",
+            "target": "API integration points",
+            "relation": "flagged"
+        },
+        {
+            "source": "IT",
+            "target": "access permissions discrepancy",
+            "relation": "flagged"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Sandeep Menon",
+            "relation": "informs about"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Procurement Lead",
+            "relation": "has role"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Lattice Dynamics",
+            "relation": "works for"
+        },
+        {
+            "source": "DataWeave Analytics contract",
+            "target": "DataWeave Analytics",
+            "relation": "with company"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "invoice",
+            "relation": "sent"
+        },
+        {
+            "source": "invoice",
+            "target": "Priya Nair",
+            "relation": "sent to"
+        },
+        {
+            "source": "invoice",
+            "target": "budget forecast",
+            "relation": "needs alignment with"
+        },
+        {
+            "source": "CloudKart Services",
+            "target": "renewal",
+            "relation": "approaching for"
+        },
+        {
+            "source": "CloudKart Services",
+            "target": "premium tier",
+            "relation": "has"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Rahul Sharma",
+            "relation": "asked about"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Sandeep Menon",
+            "relation": "will follow up on"
+        },
+        {
+            "source": "access permissions discrepancy",
+            "target": "compliance observations",
+            "relation": "is a type of"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Priya Nair",
+            "relation": "asks to prioritize"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "invoice",
+            "relation": "prioritizes payment of"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Rahul Sharma",
+            "relation": "will connect with"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "CloudKart Services tier requirements",
+            "relation": "to discuss"
+        },
+        {
+            "source": "next sync-up",
+            "target": "Nov 1",
+            "relation": "scheduled for"
+        },
+        {
+            "source": "next sync-up",
+            "target": "War Room",
+            "relation": "location"
+        },
+        {
+            "source": "next sync-up",
+            "target": "updated agenda",
+            "relation": "includes"
+        }
+    ]
+}

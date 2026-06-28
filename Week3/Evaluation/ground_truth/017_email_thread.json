@@ -1,0 +1,275 @@
+{
+    "document": "017_email_thread.txt",
+    "entities": [
+        {
+            "type": "Person",
+            "name": "Rahul Sharma"
+        },
+        {
+            "type": "Person",
+            "name": "Arjun Verma"
+        },
+        {
+            "type": "Person",
+            "name": "Neha Singh"
+        },
+        {
+            "type": "Person",
+            "name": "Vikram Patel"
+        },
+        {
+            "type": "Person",
+            "name": "Sandeep Menon"
+        },
+        {
+            "type": "Company",
+            "name": "Lattice Dynamics Pvt. Ltd."
+        },
+        {
+            "type": "Department",
+            "name": "IT Department"
+        },
+        {
+            "type": "Department",
+            "name": "Operations Department"
+        },
+        {
+            "type": "Department",
+            "name": "Compliance department"
+        },
+        {
+            "type": "Department",
+            "name": "IT Helpdesk"
+        },
+        {
+            "type": "Issue",
+            "name": "Network Latency Issues"
+        },
+        {
+            "type": "System",
+            "name": "internal systems"
+        },
+        {
+            "type": "Service",
+            "name": "CloudKart Services"
+        },
+        {
+            "type": "System",
+            "name": "internal file shares"
+        },
+        {
+            "type": "Project",
+            "name": "Project Phoenix"
+        },
+        {
+            "type": "Report",
+            "name": "Q1 financial reporting"
+        },
+        {
+            "type": "Platform",
+            "name": "DataWeave Analytics platform"
+        },
+        {
+            "type": "Infrastructure",
+            "name": "primary internet uplink"
+        },
+        {
+            "type": "Issue",
+            "name": "degraded link performance"
+        },
+        {
+            "type": "Infrastructure",
+            "name": "primary fiber line"
+        },
+        {
+            "type": "Infrastructure",
+            "name": "secondary link"
+        },
+        {
+            "type": "Company",
+            "name": "SecureNet Systems"
+        },
+        {
+            "type": "Document",
+            "name": "detailed incident report"
+        },
+        {
+            "type": "Document",
+            "name": "concise summary"
+        },
+        {
+            "type": "System",
+            "name": "data pipelines"
+        },
+        {
+            "type": "System",
+            "name": "dedicated VPN tunnel"
+        },
+        {
+            "type": "Task",
+            "name": "urgent tasks"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Rahul Sharma",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "works_at"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "IT Department",
+            "relation": "belongs_to"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "works_at"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Operations Department",
+            "relation": "belongs_to"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "works_at"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "works_at"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Compliance department",
+            "relation": "belongs_to"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "works_at"
+        },
+        {
+            "source": "SecureNet Systems",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "is_vendor_to"
+        },
+        {
+            "source": "Network Latency Issues",
+            "target": "internal systems",
+            "relation": "affects"
+        },
+        {
+            "source": "Network Latency Issues",
+            "target": "CloudKart Services",
+            "relation": "affects"
+        },
+        {
+            "source": "Network Latency Issues",
+            "target": "internal file shares",
+            "relation": "affects"
+        },
+        {
+            "source": "Network Latency Issues",
+            "target": "Operations Department",
+            "relation": "impacts"
+        },
+        {
+            "source": "Network Latency Issues",
+            "target": "Project Phoenix",
+            "relation": "impacts"
+        },
+        {
+            "source": "Network Latency Issues",
+            "target": "Q1 financial reporting",
+            "relation": "impacts"
+        },
+        {
+            "source": "Network Latency Issues",
+            "target": "DataWeave Analytics platform",
+            "relation": "affects"
+        },
+        {
+            "source": "Network Latency Issues",
+            "target": "data pipelines",
+            "relation": "affects"
+        },
+        {
+            "source": "IT Department",
+            "target": "Network Latency Issues",
+            "relation": "investigates"
+        },
+        {
+            "source": "primary internet uplink",
+            "target": "Network Latency Issues",
+            "relation": "identified_as_source_of"
+        },
+        {
+            "source": "degraded link performance",
+            "target": "primary fiber line",
+            "relation": "affects"
+        },
+        {
+            "source": "SecureNet Systems",
+            "target": "primary fiber line",
+            "relation": "responsible_for_resolution_of"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "dedicated VPN tunnel",
+            "relation": "configured"
+        },
+        {
+            "source": "dedicated VPN tunnel",
+            "target": "urgent tasks",
+            "relation": "supports"
+        },
+        {
+            "source": "IT Helpdesk",
+            "target": "dedicated VPN tunnel",
+            "relation": "provides_access_to"
+        },
+        {
+            "source": "secondary link",
+            "target": "primary fiber line",
+            "relation": "is_failover_for"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Network Latency Issues",
+            "relation": "provides_update_on"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "detailed incident report",
+            "relation": "will_circulate"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Rahul Sharma",
+            "relation": "requests_ETA_from"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Rahul Sharma",
+            "relation": "reports_impact_to"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Rahul Sharma",
+            "relation": "advises"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Rahul Sharma",
+            "relation": "requests_summary_from"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "concise summary",
+            "relation": "will_provide"
+        }
+    ]
+}

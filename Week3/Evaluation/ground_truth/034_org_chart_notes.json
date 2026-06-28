@@ -1,0 +1,342 @@
+{
+    "document": "034_org_chart_notes.txt",
+    "entities": [
+        {
+            "type": "Person",
+            "name": "Vikram Patel"
+        },
+        {
+            "type": "Department",
+            "name": "Executive Office"
+        },
+        {
+            "type": "Person",
+            "name": "Kavita Rao"
+        },
+        {
+            "type": "Department",
+            "name": "HR"
+        },
+        {
+            "type": "Person",
+            "name": "Arjun Verma"
+        },
+        {
+            "type": "Department",
+            "name": "Operations"
+        },
+        {
+            "type": "Person",
+            "name": "Priya Nair"
+        },
+        {
+            "type": "Department",
+            "name": "Finance"
+        },
+        {
+            "type": "Person",
+            "name": "Sandeep Menon"
+        },
+        {
+            "type": "Department",
+            "name": "Compliance"
+        },
+        {
+            "type": "Department",
+            "name": "IT Department"
+        },
+        {
+            "type": "Person",
+            "name": "Rahul Sharma"
+        },
+        {
+            "type": "Service",
+            "name": "CloudKart Services"
+        },
+        {
+            "type": "Person",
+            "name": "Ankit Gupta"
+        },
+        {
+            "type": "System",
+            "name": "SecureNet Systems"
+        },
+        {
+            "type": "Functional Area",
+            "name": "Data Analytics"
+        },
+        {
+            "type": "Person",
+            "name": "Neha Singh"
+        },
+        {
+            "type": "System",
+            "name": "DataWeave Analytics"
+        },
+        {
+            "type": "Person",
+            "name": "Rohan Das"
+        },
+        {
+            "type": "Department",
+            "name": "Procurement"
+        },
+        {
+            "type": "Person",
+            "name": "Meera Iyer"
+        },
+        {
+            "type": "Vendor",
+            "name": "OfficeHive Supplies"
+        },
+        {
+            "type": "Vendor",
+            "name": "PrintPro India"
+        },
+        {
+            "type": "Company",
+            "name": "ComplyHub Consulting"
+        },
+        {
+            "type": "Office",
+            "name": "Project Management Office (PMO)"
+        },
+        {
+            "type": "Module",
+            "name": "new employee onboarding compliance module"
+        },
+        {
+            "type": "Contract",
+            "name": "ComplyHub Consulting contract"
+        },
+        {
+            "type": "Report",
+            "name": "IT workload report"
+        },
+        {
+            "type": "Process",
+            "name": "vendor contract review process"
+        },
+        {
+            "type": "Team",
+            "name": "Arjun Verma's project team"
+        },
+        {
+            "type": "Area",
+            "name": "IT infrastructure"
+        },
+        {
+            "type": "Capacity",
+            "name": "IT project management capacity"
+        },
+        {
+            "type": "Area",
+            "name": "Data analysis"
+        },
+        {
+            "type": "Document",
+            "name": "resource allocation matrix"
+        },
+        {
+            "type": "Risk",
+            "name": "Audit risks"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Vikram Patel",
+            "target": "Executive Office",
+            "relation": "Attends_from"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "HR",
+            "relation": "Attends_from"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Operations",
+            "relation": "Attends_from"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Finance",
+            "relation": "Attends_from"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Compliance",
+            "relation": "Attends_from"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "IT Department",
+            "relation": "Works_in"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "IT infrastructure",
+            "relation": "Manages"
+        },
+        {
+            "source": "IT Department",
+            "target": "CloudKart Services",
+            "relation": "Expanding_scope_with_integrations_like"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "IT Department",
+            "relation": "Works_in"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "SecureNet Systems",
+            "relation": "Involved_with_security_rollouts_of"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "IT project management capacity",
+            "relation": "Expressed_concern_about"
+        },
+        {
+            "source": "IT Department",
+            "target": "Arjun Verma's project team",
+            "relation": "Needs_better_liaison_with"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Operations",
+            "relation": "Works_in"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Data analysis",
+            "relation": "Sole_contributor_for"
+        },
+        {
+            "source": "Operations",
+            "target": "DataWeave Analytics",
+            "relation": "Utilizes_outputs_from"
+        },
+        {
+            "source": "Rohan Das",
+            "target": "Neha Singh",
+            "relation": "Proposed_to_support"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "Operations",
+            "relation": "To_coordinate_with_for_Rohan_Das_assignment"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Procurement",
+            "relation": "Works_in"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Finance",
+            "relation": "Works_in"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Priya Nair",
+            "relation": "Must_formalize_review_process_with"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Meera Iyer",
+            "relation": "Must_formalize_review_process_with"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "OfficeHive Supplies",
+            "relation": "Reviews_contracts_for"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "PrintPro India",
+            "relation": "Reviews_contracts_for"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Audit risks",
+            "relation": "Highlighted"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "new employee onboarding compliance module",
+            "relation": "Progressed_on_with"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "new employee onboarding compliance module",
+            "relation": "Progressed_on_with"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "ComplyHub Consulting contract",
+            "relation": "Needs_final_approval_for"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "ComplyHub Consulting contract",
+            "relation": "Must_approve"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "resource allocation matrix",
+            "relation": "Stressed_urgency_for"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Project Management Office (PMO)",
+            "relation": "Intends_to_redefine_objectives_of"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "Rohan Das",
+            "relation": "Action_item_to_initiate_discussions_for_assignment_of"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "Operations",
+            "relation": "Action_item_to_initiate_discussions_with"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "IT workload report",
+            "relation": "Action_item_to_submit"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Vikram Patel",
+            "relation": "Action_item_to_submit_report_to"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Arjun Verma",
+            "relation": "Action_item_to_submit_report_to"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "vendor contract review process",
+            "relation": "Action_item_to_draft_proposal_for"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "vendor contract review process",
+            "relation": "Action_item_to_draft_proposal_for"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "ComplyHub Consulting contract",
+            "relation": "Action_item_to_ensure_signature_for"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Vikram Patel",
+            "relation": "Action_item_to_get_signature_from"
+        }
+    ]
+}

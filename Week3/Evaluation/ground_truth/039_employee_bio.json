@@ -1,0 +1,174 @@
+{
+    "document": "039_employee_bio.txt",
+    "entities": [
+        {
+            "type": "Person",
+            "name": "Priya Nair"
+        },
+        {
+            "type": "Organization",
+            "name": "Lattice Dynamics Pvt. Ltd."
+        },
+        {
+            "type": "Role",
+            "name": "Finance Manager"
+        },
+        {
+            "type": "Organization",
+            "name": "financial services firm"
+        },
+        {
+            "type": "Department",
+            "name": "Finance Department"
+        },
+        {
+            "type": "System",
+            "name": "expense management system"
+        },
+        {
+            "type": "Person",
+            "name": "Meera Iyer"
+        },
+        {
+            "type": "Department",
+            "name": "Procurement"
+        },
+        {
+            "type": "Department",
+            "name": "Operations team"
+        },
+        {
+            "type": "Process",
+            "name": "annual budget preparation and review cycles"
+        },
+        {
+            "type": "Department",
+            "name": "Executive Office"
+        },
+        {
+            "type": "Organization",
+            "name": "TechNova Solutions Pvt Ltd"
+        },
+        {
+            "type": "Product/Service",
+            "name": "enterprise software licensing"
+        },
+        {
+            "type": "Person",
+            "name": "Vikram Patel"
+        },
+        {
+            "type": "Group",
+            "name": "senior leadership"
+        },
+        {
+            "type": "Group",
+            "name": "junior staff"
+        },
+        {
+            "type": "Person",
+            "name": "Sandeep Menon"
+        },
+        {
+            "type": "Department",
+            "name": "Compliance"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Priya Nair",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "WORKS_FOR"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Finance Manager",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "financial services firm",
+            "relation": "PREVIOUSLY_WORKED_AT"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Finance Department",
+            "relation": "WORKS_IN"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "expense management system",
+            "relation": "IMPLEMENTED"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Meera Iyer",
+            "relation": "COLLABORATES_WITH"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Procurement",
+            "relation": "COLLABORATES_WITH"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Operations team",
+            "relation": "COLLABORATES_WITH"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "annual budget preparation and review cycles",
+            "relation": "LEADS"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Executive Office",
+            "relation": "PRESENTS_TO"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "TechNova Solutions Pvt Ltd",
+            "relation": "NEGOTIATES_WITH"
+        },
+        {
+            "source": "TechNova Solutions Pvt Ltd",
+            "target": "enterprise software licensing",
+            "relation": "PROVIDES"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Vikram Patel",
+            "relation": "WORKS_CLOSELY_WITH"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "senior leadership",
+            "relation": "SUPPORTS_DECISION_MAKING_FOR"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "junior staff",
+            "relation": "MENTORS"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Sandeep Menon",
+            "relation": "LIAISES_WITH"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Compliance",
+            "relation": "LIAISES_WITH"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Procurement",
+            "relation": "WORKS_IN"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Compliance",
+            "relation": "WORKS_IN"
+        }
+    ]
+}

@@ -1,0 +1,172 @@
+{
+    "document": "001_employee_bio.txt",
+    "entities": [
+        {
+            "type": "Person",
+            "name": "Vikram Patel"
+        },
+        {
+            "type": "Organization",
+            "name": "Lattice Dynamics Pvt. Ltd."
+        },
+        {
+            "type": "Department",
+            "name": "Operations Department"
+        },
+        {
+            "type": "Person",
+            "name": "Priya Nair"
+        },
+        {
+            "type": "Person",
+            "name": "Rahul Sharma"
+        },
+        {
+            "type": "Group",
+            "name": "Board"
+        },
+        {
+            "type": "Person",
+            "name": "Meera Iyer"
+        },
+        {
+            "type": "Organization",
+            "name": "TechNova Solutions Pvt Ltd"
+        },
+        {
+            "type": "Organization",
+            "name": "CloudKart Services"
+        },
+        {
+            "type": "Person",
+            "name": "Sandeep Menon"
+        },
+        {
+            "type": "Person",
+            "name": "Neha Singh"
+        },
+        {
+            "type": "Person",
+            "name": "Ankit Gupta"
+        },
+        {
+            "type": "Person",
+            "name": "Kavita Rao"
+        },
+        {
+            "type": "Department",
+            "name": "IT Department"
+        },
+        {
+            "type": "Department",
+            "name": "Finance Department"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Vikram Patel",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "is Executive Director at"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "joined"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Operations Department",
+            "relation": "was Senior Manager in"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Operations Department",
+            "relation": "was Director of"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "IT Department",
+            "relation": "spearheaded system implementation impacting"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Finance Department",
+            "relation": "spearheaded system implementation impacting"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "is Finance Manager at"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "is IT Administrator at"
+        },
+        {
+            "source": "Board",
+            "target": "Vikram Patel",
+            "relation": "appointed Executive Director"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Meera Iyer",
+            "relation": "collaborates with"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "is Procurement Lead at"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "TechNova Solutions Pvt Ltd",
+            "relation": "oversees agreements with"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "CloudKart Services",
+            "relation": "oversees agreements with"
+        },
+        {
+            "source": "Lattice Dynamics Pvt. Ltd.",
+            "target": "TechNova Solutions Pvt Ltd",
+            "relation": "partners with"
+        },
+        {
+            "source": "Lattice Dynamics Pvt. Ltd.",
+            "target": "CloudKart Services",
+            "relation": "partners with"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Sandeep Menon",
+            "relation": "works closely with"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "is Compliance Officer at"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Neha Singh",
+            "relation": "consults with"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "is Data Analyst at"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "is in Support at"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "is in HR at"
+        }
+    ]
+}

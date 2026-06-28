@@ -1,0 +1,455 @@
+{
+    "document": "012_org_chart_notes.txt",
+    "entities": [
+        {
+            "type": "Person",
+            "name": "Rahul Sharma"
+        },
+        {
+            "type": "Department",
+            "name": "IT"
+        },
+        {
+            "type": "Project",
+            "name": "CloudKart Services migration"
+        },
+        {
+            "type": "Person",
+            "name": "Ankit Gupta"
+        },
+        {
+            "type": "Department",
+            "name": "Compliance department"
+        },
+        {
+            "type": "Person",
+            "name": "Sandeep Menon"
+        },
+        {
+            "type": "Department",
+            "name": "HR"
+        },
+        {
+            "type": "Person",
+            "name": "Kavita Rao"
+        },
+        {
+            "type": "Person",
+            "name": "Vikram Patel"
+        },
+        {
+            "type": "Person",
+            "name": "Priya Nair"
+        },
+        {
+            "type": "Role",
+            "name": "intern"
+        },
+        {
+            "type": "Person",
+            "name": "Rohan Das"
+        },
+        {
+            "type": "Role",
+            "name": "junior role"
+        },
+        {
+            "type": "Role",
+            "name": "Support Engineer"
+        },
+        {
+            "type": "Company",
+            "name": "SecureNet Systems"
+        },
+        {
+            "type": "Person",
+            "name": "Neha Singh"
+        },
+        {
+            "type": "Skill",
+            "name": "Data Analytics"
+        },
+        {
+            "type": "Department",
+            "name": "Operations/Project Management"
+        },
+        {
+            "type": "Person",
+            "name": "Arjun Verma"
+        },
+        {
+            "type": "Department",
+            "name": "Project Office"
+        },
+        {
+            "type": "Company",
+            "name": "ComplyHub Consulting"
+        },
+        {
+            "type": "Department",
+            "name": "Procurement"
+        },
+        {
+            "type": "Person",
+            "name": "Meera Iyer"
+        },
+        {
+            "type": "Company",
+            "name": "TechNova Solutions"
+        },
+        {
+            "type": "Company",
+            "name": "OfficeHive Supplies"
+        },
+        {
+            "type": "Company",
+            "name": "PrintPro India"
+        },
+        {
+            "type": "Department",
+            "name": "Finance"
+        },
+        {
+            "type": "Department",
+            "name": "Executive Office"
+        },
+        {
+            "type": "Initiative",
+            "name": "proposed organizational chart adjustments for FY25"
+        },
+        {
+            "type": "Concept",
+            "name": "Overall structure needs to better reflect our shift"
+        },
+        {
+            "type": "Goal",
+            "name": "project-based initiatives"
+        },
+        {
+            "type": "Goal",
+            "name": "data-driven decision making"
+        },
+        {
+            "type": "Observation",
+            "name": "Capacity constraints identified in IT and Operations"
+        },
+        {
+            "type": "Observation",
+            "name": "Rahul Sharma's team is stretched"
+        },
+        {
+            "type": "Initiative",
+            "name": "strengthening Compliance department"
+        },
+        {
+            "type": "Initiative",
+            "name": "develop a clear succession plan for key roles"
+        },
+        {
+            "type": "Initiative",
+            "name": "identifying critical hires for Q1 FY25"
+        },
+        {
+            "type": "Initiative",
+            "name": "Budget implications for these roles"
+        },
+        {
+            "type": "Initiative",
+            "name": "explore internal mobility options for high-potential employees"
+        },
+        {
+            "type": "Initiative",
+            "name": "prioritize hiring for at least one additional Support Engineer"
+        },
+        {
+            "type": "Initiative",
+            "name": "review existing vendor contracts"
+        },
+        {
+            "type": "Initiative",
+            "name": "expand Neha Singh's role"
+        },
+        {
+            "type": "Initiative",
+            "name": "consistently apply Arjun's project management methodology"
+        },
+        {
+            "type": "Initiative",
+            "name": "establishing a small 'Project Office' function"
+        },
+        {
+            "type": "Requirement",
+            "name": "dedicated resources for Project Office"
+        },
+        {
+            "type": "Resource",
+            "name": "temporary resource from ComplyHub Consulting"
+        },
+        {
+            "type": "Initiative",
+            "name": "specific compliance-related projects"
+        },
+        {
+            "type": "Initiative",
+            "name": "revisit all critical vendor agreements"
+        },
+        {
+            "type": "Initiative",
+            "name": "upcoming review of the PrintPro India contract"
+        },
+        {
+            "type": "Initiative",
+            "name": "provide a detailed budget impact assessment for all proposed structural changes"
+        },
+        {
+            "type": "Initiative",
+            "name": "cost control measures"
+        },
+        {
+            "type": "Initiative",
+            "name": "final decision on the org chart structure"
+        },
+        {
+            "type": "Initiative",
+            "name": "circulate a revised draft for final comments"
+        },
+        {
+            "type": "Action Item",
+            "name": "Draft initial hiring plan for Q1 FY25"
+        },
+        {
+            "type": "Action Item",
+            "name": "Budget impact assessment"
+        },
+        {
+            "type": "Action Item",
+            "name": "IT team capacity review and recommendation"
+        },
+        {
+            "type": "Observation",
+            "name": "Ankit Gupta's workload is unsustainable"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "proposed organizational chart adjustments for FY25",
+            "target": "Overall structure needs to better reflect our shift",
+            "relation": "RELATED_TO"
+        },
+        {
+            "source": "Overall structure needs to better reflect our shift",
+            "target": "project-based initiatives",
+            "relation": "AIMS_FOR"
+        },
+        {
+            "source": "Overall structure needs to better reflect our shift",
+            "target": "data-driven decision making",
+            "relation": "AIMS_FOR"
+        },
+        {
+            "source": "IT",
+            "target": "Capacity constraints identified in IT and Operations",
+            "relation": "HAS"
+        },
+        {
+            "source": "Operations/Project Management",
+            "target": "Capacity constraints identified in IT and Operations",
+            "relation": "HAS"
+        },
+        {
+            "source": "Rahul Sharma's team is stretched",
+            "target": "Rahul Sharma",
+            "relation": "REFERS_TO"
+        },
+        {
+            "source": "Rahul Sharma's team is stretched",
+            "target": "CloudKart Services migration",
+            "relation": "DUE_TO"
+        },
+        {
+            "source": "Compliance department",
+            "target": "strengthening Compliance department",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "strengthening Compliance department",
+            "relation": "HIGHLIGHTED"
+        },
+        {
+            "source": "HR",
+            "target": "Kavita Rao",
+            "relation": "HEADED_BY"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "develop a clear succession plan for key roles",
+            "relation": "TASKED_WITH"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "Vikram Patel",
+            "relation": "TO_WORK_WITH"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "identifying critical hires for Q1 FY25",
+            "relation": "TASKED_WITH_ASSISTING"
+        },
+        {
+            "source": "Budget implications for these roles",
+            "target": "Priya Nair",
+            "relation": "TO_BE_CLEARED_WITH"
+        },
+        {
+            "source": "HR",
+            "target": "explore internal mobility options for high-potential employees",
+            "relation": "TASKED_WITH"
+        },
+        {
+            "source": "Rohan Das",
+            "target": "intern",
+            "relation": "IS_AN"
+        },
+        {
+            "source": "Rohan Das",
+            "target": "junior role",
+            "relation": "CONSIDERED_FOR"
+        },
+        {
+            "source": "IT",
+            "target": "prioritize hiring for at least one additional Support Engineer",
+            "relation": "TASKED_WITH"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "Ankit Gupta's workload is unsustainable",
+            "relation": "HAS"
+        },
+        {
+            "source": "IT",
+            "target": "review existing vendor contracts",
+            "relation": "TASKED_WITH"
+        },
+        {
+            "source": "review existing vendor contracts",
+            "target": "SecureNet Systems",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Data Analytics",
+            "relation": "HAS_SKILLS_IN"
+        },
+        {
+            "source": "IT",
+            "target": "expand Neha Singh's role",
+            "relation": "CONSIDERATION_FOR"
+        },
+        {
+            "source": "Operations/Project Management",
+            "target": "Arjun Verma",
+            "relation": "HEADED_BY"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "consistently apply Arjun's project management methodology",
+            "relation": "TASKED_WITH"
+        },
+        {
+            "source": "Operations/Project Management",
+            "target": "establishing a small 'Project Office' function",
+            "relation": "EXPLORING"
+        },
+        {
+            "source": "Project Office",
+            "target": "dedicated resources for Project Office",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "ComplyHub Consulting",
+            "target": "temporary resource from ComplyHub Consulting",
+            "relation": "PROVIDES"
+        },
+        {
+            "source": "temporary resource from ComplyHub Consulting",
+            "target": "specific compliance-related projects",
+            "relation": "FOR"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "specific compliance-related projects",
+            "relation": "MAY_LEAD"
+        },
+        {
+            "source": "Procurement",
+            "target": "Meera Iyer",
+            "relation": "HEADED_BY"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "revisit all critical vendor agreements",
+            "relation": "TASKED_WITH"
+        },
+        {
+            "source": "revisit all critical vendor agreements",
+            "target": "TechNova Solutions",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "revisit all critical vendor agreements",
+            "target": "OfficeHive Supplies",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "Procurement",
+            "target": "upcoming review of the PrintPro India contract",
+            "relation": "HAS"
+        },
+        {
+            "source": "Finance",
+            "target": "Priya Nair",
+            "relation": "HEADED_BY"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "provide a detailed budget impact assessment for all proposed structural changes",
+            "relation": "TASKED_WITH"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "cost control measures",
+            "relation": "TO_EMPHASIZE"
+        },
+        {
+            "source": "Executive Office",
+            "target": "Vikram Patel",
+            "relation": "HEADED_BY"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "final decision on the org chart structure",
+            "relation": "RESPONSIBLE_FOR"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "circulate a revised draft for final comments",
+            "relation": "TASKED_WITH"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "Draft initial hiring plan for Q1 FY25",
+            "relation": "HAS_ACTION_ITEM"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Budget impact assessment",
+            "relation": "HAS_ACTION_ITEM"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "IT team capacity review and recommendation",
+            "relation": "HAS_ACTION_ITEM"
+        }
+    ]
+}

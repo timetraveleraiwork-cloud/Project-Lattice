@@ -1,0 +1,463 @@
+{
+    "document": "041_vendor_agreement.txt",
+    "entities": [
+        {
+            "type": "Agreement",
+            "name": "Vendor Agreement"
+        },
+        {
+            "type": "Contract ID",
+            "name": "LD-ITS-2024-007-CK"
+        },
+        {
+            "type": "Date",
+            "name": "July 1, 2024"
+        },
+        {
+            "type": "Date",
+            "name": "June 30, 2025"
+        },
+        {
+            "type": "Company",
+            "name": "Lattice Dynamics Pvt. Ltd."
+        },
+        {
+            "type": "Address",
+            "name": "101, Innovatech Tower, Sector 18, Gurugram"
+        },
+        {
+            "type": "Company",
+            "name": "CloudKart Services"
+        },
+        {
+            "type": "Address",
+            "name": "45, Cyber City, Phase III, Bengaluru"
+        },
+        {
+            "type": "Service",
+            "name": "cloud infrastructure services"
+        },
+        {
+            "type": "Service Component",
+            "name": "virtual compute resources"
+        },
+        {
+            "type": "Service Component",
+            "name": "scalable data storage solutions"
+        },
+        {
+            "type": "Service Component",
+            "name": "network capabilities"
+        },
+        {
+            "type": "Service Component",
+            "name": "managed services"
+        },
+        {
+            "type": "Service",
+            "name": "primary hosting for core applications"
+        },
+        {
+            "type": "Service",
+            "name": "disaster recovery solutions"
+        },
+        {
+            "type": "Document Reference",
+            "name": "Exhibit A [Service Specification]"
+        },
+        {
+            "type": "Person",
+            "name": "Rahul Sharma"
+        },
+        {
+            "type": "Department",
+            "name": "IT Department"
+        },
+        {
+            "type": "SLA Term",
+            "name": "uptime guarantee of 99.9%"
+        },
+        {
+            "type": "Document Reference",
+            "name": "Appendix B [SLA Document]"
+        },
+        {
+            "type": "Person",
+            "name": "Ankit Gupta"
+        },
+        {
+            "type": "Department",
+            "name": "IT team"
+        },
+        {
+            "type": "Financial Term",
+            "name": "monthly fees"
+        },
+        {
+            "type": "Document Reference",
+            "name": "Exhibit C [Pricing Schedule]"
+        },
+        {
+            "type": "Payment Term",
+            "name": "Net 30 days"
+        },
+        {
+            "type": "Interest Rate",
+            "name": "1.5% per month"
+        },
+        {
+            "type": "Person",
+            "name": "Priya Nair"
+        },
+        {
+            "type": "Role",
+            "name": "Finance Manager"
+        },
+        {
+            "type": "Data",
+            "name": "Lattice Dynamics\u2019 data"
+        },
+        {
+            "type": "Classification",
+            "name": "Confidential Information"
+        },
+        {
+            "type": "Law",
+            "name": "data protection laws"
+        },
+        {
+            "type": "Policy",
+            "name": "Lattice Dynamics' internal Data Handling Policy"
+        },
+        {
+            "type": "Person",
+            "name": "Sandeep Menon"
+        },
+        {
+            "type": "Role",
+            "name": "Compliance Officer"
+        },
+        {
+            "type": "Duration",
+            "name": "one (1) year"
+        },
+        {
+            "type": "Duration",
+            "name": "ninety (90) days"
+        },
+        {
+            "type": "Duration",
+            "name": "thirty (30) day"
+        },
+        {
+            "type": "Jurisdiction",
+            "name": "laws of India"
+        },
+        {
+            "type": "Person",
+            "name": "Vikram Patel"
+        },
+        {
+            "type": "Role",
+            "name": "Executive Director"
+        },
+        {
+            "type": "Person",
+            "name": "[Authorized Signatory Name]"
+        },
+        {
+            "type": "Role",
+            "name": "Head of Cloud Operations"
+        },
+        {
+            "type": "Person",
+            "name": "Meera Iyer"
+        },
+        {
+            "type": "Role",
+            "name": "Procurement Lead"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Vendor Agreement",
+            "target": "LD-ITS-2024-007-CK",
+            "relation": "HAS_CONTRACT_ID"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "July 1, 2024",
+            "relation": "HAS_EFFECTIVE_DATE"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "June 30, 2025",
+            "relation": "HAS_RENEWAL_DATE"
+        },
+        {
+            "source": "Lattice Dynamics Pvt. Ltd.",
+            "target": "Vendor Agreement",
+            "relation": "IS_PARTY_TO"
+        },
+        {
+            "source": "CloudKart Services",
+            "target": "Vendor Agreement",
+            "relation": "IS_PARTY_TO"
+        },
+        {
+            "source": "Lattice Dynamics Pvt. Ltd.",
+            "target": "101, Innovatech Tower, Sector 18, Gurugram",
+            "relation": "HAS_ADDRESS"
+        },
+        {
+            "source": "CloudKart Services",
+            "target": "45, Cyber City, Phase III, Bengaluru",
+            "relation": "HAS_ADDRESS"
+        },
+        {
+            "source": "CloudKart Services",
+            "target": "cloud infrastructure services",
+            "relation": "PROVIDES"
+        },
+        {
+            "source": "cloud infrastructure services",
+            "target": "virtual compute resources",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "cloud infrastructure services",
+            "target": "scalable data storage solutions",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "cloud infrastructure services",
+            "target": "network capabilities",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "cloud infrastructure services",
+            "target": "managed services",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "CloudKart Services",
+            "target": "primary hosting for core applications",
+            "relation": "PROVIDES"
+        },
+        {
+            "source": "CloudKart Services",
+            "target": "disaster recovery solutions",
+            "relation": "PROVIDES"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "Exhibit A [Service Specification]",
+            "relation": "REFERENCES"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "WORKS_FOR"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "IT Department",
+            "relation": "BELONGS_TO"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "cloud infrastructure services",
+            "relation": "IS_LIAISON_FOR"
+        },
+        {
+            "source": "CloudKart Services",
+            "target": "uptime guarantee of 99.9%",
+            "relation": "COMMITS_TO"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "Appendix B [SLA Document]",
+            "relation": "REFERENCES"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "WORKS_FOR"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "IT team",
+            "relation": "BELONGS_TO"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "cloud infrastructure services",
+            "relation": "MONITORS_PERFORMANCE_OF"
+        },
+        {
+            "source": "Lattice Dynamics Pvt. Ltd.",
+            "target": "monthly fees",
+            "relation": "AGREES_TO_PAY"
+        },
+        {
+            "source": "monthly fees",
+            "target": "CloudKart Services",
+            "relation": "PAYABLE_TO"
+        },
+        {
+            "source": "monthly fees",
+            "target": "Exhibit C [Pricing Schedule]",
+            "relation": "SPECIFIED_IN"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "Exhibit C [Pricing Schedule]",
+            "relation": "REFERENCES"
+        },
+        {
+            "source": "Lattice Dynamics Pvt. Ltd.",
+            "target": "Net 30 days",
+            "relation": "HAS_PAYMENT_TERM"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "1.5% per month",
+            "relation": "SPECIFIES_LATE_PAYMENT_INTEREST"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "monthly fees",
+            "relation": "OVERSEES_APPROVAL_FOR"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Finance Manager",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "WORKS_FOR"
+        },
+        {
+            "source": "CloudKart Services",
+            "target": "Lattice Dynamics\u2019 data",
+            "relation": "PROTECTS"
+        },
+        {
+            "source": "Lattice Dynamics\u2019 data",
+            "target": "Confidential Information",
+            "relation": "IS_CLASSIFIED_AS"
+        },
+        {
+            "source": "CloudKart Services",
+            "target": "data protection laws",
+            "relation": "COMPLIES_WITH"
+        },
+        {
+            "source": "CloudKart Services",
+            "target": "Lattice Dynamics' internal Data Handling Policy",
+            "relation": "COMPLIES_WITH"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "Lattice Dynamics' internal Data Handling Policy",
+            "relation": "REFERENCES"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Compliance Officer",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "WORKS_FOR"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Vendor Agreement",
+            "relation": "REVIEWED_AND_APPROVED_CLAUSES_IN"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "one (1) year",
+            "relation": "HAS_INITIAL_TERM_OF"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "ninety (90) days",
+            "relation": "REQUIRES_NON_RENEWAL_NOTICE_OF"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "thirty (30) day",
+            "relation": "REQUIRES_TERMINATION_NOTICE_OF"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "laws of India",
+            "relation": "IS_GOVERNED_BY"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Vendor Agreement",
+            "relation": "SIGNED"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Executive Director",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "WORKS_FOR"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "July 1, 2024",
+            "relation": "SIGNED_ON_DATE"
+        },
+        {
+            "source": "[Authorized Signatory Name]",
+            "target": "Vendor Agreement",
+            "relation": "SIGNED"
+        },
+        {
+            "source": "[Authorized Signatory Name]",
+            "target": "Head of Cloud Operations",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "[Authorized Signatory Name]",
+            "target": "CloudKart Services",
+            "relation": "WORKS_FOR"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Procurement Lead",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "WORKS_FOR"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Vendor Agreement",
+            "relation": "REVIEWED_AND_APPROVED"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Vendor Agreement",
+            "relation": "REVIEWED_AND_APPROVED"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Vendor Agreement",
+            "relation": "REVIEWED_AND_APPROVED"
+        }
+    ]
+}

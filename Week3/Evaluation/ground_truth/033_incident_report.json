@@ -1,0 +1,298 @@
+{
+    "document": "033_incident_report.txt",
+    "entities": [
+        {
+            "type": "Incident",
+            "name": "LD-IT-2024-007"
+        },
+        {
+            "type": "Person",
+            "name": "Rahul Sharma"
+        },
+        {
+            "type": "Department",
+            "name": "IT"
+        },
+        {
+            "type": "Role",
+            "name": "IT Administrator"
+        },
+        {
+            "type": "Service",
+            "name": "CloudKart Services storage"
+        },
+        {
+            "type": "Service",
+            "name": "DataWeave Analytics platform integration"
+        },
+        {
+            "type": "Department",
+            "name": "Operations"
+        },
+        {
+            "type": "Department",
+            "name": "Executive Office"
+        },
+        {
+            "type": "Person",
+            "name": "Neha Singh"
+        },
+        {
+            "type": "Department",
+            "name": "Data Analysts"
+        },
+        {
+            "type": "Person",
+            "name": "Ankit Gupta"
+        },
+        {
+            "type": "Vendor",
+            "name": "CloudKart Services"
+        },
+        {
+            "type": "Vendor",
+            "name": "DataWeave Analytics"
+        },
+        {
+            "type": "Event",
+            "name": "maintenance update"
+        },
+        {
+            "type": "Event",
+            "name": "API configuration change"
+        },
+        {
+            "type": "Person",
+            "name": "Sandeep Menon"
+        },
+        {
+            "type": "Department",
+            "name": "Compliance"
+        },
+        {
+            "type": "Person",
+            "name": "Vikram Patel"
+        },
+        {
+            "type": "Role",
+            "name": "Executive Director"
+        },
+        {
+            "type": "Event",
+            "name": "rollback"
+        },
+        {
+            "type": "Event",
+            "name": "service restoration"
+        },
+        {
+            "type": "Meeting",
+            "name": "post-incident review meeting"
+        },
+        {
+            "type": "Protocol",
+            "name": "change management protocols"
+        },
+        {
+            "type": "Organization",
+            "name": "Lattice Dynamics"
+        },
+        {
+            "type": "Protocol",
+            "name": "Lattice Dynamics internal protocols"
+        },
+        {
+            "type": "Measure",
+            "name": "redundant data pathways"
+        },
+        {
+            "type": "Measure",
+            "name": "local caching"
+        },
+        {
+            "type": "Plan",
+            "name": "communication plan"
+        },
+        {
+            "type": "Action",
+            "name": "temporary workaround"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Rahul Sharma",
+            "target": "LD-IT-2024-007",
+            "relation": "REPORTED"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "IT Administrator",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "IT",
+            "relation": "BELONGS_TO"
+        },
+        {
+            "source": "LD-IT-2024-007",
+            "target": "CloudKart Services storage",
+            "relation": "IMPACTED"
+        },
+        {
+            "source": "LD-IT-2024-007",
+            "target": "DataWeave Analytics platform integration",
+            "relation": "IMPACTED"
+        },
+        {
+            "source": "LD-IT-2024-007",
+            "target": "Operations",
+            "relation": "IMPACTED"
+        },
+        {
+            "source": "LD-IT-2024-007",
+            "target": "Executive Office",
+            "relation": "IMPACTED"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Data Analysts",
+            "relation": "BELONGS_TO"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "LD-IT-2024-007",
+            "relation": "REPORTED_ISSUES_FOR"
+        },
+        {
+            "source": "IT",
+            "target": "LD-IT-2024-007",
+            "relation": "INVESTIGATED"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "LD-IT-2024-007",
+            "relation": "INVESTIGATED"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "LD-IT-2024-007",
+            "relation": "INVESTIGATED"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "IT",
+            "relation": "BELONGS_TO"
+        },
+        {
+            "source": "LD-IT-2024-007",
+            "target": "API configuration change",
+            "relation": "CAUSED_BY"
+        },
+        {
+            "source": "API configuration change",
+            "target": "maintenance update",
+            "relation": "PART_OF"
+        },
+        {
+            "source": "CloudKart Services",
+            "target": "maintenance update",
+            "relation": "PERFORMED"
+        },
+        {
+            "source": "API configuration change",
+            "target": "DataWeave Analytics",
+            "relation": "CAUSED_BREAKDOWN_WITH"
+        },
+        {
+            "source": "IT",
+            "target": "CloudKart Services",
+            "relation": "NOTIFIED"
+        },
+        {
+            "source": "IT",
+            "target": "DataWeave Analytics",
+            "relation": "NOTIFIED"
+        },
+        {
+            "source": "IT",
+            "target": "temporary workaround",
+            "relation": "IMPLEMENTED"
+        },
+        {
+            "source": "IT",
+            "target": "Sandeep Menon",
+            "relation": "ENGAGED"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Compliance",
+            "relation": "BELONGS_TO"
+        },
+        {
+            "source": "IT",
+            "target": "Vikram Patel",
+            "relation": "INFORMED"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Executive Director",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "CloudKart Services",
+            "target": "rollback",
+            "relation": "PERFORMED"
+        },
+        {
+            "source": "rollback",
+            "target": "maintenance update",
+            "relation": "OF"
+        },
+        {
+            "source": "LD-IT-2024-007",
+            "target": "service restoration",
+            "relation": "RESOLVED_BY"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "post-incident review meeting",
+            "relation": "TO_COORDINATE"
+        },
+        {
+            "source": "post-incident review meeting",
+            "target": "CloudKart Services",
+            "relation": "WITH"
+        },
+        {
+            "source": "post-incident review meeting",
+            "target": "DataWeave Analytics",
+            "relation": "WITH"
+        },
+        {
+            "source": "post-incident review meeting",
+            "target": "change management protocols",
+            "relation": "TO_DISCUSS"
+        },
+        {
+            "source": "Lattice Dynamics",
+            "target": "Lattice Dynamics internal protocols",
+            "relation": "TO_REVIEW"
+        },
+        {
+            "source": "Lattice Dynamics",
+            "target": "communication plan",
+            "relation": "TO_DEVELOP"
+        },
+        {
+            "source": "Lattice Dynamics",
+            "target": "redundant data pathways",
+            "relation": "TO_CONSIDER"
+        },
+        {
+            "source": "Lattice Dynamics",
+            "target": "local caching",
+            "relation": "TO_CONSIDER"
+        }
+    ]
+}

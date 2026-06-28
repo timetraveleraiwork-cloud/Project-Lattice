@@ -1,0 +1,206 @@
+{
+    "document": "004_expense_report.txt",
+    "entities": [
+        {
+            "type": "Person",
+            "name": "Arjun Verma"
+        },
+        {
+            "type": "Organization",
+            "name": "Lattice Dynamics Pvt. Ltd."
+        },
+        {
+            "type": "Department",
+            "name": "Operations"
+        },
+        {
+            "type": "Expense ID",
+            "name": "LDPL-EXPRT-AV-08-24-001"
+        },
+        {
+            "type": "Expense Claim",
+            "name": "Q3 2024 Project-Related Expense Claim"
+        },
+        {
+            "type": "Project",
+            "name": "Nebula Initiative"
+        },
+        {
+            "type": "Person",
+            "name": "Priya Nair"
+        },
+        {
+            "type": "Vendor",
+            "name": "SwiftTravel Co."
+        },
+        {
+            "type": "Vendor",
+            "name": "OfficeHive Supplies"
+        },
+        {
+            "type": "Vendor",
+            "name": "TechNova Solutions Pvt Ltd"
+        },
+        {
+            "type": "Vendor",
+            "name": "CloudKart Services"
+        },
+        {
+            "type": "Vendor",
+            "name": "ComplyHub Consulting"
+        },
+        {
+            "type": "Person",
+            "name": "Sandeep Menon"
+        },
+        {
+            "type": "Department",
+            "name": "Compliance Department"
+        },
+        {
+            "type": "Department",
+            "name": "Finance Department"
+        },
+        {
+            "type": "Invoice Reference",
+            "name": "LD-OHS-20240710-001"
+        },
+        {
+            "type": "Invoice Reference",
+            "name": "TN-SUP-Q3-24-003"
+        },
+        {
+            "type": "Invoice Reference",
+            "name": "CHC-Mtg-Aug-07-001"
+        },
+        {
+            "type": "Invoice Reference",
+            "name": "LD-OHS-20240812-002"
+        },
+        {
+            "type": "Budget Code",
+            "name": "OP-NI-007"
+        },
+        {
+            "type": "Expense Report Document",
+            "name": "Expense Report - Arjun Verma - August 2024"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Arjun Verma",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "employee_of"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Operations",
+            "relation": "member_of_department"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Q3 2024 Project-Related Expense Claim",
+            "relation": "submitted"
+        },
+        {
+            "source": "Q3 2024 Project-Related Expense Claim",
+            "target": "Nebula Initiative",
+            "relation": "related_to_project"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "employee_of"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Finance Department",
+            "relation": "member_of_department"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Q3 2024 Project-Related Expense Claim",
+            "relation": "approved"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Priya Nair",
+            "relation": "submitted_report_to"
+        },
+        {
+            "source": "SwiftTravel Co.",
+            "target": "Q3 2024 Project-Related Expense Claim",
+            "relation": "vendor_for_expense"
+        },
+        {
+            "source": "OfficeHive Supplies",
+            "target": "Q3 2024 Project-Related Expense Claim",
+            "relation": "vendor_for_expense"
+        },
+        {
+            "source": "TechNova Solutions Pvt Ltd",
+            "target": "Q3 2024 Project-Related Expense Claim",
+            "relation": "vendor_for_expense"
+        },
+        {
+            "source": "CloudKart Services",
+            "target": "Q3 2024 Project-Related Expense Claim",
+            "relation": "vendor_for_expense"
+        },
+        {
+            "source": "ComplyHub Consulting",
+            "target": "Q3 2024 Project-Related Expense Claim",
+            "relation": "vendor_for_expense"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Compliance Department",
+            "relation": "member_of_department"
+        },
+        {
+            "source": "LDPL-EXPRT-AV-08-24-001",
+            "target": "Q3 2024 Project-Related Expense Claim",
+            "relation": "identifies"
+        },
+        {
+            "source": "LD-OHS-20240710-001",
+            "target": "Q3 2024 Project-Related Expense Claim",
+            "relation": "invoice_for"
+        },
+        {
+            "source": "TN-SUP-Q3-24-003",
+            "target": "Q3 2024 Project-Related Expense Claim",
+            "relation": "invoice_for"
+        },
+        {
+            "source": "CHC-Mtg-Aug-07-001",
+            "target": "Q3 2024 Project-Related Expense Claim",
+            "relation": "invoice_for"
+        },
+        {
+            "source": "LD-OHS-20240812-002",
+            "target": "Q3 2024 Project-Related Expense Claim",
+            "relation": "invoice_for"
+        },
+        {
+            "source": "OP-NI-007",
+            "target": "Nebula Initiative",
+            "relation": "budget_code_for"
+        },
+        {
+            "source": "Expense Report - Arjun Verma - August 2024",
+            "target": "Arjun Verma",
+            "relation": "authored_by"
+        },
+        {
+            "source": "Expense Report - Arjun Verma - August 2024",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "pertains_to_organization"
+        },
+        {
+            "source": "Expense Report - Arjun Verma - August 2024",
+            "target": "Q3 2024 Project-Related Expense Claim",
+            "relation": "details_claim"
+        }
+    ]
+}

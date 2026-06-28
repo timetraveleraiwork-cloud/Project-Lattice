@@ -1,0 +1,183 @@
+{
+    "document": "016_expense_report.txt",
+    "entities": [
+        {
+            "type": "Document",
+            "name": "Expense Report LDP_ER_FEB_24_001"
+        },
+        {
+            "type": "Person",
+            "name": "Arjun Verma"
+        },
+        {
+            "type": "Organization",
+            "name": "Lattice Dynamics Pvt. Ltd."
+        },
+        {
+            "type": "Project",
+            "name": "Project Falcon"
+        },
+        {
+            "type": "Time Period",
+            "name": "February 2024"
+        },
+        {
+            "type": "Department",
+            "name": "Operations Department"
+        },
+        {
+            "type": "Role",
+            "name": "Project Manager"
+        },
+        {
+            "type": "Department",
+            "name": "Finance Team"
+        },
+        {
+            "type": "Organization",
+            "name": "SwiftTravel Co."
+        },
+        {
+            "type": "Organization",
+            "name": "OfficeHive Supplies"
+        },
+        {
+            "type": "Organization",
+            "name": "TechNova Solutions Pvt Ltd"
+        },
+        {
+            "type": "Person",
+            "name": "Vikram Patel"
+        },
+        {
+            "type": "Role",
+            "name": "Executive Director"
+        },
+        {
+            "type": "Department",
+            "name": "IT department"
+        },
+        {
+            "type": "Person",
+            "name": "Kavita Rao"
+        },
+        {
+            "type": "Department",
+            "name": "HR Department"
+        },
+        {
+            "type": "Date",
+            "name": "March 5, 2024"
+        },
+        {
+            "type": "Person",
+            "name": "Priya Nair"
+        },
+        {
+            "type": "Role",
+            "name": "Finance Manager"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Expense Report LDP_ER_FEB_24_001",
+            "target": "Arjun Verma",
+            "relation": "submitted by"
+        },
+        {
+            "source": "Expense Report LDP_ER_FEB_24_001",
+            "target": "Project Falcon",
+            "relation": "for project"
+        },
+        {
+            "source": "Expense Report LDP_ER_FEB_24_001",
+            "target": "February 2024",
+            "relation": "for period"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "works for"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Operations Department",
+            "relation": "belongs to"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Project Manager",
+            "relation": "holds role"
+        },
+        {
+            "source": "Expense Report LDP_ER_FEB_24_001",
+            "target": "Finance Team",
+            "relation": "addressed to"
+        },
+        {
+            "source": "Expense Report LDP_ER_FEB_24_001",
+            "target": "SwiftTravel Co.",
+            "relation": "includes expense from"
+        },
+        {
+            "source": "Expense Report LDP_ER_FEB_24_001",
+            "target": "OfficeHive Supplies",
+            "relation": "includes expense from"
+        },
+        {
+            "source": "Expense Report LDP_ER_FEB_24_001",
+            "target": "TechNova Solutions Pvt Ltd",
+            "relation": "includes expense from"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Executive Director",
+            "relation": "holds role"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "works for"
+        },
+        {
+            "source": "Project Falcon",
+            "target": "Vikram Patel",
+            "relation": "authorized by"
+        },
+        {
+            "source": "IT department",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "part of"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "HR Department",
+            "relation": "belongs to"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Kavita Rao",
+            "relation": "will send itinerary to"
+        },
+        {
+            "source": "Expense Report LDP_ER_FEB_24_001",
+            "target": "March 5, 2024",
+            "relation": "submitted on"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Finance Manager",
+            "relation": "holds role"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Finance Team",
+            "relation": "belongs to"
+        },
+        {
+            "source": "Expense Report LDP_ER_FEB_24_001",
+            "target": "Priya Nair",
+            "relation": "to be approved by"
+        }
+    ]
+}

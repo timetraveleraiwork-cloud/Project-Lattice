@@ -1,0 +1,1219 @@
+{
+    "document": "031_transaction_log.txt",
+    "entities": [
+        {
+            "type": "Company",
+            "name": "Lattice Dynamics Pvt. Ltd."
+        },
+        {
+            "type": "Document",
+            "name": "Q3 2024 Transaction Log"
+        },
+        {
+            "type": "Period",
+            "name": "July 1, 2024 \u2013 September 30, 2024"
+        },
+        {
+            "type": "Period",
+            "name": "Q3 2024"
+        },
+        {
+            "type": "Date",
+            "name": "October 2, 2024"
+        },
+        {
+            "type": "Department",
+            "name": "Finance Department"
+        },
+        {
+            "type": "Person",
+            "name": "Priya Nair"
+        },
+        {
+            "type": "Department",
+            "name": "IT"
+        },
+        {
+            "type": "Department",
+            "name": "Operations"
+        },
+        {
+            "type": "Department",
+            "name": "Executive Office"
+        },
+        {
+            "type": "Department",
+            "name": "Compliance"
+        },
+        {
+            "type": "Department",
+            "name": "HR"
+        },
+        {
+            "type": "Department",
+            "name": "Procurement"
+        },
+        {
+            "type": "Vendor",
+            "name": "TechNova Solutions Pvt Ltd"
+        },
+        {
+            "type": "Transaction",
+            "name": "LD-TRX-07-001"
+        },
+        {
+            "type": "Invoice",
+            "name": "INV-TNS-2024-01"
+        },
+        {
+            "type": "Amount",
+            "name": "150,000.00"
+        },
+        {
+            "type": "Status",
+            "name": "Processed"
+        },
+        {
+            "type": "Service",
+            "name": "Software license renewal for core systems"
+        },
+        {
+            "type": "Person",
+            "name": "Rahul Sharma"
+        },
+        {
+            "type": "Vendor",
+            "name": "OfficeHive Supplies"
+        },
+        {
+            "type": "Transaction",
+            "name": "LD-TRX-07-002"
+        },
+        {
+            "type": "Invoice",
+            "name": "INV-OHS-2024-07"
+        },
+        {
+            "type": "Amount",
+            "name": "12,500.00"
+        },
+        {
+            "type": "Service",
+            "name": "Bulk office stationery order"
+        },
+        {
+            "type": "Person",
+            "name": "Arjun Verma"
+        },
+        {
+            "type": "Vendor",
+            "name": "SecureNet Systems"
+        },
+        {
+            "type": "Transaction",
+            "name": "LD-TRX-07-003"
+        },
+        {
+            "type": "Invoice",
+            "name": "INV-SNS-2024-03"
+        },
+        {
+            "type": "Amount",
+            "name": "85,000.00"
+        },
+        {
+            "type": "Status",
+            "name": "Pending"
+        },
+        {
+            "type": "Service",
+            "name": "Quarterly network security services"
+        },
+        {
+            "type": "Person",
+            "name": "Vikram Patel"
+        },
+        {
+            "type": "Vendor",
+            "name": "DataWeave Analytics"
+        },
+        {
+            "type": "Transaction",
+            "name": "LD-TRX-07-004"
+        },
+        {
+            "type": "Invoice",
+            "name": "INV-DWA-2024-02"
+        },
+        {
+            "type": "Amount",
+            "name": "210,000.00"
+        },
+        {
+            "type": "Service",
+            "name": "Q2 data insights report delivery"
+        },
+        {
+            "type": "Person",
+            "name": "Neha Singh"
+        },
+        {
+            "type": "Vendor",
+            "name": "CloudKart Services"
+        },
+        {
+            "type": "Transaction",
+            "name": "LD-TRX-08-001"
+        },
+        {
+            "type": "Invoice",
+            "name": "INV-CPS-2024-08"
+        },
+        {
+            "type": "Amount",
+            "name": "67,000.00"
+        },
+        {
+            "type": "Service",
+            "name": "Monthly cloud infrastructure subscription"
+        },
+        {
+            "type": "Person",
+            "name": "Ankit Gupta"
+        },
+        {
+            "type": "Vendor",
+            "name": "ComplyHub Consulting"
+        },
+        {
+            "type": "Transaction",
+            "name": "LD-TRX-08-002"
+        },
+        {
+            "type": "Invoice",
+            "name": "INV-CHC-2024-01"
+        },
+        {
+            "type": "Amount",
+            "name": "95,000.00"
+        },
+        {
+            "type": "Service",
+            "name": "Annual compliance audit services"
+        },
+        {
+            "type": "Person",
+            "name": "Sandeep Menon"
+        },
+        {
+            "type": "Date",
+            "name": "EOD next week"
+        },
+        {
+            "type": "Vendor",
+            "name": "PrintPro India"
+        },
+        {
+            "type": "Transaction",
+            "name": "LD-TRX-08-003"
+        },
+        {
+            "type": "Invoice",
+            "name": "INV-PPT-2024-08"
+        },
+        {
+            "type": "Amount",
+            "name": "5,500.00"
+        },
+        {
+            "type": "Service",
+            "name": "Printing of updated Employee Handbooks"
+        },
+        {
+            "type": "Person",
+            "name": "Kavita Rao"
+        },
+        {
+            "type": "Vendor",
+            "name": "SwiftTravel Co."
+        },
+        {
+            "type": "Transaction",
+            "name": "LD-TRX-08-004"
+        },
+        {
+            "type": "Invoice",
+            "name": "INV-SWT-2024-05"
+        },
+        {
+            "type": "Amount",
+            "name": "45,000.00"
+        },
+        {
+            "type": "Service",
+            "name": "Travel expenses for Vikram Patel's industry conference"
+        },
+        {
+            "type": "Vendor",
+            "name": "GreenByte Energy"
+        },
+        {
+            "type": "Transaction",
+            "name": "LD-TRX-09-001"
+        },
+        {
+            "type": "Invoice",
+            "name": "INV-GRN-2024-03"
+        },
+        {
+            "type": "Amount",
+            "name": "38,000.00"
+        },
+        {
+            "type": "Service",
+            "name": "Office energy efficiency assessment"
+        },
+        {
+            "type": "Person",
+            "name": "Meera Iyer"
+        },
+        {
+            "type": "Transaction",
+            "name": "LD-TRX-09-002"
+        },
+        {
+            "type": "Invoice",
+            "name": "INV-TNS-2024-02"
+        },
+        {
+            "type": "Amount",
+            "name": "18,000.00"
+        },
+        {
+            "type": "Service",
+            "name": "Ad-hoc support for server migration project"
+        },
+        {
+            "type": "Vendor",
+            "name": "BuildRight Contractors"
+        },
+        {
+            "type": "Transaction",
+            "name": "LD-TRX-09-003"
+        },
+        {
+            "type": "Invoice",
+            "name": "INV-BRC-2024-01"
+        },
+        {
+            "type": "Amount",
+            "name": "320,000.00"
+        },
+        {
+            "type": "Status",
+            "name": "Awaiting Invoice"
+        },
+        {
+            "type": "Service",
+            "name": "Minor office renovation project, Phase 1 completion"
+        },
+        {
+            "type": "Transaction",
+            "name": "LD-TRX-09-004"
+        },
+        {
+            "type": "Invoice",
+            "name": "INV-DWA-2024-03"
+        },
+        {
+            "type": "Amount",
+            "name": "180,000.00"
+        },
+        {
+            "type": "Report",
+            "name": "Q3 market analysis report"
+        },
+        {
+            "type": "Transaction",
+            "name": "LD-TRX-09-005"
+        },
+        {
+            "type": "Invoice",
+            "name": "INV-OHS-2024-09"
+        },
+        {
+            "type": "Amount",
+            "name": "8,200.00"
+        },
+        {
+            "type": "Service",
+            "name": "Office pantry restocking"
+        },
+        {
+            "type": "Person",
+            "name": "Rohan Das"
+        },
+        {
+            "type": "Transaction",
+            "name": "LD-TRX-09-006"
+        },
+        {
+            "type": "Invoice",
+            "name": "INV-SWT-2024-06"
+        },
+        {
+            "type": "Amount",
+            "name": "15,000.00"
+        },
+        {
+            "type": "Service",
+            "name": "New hire relocation package"
+        },
+        {
+            "type": "Transaction",
+            "name": "LD-TRX-09-007"
+        },
+        {
+            "type": "Invoice",
+            "name": "INV-CPS-2024-09"
+        },
+        {
+            "type": "Amount",
+            "name": "72,000.00"
+        },
+        {
+            "type": "Service",
+            "name": "Increased cloud storage allocation request"
+        },
+        {
+            "type": "Transaction",
+            "name": "LD-TRX-09-008"
+        },
+        {
+            "type": "Invoice",
+            "name": "INV-CHC-2024-02"
+        },
+        {
+            "type": "Amount",
+            "name": "110,000.00"
+        },
+        {
+            "type": "Status",
+            "name": "Awaiting Payment"
+        },
+        {
+            "type": "Service",
+            "name": "Follow-up recommendations from prior audit"
+        },
+        {
+            "type": "Metric",
+            "name": "Total Processed Transactions"
+        },
+        {
+            "type": "Amount",
+            "name": "10"
+        },
+        {
+            "type": "Metric",
+            "name": "Total Pending Transactions"
+        },
+        {
+            "type": "Amount",
+            "name": "5"
+        },
+        {
+            "type": "Metric",
+            "name": "Total Awaiting Invoice/Payment"
+        },
+        {
+            "type": "Amount",
+            "name": "3"
+        },
+        {
+            "type": "Metric",
+            "name": "Overall Projected Spend"
+        },
+        {
+            "type": "Amount",
+            "name": "1,438,200.00"
+        },
+        {
+            "type": "Issue",
+            "name": "internal approval delays"
+        },
+        {
+            "type": "Action",
+            "name": "streamline these workflows"
+        },
+        {
+            "type": "Role",
+            "name": "department heads"
+        },
+        {
+            "type": "Action",
+            "name": "update on your respective pending items"
+        },
+        {
+            "type": "Date",
+            "name": "end of day Friday"
+        },
+        {
+            "type": "Date",
+            "name": "October 5th"
+        },
+        {
+            "type": "Project",
+            "name": "Minor office renovation project"
+        },
+        {
+            "type": "FinancialAction",
+            "name": "payment"
+        },
+        {
+            "type": "Event",
+            "name": "executive meetings"
+        },
+        {
+            "type": "Action",
+            "name": "report delivery"
+        },
+        {
+            "type": "Activity",
+            "name": "reconciliation of Q3 transactions"
+        },
+        {
+            "type": "Date",
+            "name": "October 15th"
+        },
+        {
+            "type": "Document",
+            "name": "previous quarter's log"
+        },
+        {
+            "type": "Purpose",
+            "name": "comparative analysis"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Lattice Dynamics Pvt. Ltd.",
+            "target": "Q3 2024 Transaction Log",
+            "relation": "ISSUES"
+        },
+        {
+            "source": "Q3 2024 Transaction Log",
+            "target": "July 1, 2024 \u2013 September 30, 2024",
+            "relation": "COVERS_PERIOD"
+        },
+        {
+            "source": "Q3 2024 Transaction Log",
+            "target": "Q3 2024",
+            "relation": "COVERS_PERIOD"
+        },
+        {
+            "source": "Status",
+            "target": "October 2, 2024",
+            "relation": "CURRENT_AS_OF"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Finance Department",
+            "relation": "WORKS_IN"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Q3 2024 Transaction Log",
+            "relation": "PREPARED"
+        },
+        {
+            "source": "LD-TRX-07-001",
+            "target": "INV-TNS-2024-01",
+            "relation": "HAS_INVOICE"
+        },
+        {
+            "source": "LD-TRX-07-001",
+            "target": "TechNova Solutions Pvt Ltd",
+            "relation": "INVOLVES_VENDOR"
+        },
+        {
+            "source": "LD-TRX-07-001",
+            "target": "IT",
+            "relation": "FOR_DEPARTMENT"
+        },
+        {
+            "source": "LD-TRX-07-001",
+            "target": "150,000.00",
+            "relation": "HAS_AMOUNT"
+        },
+        {
+            "source": "LD-TRX-07-001",
+            "target": "Processed",
+            "relation": "HAS_STATUS"
+        },
+        {
+            "source": "LD-TRX-07-001",
+            "target": "Software license renewal for core systems",
+            "relation": "FOR_SERVICE"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "LD-TRX-07-001",
+            "relation": "INITIATED_PAYMENT_FOR"
+        },
+        {
+            "source": "LD-TRX-07-002",
+            "target": "INV-OHS-2024-07",
+            "relation": "HAS_INVOICE"
+        },
+        {
+            "source": "LD-TRX-07-002",
+            "target": "OfficeHive Supplies",
+            "relation": "INVOLVES_VENDOR"
+        },
+        {
+            "source": "LD-TRX-07-002",
+            "target": "Operations",
+            "relation": "FOR_DEPARTMENT"
+        },
+        {
+            "source": "LD-TRX-07-002",
+            "target": "12,500.00",
+            "relation": "HAS_AMOUNT"
+        },
+        {
+            "source": "LD-TRX-07-002",
+            "target": "Processed",
+            "relation": "HAS_STATUS"
+        },
+        {
+            "source": "LD-TRX-07-002",
+            "target": "Bulk office stationery order",
+            "relation": "FOR_SERVICE"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "LD-TRX-07-002",
+            "relation": "APPROVED"
+        },
+        {
+            "source": "LD-TRX-07-003",
+            "target": "INV-SNS-2024-03",
+            "relation": "HAS_INVOICE"
+        },
+        {
+            "source": "LD-TRX-07-003",
+            "target": "SecureNet Systems",
+            "relation": "INVOLVES_VENDOR"
+        },
+        {
+            "source": "LD-TRX-07-003",
+            "target": "IT",
+            "relation": "FOR_DEPARTMENT"
+        },
+        {
+            "source": "LD-TRX-07-003",
+            "target": "85,000.00",
+            "relation": "HAS_AMOUNT"
+        },
+        {
+            "source": "LD-TRX-07-003",
+            "target": "Pending",
+            "relation": "HAS_STATUS"
+        },
+        {
+            "source": "LD-TRX-07-003",
+            "target": "Quarterly network security services",
+            "relation": "FOR_SERVICE"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "LD-TRX-07-003",
+            "relation": "AWAITING_FINAL_SIGN_OFF_FOR"
+        },
+        {
+            "source": "LD-TRX-07-004",
+            "target": "INV-DWA-2024-02",
+            "relation": "HAS_INVOICE"
+        },
+        {
+            "source": "LD-TRX-07-004",
+            "target": "DataWeave Analytics",
+            "relation": "INVOLVES_VENDOR"
+        },
+        {
+            "source": "LD-TRX-07-004",
+            "target": "Executive Office",
+            "relation": "FOR_DEPARTMENT"
+        },
+        {
+            "source": "LD-TRX-07-004",
+            "target": "210,000.00",
+            "relation": "HAS_AMOUNT"
+        },
+        {
+            "source": "LD-TRX-07-004",
+            "target": "Processed",
+            "relation": "HAS_STATUS"
+        },
+        {
+            "source": "LD-TRX-07-004",
+            "target": "Q2 data insights report delivery",
+            "relation": "FOR_SERVICE"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "LD-TRX-07-004",
+            "relation": "CONFIRMED_RECEIPT_FOR"
+        },
+        {
+            "source": "LD-TRX-08-001",
+            "target": "INV-CPS-2024-08",
+            "relation": "HAS_INVOICE"
+        },
+        {
+            "source": "LD-TRX-08-001",
+            "target": "CloudKart Services",
+            "relation": "INVOLVES_VENDOR"
+        },
+        {
+            "source": "LD-TRX-08-001",
+            "target": "IT",
+            "relation": "FOR_DEPARTMENT"
+        },
+        {
+            "source": "LD-TRX-08-001",
+            "target": "67,000.00",
+            "relation": "HAS_AMOUNT"
+        },
+        {
+            "source": "LD-TRX-08-001",
+            "target": "Processed",
+            "relation": "HAS_STATUS"
+        },
+        {
+            "source": "LD-TRX-08-001",
+            "target": "Monthly cloud infrastructure subscription",
+            "relation": "FOR_SERVICE"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "LD-TRX-08-001",
+            "relation": "MANAGED"
+        },
+        {
+            "source": "LD-TRX-08-002",
+            "target": "INV-CHC-2024-01",
+            "relation": "HAS_INVOICE"
+        },
+        {
+            "source": "LD-TRX-08-002",
+            "target": "ComplyHub Consulting",
+            "relation": "INVOLVES_VENDOR"
+        },
+        {
+            "source": "LD-TRX-08-002",
+            "target": "Compliance",
+            "relation": "FOR_DEPARTMENT"
+        },
+        {
+            "source": "LD-TRX-08-002",
+            "target": "95,000.00",
+            "relation": "HAS_AMOUNT"
+        },
+        {
+            "source": "LD-TRX-08-002",
+            "target": "Pending",
+            "relation": "HAS_STATUS"
+        },
+        {
+            "source": "LD-TRX-08-002",
+            "target": "Annual compliance audit services",
+            "relation": "FOR_SERVICE"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "LD-TRX-08-002",
+            "relation": "REVIEWING"
+        },
+        {
+            "source": "LD-TRX-08-002",
+            "target": "EOD next week",
+            "relation": "HAS_ETA"
+        },
+        {
+            "source": "LD-TRX-08-003",
+            "target": "INV-PPT-2024-08",
+            "relation": "HAS_INVOICE"
+        },
+        {
+            "source": "LD-TRX-08-003",
+            "target": "PrintPro India",
+            "relation": "INVOLVES_VENDOR"
+        },
+        {
+            "source": "LD-TRX-08-003",
+            "target": "HR",
+            "relation": "FOR_DEPARTMENT"
+        },
+        {
+            "source": "LD-TRX-08-003",
+            "target": "5,500.00",
+            "relation": "HAS_AMOUNT"
+        },
+        {
+            "source": "LD-TRX-08-003",
+            "target": "Processed",
+            "relation": "HAS_STATUS"
+        },
+        {
+            "source": "LD-TRX-08-003",
+            "target": "Printing of updated Employee Handbooks",
+            "relation": "FOR_SERVICE"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "LD-TRX-08-003",
+            "relation": "APPROVED"
+        },
+        {
+            "source": "LD-TRX-08-004",
+            "target": "INV-SWT-2024-05",
+            "relation": "HAS_INVOICE"
+        },
+        {
+            "source": "LD-TRX-08-004",
+            "target": "SwiftTravel Co.",
+            "relation": "INVOLVES_VENDOR"
+        },
+        {
+            "source": "LD-TRX-08-004",
+            "target": "Executive Office",
+            "relation": "FOR_DEPARTMENT"
+        },
+        {
+            "source": "LD-TRX-08-004",
+            "target": "45,000.00",
+            "relation": "HAS_AMOUNT"
+        },
+        {
+            "source": "LD-TRX-08-004",
+            "target": "Processed",
+            "relation": "HAS_STATUS"
+        },
+        {
+            "source": "LD-TRX-08-004",
+            "target": "Travel expenses for Vikram Patel's industry conference",
+            "relation": "FOR_SERVICE"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Travel expenses for Vikram Patel's industry conference",
+            "relation": "INCURRED_EXPENSES_FOR"
+        },
+        {
+            "source": "LD-TRX-09-001",
+            "target": "INV-GRN-2024-03",
+            "relation": "HAS_INVOICE"
+        },
+        {
+            "source": "LD-TRX-09-001",
+            "target": "GreenByte Energy",
+            "relation": "INVOLVES_VENDOR"
+        },
+        {
+            "source": "LD-TRX-09-001",
+            "target": "Operations",
+            "relation": "FOR_DEPARTMENT"
+        },
+        {
+            "source": "LD-TRX-09-001",
+            "target": "38,000.00",
+            "relation": "HAS_AMOUNT"
+        },
+        {
+            "source": "LD-TRX-09-001",
+            "target": "Pending",
+            "relation": "HAS_STATUS"
+        },
+        {
+            "source": "LD-TRX-09-001",
+            "target": "Office energy efficiency assessment",
+            "relation": "FOR_SERVICE"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "LD-TRX-09-001",
+            "relation": "LIAISING_FOR"
+        },
+        {
+            "source": "LD-TRX-09-002",
+            "target": "INV-TNS-2024-02",
+            "relation": "HAS_INVOICE"
+        },
+        {
+            "source": "LD-TRX-09-002",
+            "target": "TechNova Solutions Pvt Ltd",
+            "relation": "INVOLVES_VENDOR"
+        },
+        {
+            "source": "LD-TRX-09-002",
+            "target": "IT",
+            "relation": "FOR_DEPARTMENT"
+        },
+        {
+            "source": "LD-TRX-09-002",
+            "target": "18,000.00",
+            "relation": "HAS_AMOUNT"
+        },
+        {
+            "source": "LD-TRX-09-002",
+            "target": "Processed",
+            "relation": "HAS_STATUS"
+        },
+        {
+            "source": "LD-TRX-09-002",
+            "target": "Ad-hoc support for server migration project",
+            "relation": "FOR_SERVICE"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "LD-TRX-09-002",
+            "relation": "OVERSAW"
+        },
+        {
+            "source": "LD-TRX-09-003",
+            "target": "INV-BRC-2024-01",
+            "relation": "HAS_INVOICE"
+        },
+        {
+            "source": "LD-TRX-09-003",
+            "target": "BuildRight Contractors",
+            "relation": "INVOLVES_VENDOR"
+        },
+        {
+            "source": "LD-TRX-09-003",
+            "target": "Operations",
+            "relation": "FOR_DEPARTMENT"
+        },
+        {
+            "source": "LD-TRX-09-003",
+            "target": "320,000.00",
+            "relation": "HAS_AMOUNT"
+        },
+        {
+            "source": "LD-TRX-09-003",
+            "target": "Awaiting Invoice",
+            "relation": "HAS_STATUS"
+        },
+        {
+            "source": "LD-TRX-09-003",
+            "target": "Minor office renovation project, Phase 1 completion",
+            "relation": "FOR_SERVICE"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Minor office renovation project",
+            "relation": "CONFIRMED_COMPLETION_FOR_PROJECT"
+        },
+        {
+            "source": "LD-TRX-09-004",
+            "target": "INV-DWA-2024-03",
+            "relation": "HAS_INVOICE"
+        },
+        {
+            "source": "LD-TRX-09-004",
+            "target": "DataWeave Analytics",
+            "relation": "INVOLVES_VENDOR"
+        },
+        {
+            "source": "LD-TRX-09-004",
+            "target": "Operations",
+            "relation": "FOR_DEPARTMENT"
+        },
+        {
+            "source": "LD-TRX-09-004",
+            "target": "180,000.00",
+            "relation": "HAS_AMOUNT"
+        },
+        {
+            "source": "LD-TRX-09-004",
+            "target": "Awaiting Invoice",
+            "relation": "HAS_STATUS"
+        },
+        {
+            "source": "LD-TRX-09-004",
+            "target": "Q3 market analysis report",
+            "relation": "FOR_REPORT"
+        },
+        {
+            "source": "LD-TRX-09-005",
+            "target": "INV-OHS-2024-09",
+            "relation": "HAS_INVOICE"
+        },
+        {
+            "source": "LD-TRX-09-005",
+            "target": "OfficeHive Supplies",
+            "relation": "INVOLVES_VENDOR"
+        },
+        {
+            "source": "LD-TRX-09-005",
+            "target": "Procurement",
+            "relation": "FOR_DEPARTMENT"
+        },
+        {
+            "source": "LD-TRX-09-005",
+            "target": "8,200.00",
+            "relation": "HAS_AMOUNT"
+        },
+        {
+            "source": "LD-TRX-09-005",
+            "target": "Processed",
+            "relation": "HAS_STATUS"
+        },
+        {
+            "source": "LD-TRX-09-005",
+            "target": "Office pantry restocking",
+            "relation": "FOR_SERVICE"
+        },
+        {
+            "source": "Rohan Das",
+            "target": "LD-TRX-09-005",
+            "relation": "INITIATED"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Rohan Das",
+            "relation": "GUIDED"
+        },
+        {
+            "source": "LD-TRX-09-006",
+            "target": "INV-SWT-2024-06",
+            "relation": "HAS_INVOICE"
+        },
+        {
+            "source": "LD-TRX-09-006",
+            "target": "SwiftTravel Co.",
+            "relation": "INVOLVES_VENDOR"
+        },
+        {
+            "source": "LD-TRX-09-006",
+            "target": "HR",
+            "relation": "FOR_DEPARTMENT"
+        },
+        {
+            "source": "LD-TRX-09-006",
+            "target": "15,000.00",
+            "relation": "HAS_AMOUNT"
+        },
+        {
+            "source": "LD-TRX-09-006",
+            "target": "Processed",
+            "relation": "HAS_STATUS"
+        },
+        {
+            "source": "LD-TRX-09-006",
+            "target": "New hire relocation package",
+            "relation": "FOR_SERVICE"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "LD-TRX-09-006",
+            "relation": "APPROVED"
+        },
+        {
+            "source": "LD-TRX-09-007",
+            "target": "INV-CPS-2024-09",
+            "relation": "HAS_INVOICE"
+        },
+        {
+            "source": "LD-TRX-09-007",
+            "target": "CloudKart Services",
+            "relation": "INVOLVES_VENDOR"
+        },
+        {
+            "source": "LD-TRX-09-007",
+            "target": "IT",
+            "relation": "FOR_DEPARTMENT"
+        },
+        {
+            "source": "LD-TRX-09-007",
+            "target": "72,000.00",
+            "relation": "HAS_AMOUNT"
+        },
+        {
+            "source": "LD-TRX-09-007",
+            "target": "Pending",
+            "relation": "HAS_STATUS"
+        },
+        {
+            "source": "LD-TRX-09-007",
+            "target": "Increased cloud storage allocation request",
+            "relation": "FOR_SERVICE"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "LD-TRX-09-007",
+            "relation": "ESCALATED"
+        },
+        {
+            "source": "LD-TRX-09-008",
+            "target": "INV-CHC-2024-02",
+            "relation": "HAS_INVOICE"
+        },
+        {
+            "source": "LD-TRX-09-008",
+            "target": "ComplyHub Consulting",
+            "relation": "INVOLVES_VENDOR"
+        },
+        {
+            "source": "LD-TRX-09-008",
+            "target": "Compliance",
+            "relation": "FOR_DEPARTMENT"
+        },
+        {
+            "source": "LD-TRX-09-008",
+            "target": "110,000.00",
+            "relation": "HAS_AMOUNT"
+        },
+        {
+            "source": "LD-TRX-09-008",
+            "target": "Awaiting Payment",
+            "relation": "HAS_STATUS"
+        },
+        {
+            "source": "LD-TRX-09-008",
+            "target": "Follow-up recommendations from prior audit",
+            "relation": "FOR_SERVICE"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "LD-TRX-09-008",
+            "relation": "PROVIDED_SIGN_OFF_FOR"
+        },
+        {
+            "source": "Total Processed Transactions",
+            "target": "10",
+            "relation": "HAS_VALUE"
+        },
+        {
+            "source": "Total Pending Transactions",
+            "target": "5",
+            "relation": "HAS_VALUE"
+        },
+        {
+            "source": "Total Awaiting Invoice/Payment",
+            "target": "3",
+            "relation": "HAS_VALUE"
+        },
+        {
+            "source": "Overall Projected Spend",
+            "target": "1,438,200.00",
+            "relation": "HAS_VALUE"
+        },
+        {
+            "source": "internal approval delays",
+            "target": "Pending",
+            "relation": "CAUSES_STATUS"
+        },
+        {
+            "source": "internal approval delays",
+            "target": "IT",
+            "relation": "AFFECTS_DEPARTMENT"
+        },
+        {
+            "source": "internal approval delays",
+            "target": "Compliance",
+            "relation": "AFFECTS_DEPARTMENT"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "streamline these workflows",
+            "relation": "COORDINATING"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "department heads",
+            "relation": "COORDINATING_WITH"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "update on your respective pending items",
+            "relation": "REQUESTED_TO_PROVIDE"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "update on your respective pending items",
+            "relation": "REQUESTED_TO_PROVIDE"
+        },
+        {
+            "source": "update on your respective pending items",
+            "target": "end of day Friday",
+            "relation": "DUE_BY"
+        },
+        {
+            "source": "INV-BRC-2024-01",
+            "target": "October 5th",
+            "relation": "EXPECTED_BY"
+        },
+        {
+            "source": "Finance Department",
+            "target": "payment",
+            "relation": "WILL_PROCESS"
+        },
+        {
+            "source": "payment",
+            "target": "INV-BRC-2024-01",
+            "relation": "UPON_RECEIPT_OF"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Q3 market analysis report",
+            "relation": "URGENTLY_REQUIRES"
+        },
+        {
+            "source": "Q3 market analysis report",
+            "target": "executive meetings",
+            "relation": "FOR_EVENT"
+        },
+        {
+            "source": "Procurement",
+            "target": "DataWeave Analytics",
+            "relation": "FOLLOW_UP_WITH_VENDOR"
+        },
+        {
+            "source": "Procurement",
+            "target": "INV-DWA-2024-03",
+            "relation": "FOLLOW_UP_FOR"
+        },
+        {
+            "source": "Procurement",
+            "target": "report delivery",
+            "relation": "FOLLOW_UP_FOR"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Procurement",
+            "relation": "WORKS_IN"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "DataWeave Analytics",
+            "relation": "FOLLOW_UP_WITH_VENDOR"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "reconciliation of Q3 transactions",
+            "relation": "WILL_COMPLETE"
+        },
+        {
+            "source": "reconciliation of Q3 transactions",
+            "target": "October 15th",
+            "relation": "BY_DATE"
+        },
+        {
+            "source": "previous quarter's log",
+            "target": "comparative analysis",
+            "relation": "FOR_PURPOSE"
+        }
+    ]
+}

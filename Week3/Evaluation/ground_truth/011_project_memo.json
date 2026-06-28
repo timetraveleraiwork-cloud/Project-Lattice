@@ -1,0 +1,666 @@
+{
+    "document": "011_project_memo.txt",
+    "entities": [
+        {
+            "type": "Person",
+            "name": "Vikram Patel"
+        },
+        {
+            "type": "Role",
+            "name": "Executive Director"
+        },
+        {
+            "type": "Person",
+            "name": "Sandeep Menon"
+        },
+        {
+            "type": "Role",
+            "name": "Compliance Officer"
+        },
+        {
+            "type": "Person",
+            "name": "Priya Nair"
+        },
+        {
+            "type": "Role",
+            "name": "Finance Manager"
+        },
+        {
+            "type": "Role",
+            "name": "Project Stakeholders"
+        },
+        {
+            "type": "Person",
+            "name": "Arjun Verma"
+        },
+        {
+            "type": "Role",
+            "name": "Project Manager"
+        },
+        {
+            "type": "Organization",
+            "name": "Lattice Dynamics Pvt. Ltd."
+        },
+        {
+            "type": "Date",
+            "name": "October 26, 2023"
+        },
+        {
+            "type": "Project",
+            "name": "Cloud Migration Initiative - Phase 1"
+        },
+        {
+            "type": "Project",
+            "name": "Cloud Migration Initiative"
+        },
+        {
+            "type": "Concept",
+            "name": "HR and Finance data"
+        },
+        {
+            "type": "Concept",
+            "name": "HR and Finance applications"
+        },
+        {
+            "type": "Concept",
+            "name": "Cloud infrastructure"
+        },
+        {
+            "type": "Concept",
+            "name": "operational efficiency"
+        },
+        {
+            "type": "Concept",
+            "name": "data accessibility"
+        },
+        {
+            "type": "Department",
+            "name": "Operations Department"
+        },
+        {
+            "type": "Person",
+            "name": "Rahul Sharma"
+        },
+        {
+            "type": "Role",
+            "name": "IT Administrator"
+        },
+        {
+            "type": "Department",
+            "name": "IT Department"
+        },
+        {
+            "type": "Person",
+            "name": "Neha Singh"
+        },
+        {
+            "type": "Role",
+            "name": "Data Analyst"
+        },
+        {
+            "type": "Person",
+            "name": "Ankit Gupta"
+        },
+        {
+            "type": "Role",
+            "name": "Support Engineer"
+        },
+        {
+            "type": "Department",
+            "name": "Finance Department"
+        },
+        {
+            "type": "Milestone",
+            "name": "Vendor contract finalization"
+        },
+        {
+            "type": "Organization",
+            "name": "CloudKart Services"
+        },
+        {
+            "type": "Date",
+            "name": "November 15, 2023"
+        },
+        {
+            "type": "Milestone",
+            "name": "Initial data assessment and mapping"
+        },
+        {
+            "type": "Date",
+            "name": "November 30, 2023"
+        },
+        {
+            "type": "Milestone",
+            "name": "Pilot data migration"
+        },
+        {
+            "type": "Concept",
+            "name": "HR records"
+        },
+        {
+            "type": "Date",
+            "name": "December 15, 2023"
+        },
+        {
+            "type": "Milestone",
+            "name": "Security architecture review"
+        },
+        {
+            "type": "Organization",
+            "name": "SecureNet Systems"
+        },
+        {
+            "type": "Date",
+            "name": "January 15, 2024"
+        },
+        {
+            "type": "Milestone",
+            "name": "Full migration of HR & Finance core data"
+        },
+        {
+            "type": "Date",
+            "name": "February 29, 2024"
+        },
+        {
+            "type": "Milestone",
+            "name": "Post-migration system testing & user acceptance"
+        },
+        {
+            "type": "Date",
+            "name": "March 15, 2024"
+        },
+        {
+            "type": "Date",
+            "name": "Q2 2024"
+        },
+        {
+            "type": "Budget",
+            "name": "Project budget"
+        },
+        {
+            "type": "Concept",
+            "name": "Licensing"
+        },
+        {
+            "type": "Concept",
+            "name": "Initial setup fees"
+        },
+        {
+            "type": "Concept",
+            "name": "Consultation"
+        },
+        {
+            "type": "Concept",
+            "name": "Enhanced security protocols"
+        },
+        {
+            "type": "Concept",
+            "name": "Expenditure tracking"
+        },
+        {
+            "type": "Concept",
+            "name": "Invoices"
+        },
+        {
+            "type": "Project",
+            "name": "Phase 2"
+        },
+        {
+            "type": "Risk",
+            "name": "Data Integrity & Loss"
+        },
+        {
+            "type": "Mitigation",
+            "name": "Comprehensive pre-migration backups"
+        },
+        {
+            "type": "Mitigation",
+            "name": "Rigorous validation post-migration"
+        },
+        {
+            "type": "Concept",
+            "name": "Data reconciliation efforts"
+        },
+        {
+            "type": "Risk",
+            "name": "Downtime Impact"
+        },
+        {
+            "type": "Mitigation",
+            "name": "Scheduled migrations during off-peak hours"
+        },
+        {
+            "type": "Concept",
+            "name": "User communication"
+        },
+        {
+            "type": "Risk",
+            "name": "Security Vulnerabilities"
+        },
+        {
+            "type": "Mitigation",
+            "name": "Collaboration with SecureNet Systems for a robust security framework and regular audits"
+        },
+        {
+            "type": "Department",
+            "name": "Compliance team"
+        },
+        {
+            "type": "Concept",
+            "name": "Oversight"
+        },
+        {
+            "type": "Risk",
+            "name": "Vendor Reliance"
+        },
+        {
+            "type": "Mitigation",
+            "name": "Establishing clear SLAs and escalation paths"
+        },
+        {
+            "type": "Risk",
+            "name": "Scope Creep"
+        },
+        {
+            "type": "Mitigation",
+            "name": "Strict adherence to Phase 1 objectives"
+        },
+        {
+            "type": "Concept",
+            "name": "New requirements"
+        },
+        {
+            "type": "Concept",
+            "name": "Change control"
+        },
+        {
+            "type": "Concept",
+            "name": "Project sync meeting"
+        },
+        {
+            "type": "Date",
+            "name": "November 6, 2023"
+        },
+        {
+            "type": "Location",
+            "name": "Conference Room A"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Arjun Verma",
+            "target": "October 26, 2023",
+            "relation": "SENT_FROM_DATE"
+        },
+        {
+            "source": "October 26, 2023",
+            "target": "Vikram Patel",
+            "relation": "SENT_TO"
+        },
+        {
+            "source": "October 26, 2023",
+            "target": "Sandeep Menon",
+            "relation": "SENT_TO"
+        },
+        {
+            "source": "October 26, 2023",
+            "target": "Priya Nair",
+            "relation": "SENT_TO"
+        },
+        {
+            "source": "October 26, 2023",
+            "target": "Project Stakeholders",
+            "relation": "SENT_TO"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Executive Director",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Compliance Officer",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Finance Manager",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Project Manager",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Operations Department",
+            "relation": "BELONGS_TO"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "WORKS_FOR"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "Cloud Migration Initiative",
+            "relation": "IS_PART_OF"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "HR and Finance data",
+            "relation": "TRANSITIONS"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "HR and Finance applications",
+            "relation": "TRANSITIONS"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "Cloud infrastructure",
+            "relation": "TO"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "operational efficiency",
+            "relation": "ENHANCES"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "data accessibility",
+            "relation": "ENHANCES"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "Arjun Verma",
+            "relation": "HAS_PROJECT_MANAGER"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "Rahul Sharma",
+            "relation": "HAS_TEAM_MEMBER"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "IT Administrator",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "IT Department",
+            "relation": "BELONGS_TO"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "Neha Singh",
+            "relation": "HAS_TEAM_MEMBER"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Data Analyst",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "IT Department",
+            "relation": "BELONGS_TO"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "Ankit Gupta",
+            "relation": "HAS_TEAM_MEMBER"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "Support Engineer",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "IT Department",
+            "relation": "BELONGS_TO"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "Priya Nair",
+            "relation": "HAS_ADVISORY_MEMBER"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Finance Department",
+            "relation": "BELONGS_TO"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "Vendor contract finalization",
+            "relation": "HAS_MILESTONE"
+        },
+        {
+            "source": "Vendor contract finalization",
+            "target": "November 15, 2023",
+            "relation": "DUE_BY"
+        },
+        {
+            "source": "Vendor contract finalization",
+            "target": "CloudKart Services",
+            "relation": "WITH"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "Initial data assessment and mapping",
+            "relation": "HAS_MILESTONE"
+        },
+        {
+            "source": "Initial data assessment and mapping",
+            "target": "HR and Finance applications",
+            "relation": "FOR"
+        },
+        {
+            "source": "Initial data assessment and mapping",
+            "target": "November 30, 2023",
+            "relation": "DUE_BY"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "Pilot data migration",
+            "relation": "HAS_MILESTONE"
+        },
+        {
+            "source": "Pilot data migration",
+            "target": "HR records",
+            "relation": "FOR"
+        },
+        {
+            "source": "Pilot data migration",
+            "target": "December 15, 2023",
+            "relation": "DUE_BY"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "Security architecture review",
+            "relation": "HAS_MILESTONE"
+        },
+        {
+            "source": "Security architecture review",
+            "target": "SecureNet Systems",
+            "relation": "WITH"
+        },
+        {
+            "source": "Security architecture review",
+            "target": "January 15, 2024",
+            "relation": "DUE_BY"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "Full migration of HR & Finance core data",
+            "relation": "HAS_MILESTONE"
+        },
+        {
+            "source": "Full migration of HR & Finance core data",
+            "target": "February 29, 2024",
+            "relation": "DUE_BY"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "Post-migration system testing & user acceptance",
+            "relation": "HAS_MILESTONE"
+        },
+        {
+            "source": "Post-migration system testing & user acceptance",
+            "target": "March 15, 2024",
+            "relation": "DUE_BY"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "Q2 2024",
+            "relation": "GO_LIVE_ETA"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "Project budget",
+            "relation": "HAS_BUDGET"
+        },
+        {
+            "source": "Project budget",
+            "target": "Licensing",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "Licensing",
+            "target": "CloudKart Services",
+            "relation": "FOR"
+        },
+        {
+            "source": "Project budget",
+            "target": "Initial setup fees",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "Project budget",
+            "target": "Consultation",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "Consultation",
+            "target": "SecureNet Systems",
+            "relation": "FROM"
+        },
+        {
+            "source": "Consultation",
+            "target": "Enhanced security protocols",
+            "relation": "FOR"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Expenditure tracking",
+            "relation": "OVERSEES"
+        },
+        {
+            "source": "Invoices",
+            "target": "Finance Department",
+            "relation": "ROUTED_TO"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "Data Integrity & Loss",
+            "relation": "HAS_RISK"
+        },
+        {
+            "source": "Data Integrity & Loss",
+            "target": "Comprehensive pre-migration backups",
+            "relation": "MITIGATED_BY"
+        },
+        {
+            "source": "Data Integrity & Loss",
+            "target": "Rigorous validation post-migration",
+            "relation": "MITIGATED_BY"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Data reconciliation efforts",
+            "relation": "LEADS_EFFORT"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "Downtime Impact",
+            "relation": "HAS_RISK"
+        },
+        {
+            "source": "Downtime Impact",
+            "target": "Scheduled migrations during off-peak hours",
+            "relation": "MITIGATED_BY"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "User communication",
+            "relation": "MANAGES_COMMUNICATION"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "Security Vulnerabilities",
+            "relation": "HAS_RISK"
+        },
+        {
+            "source": "Security Vulnerabilities",
+            "target": "Collaboration with SecureNet Systems for a robust security framework and regular audits",
+            "relation": "MITIGATED_BY"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Oversight",
+            "relation": "PROVIDES_OVERSIGHT"
+        },
+        {
+            "source": "Compliance team",
+            "target": "Security Vulnerabilities",
+            "relation": "PROVIDES_OVERSIGHT_FOR"
+        },
+        {
+            "source": "Compliance team",
+            "target": "Sandeep Menon",
+            "relation": "LED_BY"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "Vendor Reliance",
+            "relation": "HAS_RISK"
+        },
+        {
+            "source": "Vendor Reliance",
+            "target": "Establishing clear SLAs and escalation paths",
+            "relation": "MITIGATED_BY"
+        },
+        {
+            "source": "Establishing clear SLAs and escalation paths",
+            "target": "CloudKart Services",
+            "relation": "WITH"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "Scope Creep",
+            "relation": "HAS_RISK"
+        },
+        {
+            "source": "Scope Creep",
+            "target": "Strict adherence to Phase 1 objectives",
+            "relation": "MITIGATED_BY"
+        },
+        {
+            "source": "New requirements",
+            "target": "Change control",
+            "relation": "MANAGED_THROUGH"
+        },
+        {
+            "source": "Project sync meeting",
+            "target": "November 6, 2023",
+            "relation": "SCHEDULED_FOR"
+        },
+        {
+            "source": "Project sync meeting",
+            "target": "Conference Room A",
+            "relation": "LOCATED_AT"
+        }
+    ]
+}

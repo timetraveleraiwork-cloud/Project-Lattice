@@ -1,0 +1,237 @@
+{
+    "document": "024_email_thread.txt",
+    "entities": [
+        {
+            "type": "Person",
+            "name": "Arjun Verma"
+        },
+        {
+            "type": "Person",
+            "name": "Vikram Patel"
+        },
+        {
+            "type": "Person",
+            "name": "Rahul Sharma"
+        },
+        {
+            "type": "Person",
+            "name": "Neha Singh"
+        },
+        {
+            "type": "Person",
+            "name": "Meera Iyer"
+        },
+        {
+            "type": "Project",
+            "name": "Project Nexus"
+        },
+        {
+            "type": "Organization",
+            "name": "Lattice Dynamics Pvt. Ltd."
+        },
+        {
+            "type": "System",
+            "name": "CloudKart Services"
+        },
+        {
+            "type": "Organization",
+            "name": "DataWeave Analytics"
+        },
+        {
+            "type": "Organization",
+            "name": "OfficeHive Supplies"
+        },
+        {
+            "type": "Organization",
+            "name": "ComplyHub Consulting"
+        },
+        {
+            "type": "Team",
+            "name": "IT team"
+        },
+        {
+            "type": "Team",
+            "name": "Data Analysts"
+        },
+        {
+            "type": "Process",
+            "name": "Phase 1 data migration"
+        },
+        {
+            "type": "Module",
+            "name": "advanced analytics module"
+        },
+        {
+            "type": "Product",
+            "name": "hardware components"
+        },
+        {
+            "type": "Document",
+            "name": "DataWeave contract"
+        },
+        {
+            "type": "Event",
+            "name": "UAT planning session"
+        },
+        {
+            "type": "Process",
+            "name": "Phase 2 system integration"
+        },
+        {
+            "type": "Software",
+            "name": "critical report generation script"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Arjun Verma",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "WORKS_FOR"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "WORKS_FOR"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "WORKS_FOR"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "WORKS_FOR"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "WORKS_FOR"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Project Nexus",
+            "relation": "REPORTS_ON"
+        },
+        {
+            "source": "Project Nexus",
+            "target": "Phase 1 data migration",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "Phase 1 data migration",
+            "target": "CloudKart Services",
+            "relation": "TO"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "IT team",
+            "relation": "LEADS"
+        },
+        {
+            "source": "IT team",
+            "target": "Phase 1 data migration",
+            "relation": "COMPLETED"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Data Analysts",
+            "relation": "LEADS"
+        },
+        {
+            "source": "Data Analysts",
+            "target": "data integrity checks",
+            "relation": "PERFORMED"
+        },
+        {
+            "source": "Lattice Dynamics Pvt. Ltd.",
+            "target": "DataWeave Analytics",
+            "relation": "NEGOTIATING_WITH"
+        },
+        {
+            "source": "DataWeave Analytics",
+            "target": "advanced analytics module",
+            "relation": "PROVIDES"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "DataWeave Analytics",
+            "relation": "INSTRUMENTAL_IN_NEGOTIATIONS_WITH"
+        },
+        {
+            "source": "Project Nexus",
+            "target": "UAT planning session",
+            "relation": "INCLUDES_TASK"
+        },
+        {
+            "source": "Project Nexus",
+            "target": "DataWeave contract",
+            "relation": "INCLUDES_TASK_FINALIZATION_OF"
+        },
+        {
+            "source": "Project Nexus",
+            "target": "Phase 2 system integration",
+            "relation": "INCLUDES_TASK"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "hardware components",
+            "relation": "FOLLOWS_UP_ON"
+        },
+        {
+            "source": "OfficeHive Supplies",
+            "target": "hardware components",
+            "relation": "SUPPLIES"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "critical report generation script",
+            "relation": "OPTIMIZING"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "DataWeave contract",
+            "relation": "NEEDS_SIGN_OFF_ON"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "DataWeave contract",
+            "relation": "REQUESTS_DRAFT_OF"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "CloudKart Services",
+            "relation": "MONITORS"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Phase 2 system integration",
+            "relation": "STARTED_ASSESSMENTS_FOR"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "UAT planning session",
+            "relation": "WILL_JOIN"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "DataWeave contract",
+            "relation": "FORWARDS_DRAFT_OF"
+        },
+        {
+            "source": "ComplyHub Consulting",
+            "target": "DataWeave contract",
+            "relation": "PERFORMED_LEGAL_REVIEW_FOR"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "ComplyHub Consulting",
+            "relation": "INCORPORATED_FEEDBACK_FROM"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Vikram Patel",
+            "relation": "FORWARDS_DRAFT_TO"
+        }
+    ]
+}

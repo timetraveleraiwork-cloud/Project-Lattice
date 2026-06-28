@@ -1,0 +1,533 @@
+{
+    "document": "035_email_thread.txt",
+    "entities": [
+        {
+            "type": "Person",
+            "name": "Rahul Sharma"
+        },
+        {
+            "type": "Role",
+            "name": "IT Administrator"
+        },
+        {
+            "type": "Department",
+            "name": "IT Department"
+        },
+        {
+            "type": "Organization",
+            "name": "Lattice Dynamics"
+        },
+        {
+            "type": "Person",
+            "name": "Arjun Verma"
+        },
+        {
+            "type": "Role",
+            "name": "Project Manager"
+        },
+        {
+            "type": "Department",
+            "name": "Operations Department"
+        },
+        {
+            "type": "Person",
+            "name": "Meera Iyer"
+        },
+        {
+            "type": "Role",
+            "name": "Procurement Lead"
+        },
+        {
+            "type": "Department",
+            "name": "Procurement Department"
+        },
+        {
+            "type": "Person",
+            "name": "Priya Nair"
+        },
+        {
+            "type": "Role",
+            "name": "Finance Manager"
+        },
+        {
+            "type": "Department",
+            "name": "Finance Department"
+        },
+        {
+            "type": "Project",
+            "name": "Q3 software license renewals"
+        },
+        {
+            "type": "Project",
+            "name": "System upgrade assessment"
+        },
+        {
+            "type": "System",
+            "name": "ERP system"
+        },
+        {
+            "type": "Document",
+            "name": "ERP system licenses"
+        },
+        {
+            "type": "Organization",
+            "name": "TechNova Solutions Pvt Ltd"
+        },
+        {
+            "type": "System",
+            "name": "Firewall infrastructure"
+        },
+        {
+            "type": "Organization",
+            "name": "SecureNet Systems"
+        },
+        {
+            "type": "Document",
+            "name": "preliminary vendor quote"
+        },
+        {
+            "type": "Concept",
+            "name": "project requirements"
+        },
+        {
+            "type": "Concept",
+            "name": "budget implications"
+        },
+        {
+            "type": "Process",
+            "name": "procurement"
+        },
+        {
+            "type": "Concept",
+            "name": "financial considerations"
+        },
+        {
+            "type": "Project",
+            "name": "ERP system renewal"
+        },
+        {
+            "type": "Project",
+            "name": "Firewall upgrade"
+        },
+        {
+            "type": "Concept",
+            "name": "scope"
+        },
+        {
+            "type": "Issue",
+            "name": "latency issues"
+        },
+        {
+            "type": "Concept",
+            "name": "cost savings"
+        },
+        {
+            "type": "Concept",
+            "name": "alternative solutions"
+        },
+        {
+            "type": "Process",
+            "name": "budget approval process"
+        },
+        {
+            "type": "Document",
+            "name": "technical specifications"
+        },
+        {
+            "type": "Document",
+            "name": "usage statistics"
+        },
+        {
+            "type": "Document",
+            "name": "detailed scope of work (SOW)"
+        },
+        {
+            "type": "Document",
+            "name": "vendor options"
+        },
+        {
+            "type": "Organization",
+            "name": "CloudKart Services"
+        },
+        {
+            "type": "Process",
+            "name": "competitive bidding"
+        },
+        {
+            "type": "Policy",
+            "name": "procurement policies [PRC-005]"
+        },
+        {
+            "type": "Concept",
+            "name": "estimated costs"
+        },
+        {
+            "type": "Concept",
+            "name": "ROI"
+        },
+        {
+            "type": "FinancialItem",
+            "name": "Q2 expenditures"
+        },
+        {
+            "type": "FinancialItem",
+            "name": "Q3 projections"
+        },
+        {
+            "type": "Document",
+            "name": "updated quotes"
+        },
+        {
+            "type": "Document",
+            "name": "competitive analysis"
+        },
+        {
+            "type": "Concept",
+            "name": "budget allocations"
+        },
+        {
+            "type": "Document",
+            "name": "proposals"
+        },
+        {
+            "type": "Document",
+            "name": "comprehensive document"
+        },
+        {
+            "type": "Concept",
+            "name": "projected performance improvements"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Rahul Sharma",
+            "target": "IT Administrator",
+            "relation": "WORKS_AS"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "IT Department",
+            "relation": "WORKS_FOR"
+        },
+        {
+            "source": "IT Department",
+            "target": "Lattice Dynamics",
+            "relation": "BELONGS_TO"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Project Manager",
+            "relation": "WORKS_AS"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Operations Department",
+            "relation": "WORKS_FOR"
+        },
+        {
+            "source": "Operations Department",
+            "target": "Lattice Dynamics",
+            "relation": "BELONGS_TO"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Procurement Lead",
+            "relation": "WORKS_AS"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Procurement Department",
+            "relation": "WORKS_FOR"
+        },
+        {
+            "source": "Procurement Department",
+            "target": "Lattice Dynamics",
+            "relation": "BELONGS_TO"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Finance Manager",
+            "relation": "WORKS_AS"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Finance Department",
+            "relation": "WORKS_FOR"
+        },
+        {
+            "source": "Finance Department",
+            "target": "Lattice Dynamics",
+            "relation": "BELONGS_TO"
+        },
+        {
+            "source": "ERP system renewal",
+            "target": "Q3 software license renewals",
+            "relation": "IS_PART_OF"
+        },
+        {
+            "source": "Firewall upgrade",
+            "target": "System upgrade assessment",
+            "relation": "IS_PART_OF"
+        },
+        {
+            "source": "Q3 software license renewals",
+            "target": "procurement",
+            "relation": "INVOLVES"
+        },
+        {
+            "source": "Q3 software license renewals",
+            "target": "financial considerations",
+            "relation": "INVOLVES"
+        },
+        {
+            "source": "System upgrade assessment",
+            "target": "procurement",
+            "relation": "INVOLVES"
+        },
+        {
+            "source": "System upgrade assessment",
+            "target": "financial considerations",
+            "relation": "INVOLVES"
+        },
+        {
+            "source": "ERP system renewal",
+            "target": "ERP system",
+            "relation": "AFFECTS"
+        },
+        {
+            "source": "ERP system renewal",
+            "target": "ERP system licenses",
+            "relation": "INVOLVES"
+        },
+        {
+            "source": "ERP system renewal",
+            "target": "Operations Department",
+            "relation": "IS_PRIORITY_FOR"
+        },
+        {
+            "source": "Firewall upgrade",
+            "target": "Firewall infrastructure",
+            "relation": "AFFECTS"
+        },
+        {
+            "source": "Firewall upgrade",
+            "target": "latency issues",
+            "relation": "WILL_ADDRESS"
+        },
+        {
+            "source": "Firewall upgrade",
+            "target": "competitive bidding",
+            "relation": "INVOLVES"
+        },
+        {
+            "source": "ERP system renewal",
+            "target": "technical specifications",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "ERP system renewal",
+            "target": "usage statistics",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Firewall upgrade",
+            "target": "detailed scope of work (SOW)",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Firewall upgrade",
+            "target": "vendor options",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Firewall upgrade",
+            "target": "ROI",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "ERP system renewal",
+            "target": "cost savings",
+            "relation": "SEEKS"
+        },
+        {
+            "source": "ERP system renewal",
+            "target": "alternative solutions",
+            "relation": "SEEKS"
+        },
+        {
+            "source": "Firewall upgrade",
+            "target": "projected performance improvements",
+            "relation": "HAS"
+        },
+        {
+            "source": "ERP system licenses",
+            "target": "TechNova Solutions Pvt Ltd",
+            "relation": "FROM_VENDOR"
+        },
+        {
+            "source": "preliminary vendor quote",
+            "target": "TechNova Solutions Pvt Ltd",
+            "relation": "FROM_VENDOR"
+        },
+        {
+            "source": "Firewall infrastructure",
+            "target": "SecureNet Systems",
+            "relation": "PROVIDED_BY"
+        },
+        {
+            "source": "vendor options",
+            "target": "SecureNet Systems",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "vendor options",
+            "target": "CloudKart Services",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "SecureNet Systems",
+            "relation": "WILL_CONTACT"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "CloudKart Services",
+            "relation": "WILL_CONTACT"
+        },
+        {
+            "source": "procurement policies [PRC-005]",
+            "target": "procurement",
+            "relation": "GOVERNS"
+        },
+        {
+            "source": "procurement policies [PRC-005]",
+            "target": "competitive bidding",
+            "relation": "GOVERNS"
+        },
+        {
+            "source": "comprehensive document",
+            "target": "technical specifications",
+            "relation": "CONTAINS"
+        },
+        {
+            "source": "comprehensive document",
+            "target": "usage statistics",
+            "relation": "CONTAINS"
+        },
+        {
+            "source": "comprehensive document",
+            "target": "detailed scope of work (SOW)",
+            "relation": "CONTAINS"
+        },
+        {
+            "source": "comprehensive document",
+            "target": "proposals",
+            "relation": "CONTAINS"
+        },
+        {
+            "source": "comprehensive document",
+            "target": "projected performance improvements",
+            "relation": "CONTAINS"
+        },
+        {
+            "source": "Q2 expenditures",
+            "target": "Q3 projections",
+            "relation": "IMPACTS"
+        },
+        {
+            "source": "ERP system renewal",
+            "target": "estimated costs",
+            "relation": "RELATES_TO"
+        },
+        {
+            "source": "Firewall upgrade",
+            "target": "estimated costs",
+            "relation": "RELATES_TO"
+        },
+        {
+            "source": "ERP system renewal",
+            "target": "budget allocations",
+            "relation": "RELATES_TO"
+        },
+        {
+            "source": "Firewall upgrade",
+            "target": "budget allocations",
+            "relation": "RELATES_TO"
+        },
+        {
+            "source": "budget approval process",
+            "target": "ERP system renewal",
+            "relation": "RELATES_TO"
+        },
+        {
+            "source": "budget approval process",
+            "target": "Firewall upgrade",
+            "relation": "RELATES_TO"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Arjun Verma",
+            "relation": "REQUESTS_MEETING_WITH"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Meera Iyer",
+            "relation": "REQUESTS_EXPLORATION_OF_OPTIONS"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Priya Nair",
+            "relation": "WILL_LOOP_IN_FOR_BUDGET_PROCESS"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "technical specifications",
+            "relation": "REQUESTS_FROM_RAHUL_SHARMA"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "usage statistics",
+            "relation": "REQUESTS_FROM_RAHUL_SHARMA"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "detailed scope of work (SOW)",
+            "relation": "REQUESTS_FROM_RAHUL_SHARMA"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "vendor options",
+            "relation": "REQUESTS_FROM_RAHUL_SHARMA"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "TechNova Solutions Pvt Ltd",
+            "relation": "WILL_NEGOTIATE_WITH"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "competitive analysis",
+            "relation": "PROVIDES"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "estimated costs",
+            "relation": "WANTS_UPDATES_ON"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "updated quotes",
+            "relation": "REQUESTS_FORWARDING_FROM_RAHUL_SHARMA"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "competitive analysis",
+            "relation": "REQUESTS_FORWARDING_FROM_RAHUL_SHARMA"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "comprehensive document",
+            "relation": "WILL_PREPARE"
+        }
+    ]
+}

@@ -1,0 +1,148 @@
+{
+    "document": "038_employee_bio.txt",
+    "entities": [
+        {
+            "type": "Person",
+            "name": "Kavita Rao"
+        },
+        {
+            "type": "Organization",
+            "name": "Lattice Dynamics Pvt. Ltd."
+        },
+        {
+            "type": "Role",
+            "name": "HR Business Partner"
+        },
+        {
+            "type": "Department",
+            "name": "HR team"
+        },
+        {
+            "type": "Role",
+            "name": "HR Generalist"
+        },
+        {
+            "type": "Program",
+            "name": "Employee Wellness Program"
+        },
+        {
+            "type": "Department",
+            "name": "Operations team"
+        },
+        {
+            "type": "Organization",
+            "name": "ComplyHub Consulting"
+        },
+        {
+            "type": "System",
+            "name": "performance review system"
+        },
+        {
+            "type": "Person",
+            "name": "Rohan Das"
+        },
+        {
+            "type": "Person",
+            "name": "Priya Nair"
+        },
+        {
+            "type": "Role",
+            "name": "Finance Manager"
+        },
+        {
+            "type": "Person",
+            "name": "Rahul Sharma"
+        },
+        {
+            "type": "Role",
+            "name": "IT Administrator"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Kavita Rao",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "WORKS_FOR"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "HR Business Partner",
+            "relation": "HOLDS_ROLE"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "HR team",
+            "relation": "IS_PART_OF"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "HR Generalist",
+            "relation": "FORMERLY_HELD_ROLE"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "Employee Wellness Program",
+            "relation": "LED"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "Operations team",
+            "relation": "COLLABORATED_WITH"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "ComplyHub Consulting",
+            "relation": "ENGAGED"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "performance review system",
+            "relation": "DRIVEN_IMPLEMENTATION_OF"
+        },
+        {
+            "source": "Rohan Das",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "WORKS_FOR"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "WORKS_FOR"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Finance Manager",
+            "relation": "HOLDS_ROLE"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Kavita Rao",
+            "relation": "COMMENTED_ON"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "WORKS_FOR"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "IT Administrator",
+            "relation": "HOLDS_ROLE"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Kavita Rao",
+            "relation": "COMMENTED_ON"
+        },
+        {
+            "source": "HR team",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "BELONGS_TO"
+        },
+        {
+            "source": "Operations team",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "BELONGS_TO"
+        }
+    ]
+}

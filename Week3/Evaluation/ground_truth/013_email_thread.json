@@ -1,0 +1,305 @@
+{
+    "document": "013_email_thread.txt",
+    "entities": [
+        {
+            "type": "Person",
+            "name": "Rahul Sharma"
+        },
+        {
+            "type": "Person",
+            "name": "Arjun Verma"
+        },
+        {
+            "type": "Person",
+            "name": "Vikram Patel"
+        },
+        {
+            "type": "Person",
+            "name": "Neha Singh"
+        },
+        {
+            "type": "Person",
+            "name": "Meera Iyer"
+        },
+        {
+            "type": "Organization",
+            "name": "Lattice Dynamics Pvt. Ltd."
+        },
+        {
+            "type": "Service",
+            "name": "CloudKart Services"
+        },
+        {
+            "type": "Project",
+            "name": "Project Phoenix"
+        },
+        {
+            "type": "Issue",
+            "name": "Data Migration Issues"
+        },
+        {
+            "type": "Issue",
+            "name": "Data Integrity Checks"
+        },
+        {
+            "type": "Issue",
+            "name": "Discrepancies"
+        },
+        {
+            "type": "Issue",
+            "name": "Data Corruption Points"
+        },
+        {
+            "type": "Issue",
+            "name": "Schema Mismatch"
+        },
+        {
+            "type": "Issue",
+            "name": "Transformation Error"
+        },
+        {
+            "type": "Data",
+            "name": "Legacy Financial Records"
+        },
+        {
+            "type": "Data",
+            "name": "Key Datasets"
+        },
+        {
+            "type": "Data",
+            "name": "Historical Transaction Logs"
+        },
+        {
+            "type": "Data",
+            "name": "Customer Profile Tables"
+        },
+        {
+            "type": "Data",
+            "name": "Accurate Financial Data"
+        },
+        {
+            "type": "Role",
+            "name": "IT Administrator"
+        },
+        {
+            "type": "Role",
+            "name": "Project Manager"
+        },
+        {
+            "type": "Role",
+            "name": "Executive Director"
+        },
+        {
+            "type": "Role",
+            "name": "Data Analyst"
+        },
+        {
+            "type": "Role",
+            "name": "Procurement"
+        },
+        {
+            "type": "Event",
+            "name": "Urgent Meeting"
+        },
+        {
+            "type": "Location",
+            "name": "Executive Boardroom"
+        },
+        {
+            "type": "Document",
+            "name": "Preliminary Report"
+        },
+        {
+            "type": "Document",
+            "name": "Calendar Invite"
+        },
+        {
+            "type": "Agreement",
+            "name": "Vendor Agreement"
+        },
+        {
+            "type": "Action",
+            "name": "Action Plan"
+        },
+        {
+            "type": "Goal",
+            "name": "Root Cause Understanding"
+        },
+        {
+            "type": "Issue",
+            "name": "Delays"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Rahul Sharma",
+            "target": "IT Administrator",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "WORKS_FOR"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Project Manager",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "WORKS_FOR"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Executive Director",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "WORKS_FOR"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Data Analyst",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "WORKS_FOR"
+        },
+        {
+            "source": "Data Migration Issues",
+            "target": "CloudKart Services",
+            "relation": "WITH_SERVICE"
+        },
+        {
+            "source": "Data Migration Issues",
+            "target": "Project Phoenix",
+            "relation": "IMPACTS"
+        },
+        {
+            "source": "Data Migration Issues",
+            "target": "Data Integrity Checks",
+            "relation": "CAUSES_ISSUE"
+        },
+        {
+            "source": "Data Integrity Checks",
+            "target": "Legacy Financial Records",
+            "relation": "AFFECTS"
+        },
+        {
+            "source": "Data Integrity Checks",
+            "target": "Key Datasets",
+            "relation": "AFFECTS"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Discrepancies",
+            "relation": "FLAGGED"
+        },
+        {
+            "source": "Data Migration Issues",
+            "target": "Delays",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Urgent Meeting",
+            "relation": "PROPOSED"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Preliminary Report",
+            "relation": "ATTACHED"
+        },
+        {
+            "source": "Project Phoenix",
+            "target": "Accurate Financial Data",
+            "relation": "RELIES_ON"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Urgent Meeting",
+            "relation": "AGREED_TO"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Urgent Meeting",
+            "relation": "AGREED_TO"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Executive Boardroom",
+            "relation": "BOOKED"
+        },
+        {
+            "source": "Executive Boardroom",
+            "target": "Urgent Meeting",
+            "relation": "FOR_EVENT"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Action Plan",
+            "relation": "REQUESTED"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Root Cause Understanding",
+            "relation": "SEEKS"
+        },
+        {
+            "source": "Root Cause Understanding",
+            "target": "CloudKart Services",
+            "relation": "FROM_SOURCE"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Procurement",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Data Migration Issues",
+            "target": "Vendor Agreement",
+            "relation": "MAY_IMPACT"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Vendor Agreement",
+            "relation": "MAY_BE_INVOLVED_WITH"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Historical Transaction Logs",
+            "relation": "IDENTIFIED_ISSUES_IN"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Customer Profile Tables",
+            "relation": "IDENTIFIED_ISSUES_IN"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Schema Mismatch",
+            "relation": "IDENTIFIED"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Transformation Error",
+            "relation": "IDENTIFIED"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Urgent Meeting",
+            "relation": "CONFIRMED_ATTENDANCE_FOR"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Calendar Invite",
+            "relation": "SENT"
+        }
+    ]
+}

@@ -1,0 +1,400 @@
+{
+    "document": "019_transaction_log.txt",
+    "entities": [
+        {
+            "type": "Company",
+            "name": "Lattice Dynamics Pvt. Ltd."
+        },
+        {
+            "type": "Document",
+            "name": "Q3 FY24 Transaction Log Review"
+        },
+        {
+            "type": "Time Period",
+            "name": "Q3 FY24"
+        },
+        {
+            "type": "Person",
+            "name": "Priya Nair"
+        },
+        {
+            "type": "Role",
+            "name": "Finance Manager"
+        },
+        {
+            "type": "Company",
+            "name": "CloudKart Services"
+        },
+        {
+            "type": "Department",
+            "name": "IT"
+        },
+        {
+            "type": "Person",
+            "name": "Rahul Sharma"
+        },
+        {
+            "type": "Company",
+            "name": "OfficeHive Supplies"
+        },
+        {
+            "type": "Department",
+            "name": "Operations"
+        },
+        {
+            "type": "Person",
+            "name": "Arjun Verma"
+        },
+        {
+            "type": "Company",
+            "name": "TechNova Solutions Pvt Ltd"
+        },
+        {
+            "type": "Person",
+            "name": "Vikram Patel"
+        },
+        {
+            "type": "Company",
+            "name": "SecureNet Systems"
+        },
+        {
+            "type": "Company",
+            "name": "ComplyHub Consulting"
+        },
+        {
+            "type": "Department",
+            "name": "Compliance"
+        },
+        {
+            "type": "Person",
+            "name": "Sandeep Menon"
+        },
+        {
+            "type": "Company",
+            "name": "DataWeave Analytics"
+        },
+        {
+            "type": "Person",
+            "name": "Neha Singh"
+        },
+        {
+            "type": "Company",
+            "name": "PrintPro India"
+        },
+        {
+            "type": "Department",
+            "name": "HR"
+        },
+        {
+            "type": "Person",
+            "name": "Kavita Rao"
+        },
+        {
+            "type": "Company",
+            "name": "GreenByte Energy"
+        },
+        {
+            "type": "Transaction",
+            "name": "LD-TRX-24-07-001"
+        },
+        {
+            "type": "Invoice",
+            "name": "CW-2407-SUBS-0112"
+        },
+        {
+            "type": "Status",
+            "name": "Processed"
+        },
+        {
+            "type": "Transaction",
+            "name": "LD-TRX-24-07-002"
+        },
+        {
+            "type": "Invoice",
+            "name": "OFC-2407-SUP-0078"
+        },
+        {
+            "type": "Transaction",
+            "name": "LD-TRX-24-08-003"
+        },
+        {
+            "type": "Invoice",
+            "name": "TN-2408-LIC-0130"
+        },
+        {
+            "type": "Status",
+            "name": "Approved - Pending Payout"
+        },
+        {
+            "type": "Transaction",
+            "name": "LD-TRX-24-08-004"
+        },
+        {
+            "type": "Invoice",
+            "name": "SN-2408-SEC-0021"
+        },
+        {
+            "type": "Status",
+            "name": "Pending Clarification"
+        },
+        {
+            "type": "Transaction",
+            "name": "LD-TRX-24-09-005"
+        },
+        {
+            "type": "Invoice",
+            "name": "CH-2409-CONS-0008"
+        },
+        {
+            "type": "Transaction",
+            "name": "LD-TRX-24-09-006"
+        },
+        {
+            "type": "Invoice",
+            "name": "DT-2409-PLAT-0048"
+        },
+        {
+            "type": "Transaction",
+            "name": "LD-TRX-24-09-007"
+        },
+        {
+            "type": "Invoice",
+            "name": "PR-2409-MKTG-0035"
+        },
+        {
+            "type": "Transaction",
+            "name": "LD-TRX-24-09-008"
+        },
+        {
+            "type": "Invoice",
+            "name": "GB-2409-UTIL-0012"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Priya Nair",
+            "target": "Finance Manager",
+            "relation": "IS_A"
+        },
+        {
+            "source": "Q3 FY24 Transaction Log Review",
+            "target": "Priya Nair",
+            "relation": "PREPARED_BY"
+        },
+        {
+            "source": "Q3 FY24 Transaction Log Review",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "PERTAINS_TO_COMPANY"
+        },
+        {
+            "source": "Q3 FY24 Transaction Log Review",
+            "target": "Q3 FY24",
+            "relation": "SUMMARIZES_PERIOD"
+        },
+        {
+            "source": "LD-TRX-24-07-001",
+            "target": "CW-2407-SUBS-0112",
+            "relation": "HAS_INVOICE"
+        },
+        {
+            "source": "LD-TRX-24-07-001",
+            "target": "CloudKart Services",
+            "relation": "HAS_VENDOR"
+        },
+        {
+            "source": "LD-TRX-24-07-001",
+            "target": "IT",
+            "relation": "BELONGS_TO_DEPARTMENT"
+        },
+        {
+            "source": "LD-TRX-24-07-001",
+            "target": "Processed",
+            "relation": "HAS_STATUS"
+        },
+        {
+            "source": "LD-TRX-24-07-001",
+            "target": "Rahul Sharma",
+            "relation": "APPROVED_BY"
+        },
+        {
+            "source": "LD-TRX-24-07-002",
+            "target": "OFC-2407-SUP-0078",
+            "relation": "HAS_INVOICE"
+        },
+        {
+            "source": "LD-TRX-24-07-002",
+            "target": "OfficeHive Supplies",
+            "relation": "HAS_VENDOR"
+        },
+        {
+            "source": "LD-TRX-24-07-002",
+            "target": "Operations",
+            "relation": "BELONGS_TO_DEPARTMENT"
+        },
+        {
+            "source": "LD-TRX-24-07-002",
+            "target": "Processed",
+            "relation": "HAS_STATUS"
+        },
+        {
+            "source": "LD-TRX-24-07-002",
+            "target": "Arjun Verma",
+            "relation": "INITIATED_BY"
+        },
+        {
+            "source": "LD-TRX-24-08-003",
+            "target": "TN-2408-LIC-0130",
+            "relation": "HAS_INVOICE"
+        },
+        {
+            "source": "LD-TRX-24-08-003",
+            "target": "TechNova Solutions Pvt Ltd",
+            "relation": "HAS_VENDOR"
+        },
+        {
+            "source": "LD-TRX-24-08-003",
+            "target": "IT",
+            "relation": "BELONGS_TO_DEPARTMENT"
+        },
+        {
+            "source": "LD-TRX-24-08-003",
+            "target": "Approved - Pending Payout",
+            "relation": "HAS_STATUS"
+        },
+        {
+            "source": "LD-TRX-24-08-003",
+            "target": "Vikram Patel",
+            "relation": "FINAL_APPROVAL_PENDING_FROM"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Vikram Patel",
+            "relation": "TO_FOLLOW_UP_WITH"
+        },
+        {
+            "source": "LD-TRX-24-08-004",
+            "target": "SN-2408-SEC-0021",
+            "relation": "HAS_INVOICE"
+        },
+        {
+            "source": "LD-TRX-24-08-004",
+            "target": "SecureNet Systems",
+            "relation": "HAS_VENDOR"
+        },
+        {
+            "source": "LD-TRX-24-08-004",
+            "target": "IT",
+            "relation": "BELONGS_TO_DEPARTMENT"
+        },
+        {
+            "source": "LD-TRX-24-08-004",
+            "target": "Pending Clarification",
+            "relation": "HAS_STATUS"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "SN-2408-SEC-0021",
+            "relation": "TO_FOLLOW_UP_FOR_DISCREPANCY"
+        },
+        {
+            "source": "LD-TRX-24-09-005",
+            "target": "CH-2409-CONS-0008",
+            "relation": "HAS_INVOICE"
+        },
+        {
+            "source": "LD-TRX-24-09-005",
+            "target": "ComplyHub Consulting",
+            "relation": "HAS_VENDOR"
+        },
+        {
+            "source": "LD-TRX-24-09-005",
+            "target": "Compliance",
+            "relation": "BELONGS_TO_DEPARTMENT"
+        },
+        {
+            "source": "LD-TRX-24-09-005",
+            "target": "Processed",
+            "relation": "HAS_STATUS"
+        },
+        {
+            "source": "LD-TRX-24-09-005",
+            "target": "Sandeep Menon",
+            "relation": "VERIFIED_BY"
+        },
+        {
+            "source": "LD-TRX-24-09-006",
+            "target": "DT-2409-PLAT-0048",
+            "relation": "HAS_INVOICE"
+        },
+        {
+            "source": "LD-TRX-24-09-006",
+            "target": "DataWeave Analytics",
+            "relation": "HAS_VENDOR"
+        },
+        {
+            "source": "LD-TRX-24-09-006",
+            "target": "Operations",
+            "relation": "BELONGS_TO_DEPARTMENT"
+        },
+        {
+            "source": "LD-TRX-24-09-006",
+            "target": "Approved - Pending Payout",
+            "relation": "HAS_STATUS"
+        },
+        {
+            "source": "LD-TRX-24-09-006",
+            "target": "Neha Singh",
+            "relation": "CONFIRMED_BY"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "LD-TRX-24-09-006",
+            "relation": "TO_SCHEDULE_PAYMENT_FOR"
+        },
+        {
+            "source": "LD-TRX-24-09-007",
+            "target": "PR-2409-MKTG-0035",
+            "relation": "HAS_INVOICE"
+        },
+        {
+            "source": "LD-TRX-24-09-007",
+            "target": "PrintPro India",
+            "relation": "HAS_VENDOR"
+        },
+        {
+            "source": "LD-TRX-24-09-007",
+            "target": "HR",
+            "relation": "BELONGS_TO_DEPARTMENT"
+        },
+        {
+            "source": "LD-TRX-24-09-007",
+            "target": "Processed",
+            "relation": "HAS_STATUS"
+        },
+        {
+            "source": "LD-TRX-24-09-007",
+            "target": "Kavita Rao",
+            "relation": "APPROVED_BY"
+        },
+        {
+            "source": "LD-TRX-24-09-008",
+            "target": "GB-2409-UTIL-0012",
+            "relation": "HAS_INVOICE"
+        },
+        {
+            "source": "LD-TRX-24-09-008",
+            "target": "GreenByte Energy",
+            "relation": "HAS_VENDOR"
+        },
+        {
+            "source": "LD-TRX-24-09-008",
+            "target": "Operations",
+            "relation": "BELONGS_TO_DEPARTMENT"
+        },
+        {
+            "source": "LD-TRX-24-09-008",
+            "target": "Processed",
+            "relation": "HAS_STATUS"
+        }
+    ]
+}

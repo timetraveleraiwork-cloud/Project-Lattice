@@ -1,0 +1,343 @@
+{
+    "document": "037_expense_report.txt",
+    "entities": [
+        {
+            "type": "Organization",
+            "name": "Lattice Dynamics Pvt. Ltd."
+        },
+        {
+            "type": "Document",
+            "name": "Expense Report ER-LD-202403-005"
+        },
+        {
+            "type": "Person",
+            "name": "Arjun Verma"
+        },
+        {
+            "type": "Department",
+            "name": "Operations"
+        },
+        {
+            "type": "Date",
+            "name": "2024-03-28 (Submission)"
+        },
+        {
+            "type": "Amount",
+            "name": "INR 18,550.00 (Total)"
+        },
+        {
+            "type": "Vendor",
+            "name": "SwiftTravel Co."
+        },
+        {
+            "type": "Category",
+            "name": "Travel"
+        },
+        {
+            "type": "Amount",
+            "name": "6,500.00 (Travel Mumbai)"
+        },
+        {
+            "type": "Date",
+            "name": "2024-03-05"
+        },
+        {
+            "type": "Vendor",
+            "name": "BuildRight Contractors"
+        },
+        {
+            "type": "Category",
+            "name": "Meals & Ent."
+        },
+        {
+            "type": "Amount",
+            "name": "1,200.00 (Lunch)"
+        },
+        {
+            "type": "Date",
+            "name": "2024-03-08"
+        },
+        {
+            "type": "Vendor",
+            "name": "OfficeHive Supplies"
+        },
+        {
+            "type": "Category",
+            "name": "Office Supplies"
+        },
+        {
+            "type": "Amount",
+            "name": "850.00 (Stationery)"
+        },
+        {
+            "type": "Date",
+            "name": "2024-03-12"
+        },
+        {
+            "type": "Vendor",
+            "name": "SecureNet Systems"
+        },
+        {
+            "type": "Category",
+            "name": "Project Supplies"
+        },
+        {
+            "type": "Amount",
+            "name": "7,000.00 (Component)"
+        },
+        {
+            "type": "Date",
+            "name": "2024-03-17"
+        },
+        {
+            "type": "Project",
+            "name": "Project X"
+        },
+        {
+            "type": "Amount",
+            "name": "1,500.00 (Local Travel)"
+        },
+        {
+            "type": "Date",
+            "name": "2024-03-22"
+        },
+        {
+            "type": "Amount",
+            "name": "1,500.00 (Refreshments)"
+        },
+        {
+            "type": "Date",
+            "name": "2024-03-26"
+        },
+        {
+            "type": "Organization",
+            "name": "ComplyHub Consulting"
+        },
+        {
+            "type": "Project",
+            "name": "Project Phoenix"
+        },
+        {
+            "type": "Person",
+            "name": "Vikram Patel"
+        },
+        {
+            "type": "Person",
+            "name": "Sandeep Menon"
+        },
+        {
+            "type": "Person",
+            "name": "Priya Nair"
+        },
+        {
+            "type": "Department",
+            "name": "Finance"
+        },
+        {
+            "type": "Date",
+            "name": "2024-03-29 (Approval)"
+        },
+        {
+            "type": "Policy",
+            "name": "company policy"
+        },
+        {
+            "type": "Document",
+            "name": "travel request form"
+        },
+        {
+            "type": "Amount",
+            "name": "INR 1000 (Threshold)"
+        },
+        {
+            "type": "Document",
+            "name": "receipts"
+        },
+        {
+            "type": "Audit",
+            "name": "internal audit"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Expense Report ER-LD-202403-005",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "BELONGS_TO"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Expense Report ER-LD-202403-005",
+            "relation": "SUBMITTED"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Operations",
+            "relation": "WORKS_IN"
+        },
+        {
+            "source": "Expense Report ER-LD-202403-005",
+            "target": "2024-03-28 (Submission)",
+            "relation": "SUBMITTED_ON"
+        },
+        {
+            "source": "Expense Report ER-LD-202403-005",
+            "target": "INR 18,550.00 (Total)",
+            "relation": "HAS_TOTAL_AMOUNT"
+        },
+        {
+            "source": "2024-03-05",
+            "target": "SwiftTravel Co.",
+            "relation": "EXPENSE_DATE_VENDOR"
+        },
+        {
+            "source": "6,500.00 (Travel Mumbai)",
+            "target": "SwiftTravel Co.",
+            "relation": "AMOUNT_PAID_TO"
+        },
+        {
+            "source": "6,500.00 (Travel Mumbai)",
+            "target": "Travel",
+            "relation": "CATEGORY"
+        },
+        {
+            "source": "6,500.00 (Travel Mumbai)",
+            "target": "Project Phoenix",
+            "relation": "FOR_PROJECT"
+        },
+        {
+            "source": "6,500.00 (Travel Mumbai)",
+            "target": "Vikram Patel",
+            "relation": "VERBALLY_PRE_APPROVED_BY"
+        },
+        {
+            "source": "2024-03-08",
+            "target": "BuildRight Contractors",
+            "relation": "EXPENSE_DATE_VENDOR"
+        },
+        {
+            "source": "1,200.00 (Lunch)",
+            "target": "BuildRight Contractors",
+            "relation": "AMOUNT_PAID_TO"
+        },
+        {
+            "source": "1,200.00 (Lunch)",
+            "target": "Meals & Ent.",
+            "relation": "CATEGORY"
+        },
+        {
+            "source": "2024-03-12",
+            "target": "OfficeHive Supplies",
+            "relation": "EXPENSE_DATE_VENDOR"
+        },
+        {
+            "source": "850.00 (Stationery)",
+            "target": "OfficeHive Supplies",
+            "relation": "AMOUNT_PAID_TO"
+        },
+        {
+            "source": "850.00 (Stationery)",
+            "target": "Office Supplies",
+            "relation": "CATEGORY"
+        },
+        {
+            "source": "2024-03-17",
+            "target": "SecureNet Systems",
+            "relation": "EXPENSE_DATE_VENDOR"
+        },
+        {
+            "source": "7,000.00 (Component)",
+            "target": "SecureNet Systems",
+            "relation": "AMOUNT_PAID_TO"
+        },
+        {
+            "source": "7,000.00 (Component)",
+            "target": "Project Supplies",
+            "relation": "CATEGORY"
+        },
+        {
+            "source": "7,000.00 (Component)",
+            "target": "Project X",
+            "relation": "FOR_PROJECT"
+        },
+        {
+            "source": "2024-03-22",
+            "target": "SwiftTravel Co.",
+            "relation": "EXPENSE_DATE_VENDOR"
+        },
+        {
+            "source": "1,500.00 (Local Travel)",
+            "target": "SwiftTravel Co.",
+            "relation": "AMOUNT_PAID_TO"
+        },
+        {
+            "source": "1,500.00 (Local Travel)",
+            "target": "Travel",
+            "relation": "CATEGORY"
+        },
+        {
+            "source": "1,500.00 (Local Travel)",
+            "target": "INR 1000 (Threshold)",
+            "relation": "EXCEEDS"
+        },
+        {
+            "source": "1,500.00 (Local Travel)",
+            "target": "travel request form",
+            "relation": "REQUIRES_FORMAL_PRE_APPROVAL_VIA"
+        },
+        {
+            "source": "2024-03-26",
+            "target": "ComplyHub Consulting",
+            "relation": "EXPENSE_DATE_VENDOR"
+        },
+        {
+            "source": "1,500.00 (Refreshments)",
+            "target": "ComplyHub Consulting",
+            "relation": "AMOUNT_PAID_TO"
+        },
+        {
+            "source": "1,500.00 (Refreshments)",
+            "target": "Meals & Ent.",
+            "relation": "CATEGORY"
+        },
+        {
+            "source": "1,500.00 (Refreshments)",
+            "target": "Sandeep Menon",
+            "relation": "FOR_TEAM_OF"
+        },
+        {
+            "source": "Expense Report ER-LD-202403-005",
+            "target": "Priya Nair",
+            "relation": "APPROVED_BY"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Finance",
+            "relation": "WORKS_IN"
+        },
+        {
+            "source": "Expense Report ER-LD-202403-005",
+            "target": "2024-03-29 (Approval)",
+            "relation": "APPROVED_ON"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "receipts",
+            "relation": "VERIFIED"
+        },
+        {
+            "source": "receipts",
+            "target": "company policy",
+            "relation": "AGAINST"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Project Supplies",
+            "relation": "REQUESTS_MORE_SPECIFIC_DETAILS_FOR"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "internal audit",
+            "relation": "HAS_PENDING_ITEMS_FROM"
+        }
+    ]
+}

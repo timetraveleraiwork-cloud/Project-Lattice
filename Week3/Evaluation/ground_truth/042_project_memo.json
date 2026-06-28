@@ -1,0 +1,522 @@
+{
+    "document": "042_project_memo.txt",
+    "entities": [
+        {
+            "type": "Person",
+            "name": "Arjun Verma"
+        },
+        {
+            "type": "Role",
+            "name": "Project Manager"
+        },
+        {
+            "type": "Department",
+            "name": "Operations Department"
+        },
+        {
+            "type": "Person",
+            "name": "Vikram Patel"
+        },
+        {
+            "type": "Role",
+            "name": "Executive Director"
+        },
+        {
+            "type": "Person",
+            "name": "Priya Nair"
+        },
+        {
+            "type": "Department",
+            "name": "Finance"
+        },
+        {
+            "type": "Person",
+            "name": "Meera Iyer"
+        },
+        {
+            "type": "Department",
+            "name": "Procurement"
+        },
+        {
+            "type": "Person",
+            "name": "Kavita Rao"
+        },
+        {
+            "type": "Department",
+            "name": "HR"
+        },
+        {
+            "type": "Person",
+            "name": "Sandeep Menon"
+        },
+        {
+            "type": "Department",
+            "name": "Compliance"
+        },
+        {
+            "type": "Person",
+            "name": "Rahul Sharma"
+        },
+        {
+            "type": "Person",
+            "name": "Neha Singh"
+        },
+        {
+            "type": "Department",
+            "name": "IT"
+        },
+        {
+            "type": "Person",
+            "name": "Ankit Gupta"
+        },
+        {
+            "type": "Project",
+            "name": "Cloud Migration Initiative - Phase 1"
+        },
+        {
+            "type": "Organization",
+            "name": "Lattice Dynamics Pvt. Ltd."
+        },
+        {
+            "type": "Service Provider",
+            "name": "CloudKart Services"
+        },
+        {
+            "type": "Service Provider",
+            "name": "SecureNet Systems"
+        },
+        {
+            "type": "Data",
+            "name": "HR Application Data"
+        },
+        {
+            "type": "Data",
+            "name": "Finance Application Data"
+        },
+        {
+            "type": "Role",
+            "name": "IT Administrator"
+        },
+        {
+            "type": "Role",
+            "name": "Data Analyst"
+        },
+        {
+            "type": "Role",
+            "name": "Support Engineer"
+        },
+        {
+            "type": "Process",
+            "name": "User Acceptance Testing (UAT)"
+        },
+        {
+            "type": "Role",
+            "name": "Finance Manager"
+        },
+        {
+            "type": "Role",
+            "name": "Compliance Officer"
+        },
+        {
+            "type": "Risk",
+            "name": "Data Integrity"
+        },
+        {
+            "type": "Risk",
+            "name": "System Downtime"
+        },
+        {
+            "type": "Risk",
+            "name": "Security Vulnerabilities"
+        },
+        {
+            "type": "Risk",
+            "name": "Vendor Dependency"
+        },
+        {
+            "type": "Activity",
+            "name": "Cloud environment provisioning"
+        },
+        {
+            "type": "Activity",
+            "name": "HR Application Data Migration"
+        },
+        {
+            "type": "Activity",
+            "name": "Finance Application Data Migration"
+        },
+        {
+            "type": "Activity",
+            "name": "Initial Security Audit"
+        },
+        {
+            "type": "Team",
+            "name": "HR Team"
+        },
+        {
+            "type": "Team",
+            "name": "Finance Team"
+        },
+        {
+            "type": "Activity",
+            "name": "Budget tracking"
+        },
+        {
+            "type": "Activity",
+            "name": "Financial impact assessment"
+        },
+        {
+            "type": "Activity",
+            "name": "Regulatory compliance review"
+        },
+        {
+            "type": "Activity",
+            "name": "Cloud environment setup"
+        },
+        {
+            "type": "Activity",
+            "name": "Migration execution"
+        },
+        {
+            "type": "Activity",
+            "name": "Data integrity validation"
+        },
+        {
+            "type": "Activity",
+            "name": "Strategic migration planning"
+        },
+        {
+            "type": "Activity",
+            "name": "Post-migration support planning"
+        },
+        {
+            "type": "Activity",
+            "name": "Training sessions"
+        },
+        {
+            "type": "Policy",
+            "name": "Cloud policies"
+        },
+        {
+            "type": "Process",
+            "name": "Data inventory"
+        },
+        {
+            "type": "Process",
+            "name": "Dependency mapping"
+        },
+        {
+            "type": "Concept",
+            "name": "Operational efficiency"
+        },
+        {
+            "type": "Concept",
+            "name": "Scalability"
+        },
+        {
+            "type": "Concept",
+            "name": "Data security posture"
+        },
+        {
+            "type": "Project",
+            "name": "Cloud Migration Initiative"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Arjun Verma",
+            "target": "Project Manager",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Operations Department",
+            "relation": "WORKS_IN"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Vikram Patel",
+            "relation": "REPORTS_TO"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Executive Director",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Finance",
+            "relation": "WORKS_IN"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Finance Manager",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Procurement",
+            "relation": "WORKS_IN"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "HR",
+            "relation": "WORKS_IN"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Compliance",
+            "relation": "WORKS_IN"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Compliance Officer",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "IT",
+            "relation": "WORKS_IN"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "IT Administrator",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "IT",
+            "relation": "WORKS_IN"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Data Analyst",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "IT",
+            "relation": "WORKS_IN"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "Support Engineer",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "IS_PROJECT_FOR"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "CloudKart Services",
+            "relation": "USES_SERVICE"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "SecureNet Systems",
+            "relation": "COORDINATES_WITH"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "HR Application Data",
+            "relation": "TARGETS_DATA_MIGRATION"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "Finance Application Data",
+            "relation": "TARGETS_DATA_MIGRATION"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "Operational efficiency",
+            "relation": "ENHANCES"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "Scalability",
+            "relation": "ENHANCES"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "Data security posture",
+            "relation": "ENHANCES"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Data inventory",
+            "relation": "COMPLETED"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Dependency mapping",
+            "relation": "COMPLETED"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Procurement",
+            "relation": "LEADS"
+        },
+        {
+            "source": "Procurement",
+            "target": "CloudKart Services",
+            "relation": "FINALIZED_AGREEMENT_WITH"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Cloud Migration Initiative - Phase 1",
+            "relation": "OVERSEES"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Cloud Migration Initiative - Phase 1",
+            "relation": "MANAGES_RISK_FOR"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Cloud Migration Initiative - Phase 1",
+            "relation": "IS_TECHNICAL_LEAD_FOR"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Cloud environment setup",
+            "relation": "RESPONSIBLE_FOR"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Migration execution",
+            "relation": "RESPONSIBLE_FOR"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Data integrity validation",
+            "relation": "RESPONSIBLE_FOR"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Strategic migration planning",
+            "relation": "RESPONSIBLE_FOR"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "Post-migration support planning",
+            "relation": "RESPONSIBLE_FOR"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "User Acceptance Testing (UAT)",
+            "relation": "COORDINATES"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Budget tracking",
+            "relation": "RESPONSIBLE_FOR"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Financial impact assessment",
+            "relation": "RESPONSIBLE_FOR"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Regulatory compliance review",
+            "relation": "RESPONSIBLE_FOR"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "Data Integrity",
+            "relation": "HAS_RISK"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Data Integrity",
+            "relation": "DEFINES_MITIGATION_FOR"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "System Downtime",
+            "relation": "HAS_RISK"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "Security Vulnerabilities",
+            "relation": "HAS_RISK"
+        },
+        {
+            "source": "SecureNet Systems",
+            "target": "Security Vulnerabilities",
+            "relation": "CONDUCTS_AUDITS_FOR"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Cloud policies",
+            "relation": "PROVIDES_GUIDELINES_FOR"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "Vendor Dependency",
+            "relation": "HAS_RISK"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "CloudKart Services",
+            "relation": "DEPENDS_ON"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "SecureNet Systems",
+            "relation": "DEPENDS_ON"
+        },
+        {
+            "source": "CloudKart Services",
+            "target": "Cloud environment provisioning",
+            "relation": "PERFORMS"
+        },
+        {
+            "source": "SecureNet Systems",
+            "target": "Initial Security Audit",
+            "relation": "PERFORMS"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Budget tracking",
+            "relation": "MONITORS"
+        },
+        {
+            "source": "Finance",
+            "target": "Cloud Migration Initiative - Phase 1",
+            "relation": "PROVIDES_BUDGET_BREAKDOWN_FOR"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "Training sessions",
+            "relation": "COORDINATES"
+        },
+        {
+            "source": "HR Team",
+            "target": "Training sessions",
+            "relation": "ATTENDS"
+        },
+        {
+            "source": "Finance Team",
+            "target": "Training sessions",
+            "relation": "ATTENDS"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "HR Application Data Migration",
+            "relation": "INCLUDES_PHASE"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "Finance Application Data Migration",
+            "relation": "INCLUDES_PHASE"
+        },
+        {
+            "source": "Cloud Migration Initiative - Phase 1",
+            "target": "Cloud Migration Initiative",
+            "relation": "IS_PART_OF"
+        }
+    ]
+}

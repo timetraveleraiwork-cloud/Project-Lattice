@@ -1,0 +1,285 @@
+{
+    "document": "044_employee_bio.txt",
+    "entities": [
+        {
+            "type": "Person",
+            "name": "Rahul Sharma"
+        },
+        {
+            "type": "Role",
+            "name": "IT Administrator"
+        },
+        {
+            "type": "Organization",
+            "name": "Lattice Dynamics Pvt. Ltd."
+        },
+        {
+            "type": "Skill",
+            "name": "network administration"
+        },
+        {
+            "type": "Skill",
+            "name": "system support"
+        },
+        {
+            "type": "Organization",
+            "name": "mid-sized financial firm"
+        },
+        {
+            "type": "Project",
+            "name": "secure network infrastructures"
+        },
+        {
+            "type": "Project",
+            "name": "critical data systems"
+        },
+        {
+            "type": "Department",
+            "name": "IT Department"
+        },
+        {
+            "type": "Task",
+            "name": "troubleshooting software glitches"
+        },
+        {
+            "type": "Task",
+            "name": "core business applications operation"
+        },
+        {
+            "type": "Task",
+            "name": "server infrastructure management"
+        },
+        {
+            "type": "Task",
+            "name": "data integrity safeguarding"
+        },
+        {
+            "type": "Task",
+            "name": "implementing new technologies"
+        },
+        {
+            "type": "Department",
+            "name": "Procurement"
+        },
+        {
+            "type": "Department",
+            "name": "Compliance"
+        },
+        {
+            "type": "Service",
+            "name": "CloudKart Services"
+        },
+        {
+            "type": "Project",
+            "name": "migration to CloudKart Services"
+        },
+        {
+            "type": "Concept",
+            "name": "enterprise data storage"
+        },
+        {
+            "type": "Organization",
+            "name": "DataWeave Analytics"
+        },
+        {
+            "type": "Organization",
+            "name": "SecureNet Systems"
+        },
+        {
+            "type": "Capability",
+            "name": "data accessibility"
+        },
+        {
+            "type": "Capability",
+            "name": "disaster recovery capabilities"
+        },
+        {
+            "type": "Department",
+            "name": "Finance"
+        },
+        {
+            "type": "Department",
+            "name": "Executive Office"
+        },
+        {
+            "type": "Person",
+            "name": "Arjun Verma"
+        },
+        {
+            "type": "Role",
+            "name": "Project Manager"
+        },
+        {
+            "type": "Person",
+            "name": "Vikram Patel"
+        },
+        {
+            "type": "Role",
+            "name": "Executive Director"
+        },
+        {
+            "type": "Location",
+            "name": "Western Ghats"
+        },
+        {
+            "type": "Organization",
+            "name": "local community centers"
+        },
+        {
+            "type": "Date",
+            "name": "October 26, 2023"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Rahul Sharma",
+            "target": "IT Administrator",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "WORKS_FOR"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "network administration",
+            "relation": "HAS_EXPERIENCE_IN"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "system support",
+            "relation": "HAS_EXPERIENCE_IN"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "mid-sized financial firm",
+            "relation": "WORKED_AT"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "secure network infrastructures",
+            "relation": "DEPLOYED"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "critical data systems",
+            "relation": "MANAGED"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "IT Department",
+            "relation": "WORKS_IN"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "troubleshooting software glitches",
+            "relation": "RESPONSIBLE_FOR"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "core business applications operation",
+            "relation": "RESPONSIBLE_FOR"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "server infrastructure management",
+            "relation": "RESPONSIBLE_FOR"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "data integrity safeguarding",
+            "relation": "RESPONSIBLE_FOR"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "implementing new technologies",
+            "relation": "RESPONSIBLE_FOR"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Procurement",
+            "relation": "WORKS_WITH"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Compliance",
+            "relation": "COLLABORATES_WITH"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "migration to CloudKart Services",
+            "relation": "LED"
+        },
+        {
+            "source": "migration to CloudKart Services",
+            "target": "CloudKart Services",
+            "relation": "UTILIZED"
+        },
+        {
+            "source": "migration to CloudKart Services",
+            "target": "enterprise data storage",
+            "relation": "FOR_CONCEPT"
+        },
+        {
+            "source": "migration to CloudKart Services",
+            "target": "DataWeave Analytics",
+            "relation": "COORDINATED_WITH"
+        },
+        {
+            "source": "migration to CloudKart Services",
+            "target": "SecureNet Systems",
+            "relation": "COORDINATED_WITH"
+        },
+        {
+            "source": "migration to CloudKart Services",
+            "target": "data accessibility",
+            "relation": "IMPROVED"
+        },
+        {
+            "source": "migration to CloudKart Services",
+            "target": "disaster recovery capabilities",
+            "relation": "IMPROVED"
+        },
+        {
+            "source": "migration to CloudKart Services",
+            "target": "Finance",
+            "relation": "IMPACTED_DEPARTMENT"
+        },
+        {
+            "source": "migration to CloudKart Services",
+            "target": "Executive Office",
+            "relation": "IMPACTED_DEPARTMENT"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Project Manager",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Executive Director",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "migration to CloudKart Services",
+            "relation": "PROVIDED_FEEDBACK_ON"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "migration to CloudKart Services",
+            "relation": "PROVIDED_FEEDBACK_ON"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Western Ghats",
+            "relation": "EXPLORES"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "local community centers",
+            "relation": "VOLUNTEERS_AT"
+        }
+    ]
+}

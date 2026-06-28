@@ -1,0 +1,442 @@
+{
+    "document": "018_transaction_log.txt",
+    "entities": [
+        {
+            "type": "Person",
+            "name": "Priya Nair"
+        },
+        {
+            "type": "Department",
+            "name": "Finance Department"
+        },
+        {
+            "type": "Document",
+            "name": "Transaction Log - Q3 FY24 Procurement & IT Expenses"
+        },
+        {
+            "type": "Transaction",
+            "name": "TRN-LD-2024-001"
+        },
+        {
+            "type": "Invoice",
+            "name": "INV-TNS-2345"
+        },
+        {
+            "type": "Organization",
+            "name": "TechNova Solutions Pvt Ltd"
+        },
+        {
+            "type": "Department",
+            "name": "IT"
+        },
+        {
+            "type": "Project",
+            "name": "Server Upgrade Project - Phase 1"
+        },
+        {
+            "type": "Person",
+            "name": "Vikram Patel"
+        },
+        {
+            "type": "Transaction",
+            "name": "TRN-LD-2024-002"
+        },
+        {
+            "type": "Invoice",
+            "name": "INV-CKS-7890"
+        },
+        {
+            "type": "Organization",
+            "name": "CloudKart Services"
+        },
+        {
+            "type": "Person",
+            "name": "Rahul Sharma"
+        },
+        {
+            "type": "Transaction",
+            "name": "TRN-LD-2024-003"
+        },
+        {
+            "type": "Invoice",
+            "name": "INV-OHS-1122"
+        },
+        {
+            "type": "Organization",
+            "name": "OfficeHive Supplies"
+        },
+        {
+            "type": "Department",
+            "name": "Operations"
+        },
+        {
+            "type": "Person",
+            "name": "Meera Iyer"
+        },
+        {
+            "type": "Transaction",
+            "name": "TRN-LD-2024-004"
+        },
+        {
+            "type": "Invoice",
+            "name": "INV-PRI-5566"
+        },
+        {
+            "type": "Organization",
+            "name": "PrintPro India"
+        },
+        {
+            "type": "Department",
+            "name": "HR"
+        },
+        {
+            "type": "Transaction",
+            "name": "TRN-LD-2024-005"
+        },
+        {
+            "type": "Invoice",
+            "name": "INV-TNS-2346"
+        },
+        {
+            "type": "Project",
+            "name": "Server Upgrade Project - Phase 2 Hardware"
+        },
+        {
+            "type": "Department",
+            "name": "Executive Office"
+        },
+        {
+            "type": "Transaction",
+            "name": "TRN-LD-2024-006"
+        },
+        {
+            "type": "Invoice",
+            "name": "INV-CKS-7891"
+        },
+        {
+            "type": "Transaction",
+            "name": "TRN-LD-2024-007"
+        },
+        {
+            "type": "Invoice",
+            "name": "INV-OHS-1123"
+        },
+        {
+            "type": "Department",
+            "name": "Procurement"
+        },
+        {
+            "type": "Person",
+            "name": "Sandeep Menon"
+        },
+        {
+            "type": "System",
+            "name": "Finance ERP system"
+        },
+        {
+            "type": "Document",
+            "name": "Q3_Transactions_FY24_Draft.xlsx"
+        },
+        {
+            "type": "Project",
+            "name": "data analytics project"
+        },
+        {
+            "type": "Role",
+            "name": "Finance Manager"
+        },
+        {
+            "type": "Role",
+            "name": "Procurement Lead"
+        },
+        {
+            "type": "Role",
+            "name": "IT Administrator"
+        },
+        {
+            "type": "Role",
+            "name": "Compliance Officer"
+        },
+        {
+            "type": "Role",
+            "name": "Executive Director"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Transaction Log - Q3 FY24 Procurement & IT Expenses",
+            "target": "Priya Nair",
+            "relation": "prepared by"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Finance Department",
+            "relation": "part of"
+        },
+        {
+            "source": "Finance Department",
+            "target": "Finance ERP system",
+            "relation": "stores records"
+        },
+        {
+            "source": "TRN-LD-2024-001",
+            "target": "INV-TNS-2345",
+            "relation": "associated with invoice"
+        },
+        {
+            "source": "TRN-LD-2024-001",
+            "target": "TechNova Solutions Pvt Ltd",
+            "relation": "has vendor"
+        },
+        {
+            "source": "TRN-LD-2024-001",
+            "target": "IT",
+            "relation": "impacts department"
+        },
+        {
+            "source": "TRN-LD-2024-001",
+            "target": "Server Upgrade Project - Phase 1",
+            "relation": "for project"
+        },
+        {
+            "source": "TRN-LD-2024-001",
+            "target": "Vikram Patel",
+            "relation": "approved by"
+        },
+        {
+            "source": "TRN-LD-2024-002",
+            "target": "INV-CKS-7890",
+            "relation": "associated with invoice"
+        },
+        {
+            "source": "TRN-LD-2024-002",
+            "target": "CloudKart Services",
+            "relation": "has vendor"
+        },
+        {
+            "source": "TRN-LD-2024-002",
+            "target": "IT",
+            "relation": "impacts department"
+        },
+        {
+            "source": "TRN-LD-2024-002",
+            "target": "Rahul Sharma",
+            "relation": "reviewed by"
+        },
+        {
+            "source": "TRN-LD-2024-003",
+            "target": "INV-OHS-1122",
+            "relation": "associated with invoice"
+        },
+        {
+            "source": "TRN-LD-2024-003",
+            "target": "OfficeHive Supplies",
+            "relation": "has vendor"
+        },
+        {
+            "source": "TRN-LD-2024-003",
+            "target": "Operations",
+            "relation": "impacts department"
+        },
+        {
+            "source": "TRN-LD-2024-003",
+            "target": "Meera Iyer",
+            "relation": "procured by"
+        },
+        {
+            "source": "TRN-LD-2024-004",
+            "target": "INV-PRI-5566",
+            "relation": "associated with invoice"
+        },
+        {
+            "source": "TRN-LD-2024-004",
+            "target": "PrintPro India",
+            "relation": "has vendor"
+        },
+        {
+            "source": "TRN-LD-2024-004",
+            "target": "HR",
+            "relation": "impacts department"
+        },
+        {
+            "source": "TRN-LD-2024-005",
+            "target": "INV-TNS-2346",
+            "relation": "associated with invoice"
+        },
+        {
+            "source": "TRN-LD-2024-005",
+            "target": "TechNova Solutions Pvt Ltd",
+            "relation": "has vendor"
+        },
+        {
+            "source": "TRN-LD-2024-005",
+            "target": "IT",
+            "relation": "impacts department"
+        },
+        {
+            "source": "TRN-LD-2024-005",
+            "target": "Server Upgrade Project - Phase 2 Hardware",
+            "relation": "for project"
+        },
+        {
+            "source": "TRN-LD-2024-005",
+            "target": "Executive Office",
+            "relation": "awaiting approval from"
+        },
+        {
+            "source": "TRN-LD-2024-005",
+            "target": "Vikram Patel",
+            "relation": "pending approval by"
+        },
+        {
+            "source": "TRN-LD-2024-006",
+            "target": "INV-CKS-7891",
+            "relation": "associated with invoice"
+        },
+        {
+            "source": "TRN-LD-2024-006",
+            "target": "CloudKart Services",
+            "relation": "has vendor"
+        },
+        {
+            "source": "TRN-LD-2024-006",
+            "target": "IT",
+            "relation": "impacts department"
+        },
+        {
+            "source": "TRN-LD-2024-007",
+            "target": "INV-OHS-1123",
+            "relation": "associated with invoice"
+        },
+        {
+            "source": "TRN-LD-2024-007",
+            "target": "OfficeHive Supplies",
+            "relation": "has vendor"
+        },
+        {
+            "source": "TRN-LD-2024-007",
+            "target": "Operations",
+            "relation": "impacts department"
+        },
+        {
+            "source": "TRN-LD-2024-007",
+            "target": "Procurement",
+            "relation": "checked by"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Finance Manager",
+            "relation": "has role"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Procurement Lead",
+            "relation": "has role"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "IT Administrator",
+            "relation": "has role"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Compliance Officer",
+            "relation": "has role"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Executive Director",
+            "relation": "has role"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Meera Iyer",
+            "relation": "sent email to"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Rahul Sharma",
+            "relation": "sent email to"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Sandeep Menon",
+            "relation": "sent email to"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Transaction Log - Q3 FY24 Procurement & IT Expenses",
+            "relation": "compiled"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Q3_Transactions_FY24_Draft.xlsx",
+            "relation": "attached"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "TRN-LD-2024-005",
+            "relation": "followed up on"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Vikram Patel",
+            "relation": "contacted"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Server Upgrade Project - Phase 2 Hardware",
+            "relation": "clarified details for"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "TRN-LD-2024-006",
+            "relation": "is investigating"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "TRN-LD-2024-001",
+            "relation": "reviewed"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "TRN-LD-2024-005",
+            "relation": "reviewed"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Priya Nair",
+            "relation": "sent email to"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Vikram Patel",
+            "relation": "sent email to"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Rahul Sharma",
+            "relation": "copied email to"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Meera Iyer",
+            "relation": "sent email to"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Priya Nair",
+            "relation": "sent email to"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Vikram Patel",
+            "relation": "copied email to"
+        },
+        {
+            "source": "Server Upgrade Project - Phase 2 Hardware",
+            "target": "data analytics project",
+            "relation": "critical for"
+        }
+    ]
+}

@@ -1,0 +1,176 @@
+{
+    "document": "009_employee_bio.txt",
+    "entities": [
+        {
+            "type": "Person",
+            "name": "Vikram Patel"
+        },
+        {
+            "type": "Organization",
+            "name": "Lattice Dynamics Pvt. Ltd."
+        },
+        {
+            "type": "Department",
+            "name": "Operations Department"
+        },
+        {
+            "type": "Project",
+            "name": "Project Velocity"
+        },
+        {
+            "type": "Organization",
+            "name": "DataWeave Analytics"
+        },
+        {
+            "type": "Person",
+            "name": "Neha Singh"
+        },
+        {
+            "type": "Department",
+            "name": "Data Analytics team"
+        },
+        {
+            "type": "Person",
+            "name": "Meera Iyer"
+        },
+        {
+            "type": "Role",
+            "name": "Procurement Lead"
+        },
+        {
+            "type": "Person",
+            "name": "Ankit Gupta"
+        },
+        {
+            "type": "Department",
+            "name": "IT Support"
+        },
+        {
+            "type": "Person",
+            "name": "Kavita Rao"
+        },
+        {
+            "type": "Person",
+            "name": "Arjun Verma"
+        },
+        {
+            "type": "Role",
+            "name": "Project Manager"
+        },
+        {
+            "type": "Role",
+            "name": "Executive Director"
+        },
+        {
+            "type": "Role",
+            "name": "Head of Operations Department"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Vikram Patel",
+            "target": "Executive Director",
+            "relation": "is"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "works at"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Lattice Dynamics",
+            "relation": "joined"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Head of Operations Department",
+            "relation": "was"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Operations Department",
+            "relation": "led"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Project Velocity",
+            "relation": "championed"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Executive Director",
+            "relation": "promoted to"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Lattice Dynamics",
+            "relation": "charts strategic course for"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "major company initiatives",
+            "relation": "oversees"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "innovation",
+            "relation": "fosters"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "partnership with DataWeave Analytics",
+            "relation": "driving force behind"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Neha Singh",
+            "relation": "collaborated with"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Data Analytics team",
+            "relation": "from"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Meera Iyer",
+            "relation": "engages with"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Procurement Lead",
+            "relation": "is"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Ankit Gupta",
+            "relation": "consults with"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "IT Support",
+            "relation": "from"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "HR initiatives",
+            "relation": "supports"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Kavita Rao",
+            "relation": "works alongside"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Vikram Patel's guidance",
+            "relation": "credits"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Project Manager",
+            "relation": "is"
+        }
+    ]
+}

@@ -1,0 +1,750 @@
+{
+    "document": "028_project_memo.txt",
+    "entities": [
+        {
+            "type": "Project",
+            "name": "SecureIT Infrastructure Upgrade - Phase I"
+        },
+        {
+            "type": "Person",
+            "name": "Vikram Patel"
+        },
+        {
+            "type": "Person",
+            "name": "Priya Nair"
+        },
+        {
+            "type": "Person",
+            "name": "Sandeep Menon"
+        },
+        {
+            "type": "Person",
+            "name": "Arjun Verma"
+        },
+        {
+            "type": "Person",
+            "name": "Rahul Sharma"
+        },
+        {
+            "type": "Person",
+            "name": "Ankit Gupta"
+        },
+        {
+            "type": "Person",
+            "name": "Neha Singh"
+        },
+        {
+            "type": "Organization",
+            "name": "Lattice Dynamics Pvt. Ltd."
+        },
+        {
+            "type": "Vendor",
+            "name": "SecureNet Systems"
+        },
+        {
+            "type": "Vendor",
+            "name": "CloudKart Services"
+        },
+        {
+            "type": "Role",
+            "name": "Executive Director"
+        },
+        {
+            "type": "Role",
+            "name": "Finance Manager"
+        },
+        {
+            "type": "Role",
+            "name": "Compliance Officer"
+        },
+        {
+            "type": "Role",
+            "name": "Project Manager"
+        },
+        {
+            "type": "Role",
+            "name": "IT Administrator"
+        },
+        {
+            "type": "Role",
+            "name": "Lead Technical Architect"
+        },
+        {
+            "type": "Role",
+            "name": "Support Engineer"
+        },
+        {
+            "type": "Role",
+            "name": "Implementation Support"
+        },
+        {
+            "type": "Role",
+            "name": "Data Analyst"
+        },
+        {
+            "type": "Role",
+            "name": "Data Migration & Validation"
+        },
+        {
+            "type": "Role",
+            "name": "Advisory & Policy Review"
+        },
+        {
+            "type": "Department",
+            "name": "Operations Department"
+        },
+        {
+            "type": "Department",
+            "name": "IT Department"
+        },
+        {
+            "type": "Department",
+            "name": "Compliance Department"
+        },
+        {
+            "type": "Date",
+            "name": "September 05, 2024"
+        },
+        {
+            "type": "Date",
+            "name": "September 09, 2024"
+        },
+        {
+            "type": "Date",
+            "name": "October 15, 2024"
+        },
+        {
+            "type": "Date",
+            "name": "October 31, 2024"
+        },
+        {
+            "type": "Date",
+            "name": "November 08, 2024"
+        },
+        {
+            "type": "Date",
+            "name": "January 31, 2025"
+        },
+        {
+            "type": "Objective",
+            "name": "Enhance IT infrastructure"
+        },
+        {
+            "type": "Objective",
+            "name": "Improve operational resilience"
+        },
+        {
+            "type": "Objective",
+            "name": "Meet evolving compliance standards"
+        },
+        {
+            "type": "Objective",
+            "name": "Support strategic growth initiatives"
+        },
+        {
+            "type": "Objective",
+            "name": "Minimize vulnerabilities"
+        },
+        {
+            "type": "Objective",
+            "name": "Ensure robust data protection"
+        },
+        {
+            "type": "Focus Area",
+            "name": "Network security"
+        },
+        {
+            "type": "Focus Area",
+            "name": "Data integrity"
+        },
+        {
+            "type": "Focus Area",
+            "name": "Scalable cloud solutions"
+        },
+        {
+            "type": "Solution",
+            "name": "Advanced firewall solutions"
+        },
+        {
+            "type": "Solution",
+            "name": "Intrusion detection systems"
+        },
+        {
+            "type": "Scope Item",
+            "name": "Network Security Enhancement"
+        },
+        {
+            "type": "Scope Item",
+            "name": "Initial Cloud Migration"
+        },
+        {
+            "type": "Data Type",
+            "name": "Non-critical data storage"
+        },
+        {
+            "type": "Workload",
+            "name": "Application workloads"
+        },
+        {
+            "type": "Budget",
+            "name": "INR 2,500,000"
+        },
+        {
+            "type": "Budget Item",
+            "name": "SecureNet Systems - Hardware & Software Licenses"
+        },
+        {
+            "type": "Budget Item",
+            "name": "CloudKart Services - Setup & Initial Subscription"
+        },
+        {
+            "type": "Budget Item",
+            "name": "Contingency & Miscellaneous"
+        },
+        {
+            "type": "Expense Category",
+            "name": "Training"
+        },
+        {
+            "type": "Expense Category",
+            "name": "Documentation"
+        },
+        {
+            "type": "Amount",
+            "name": "INR 1,200,000"
+        },
+        {
+            "type": "Amount",
+            "name": "INR 800,000"
+        },
+        {
+            "type": "Amount",
+            "name": "INR 500,000"
+        },
+        {
+            "type": "Risk",
+            "name": "Data Migration Issues"
+        },
+        {
+            "type": "Risk",
+            "name": "Unexpected Downtime"
+        },
+        {
+            "type": "Risk",
+            "name": "Budget Escalation"
+        },
+        {
+            "type": "Risk",
+            "name": "Integration Challenges with Legacy Systems"
+        },
+        {
+            "type": "Mitigation",
+            "name": "Comprehensive backup strategy"
+        },
+        {
+            "type": "Mitigation",
+            "name": "Rigorous pre- and post-migration data validation"
+        },
+        {
+            "type": "Mitigation",
+            "name": "Staged deployment during off-peak hours"
+        },
+        {
+            "type": "Mitigation",
+            "name": "Robust rollback plans"
+        },
+        {
+            "type": "Mitigation",
+            "name": "Redundant systems"
+        },
+        {
+            "type": "Mitigation",
+            "name": "Close monitoring"
+        },
+        {
+            "type": "Mitigation",
+            "name": "Strict adherence to vendor contracts"
+        },
+        {
+            "type": "Mitigation",
+            "name": "Regular budget reviews"
+        },
+        {
+            "type": "Mitigation",
+            "name": "Thorough compatibility testing"
+        },
+        {
+            "type": "Mitigation",
+            "name": "Engagement with relevant department leads"
+        },
+        {
+            "type": "Document",
+            "name": "Project Memo"
+        },
+        {
+            "type": "Document",
+            "name": "Vendor agreements"
+        },
+        {
+            "type": "Document",
+            "name": "Project plan"
+        },
+        {
+            "type": "Information",
+            "name": "Initial access requirements"
+        },
+        {
+            "type": "Activity",
+            "name": "Kick-off Meeting"
+        },
+        {
+            "type": "Activity",
+            "name": "SecureNet Systems Deployment Completion"
+        },
+        {
+            "type": "Activity",
+            "name": "CloudKart Services Initial Migration Complete"
+        },
+        {
+            "type": "Activity",
+            "name": "Phase I Review & Go/No-Go for Phase II"
+        },
+        {
+            "type": "Activity",
+            "name": "Full deployment"
+        },
+        {
+            "type": "Activity",
+            "name": "Compliance checks"
+        },
+        {
+            "type": "System Type",
+            "name": "Legacy Systems"
+        },
+        {
+            "type": "Information",
+            "name": "Timelines"
+        },
+        {
+            "type": "Information",
+            "name": "Individual responsibilities"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Arjun Verma",
+            "target": "Project Manager",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Executive Director",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Finance Manager",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Compliance Officer",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "IT Administrator",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Lead Technical Architect",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "Support Engineer",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "Implementation Support",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Data Analyst",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Data Migration & Validation",
+            "relation": "RESPONSIBLE_FOR"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Advisory & Policy Review",
+            "relation": "RESPONSIBLE_FOR"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Operations Department",
+            "relation": "WORKS_IN"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "IT Department",
+            "relation": "WORKS_IN"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "IT Department",
+            "relation": "WORKS_IN"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "IT Department",
+            "relation": "WORKS_IN"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Compliance Department",
+            "relation": "WORKS_IN"
+        },
+        {
+            "source": "Project Memo",
+            "target": "Arjun Verma",
+            "relation": "FROM"
+        },
+        {
+            "source": "Project Memo",
+            "target": "Vikram Patel",
+            "relation": "TO"
+        },
+        {
+            "source": "Project Memo",
+            "target": "Priya Nair",
+            "relation": "TO"
+        },
+        {
+            "source": "Project Memo",
+            "target": "Sandeep Menon",
+            "relation": "TO"
+        },
+        {
+            "source": "SecureIT Infrastructure Upgrade - Phase I",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "FOR_ORGANIZATION"
+        },
+        {
+            "source": "SecureIT Infrastructure Upgrade - Phase I",
+            "target": "Enhance IT infrastructure",
+            "relation": "HAS_OBJECTIVE"
+        },
+        {
+            "source": "SecureIT Infrastructure Upgrade - Phase I",
+            "target": "Improve operational resilience",
+            "relation": "HAS_OBJECTIVE"
+        },
+        {
+            "source": "SecureIT Infrastructure Upgrade - Phase I",
+            "target": "Meet evolving compliance standards",
+            "relation": "HAS_OBJECTIVE"
+        },
+        {
+            "source": "SecureIT Infrastructure Upgrade - Phase I",
+            "target": "Support strategic growth initiatives",
+            "relation": "HAS_OBJECTIVE"
+        },
+        {
+            "source": "SecureIT Infrastructure Upgrade - Phase I",
+            "target": "Minimize vulnerabilities",
+            "relation": "HAS_OBJECTIVE"
+        },
+        {
+            "source": "SecureIT Infrastructure Upgrade - Phase I",
+            "target": "Ensure robust data protection",
+            "relation": "HAS_OBJECTIVE"
+        },
+        {
+            "source": "SecureIT Infrastructure Upgrade - Phase I",
+            "target": "Network security",
+            "relation": "FOCUSES_ON"
+        },
+        {
+            "source": "SecureIT Infrastructure Upgrade - Phase I",
+            "target": "Data integrity",
+            "relation": "FOCUSES_ON"
+        },
+        {
+            "source": "SecureIT Infrastructure Upgrade - Phase I",
+            "target": "Scalable cloud solutions",
+            "relation": "FOCUSES_ON"
+        },
+        {
+            "source": "SecureIT Infrastructure Upgrade - Phase I",
+            "target": "Network Security Enhancement",
+            "relation": "HAS_SCOPE_ITEM"
+        },
+        {
+            "source": "SecureIT Infrastructure Upgrade - Phase I",
+            "target": "Initial Cloud Migration",
+            "relation": "HAS_SCOPE_ITEM"
+        },
+        {
+            "source": "Network Security Enhancement",
+            "target": "Advanced firewall solutions",
+            "relation": "INVOLVES"
+        },
+        {
+            "source": "Network Security Enhancement",
+            "target": "Intrusion detection systems",
+            "relation": "INVOLVES"
+        },
+        {
+            "source": "Advanced firewall solutions",
+            "target": "SecureNet Systems",
+            "relation": "PROVIDED_BY"
+        },
+        {
+            "source": "Intrusion detection systems",
+            "target": "SecureNet Systems",
+            "relation": "PROVIDED_BY"
+        },
+        {
+            "source": "Initial Cloud Migration",
+            "target": "Non-critical data storage",
+            "relation": "INVOLVES_MIGRATION_OF"
+        },
+        {
+            "source": "Initial Cloud Migration",
+            "target": "Application workloads",
+            "relation": "INVOLVES_MIGRATION_OF"
+        },
+        {
+            "source": "Initial Cloud Migration",
+            "target": "CloudKart Services",
+            "relation": "MIGRATES_TO"
+        },
+        {
+            "source": "SecureIT Infrastructure Upgrade - Phase I",
+            "target": "Kick-off Meeting",
+            "relation": "INCLUDES_ACTIVITY"
+        },
+        {
+            "source": "Kick-off Meeting",
+            "target": "September 09, 2024",
+            "relation": "HAS_DEADLINE"
+        },
+        {
+            "source": "SecureIT Infrastructure Upgrade - Phase I",
+            "target": "SecureNet Systems Deployment Completion",
+            "relation": "INCLUDES_ACTIVITY"
+        },
+        {
+            "source": "SecureNet Systems Deployment Completion",
+            "target": "October 15, 2024",
+            "relation": "HAS_DEADLINE"
+        },
+        {
+            "source": "SecureIT Infrastructure Upgrade - Phase I",
+            "target": "CloudKart Services Initial Migration Complete",
+            "relation": "INCLUDES_ACTIVITY"
+        },
+        {
+            "source": "CloudKart Services Initial Migration Complete",
+            "target": "October 31, 2024",
+            "relation": "HAS_DEADLINE"
+        },
+        {
+            "source": "SecureIT Infrastructure Upgrade - Phase I",
+            "target": "Phase I Review & Go/No-Go for Phase II",
+            "relation": "INCLUDES_ACTIVITY"
+        },
+        {
+            "source": "Phase I Review & Go/No-Go for Phase II",
+            "target": "November 08, 2024",
+            "relation": "HAS_DEADLINE"
+        },
+        {
+            "source": "SecureIT Infrastructure Upgrade - Phase I",
+            "target": "Full deployment",
+            "relation": "HAS_OVERALL_ACTIVITY"
+        },
+        {
+            "source": "Full deployment",
+            "target": "January 31, 2025",
+            "relation": "HAS_DATE"
+        },
+        {
+            "source": "SecureIT Infrastructure Upgrade - Phase I",
+            "target": "INR 2,500,000",
+            "relation": "HAS_BUDGET"
+        },
+        {
+            "source": "INR 2,500,000",
+            "target": "SecureNet Systems - Hardware & Software Licenses",
+            "relation": "INCLUDES_ITEM"
+        },
+        {
+            "source": "SecureNet Systems - Hardware & Software Licenses",
+            "target": "INR 1,200,000",
+            "relation": "HAS_AMOUNT"
+        },
+        {
+            "source": "INR 2,500,000",
+            "target": "CloudKart Services - Setup & Initial Subscription",
+            "relation": "INCLUDES_ITEM"
+        },
+        {
+            "source": "CloudKart Services - Setup & Initial Subscription",
+            "target": "INR 800,000",
+            "relation": "HAS_AMOUNT"
+        },
+        {
+            "source": "INR 2,500,000",
+            "target": "Contingency & Miscellaneous",
+            "relation": "INCLUDES_ITEM"
+        },
+        {
+            "source": "Contingency & Miscellaneous",
+            "target": "INR 500,000",
+            "relation": "HAS_AMOUNT"
+        },
+        {
+            "source": "Contingency & Miscellaneous",
+            "target": "Training",
+            "relation": "INCLUDES_CATEGORY"
+        },
+        {
+            "source": "Contingency & Miscellaneous",
+            "target": "Documentation",
+            "relation": "INCLUDES_CATEGORY"
+        },
+        {
+            "source": "SecureIT Infrastructure Upgrade - Phase I",
+            "target": "Data Migration Issues",
+            "relation": "HAS_RISK"
+        },
+        {
+            "source": "Data Migration Issues",
+            "target": "Comprehensive backup strategy",
+            "relation": "MITIGATED_BY"
+        },
+        {
+            "source": "Data Migration Issues",
+            "target": "Rigorous pre- and post-migration data validation",
+            "relation": "MITIGATED_BY"
+        },
+        {
+            "source": "Rigorous pre- and post-migration data validation",
+            "target": "Neha Singh",
+            "relation": "PERFORMED_BY"
+        },
+        {
+            "source": "SecureIT Infrastructure Upgrade - Phase I",
+            "target": "Unexpected Downtime",
+            "relation": "HAS_RISK"
+        },
+        {
+            "source": "Unexpected Downtime",
+            "target": "Staged deployment during off-peak hours",
+            "relation": "MITIGATED_BY"
+        },
+        {
+            "source": "Unexpected Downtime",
+            "target": "Robust rollback plans",
+            "relation": "MITIGATED_BY"
+        },
+        {
+            "source": "Unexpected Downtime",
+            "target": "Redundant systems",
+            "relation": "MITIGATED_BY"
+        },
+        {
+            "source": "SecureIT Infrastructure Upgrade - Phase I",
+            "target": "Budget Escalation",
+            "relation": "HAS_RISK"
+        },
+        {
+            "source": "Budget Escalation",
+            "target": "Close monitoring",
+            "relation": "MITIGATED_BY"
+        },
+        {
+            "source": "Close monitoring",
+            "target": "Priya Nair",
+            "relation": "PERFORMED_BY"
+        },
+        {
+            "source": "Close monitoring",
+            "target": "Arjun Verma",
+            "relation": "PERFORMED_BY"
+        },
+        {
+            "source": "Budget Escalation",
+            "target": "Strict adherence to vendor contracts",
+            "relation": "MITIGATED_BY"
+        },
+        {
+            "source": "Strict adherence to vendor contracts",
+            "target": "SecureNet Systems",
+            "relation": "WITH_VENDOR"
+        },
+        {
+            "source": "Strict adherence to vendor contracts",
+            "target": "CloudKart Services",
+            "relation": "WITH_VENDOR"
+        },
+        {
+            "source": "Budget Escalation",
+            "target": "Regular budget reviews",
+            "relation": "MITIGATED_BY"
+        },
+        {
+            "source": "SecureIT Infrastructure Upgrade - Phase I",
+            "target": "Integration Challenges with Legacy Systems",
+            "relation": "HAS_RISK"
+        },
+        {
+            "source": "Integration Challenges with Legacy Systems",
+            "target": "Thorough compatibility testing",
+            "relation": "MITIGATED_BY"
+        },
+        {
+            "source": "Integration Challenges with Legacy Systems",
+            "target": "Engagement with relevant department leads",
+            "relation": "MITIGATED_BY"
+        },
+        {
+            "source": "Project plan",
+            "target": "Kick-off Meeting",
+            "relation": "CIRCULATED_PRIOR_TO"
+        },
+        {
+            "source": "Project plan",
+            "target": "Timelines",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "Project plan",
+            "target": "Individual responsibilities",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "Compliance checks",
+            "target": "SecureIT Infrastructure Upgrade - Phase I",
+            "relation": "INTEGRATED_INTO"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Initial access requirements",
+            "relation": "WILL_PROVIDE"
+        },
+        {
+            "source": "Initial access requirements",
+            "target": "SecureNet Systems",
+            "relation": "FOR_VENDOR_SYSTEM"
+        }
+    ]
+}

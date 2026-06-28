@@ -1,0 +1,215 @@
+{
+    "document": "040_vendor_agreement.txt",
+    "entities": [
+        {
+            "type": "Agreement",
+            "name": "Vendor Agreement"
+        },
+        {
+            "type": "Contract ID",
+            "name": "LD-PRO-SNS-2024-007B"
+        },
+        {
+            "type": "Date",
+            "name": "May 15, 2024"
+        },
+        {
+            "type": "Date",
+            "name": "May 14, 2025"
+        },
+        {
+            "type": "Company",
+            "name": "Lattice Dynamics Pvt. Ltd."
+        },
+        {
+            "type": "Address",
+            "name": "Corporate Tower, Sector 18, Gurugram, India"
+        },
+        {
+            "type": "Company",
+            "name": "SecureNet Systems"
+        },
+        {
+            "type": "Address",
+            "name": "Tech Park, Phase 3, Bengaluru, India"
+        },
+        {
+            "type": "Service",
+            "name": "cybersecurity and network security monitoring services"
+        },
+        {
+            "type": "Service",
+            "name": "comprehensive cybersecurity solutions"
+        },
+        {
+            "type": "Service Feature",
+            "name": "network perimeter defense"
+        },
+        {
+            "type": "Service Feature",
+            "name": "endpoint protection"
+        },
+        {
+            "type": "Service Feature",
+            "name": "intrusion detection/prevention systems (IDS/IPS) monitoring"
+        },
+        {
+            "type": "Service Feature",
+            "name": "quarterly vulnerability assessments"
+        },
+        {
+            "type": "Department",
+            "name": "IT Department"
+        },
+        {
+            "type": "Department",
+            "name": "Procurement"
+        },
+        {
+            "type": "Department",
+            "name": "Finance Department"
+        },
+        {
+            "type": "Country",
+            "name": "India"
+        },
+        {
+            "type": "Location",
+            "name": "Gurugram, India"
+        },
+        {
+            "type": "Person",
+            "name": "Meera Iyer"
+        },
+        {
+            "type": "Department",
+            "name": "Executive Office"
+        },
+        {
+            "type": "Person",
+            "name": "Vikram Patel"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Vendor Agreement",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "entered into by"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "SecureNet Systems",
+            "relation": "entered into by"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "May 15, 2024",
+            "relation": "has Effective Date"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "May 14, 2025",
+            "relation": "has Renewal Date"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "LD-PRO-SNS-2024-007B",
+            "relation": "has Contract ID"
+        },
+        {
+            "source": "Lattice Dynamics Pvt. Ltd.",
+            "target": "cybersecurity and network security monitoring services",
+            "relation": "requires"
+        },
+        {
+            "source": "SecureNet Systems",
+            "target": "comprehensive cybersecurity solutions",
+            "relation": "provides"
+        },
+        {
+            "source": "comprehensive cybersecurity solutions",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "for"
+        },
+        {
+            "source": "comprehensive cybersecurity solutions",
+            "target": "network perimeter defense",
+            "relation": "includes"
+        },
+        {
+            "source": "comprehensive cybersecurity solutions",
+            "target": "endpoint protection",
+            "relation": "includes"
+        },
+        {
+            "source": "comprehensive cybersecurity solutions",
+            "target": "intrusion detection/prevention systems (IDS/IPS) monitoring",
+            "relation": "includes"
+        },
+        {
+            "source": "comprehensive cybersecurity solutions",
+            "target": "quarterly vulnerability assessments",
+            "relation": "includes"
+        },
+        {
+            "source": "IT Department",
+            "target": "SecureNet Systems",
+            "relation": "coordinates with"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "Procurement",
+            "relation": "reviewed by"
+        },
+        {
+            "source": "Lattice Dynamics Pvt. Ltd.",
+            "target": "SecureNet Systems",
+            "relation": "pays fees to"
+        },
+        {
+            "source": "Finance Department",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "processes payments for"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "India",
+            "relation": "governed by laws of"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "Gurugram, India",
+            "relation": "subject to jurisdiction of"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "Procurement Lead for"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Procurement",
+            "relation": "is in"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "Executive Director for"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Executive Office",
+            "relation": "is in"
+        },
+        {
+            "source": "Lattice Dynamics Pvt. Ltd.",
+            "target": "Corporate Tower, Sector 18, Gurugram, India",
+            "relation": "has principal place of business at"
+        },
+        {
+            "source": "SecureNet Systems",
+            "target": "Tech Park, Phase 3, Bengaluru, India",
+            "relation": "has principal place of business at"
+        }
+    ]
+}

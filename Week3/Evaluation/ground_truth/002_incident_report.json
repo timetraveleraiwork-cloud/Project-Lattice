@@ -1,0 +1,295 @@
+{
+    "document": "002_incident_report.txt",
+    "entities": [
+        {
+            "type": "Incident",
+            "name": "IT-INC-2024-07-15-001"
+        },
+        {
+            "type": "Date",
+            "name": "July 15, 2024"
+        },
+        {
+            "type": "Time",
+            "name": "09:30 AM IST"
+        },
+        {
+            "type": "Time",
+            "name": "01:45 PM IST"
+        },
+        {
+            "type": "Person",
+            "name": "Rahul Sharma"
+        },
+        {
+            "type": "Role",
+            "name": "IT Administrator"
+        },
+        {
+            "type": "Application",
+            "name": "Internal Project Management Portal (PMP)"
+        },
+        {
+            "type": "Application",
+            "name": "Sales CRM Application"
+        },
+        {
+            "type": "Application",
+            "name": "Data Analytics Dashboard"
+        },
+        {
+            "type": "Department",
+            "name": "Operations"
+        },
+        {
+            "type": "Department",
+            "name": "Project Management"
+        },
+        {
+            "type": "Department",
+            "name": "Sales"
+        },
+        {
+            "type": "Department",
+            "name": "Finance"
+        },
+        {
+            "type": "Person",
+            "name": "Ankit Gupta"
+        },
+        {
+            "type": "Role",
+            "name": "Support Engineer"
+        },
+        {
+            "type": "Organization",
+            "name": "IT Department"
+        },
+        {
+            "type": "Vendor",
+            "name": "CloudKart Services"
+        },
+        {
+            "type": "Person",
+            "name": "Meera Iyer"
+        },
+        {
+            "type": "Role",
+            "name": "Procurement Lead"
+        },
+        {
+            "type": "Person",
+            "name": "Sandeep Menon"
+        },
+        {
+            "type": "Role",
+            "name": "Compliance Officer"
+        },
+        {
+            "type": "Recommendation",
+            "name": "Enhanced Vendor SLA Review"
+        },
+        {
+            "type": "Recommendation",
+            "name": "Disaster Recovery (DR) Plan Drill"
+        },
+        {
+            "type": "Person",
+            "name": "Arjun Verma"
+        },
+        {
+            "type": "Role",
+            "name": "Project Manager"
+        },
+        {
+            "type": "Recommendation",
+            "name": "Multi-Cloud Strategy Exploration"
+        },
+        {
+            "type": "Person",
+            "name": "Vikram Patel"
+        },
+        {
+            "type": "Role",
+            "name": "Executive Director"
+        },
+        {
+            "type": "Vendor",
+            "name": "TechNova Solutions"
+        },
+        {
+            "type": "Recommendation",
+            "name": "Internal Communication Protocol"
+        },
+        {
+            "type": "Person",
+            "name": "Kavita Rao"
+        },
+        {
+            "type": "Role",
+            "name": "HR Business Partner"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "IT-INC-2024-07-15-001",
+            "target": "July 15, 2024",
+            "relation": "occurred_on"
+        },
+        {
+            "source": "IT-INC-2024-07-15-001",
+            "target": "09:30 AM IST",
+            "relation": "discovered_at"
+        },
+        {
+            "source": "IT-INC-2024-07-15-001",
+            "target": "01:45 PM IST",
+            "relation": "resolved_at"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "IT-INC-2024-07-15-001",
+            "relation": "reported"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "IT Administrator",
+            "relation": "holds_role"
+        },
+        {
+            "source": "IT-INC-2024-07-15-001",
+            "target": "Internal Project Management Portal (PMP)",
+            "relation": "affected"
+        },
+        {
+            "source": "IT-INC-2024-07-15-001",
+            "target": "Sales CRM Application",
+            "relation": "affected"
+        },
+        {
+            "source": "IT-INC-2024-07-15-001",
+            "target": "Data Analytics Dashboard",
+            "relation": "affected"
+        },
+        {
+            "source": "IT-INC-2024-07-15-001",
+            "target": "Operations",
+            "relation": "impacted"
+        },
+        {
+            "source": "IT-INC-2024-07-15-001",
+            "target": "Project Management",
+            "relation": "impacted"
+        },
+        {
+            "source": "IT-INC-2024-07-15-001",
+            "target": "Sales",
+            "relation": "impacted"
+        },
+        {
+            "source": "IT-INC-2024-07-15-001",
+            "target": "Finance",
+            "relation": "impacted"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "IT-INC-2024-07-15-001",
+            "relation": "identified"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "Support Engineer",
+            "relation": "holds_role"
+        },
+        {
+            "source": "IT-INC-2024-07-15-001",
+            "target": "CloudKart Services",
+            "relation": "caused_by"
+        },
+        {
+            "source": "IT Department",
+            "target": "IT-INC-2024-07-15-001",
+            "relation": "investigated"
+        },
+        {
+            "source": "IT Department",
+            "target": "Rahul Sharma",
+            "relation": "led_by"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Enhanced Vendor SLA Review",
+            "relation": "to_initiate"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Procurement Lead",
+            "relation": "holds_role"
+        },
+        {
+            "source": "Enhanced Vendor SLA Review",
+            "target": "CloudKart Services",
+            "relation": "concerns"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Meera Iyer",
+            "relation": "assisted"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Compliance Officer",
+            "relation": "holds_role"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Disaster Recovery (DR) Plan Drill",
+            "relation": "to_coordinate"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Project Manager",
+            "relation": "holds_role"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Multi-Cloud Strategy Exploration",
+            "relation": "requested"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Executive Director",
+            "relation": "holds_role"
+        },
+        {
+            "source": "Multi-Cloud Strategy Exploration",
+            "target": "TechNova Solutions",
+            "relation": "to_evaluate"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "Internal Communication Protocol",
+            "relation": "to_assist_with"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "HR Business Partner",
+            "relation": "holds_role"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "IT-INC-2024-07-15-001",
+            "relation": "reviewed_report_for"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "IT-INC-2024-07-15-001",
+            "relation": "verified_resolution_for"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "IT-INC-2024-07-15-001",
+            "relation": "verified_resolution_for"
+        }
+    ]
+}

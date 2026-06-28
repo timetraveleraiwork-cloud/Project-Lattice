@@ -1,0 +1,464 @@
+{
+    "document": "003_project_memo.txt",
+    "entities": [
+        {
+            "type": "Person",
+            "name": "Vikram Patel"
+        },
+        {
+            "type": "Person",
+            "name": "Arjun Verma"
+        },
+        {
+            "type": "Person",
+            "name": "Priya Nair"
+        },
+        {
+            "type": "Person",
+            "name": "Rahul Sharma"
+        },
+        {
+            "type": "Person",
+            "name": "Sandeep Menon"
+        },
+        {
+            "type": "Person",
+            "name": "Neha Singh"
+        },
+        {
+            "type": "Person",
+            "name": "Ankit Gupta"
+        },
+        {
+            "type": "Person",
+            "name": "Meera Iyer"
+        },
+        {
+            "type": "Company",
+            "name": "Lattice Dynamics"
+        },
+        {
+            "type": "Department",
+            "name": "Operations"
+        },
+        {
+            "type": "Department",
+            "name": "IT"
+        },
+        {
+            "type": "Department",
+            "name": "Compliance"
+        },
+        {
+            "type": "Department",
+            "name": "Finance"
+        },
+        {
+            "type": "Department",
+            "name": "Data Analytics"
+        },
+        {
+            "type": "Department",
+            "name": "Procurement"
+        },
+        {
+            "type": "Project",
+            "name": "Project Aurora"
+        },
+        {
+            "type": "Project Phase",
+            "name": "Phase 1"
+        },
+        {
+            "type": "Project Phase",
+            "name": "Phase 2"
+        },
+        {
+            "type": "Project Phase",
+            "name": "Phase 3"
+        },
+        {
+            "type": "Project Phase",
+            "name": "Phase 4"
+        },
+        {
+            "type": "Milestone",
+            "name": "Project Completion"
+        },
+        {
+            "type": "Vendor",
+            "name": "DataWeave Analytics"
+        },
+        {
+            "type": "Vendor",
+            "name": "CloudKart Services"
+        },
+        {
+            "type": "Vendor",
+            "name": "SecureNet Systems"
+        },
+        {
+            "type": "Risk",
+            "name": "R-01: Data Migration Integrity Issues"
+        },
+        {
+            "type": "Risk",
+            "name": "R-02: Vendor Delays"
+        },
+        {
+            "type": "Risk",
+            "name": "R-03: Budget Overruns"
+        },
+        {
+            "type": "Risk",
+            "name": "R-04: Security Vulnerabilities"
+        },
+        {
+            "type": "Date",
+            "name": "2024-07-18"
+        },
+        {
+            "type": "Date",
+            "name": "2024-06-30"
+        },
+        {
+            "type": "Date",
+            "name": "2024-08-15"
+        },
+        {
+            "type": "Date",
+            "name": "2024-09-30"
+        },
+        {
+            "type": "Date",
+            "name": "2024-10-31"
+        },
+        {
+            "type": "Date",
+            "name": "2024-11-15"
+        },
+        {
+            "type": "Date",
+            "name": "2024-07-25"
+        },
+        {
+            "type": "Date",
+            "name": "2024-07-29"
+        },
+        {
+            "type": "Task",
+            "name": "Data Validation Efforts"
+        },
+        {
+            "type": "Task",
+            "name": "Vendor Performance Monitoring"
+        },
+        {
+            "type": "Task",
+            "name": "Budget Tracking"
+        },
+        {
+            "type": "Document",
+            "name": "Compliance Guidelines"
+        },
+        {
+            "type": "Document",
+            "name": "Preliminary Audit Report"
+        },
+        {
+            "type": "Plan",
+            "name": "Migration Plan for Critical Datasets"
+        },
+        {
+            "type": "Event",
+            "name": "Review Meeting"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Arjun Verma",
+            "target": "Lattice Dynamics",
+            "relation": "works for"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Project Aurora",
+            "relation": "is Project Manager of"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Vikram Patel",
+            "relation": "sends memo to"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Lattice Dynamics",
+            "relation": "is Executive Director at"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Finance",
+            "relation": "is in department"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "IT",
+            "relation": "is in department"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Compliance",
+            "relation": "is in department"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Data Analytics",
+            "relation": "is in department"
+        },
+        {
+            "source": "Project Aurora",
+            "target": "Lattice Dynamics",
+            "relation": "is an initiative of"
+        },
+        {
+            "source": "Project Aurora",
+            "target": "2024-07-18",
+            "relation": "status update date"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Operations",
+            "relation": "works in"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "IT",
+            "relation": "works in"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Operations",
+            "relation": "works in"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "IT",
+            "relation": "works in"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Compliance",
+            "relation": "works in"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Finance",
+            "relation": "works in"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Budget Tracking",
+            "relation": "oversees"
+        },
+        {
+            "source": "Project Aurora",
+            "target": "Phase 1",
+            "relation": "includes"
+        },
+        {
+            "source": "Project Aurora",
+            "target": "Phase 2",
+            "relation": "includes"
+        },
+        {
+            "source": "Phase 1",
+            "target": "2024-06-30",
+            "relation": "completed on"
+        },
+        {
+            "source": "DataWeave Analytics",
+            "target": "Project Aurora",
+            "relation": "selected for"
+        },
+        {
+            "source": "DataWeave Analytics",
+            "target": "data migration and analytics platform integration",
+            "relation": "provides services for"
+        },
+        {
+            "source": "CloudKart Services",
+            "target": "Project Aurora",
+            "relation": "selected for"
+        },
+        {
+            "source": "CloudKart Services",
+            "target": "scalable cloud infrastructure",
+            "relation": "provides services for"
+        },
+        {
+            "source": "SecureNet Systems",
+            "target": "Project Aurora",
+            "relation": "engaged for"
+        },
+        {
+            "source": "SecureNet Systems",
+            "target": "pre-implementation security audit",
+            "relation": "provides services for"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "Phase 2",
+            "relation": "involved in"
+        },
+        {
+            "source": "Project Aurora",
+            "target": "R-01: Data Migration Integrity Issues",
+            "relation": "has risk"
+        },
+        {
+            "source": "Project Aurora",
+            "target": "R-02: Vendor Delays",
+            "relation": "has risk"
+        },
+        {
+            "source": "Project Aurora",
+            "target": "R-03: Budget Overruns",
+            "relation": "has risk"
+        },
+        {
+            "source": "Project Aurora",
+            "target": "R-04: Security Vulnerabilities",
+            "relation": "has risk"
+        },
+        {
+            "source": "DataWeave Analytics",
+            "target": "R-01: Data Migration Integrity Issues",
+            "relation": "mitigates"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Data Validation Efforts",
+            "relation": "leads"
+        },
+        {
+            "source": "Data Validation Efforts",
+            "target": "R-01: Data Migration Integrity Issues",
+            "relation": "mitigates"
+        },
+        {
+            "source": "R-02: Vendor Delays",
+            "target": "DataWeave Analytics",
+            "relation": "involves vendor"
+        },
+        {
+            "source": "R-02: Vendor Delays",
+            "target": "CloudKart Services",
+            "relation": "involves vendor"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Procurement",
+            "relation": "works in"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Vendor Performance Monitoring",
+            "relation": "monitors"
+        },
+        {
+            "source": "Vendor Performance Monitoring",
+            "target": "R-02: Vendor Delays",
+            "relation": "mitigates"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Budget Tracking",
+            "relation": "tracks"
+        },
+        {
+            "source": "Budget Tracking",
+            "target": "R-03: Budget Overruns",
+            "relation": "mitigates"
+        },
+        {
+            "source": "SecureNet Systems",
+            "target": "R-04: Security Vulnerabilities",
+            "relation": "mitigates"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Compliance Guidelines",
+            "relation": "provides"
+        },
+        {
+            "source": "Compliance Guidelines",
+            "target": "R-04: Security Vulnerabilities",
+            "relation": "mitigates"
+        },
+        {
+            "source": "Project Aurora",
+            "target": "Phase 3",
+            "relation": "includes"
+        },
+        {
+            "source": "Project Aurora",
+            "target": "Phase 4",
+            "relation": "includes"
+        },
+        {
+            "source": "Phase 2",
+            "target": "2024-08-15",
+            "relation": "targets completion by"
+        },
+        {
+            "source": "Phase 3",
+            "target": "2024-09-30",
+            "relation": "targets completion by"
+        },
+        {
+            "source": "Phase 4",
+            "target": "2024-10-31",
+            "relation": "targets completion by"
+        },
+        {
+            "source": "Project Aurora",
+            "target": "2024-11-15",
+            "relation": "targets completion by"
+        },
+        {
+            "source": "Finance",
+            "target": "Budget Tracking",
+            "relation": "manages"
+        },
+        {
+            "source": "CloudKart Services",
+            "target": "R-03: Budget Overruns",
+            "relation": "contributes to"
+        },
+        {
+            "source": "SecureNet Systems",
+            "target": "Preliminary Audit Report",
+            "relation": "provides"
+        },
+        {
+            "source": "Preliminary Audit Report",
+            "target": "2024-07-25",
+            "relation": "expected by"
+        },
+        {
+            "source": "DataWeave Analytics",
+            "target": "Migration Plan for Critical Datasets",
+            "relation": "will finalize"
+        },
+        {
+            "source": "Project Aurora",
+            "target": "Review Meeting",
+            "relation": "will hold"
+        },
+        {
+            "source": "Review Meeting",
+            "target": "2024-07-29",
+            "relation": "scheduled for"
+        }
+    ]
+}

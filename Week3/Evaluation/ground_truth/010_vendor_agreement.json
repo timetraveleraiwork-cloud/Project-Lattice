@@ -1,0 +1,329 @@
+{
+    "document": "010_vendor_agreement.txt",
+    "entities": [
+        {
+            "type": "Agreement",
+            "name": "Vendor Agreement"
+        },
+        {
+            "type": "Organization",
+            "name": "Lattice Dynamics Pvt. Ltd."
+        },
+        {
+            "type": "Organization",
+            "name": "TechNova Solutions Pvt Ltd"
+        },
+        {
+            "type": "Identifier",
+            "name": "LDPL/VAGR/IT-2024/007"
+        },
+        {
+            "type": "Date",
+            "name": "March 15, 2024"
+        },
+        {
+            "type": "Date",
+            "name": "March 14, 2025"
+        },
+        {
+            "type": "Party Role",
+            "name": "Client"
+        },
+        {
+            "type": "Party Role",
+            "name": "Vendor"
+        },
+        {
+            "type": "Service",
+            "name": "IT infrastructure support and managed services"
+        },
+        {
+            "type": "Service Feature",
+            "name": "24/7 system monitoring"
+        },
+        {
+            "type": "Service Feature",
+            "name": "proactive maintenance"
+        },
+        {
+            "type": "Service Feature",
+            "name": "incident response"
+        },
+        {
+            "type": "Service Feature",
+            "name": "network administration"
+        },
+        {
+            "type": "Service Feature",
+            "name": "server management"
+        },
+        {
+            "type": "Service Feature",
+            "name": "security patch deployment"
+        },
+        {
+            "type": "Document",
+            "name": "Service Level Agreement (SLA)"
+        },
+        {
+            "type": "Department",
+            "name": "IT department"
+        },
+        {
+            "type": "Person",
+            "name": "Rahul Sharma"
+        },
+        {
+            "type": "Role",
+            "name": "IT Administrator"
+        },
+        {
+            "type": "Activity",
+            "name": "payment processing"
+        },
+        {
+            "type": "Person",
+            "name": "Priya Nair"
+        },
+        {
+            "type": "Role",
+            "name": "Finance Manager"
+        },
+        {
+            "type": "Person",
+            "name": "Meera Iyer"
+        },
+        {
+            "type": "Role",
+            "name": "Procurement Lead"
+        },
+        {
+            "type": "Person",
+            "name": "Vikram Patel"
+        },
+        {
+            "type": "Role",
+            "name": "Executive Director"
+        },
+        {
+            "type": "Person",
+            "name": "Authorized Representative"
+        },
+        {
+            "type": "Department",
+            "name": "Procurement team"
+        },
+        {
+            "type": "Department",
+            "name": "Operations teams"
+        },
+        {
+            "type": "Legal Jurisdiction",
+            "name": "India"
+        },
+        {
+            "type": "Clause",
+            "name": "Force Majeure"
+        },
+        {
+            "type": "Concept",
+            "name": "technical scope"
+        },
+        {
+            "type": "Date",
+            "name": "March 12, 2024"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Vendor Agreement",
+            "target": "LDPL/VAGR/IT-2024/007",
+            "relation": "HAS_IDENTIFIER"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "March 15, 2024",
+            "relation": "HAS_EFFECTIVE_DATE"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "March 14, 2025",
+            "relation": "HAS_RENEWAL_DATE"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "PARTY_ONE"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "TechNova Solutions Pvt Ltd",
+            "relation": "PARTY_TWO"
+        },
+        {
+            "source": "Lattice Dynamics Pvt. Ltd.",
+            "target": "Client",
+            "relation": "ACTS_AS"
+        },
+        {
+            "source": "TechNova Solutions Pvt Ltd",
+            "target": "Vendor",
+            "relation": "ACTS_AS"
+        },
+        {
+            "source": "TechNova Solutions Pvt Ltd",
+            "target": "IT infrastructure support and managed services",
+            "relation": "PROVIDES_SERVICE"
+        },
+        {
+            "source": "IT infrastructure support and managed services",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "TO_CLIENT"
+        },
+        {
+            "source": "IT infrastructure support and managed services",
+            "target": "24/7 system monitoring",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "IT infrastructure support and managed services",
+            "target": "proactive maintenance",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "IT infrastructure support and managed services",
+            "target": "incident response",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "IT infrastructure support and managed services",
+            "target": "network administration",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "IT infrastructure support and managed services",
+            "target": "server management",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "IT infrastructure support and managed services",
+            "target": "security patch deployment",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "Service Level Agreement (SLA)",
+            "target": "Vendor Agreement",
+            "relation": "INCORPORATED_BY_REFERENCE_IN"
+        },
+        {
+            "source": "IT department",
+            "target": "technical scope",
+            "relation": "REVIEWED"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "IT Administrator",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "technical scope",
+            "relation": "PROVIDED_INPUT_ON"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Finance Manager",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "payment processing",
+            "relation": "OVERSEES"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Vendor Agreement",
+            "relation": "SIGNED_AGREEMENT"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "March 12, 2024",
+            "relation": "SIGNED_ON"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Procurement Lead",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Vendor Agreement",
+            "relation": "SIGNED_AGREEMENT"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "March 12, 2024",
+            "relation": "SIGNED_ON"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Executive Director",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Vendor Agreement",
+            "relation": "SIGNED_AGREEMENT"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "March 12, 2024",
+            "relation": "SIGNED_ON"
+        },
+        {
+            "source": "Authorized Representative",
+            "target": "Vendor Agreement",
+            "relation": "SIGNED_AGREEMENT"
+        },
+        {
+            "source": "Authorized Representative",
+            "target": "March 12, 2024",
+            "relation": "SIGNED_ON"
+        },
+        {
+            "source": "Vendor Agreement",
+            "target": "India",
+            "relation": "GOVERNED_BY_LAW_OF"
+        },
+        {
+            "source": "Force Majeure",
+            "target": "Procurement team",
+            "relation": "REQUIRE_NOTIFICATION_TO"
+        },
+        {
+            "source": "Force Majeure",
+            "target": "Operations teams",
+            "relation": "REQUIRE_NOTIFICATION_TO"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "AFFILIATED_WITH"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "AFFILIATED_WITH"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "AFFILIATED_WITH"
+        },
+        {
+            "source": "Authorized Representative",
+            "target": "TechNova Solutions Pvt Ltd",
+            "relation": "AFFILIATED_WITH"
+        }
+    ]
+}

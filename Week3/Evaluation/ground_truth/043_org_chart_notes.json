@@ -1,0 +1,542 @@
+{
+    "document": "043_org_chart_notes.txt",
+    "entities": [
+        {
+            "type": "Person",
+            "name": "Vikram Patel"
+        },
+        {
+            "type": "Role",
+            "name": "Executive Director"
+        },
+        {
+            "type": "Person",
+            "name": "Priya Nair"
+        },
+        {
+            "type": "Role",
+            "name": "Finance Manager"
+        },
+        {
+            "type": "Person",
+            "name": "Kavita Rao"
+        },
+        {
+            "type": "Role",
+            "name": "HR Business Partner"
+        },
+        {
+            "type": "Person",
+            "name": "Sandeep Menon"
+        },
+        {
+            "type": "Role",
+            "name": "Compliance Officer"
+        },
+        {
+            "type": "Person",
+            "name": "Arjun Verma"
+        },
+        {
+            "type": "Role",
+            "name": "Project Manager"
+        },
+        {
+            "type": "Person",
+            "name": "Rahul Sharma"
+        },
+        {
+            "type": "Role",
+            "name": "IT Administrator"
+        },
+        {
+            "type": "Concept",
+            "name": "Leadership Meeting"
+        },
+        {
+            "type": "Concept",
+            "name": "Org Structure Discussion"
+        },
+        {
+            "type": "Concept",
+            "name": "Current structure"
+        },
+        {
+            "type": "Concept",
+            "name": "FY25 goals"
+        },
+        {
+            "type": "Concept",
+            "name": "reporting lines"
+        },
+        {
+            "type": "Concept",
+            "name": "cross-functional support"
+        },
+        {
+            "type": "Project",
+            "name": "Project Phoenix"
+        },
+        {
+            "type": "Department",
+            "name": "IT Department"
+        },
+        {
+            "type": "Concept",
+            "name": "core infrastructure"
+        },
+        {
+            "type": "Person",
+            "name": "Ankit Gupta"
+        },
+        {
+            "type": "Project",
+            "name": "SecureNet Systems integration"
+        },
+        {
+            "type": "Person",
+            "name": "Rohan Das"
+        },
+        {
+            "type": "Role",
+            "name": "Intern"
+        },
+        {
+            "type": "Concept",
+            "name": "budget approval"
+        },
+        {
+            "type": "Department",
+            "name": "Finance"
+        },
+        {
+            "type": "Concept",
+            "name": "HR implications"
+        },
+        {
+            "type": "Concept",
+            "name": "FTE conversion"
+        },
+        {
+            "type": "Concept",
+            "name": "justification memo"
+        },
+        {
+            "type": "Company",
+            "name": "CloudKart Services"
+        },
+        {
+            "type": "Company",
+            "name": "TechNova Solutions"
+        },
+        {
+            "type": "Department",
+            "name": "Procurement Department"
+        },
+        {
+            "type": "Person",
+            "name": "Meera Iyer"
+        },
+        {
+            "type": "Concept",
+            "name": "vendor selection"
+        },
+        {
+            "type": "Concept",
+            "name": "approval matrix"
+        },
+        {
+            "type": "Concept",
+            "name": "high-value contracts"
+        },
+        {
+            "type": "Company",
+            "name": "BuildRight Contractors"
+        },
+        {
+            "type": "Company",
+            "name": "GreenByte Energy"
+        },
+        {
+            "type": "Concept",
+            "name": "new vendor agreements"
+        },
+        {
+            "type": "Concept",
+            "name": "ComplyHub Consulting guidelines"
+        },
+        {
+            "type": "Department",
+            "name": "Operations"
+        },
+        {
+            "type": "Person",
+            "name": "Neha Singh"
+        },
+        {
+            "type": "Concept",
+            "name": "data analytics support"
+        },
+        {
+            "type": "Concept",
+            "name": "project tracking"
+        },
+        {
+            "type": "Concept",
+            "name": "KPI reporting"
+        },
+        {
+            "type": "Concept",
+            "name": "revised workflow"
+        },
+        {
+            "type": "Concept",
+            "name": "budget forecasting"
+        },
+        {
+            "type": "Concept",
+            "name": "new hires"
+        },
+        {
+            "type": "Concept",
+            "name": "headcount planning"
+        },
+        {
+            "type": "Concept",
+            "name": "budget allocations"
+        },
+        {
+            "type": "Department",
+            "name": "HR"
+        },
+        {
+            "type": "Department",
+            "name": "Compliance"
+        },
+        {
+            "type": "Concept",
+            "name": "SecureNet Systems' data handling protocols"
+        },
+        {
+            "type": "Company",
+            "name": "SecureNet Systems"
+        },
+        {
+            "type": "Concept",
+            "name": "certifications"
+        },
+        {
+            "type": "Person",
+            "name": "Staff"
+        },
+        {
+            "type": "Concept",
+            "name": "training refreshers"
+        },
+        {
+            "type": "Concept",
+            "name": "data privacy and security"
+        },
+        {
+            "type": "Company",
+            "name": "ComplyHub Consulting"
+        },
+        {
+            "type": "Concept",
+            "name": "resources"
+        },
+        {
+            "type": "Concept",
+            "name": "feedback"
+        },
+        {
+            "type": "Project",
+            "name": "critical projects"
+        },
+        {
+            "type": "Project",
+            "name": "office expansion"
+        },
+        {
+            "type": "Project",
+            "name": "new initiatives"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Vikram Patel",
+            "target": "Executive Director",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Finance Manager",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "HR Business Partner",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Compliance Officer",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Project Manager",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "IT Administrator",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Leadership Meeting",
+            "target": "Org Structure Discussion",
+            "relation": "TOPIC_WAS"
+        },
+        {
+            "source": "Current structure",
+            "target": "FY25 goals",
+            "relation": "GENERALLY_EFFECTIVE_FOR"
+        },
+        {
+            "source": "Current structure",
+            "target": "FY25 goals",
+            "relation": "REQUIRES_OPTIMIZATION_FOR"
+        },
+        {
+            "source": "Current structure",
+            "target": "reporting lines",
+            "relation": "NEEDS"
+        },
+        {
+            "source": "Current structure",
+            "target": "cross-functional support",
+            "relation": "NEEDS"
+        },
+        {
+            "source": "cross-functional support",
+            "target": "Project Phoenix",
+            "relation": "NEEDED_FOR"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "core infrastructure",
+            "relation": "MANAGES"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "SecureNet Systems integration",
+            "relation": "WORKS_ON"
+        },
+        {
+            "source": "Rohan Das",
+            "target": "Intern",
+            "relation": "IS_AN"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "FTE conversion",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "FTE conversion",
+            "target": "Rohan Das",
+            "relation": "FOR"
+        },
+        {
+            "source": "Finance",
+            "target": "budget approval",
+            "relation": "PROVIDES"
+        },
+        {
+            "source": "budget approval",
+            "target": "Priya Nair",
+            "relation": "REVIEWED_BY"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "HR implications",
+            "relation": "TO_REVIEW"
+        },
+        {
+            "source": "HR implications",
+            "target": "FTE conversion",
+            "relation": "FOR"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "justification memo",
+            "relation": "TO_DRAFT"
+        },
+        {
+            "source": "IT Department",
+            "target": "CloudKart Services",
+            "relation": "RELIES_ON"
+        },
+        {
+            "source": "IT Department",
+            "target": "TechNova Solutions",
+            "relation": "RELIES_ON"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "vendor selection",
+            "relation": "STREAMLINES"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "approval matrix",
+            "relation": "TO_RE_EVALUATE"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "approval matrix",
+            "relation": "TO_RE_EVALUATE"
+        },
+        {
+            "source": "approval matrix",
+            "target": "high-value contracts",
+            "relation": "FOR"
+        },
+        {
+            "source": "high-value contracts",
+            "target": "BuildRight Contractors",
+            "relation": "EXAMPLE"
+        },
+        {
+            "source": "high-value contracts",
+            "target": "GreenByte Energy",
+            "relation": "EXAMPLE"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "new vendor agreements",
+            "relation": "TO_REVIEW"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "new vendor agreements",
+            "relation": "TO_REVIEW"
+        },
+        {
+            "source": "new vendor agreements",
+            "target": "ComplyHub Consulting guidelines",
+            "relation": "ADHERES_TO"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "critical projects",
+            "relation": "MANAGES"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "data analytics support",
+            "relation": "PROVIDES"
+        },
+        {
+            "source": "data analytics support",
+            "target": "project tracking",
+            "relation": "FOR"
+        },
+        {
+            "source": "data analytics support",
+            "target": "KPI reporting",
+            "relation": "FOR"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Project Management",
+            "relation": "UTILIZED_BY"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Operations",
+            "relation": "CURRENTLY_UNDER"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "revised workflow",
+            "relation": "TO_PROPOSE"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "revised workflow",
+            "relation": "TO_PROPOSE"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "budget forecasting",
+            "relation": "HIGHLIGHTED_NEED_FOR"
+        },
+        {
+            "source": "budget forecasting",
+            "target": "new hires",
+            "relation": "FOR"
+        },
+        {
+            "source": "Kavita Rao",
+            "target": "budget forecasting",
+            "relation": "AGREES_ON"
+        },
+        {
+            "source": "Finance",
+            "target": "headcount planning",
+            "relation": "TO_ALIGN_ON"
+        },
+        {
+            "source": "HR",
+            "target": "headcount planning",
+            "relation": "TO_ALIGN_ON"
+        },
+        {
+            "source": "Finance",
+            "target": "budget allocations",
+            "relation": "TO_ALIGN_ON"
+        },
+        {
+            "source": "HR",
+            "target": "budget allocations",
+            "relation": "TO_ALIGN_ON"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "SecureNet Systems' data handling protocols",
+            "relation": "AUDITED"
+        },
+        {
+            "source": "SecureNet Systems' data handling protocols",
+            "target": "SecureNet Systems",
+            "relation": "OF"
+        },
+        {
+            "source": "SecureNet Systems' data handling protocols",
+            "target": "certifications",
+            "relation": "CRITICAL_FOR"
+        },
+        {
+            "source": "Staff",
+            "target": "training refreshers",
+            "relation": "TO_RECEIVE"
+        },
+        {
+            "source": "training refreshers",
+            "target": "data privacy and security",
+            "relation": "COVERS"
+        },
+        {
+            "source": "training refreshers",
+            "target": "ComplyHub Consulting",
+            "relation": "LEVERAGES_RESOURCES_FROM"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "feedback",
+            "relation": "TO_CONSOLIDATE"
+        }
+    ]
+}

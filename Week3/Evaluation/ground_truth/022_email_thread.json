@@ -1,0 +1,206 @@
+{
+    "document": "022_email_thread.txt",
+    "entities": [
+        {
+            "type": "Person",
+            "name": "Arjun Verma"
+        },
+        {
+            "type": "Organization",
+            "name": "Lattice Dynamics Pvt. Ltd."
+        },
+        {
+            "type": "Service",
+            "name": "CloudKart Services"
+        },
+        {
+            "type": "Project",
+            "name": "Project Nebula"
+        },
+        {
+            "type": "Person",
+            "name": "Meera Iyer"
+        },
+        {
+            "type": "Person",
+            "name": "Priya Nair"
+        },
+        {
+            "type": "Department",
+            "name": "Operations Department"
+        },
+        {
+            "type": "Department",
+            "name": "Procurement Department"
+        },
+        {
+            "type": "Department",
+            "name": "Finance Department"
+        },
+        {
+            "type": "Document",
+            "name": "CloudKart_Nebula_Proposal_Q3_2024.pdf"
+        },
+        {
+            "type": "Organization",
+            "name": "TechNova Solutions"
+        },
+        {
+            "type": "Person",
+            "name": "Rahul Sharma"
+        },
+        {
+            "type": "Cost Center",
+            "name": "Cost Center 72005-OPS-PN"
+        },
+        {
+            "type": "Role",
+            "name": "Project Manager"
+        },
+        {
+            "type": "Role",
+            "name": "Procurement Lead"
+        },
+        {
+            "type": "Role",
+            "name": "Finance Manager"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Arjun Verma",
+            "target": "Project Manager",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Operations Department",
+            "relation": "WORKS_IN"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "WORKS_FOR"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Meera Iyer",
+            "relation": "SENDS_EMAIL_TO"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Priya Nair",
+            "relation": "SENDS_EMAIL_TO"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "CloudKart Services",
+            "relation": "REQUESTS_APPROVAL_FOR"
+        },
+        {
+            "source": "CloudKart Services",
+            "target": "Project Nebula",
+            "relation": "FOR_PROJECT"
+        },
+        {
+            "source": "CloudKart Services",
+            "target": "CloudKart_Nebula_Proposal_Q3_2024.pdf",
+            "relation": "HAS_PROPOSAL"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Procurement Lead",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Procurement Department",
+            "relation": "WORKS_IN"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "WORKS_FOR"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Arjun Verma",
+            "relation": "SENDS_EMAIL_TO"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Priya Nair",
+            "relation": "SENDS_EMAIL_TO"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "CloudKart Services",
+            "relation": "REVIEWS_PROPOSAL_FOR"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "TechNova Solutions",
+            "relation": "ASKS_ABOUT"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Priya Nair",
+            "relation": "FORWARDS_FOR_APPROVAL_TO"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "TechNova Solutions",
+            "relation": "EVALUATED"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "TechNova Solutions",
+            "relation": "DID_COMPARATIVE_ANALYSIS_ON"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "CloudKart Services",
+            "relation": "DID_COMPARATIVE_ANALYSIS_ON"
+        },
+        {
+            "source": "Project Nebula",
+            "target": "Cost Center 72005-OPS-PN",
+            "relation": "HAS_COST_CENTER"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Finance Manager",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Finance Department",
+            "relation": "WORKS_IN"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "WORKS_FOR"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Meera Iyer",
+            "relation": "SENDS_EMAIL_TO"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Arjun Verma",
+            "relation": "SENDS_EMAIL_TO"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "CloudKart Services",
+            "relation": "GRANTS_APPROVAL_FOR"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Cost Center 72005-OPS-PN",
+            "relation": "REVIEWS_BUDGET_FOR"
+        }
+    ]
+}

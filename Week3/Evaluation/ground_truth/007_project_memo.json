@@ -1,0 +1,432 @@
+{
+    "document": "007_project_memo.txt",
+    "entities": [
+        {
+            "type": "Project",
+            "name": "SecureNet Infrastructure Upgrade Project"
+        },
+        {
+            "type": "Person",
+            "name": "Vikram Patel"
+        },
+        {
+            "type": "Role",
+            "name": "Executive Director"
+        },
+        {
+            "type": "Person",
+            "name": "Priya Nair"
+        },
+        {
+            "type": "Role",
+            "name": "Finance Manager"
+        },
+        {
+            "type": "Person",
+            "name": "Sandeep Menon"
+        },
+        {
+            "type": "Role",
+            "name": "Compliance Officer"
+        },
+        {
+            "type": "Person",
+            "name": "Arjun Verma"
+        },
+        {
+            "type": "Role",
+            "name": "Project Manager"
+        },
+        {
+            "type": "Date",
+            "name": "June 20, 2024"
+        },
+        {
+            "type": "Organization",
+            "name": "SecureNet Systems"
+        },
+        {
+            "type": "Department",
+            "name": "Operations Department"
+        },
+        {
+            "type": "Person",
+            "name": "Rahul Sharma"
+        },
+        {
+            "type": "Role",
+            "name": "IT Administrator"
+        },
+        {
+            "type": "Department",
+            "name": "IT Department"
+        },
+        {
+            "type": "Person",
+            "name": "Ankit Gupta"
+        },
+        {
+            "type": "Role",
+            "name": "Support Engineer"
+        },
+        {
+            "type": "Person",
+            "name": "Meera Iyer"
+        },
+        {
+            "type": "Role",
+            "name": "Procurement Lead"
+        },
+        {
+            "type": "Department",
+            "name": "Procurement Department"
+        },
+        {
+            "type": "Person",
+            "name": "Neha Singh"
+        },
+        {
+            "type": "Role",
+            "name": "Data Analyst"
+        },
+        {
+            "type": "Department",
+            "name": "Compliance Department"
+        },
+        {
+            "type": "Objective",
+            "name": "Upgrade core network switches and firewalls to current industry standards"
+        },
+        {
+            "type": "Objective",
+            "name": "Implement a new intrusion detection/prevention system (IDPS) for enhanced threat detection"
+        },
+        {
+            "type": "Objective",
+            "name": "Ensure seamless integration with existing IT systems and applications"
+        },
+        {
+            "type": "Objective",
+            "name": "Achieve compliance with upcoming data security regulations"
+        },
+        {
+            "type": "Risk",
+            "name": "Vendor Delays"
+        },
+        {
+            "type": "Risk",
+            "name": "Budget Overruns"
+        },
+        {
+            "type": "Risk",
+            "name": "Operational Disruption"
+        },
+        {
+            "type": "Risk",
+            "name": "Data Integrity"
+        },
+        {
+            "type": "Project_Phase",
+            "name": "Phase 1: Planning & Architecture Review"
+        },
+        {
+            "type": "Date",
+            "name": "July 15, 2024"
+        },
+        {
+            "type": "Project_Phase",
+            "name": "Phase 2: Hardware Procurement & Installation"
+        },
+        {
+            "type": "Date",
+            "name": "August 30, 2024"
+        },
+        {
+            "type": "Date",
+            "name": "September 30, 2024"
+        },
+        {
+            "type": "Project_Phase",
+            "name": "Phase 3: Testing, User Acceptance & Go-Live"
+        },
+        {
+            "type": "Date",
+            "name": "October 15, 2024"
+        },
+        {
+            "type": "Date",
+            "name": "October 31, 2024"
+        },
+        {
+            "type": "Budget",
+            "name": "INR 1,500,000"
+        },
+        {
+            "type": "Budget_Item",
+            "name": "Hardware (SecureNet Systems)"
+        },
+        {
+            "type": "Budget_Item",
+            "name": "Services (SecureNet Systems)"
+        },
+        {
+            "type": "Budget_Item",
+            "name": "Internal Resource Allocation & Contingency"
+        },
+        {
+            "type": "Date",
+            "name": "June 21, 2024"
+        },
+        {
+            "type": "Organization",
+            "name": "Lattice Dynamics Pvt. Ltd."
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Arjun Verma",
+            "target": "Vikram Patel",
+            "relation": "MEMO_TO"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Priya Nair",
+            "relation": "MEMO_TO"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Sandeep Menon",
+            "relation": "MEMO_TO"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Project Manager",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Vikram Patel",
+            "target": "Executive Director",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "Finance Manager",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Compliance Officer",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "SecureNet Infrastructure Upgrade Project",
+            "target": "Arjun Verma",
+            "relation": "MANAGED_BY"
+        },
+        {
+            "source": "SecureNet Infrastructure Upgrade Project",
+            "target": "SecureNet Systems",
+            "relation": "COLLABORATES_WITH_VENDOR"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Operations Department",
+            "relation": "WORKS_IN"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "IT Administrator",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "IT Department",
+            "relation": "WORKS_IN"
+        },
+        {
+            "source": "Rahul Sharma",
+            "target": "SecureNet Infrastructure Upgrade Project",
+            "relation": "TEAM_MEMBER_OF"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "Support Engineer",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "IT Department",
+            "relation": "WORKS_IN"
+        },
+        {
+            "source": "Ankit Gupta",
+            "target": "SecureNet Infrastructure Upgrade Project",
+            "relation": "TEAM_MEMBER_OF"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Procurement Lead",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "Procurement Department",
+            "relation": "WORKS_IN"
+        },
+        {
+            "source": "Meera Iyer",
+            "target": "SecureNet Infrastructure Upgrade Project",
+            "relation": "TEAM_MEMBER_OF"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "Data Analyst",
+            "relation": "HAS_ROLE"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "IT Department",
+            "relation": "WORKS_IN"
+        },
+        {
+            "source": "Neha Singh",
+            "target": "SecureNet Infrastructure Upgrade Project",
+            "relation": "TEAM_MEMBER_OF"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "Compliance Department",
+            "relation": "WORKS_IN"
+        },
+        {
+            "source": "Sandeep Menon",
+            "target": "SecureNet Infrastructure Upgrade Project",
+            "relation": "TEAM_MEMBER_OF"
+        },
+        {
+            "source": "SecureNet Infrastructure Upgrade Project",
+            "target": "Upgrade core network switches and firewalls to current industry standards",
+            "relation": "HAS_OBJECTIVE"
+        },
+        {
+            "source": "SecureNet Infrastructure Upgrade Project",
+            "target": "Implement a new intrusion detection/prevention system (IDPS) for enhanced threat detection",
+            "relation": "HAS_OBJECTIVE"
+        },
+        {
+            "source": "SecureNet Infrastructure Upgrade Project",
+            "target": "Ensure seamless integration with existing IT systems and applications",
+            "relation": "HAS_OBJECTIVE"
+        },
+        {
+            "source": "SecureNet Infrastructure Upgrade Project",
+            "target": "Achieve compliance with upcoming data security regulations",
+            "relation": "HAS_OBJECTIVE"
+        },
+        {
+            "source": "SecureNet Infrastructure Upgrade Project",
+            "target": "Vendor Delays",
+            "relation": "HAS_RISK"
+        },
+        {
+            "source": "SecureNet Infrastructure Upgrade Project",
+            "target": "Budget Overruns",
+            "relation": "HAS_RISK"
+        },
+        {
+            "source": "SecureNet Infrastructure Upgrade Project",
+            "target": "Operational Disruption",
+            "relation": "HAS_RISK"
+        },
+        {
+            "source": "SecureNet Infrastructure Upgrade Project",
+            "target": "Data Integrity",
+            "relation": "HAS_RISK"
+        },
+        {
+            "source": "Vendor Delays",
+            "target": "Meera Iyer",
+            "relation": "MITIGATED_BY"
+        },
+        {
+            "source": "Budget Overruns",
+            "target": "Priya Nair",
+            "relation": "REVIEWED_BY"
+        },
+        {
+            "source": "Operational Disruption",
+            "target": "Rahul Sharma",
+            "relation": "COORDINATED_BY"
+        },
+        {
+            "source": "SecureNet Infrastructure Upgrade Project",
+            "target": "Phase 1: Planning & Architecture Review",
+            "relation": "HAS_PHASE"
+        },
+        {
+            "source": "Phase 1: Planning & Architecture Review",
+            "target": "July 15, 2024",
+            "relation": "COMPLETION_DATE"
+        },
+        {
+            "source": "SecureNet Infrastructure Upgrade Project",
+            "target": "Phase 2: Hardware Procurement & Installation",
+            "relation": "HAS_PHASE"
+        },
+        {
+            "source": "Phase 2: Hardware Procurement & Installation",
+            "target": "August 30, 2024",
+            "relation": "ETA_FOR_HARDWARE_DELIVERY"
+        },
+        {
+            "source": "Phase 2: Hardware Procurement & Installation",
+            "target": "September 30, 2024",
+            "relation": "INSTALLATION_COMPLETION_DATE"
+        },
+        {
+            "source": "SecureNet Infrastructure Upgrade Project",
+            "target": "Phase 3: Testing, User Acceptance & Go-Live",
+            "relation": "HAS_PHASE"
+        },
+        {
+            "source": "Phase 3: Testing, User Acceptance & Go-Live",
+            "target": "October 15, 2024",
+            "relation": "TESTING_UAT_DATE"
+        },
+        {
+            "source": "Phase 3: Testing, User Acceptance & Go-Live",
+            "target": "October 31, 2024",
+            "relation": "GO_LIVE_DATE"
+        },
+        {
+            "source": "SecureNet Infrastructure Upgrade Project",
+            "target": "INR 1,500,000",
+            "relation": "HAS_BUDGET"
+        },
+        {
+            "source": "INR 1,500,000",
+            "target": "Hardware (SecureNet Systems)",
+            "relation": "ALLOCATED_TO"
+        },
+        {
+            "source": "INR 1,500,000",
+            "target": "Services (SecureNet Systems)",
+            "relation": "ALLOCATED_TO"
+        },
+        {
+            "source": "INR 1,500,000",
+            "target": "Internal Resource Allocation & Contingency",
+            "relation": "ALLOCATED_TO"
+        },
+        {
+            "source": "Priya Nair",
+            "target": "June 21, 2024",
+            "relation": "RECEIVES_BUDGET_BREAKDOWN_BY"
+        },
+        {
+            "source": "Arjun Verma",
+            "target": "Lattice Dynamics Pvt. Ltd.",
+            "relation": "WORKS_FOR"
+        }
+    ]
+}
