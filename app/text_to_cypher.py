@@ -59,3 +59,43 @@ Question:
     response = call_model(prompt, CypherQuery)
 
     return response.query
+
+
+def correct_cypher(
+    question: str,
+    failed_query: str,
+    error_message: str,
+) -> str:
+    prompt = f"""
+You are an expert Neo4j Cypher developer.
+
+The previous query failed.
+
+Database Schema:
+
+{SCHEMA}
+
+Original Question:
+{question}
+
+Failed Query:
+{failed_query}
+
+Neo4j Error:
+{error_message}
+
+Your task:
+- Fix the query.
+- Keep it READ ONLY.
+- Never use CREATE, MERGE, DELETE, SET, REMOVE, DROP.
+- Use only labels and relationships from the schema.
+- Return ONLY JSON:
+
+{{
+    "query": "<corrected cypher query>"
+}}
+"""
+
+    response = call_model(prompt, CypherQuery)
+
+    return response.query
