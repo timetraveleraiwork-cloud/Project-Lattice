@@ -1,12 +1,13 @@
 from __future__ import annotations
 from typing import Any
 from pydantic import BaseModel, Field
+from app.schema import NodeType, RelType
 
 
 class Entity(BaseModel):
     """Represents an extracted entity."""
 
-    type: str = Field(..., min_length=1)
+    type: NodeType
     name: str = Field(..., min_length=1)
 
 
@@ -15,7 +16,7 @@ class Relationship(BaseModel):
 
     source: str = Field(..., min_length=1)
     target: str = Field(..., min_length=1)
-    relation: str = Field(..., min_length=1)
+    relation: RelType
 
 
 class ExtractionResult(BaseModel):

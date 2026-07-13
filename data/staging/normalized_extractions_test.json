@@ -1,0 +1,4093 @@
+[
+  {
+    "document": "001_employee_bio.txt",
+    "entities": [
+      {
+        "type": "Person",
+        "name": "Vikram Patel"
+      },
+      {
+        "type": "Vendor",
+        "name": "Lattice Dynamics Pvt. Ltd."
+      },
+      {
+        "type": "Department",
+        "name": "Operations Department"
+      },
+      {
+        "type": "Person",
+        "name": "Priya Nair"
+      },
+      {
+        "type": "Person",
+        "name": "Rahul Sharma"
+      },
+      {
+        "type": "Person",
+        "name": "Meera Iyer"
+      },
+      {
+        "type": "Vendor",
+        "name": "TechNova Solutions Pvt Ltd"
+      },
+      {
+        "type": "Vendor",
+        "name": "CloudKart Services"
+      },
+      {
+        "type": "Person",
+        "name": "Sandeep Menon"
+      },
+      {
+        "type": "Person",
+        "name": "Neha Singh"
+      },
+      {
+        "type": "Person",
+        "name": "Ankit Gupta"
+      },
+      {
+        "type": "Person",
+        "name": "Kavita Rao"
+      },
+      {
+        "type": "Department",
+        "name": "IT Department"
+      },
+      {
+        "type": "Department",
+        "name": "Finance Department"
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "document": "002_incident_report.txt",
+    "entities": [
+      {
+        "type": "Incident",
+        "name": "IT-INC-2024-07-15-001"
+      },
+      {
+        "type": "Person",
+        "name": "Rahul Sharma"
+      },
+      {
+        "type": "Department",
+        "name": "Operations"
+      },
+      {
+        "type": "Department",
+        "name": "Project Management"
+      },
+      {
+        "type": "Department",
+        "name": "Sales"
+      },
+      {
+        "type": "Department",
+        "name": "Finance"
+      },
+      {
+        "type": "Person",
+        "name": "Ankit Gupta"
+      },
+      {
+        "type": "Vendor",
+        "name": "IT Department"
+      },
+      {
+        "type": "Vendor",
+        "name": "CloudKart Services"
+      },
+      {
+        "type": "Person",
+        "name": "Meera Iyer"
+      },
+      {
+        "type": "Person",
+        "name": "Sandeep Menon"
+      },
+      {
+        "type": "Person",
+        "name": "Arjun Verma"
+      },
+      {
+        "type": "Person",
+        "name": "Vikram Patel"
+      },
+      {
+        "type": "Vendor",
+        "name": "TechNova Solutions"
+      },
+      {
+        "type": "Person",
+        "name": "Kavita Rao"
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "document": "003_project_memo.txt",
+    "entities": [
+      {
+        "type": "Person",
+        "name": "Vikram Patel"
+      },
+      {
+        "type": "Person",
+        "name": "Arjun Verma"
+      },
+      {
+        "type": "Person",
+        "name": "Priya Nair"
+      },
+      {
+        "type": "Person",
+        "name": "Rahul Sharma"
+      },
+      {
+        "type": "Person",
+        "name": "Sandeep Menon"
+      },
+      {
+        "type": "Person",
+        "name": "Neha Singh"
+      },
+      {
+        "type": "Person",
+        "name": "Ankit Gupta"
+      },
+      {
+        "type": "Person",
+        "name": "Meera Iyer"
+      },
+      {
+        "type": "Vendor",
+        "name": "Lattice Dynamics"
+      },
+      {
+        "type": "Department",
+        "name": "Operations"
+      },
+      {
+        "type": "Department",
+        "name": "IT"
+      },
+      {
+        "type": "Department",
+        "name": "Compliance"
+      },
+      {
+        "type": "Department",
+        "name": "Finance"
+      },
+      {
+        "type": "Department",
+        "name": "Data Analytics"
+      },
+      {
+        "type": "Department",
+        "name": "Procurement"
+      },
+      {
+        "type": "Project",
+        "name": "Project Aurora"
+      },
+      {
+        "type": "Vendor",
+        "name": "DataWeave Analytics"
+      },
+      {
+        "type": "Vendor",
+        "name": "CloudKart Services"
+      },
+      {
+        "type": "Vendor",
+        "name": "SecureNet Systems"
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "document": "004_expense_report.txt",
+    "entities": [
+      {
+        "type": "Person",
+        "name": "Arjun Verma"
+      },
+      {
+        "type": "Vendor",
+        "name": "Lattice Dynamics Pvt. Ltd."
+      },
+      {
+        "type": "Department",
+        "name": "Operations"
+      },
+      {
+        "type": "Project",
+        "name": "Nebula Initiative"
+      },
+      {
+        "type": "Person",
+        "name": "Priya Nair"
+      },
+      {
+        "type": "Vendor",
+        "name": "SwiftTravel Co."
+      },
+      {
+        "type": "Vendor",
+        "name": "OfficeHive Supplies"
+      },
+      {
+        "type": "Vendor",
+        "name": "TechNova Solutions Pvt Ltd"
+      },
+      {
+        "type": "Vendor",
+        "name": "CloudKart Services"
+      },
+      {
+        "type": "Vendor",
+        "name": "ComplyHub Consulting"
+      },
+      {
+        "type": "Person",
+        "name": "Sandeep Menon"
+      },
+      {
+        "type": "Department",
+        "name": "Compliance Department"
+      },
+      {
+        "type": "Department",
+        "name": "Finance Department"
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "document": "005_employee_bio.txt",
+    "entities": [
+      {
+        "type": "Person",
+        "name": "Priya Nair"
+      },
+      {
+        "type": "Vendor",
+        "name": "Lattice Dynamics Pvt. Ltd."
+      },
+      {
+        "type": "Department",
+        "name": "Finance Department"
+      },
+      {
+        "type": "Person",
+        "name": "Rahul Sharma"
+      },
+      {
+        "type": "Department",
+        "name": "IT Department"
+      },
+      {
+        "type": "Vendor",
+        "name": "CloudKart Services"
+      },
+      {
+        "type": "Vendor",
+        "name": "OfficeHive Supplies"
+      },
+      {
+        "type": "Person",
+        "name": "Meera Iyer"
+      },
+      {
+        "type": "Department",
+        "name": "Procurement"
+      },
+      {
+        "type": "Person",
+        "name": "Vikram Patel"
+      },
+      {
+        "type": "Department",
+        "name": "Executive Office"
+      },
+      {
+        "type": "Person",
+        "name": "Sandeep Menon"
+      },
+      {
+        "type": "Department",
+        "name": "Compliance"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Meera Iyer",
+        "target": "Procurement",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Vikram Patel",
+        "target": "Executive Office",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Sandeep Menon",
+        "target": "Compliance",
+        "relation": "WORKS_FOR"
+      }
+    ]
+  },
+  {
+    "document": "006_employee_bio.txt",
+    "entities": [
+      {
+        "type": "Person",
+        "name": "Kavita Rao"
+      },
+      {
+        "type": "Vendor",
+        "name": "Lattice Dynamics Pvt. Ltd."
+      },
+      {
+        "type": "Vendor",
+        "name": "multinational tech firm"
+      },
+      {
+        "type": "Person",
+        "name": "Rahul Sharma"
+      },
+      {
+        "type": "Department",
+        "name": "IT"
+      },
+      {
+        "type": "Department",
+        "name": "Finance"
+      },
+      {
+        "type": "Department",
+        "name": "Operations"
+      },
+      {
+        "type": "Person",
+        "name": "Sandeep Menon"
+      },
+      {
+        "type": "Vendor",
+        "name": "ComplyHub Consulting"
+      },
+      {
+        "type": "Person",
+        "name": "Arjun Verma"
+      },
+      {
+        "type": "Vendor",
+        "name": "external training providers"
+      },
+      {
+        "type": "Department",
+        "name": "HR department"
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "document": "007_project_memo.txt",
+    "entities": [
+      {
+        "type": "Project",
+        "name": "SecureNet Infrastructure Upgrade Project"
+      },
+      {
+        "type": "Person",
+        "name": "Vikram Patel"
+      },
+      {
+        "type": "Person",
+        "name": "Priya Nair"
+      },
+      {
+        "type": "Person",
+        "name": "Sandeep Menon"
+      },
+      {
+        "type": "Person",
+        "name": "Arjun Verma"
+      },
+      {
+        "type": "Vendor",
+        "name": "SecureNet Systems"
+      },
+      {
+        "type": "Department",
+        "name": "Operations Department"
+      },
+      {
+        "type": "Person",
+        "name": "Rahul Sharma"
+      },
+      {
+        "type": "Department",
+        "name": "IT Department"
+      },
+      {
+        "type": "Person",
+        "name": "Ankit Gupta"
+      },
+      {
+        "type": "Person",
+        "name": "Meera Iyer"
+      },
+      {
+        "type": "Department",
+        "name": "Procurement Department"
+      },
+      {
+        "type": "Person",
+        "name": "Neha Singh"
+      },
+      {
+        "type": "Department",
+        "name": "Compliance Department"
+      },
+      {
+        "type": "Vendor",
+        "name": "Lattice Dynamics Pvt. Ltd."
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Arjun Verma",
+        "target": "Operations Department",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Rahul Sharma",
+        "target": "IT Department",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Ankit Gupta",
+        "target": "IT Department",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Meera Iyer",
+        "target": "Procurement Department",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Neha Singh",
+        "target": "IT Department",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Sandeep Menon",
+        "target": "Compliance Department",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Arjun Verma",
+        "target": "Lattice Dynamics Pvt. Ltd.",
+        "relation": "WORKS_FOR"
+      }
+    ]
+  },
+  {
+    "document": "008_email_thread.txt",
+    "entities": [
+      {
+        "type": "Person",
+        "name": "Arjun Verma"
+      },
+      {
+        "type": "Vendor",
+        "name": "Lattice Dynamics"
+      },
+      {
+        "type": "Person",
+        "name": "Vikram Patel"
+      },
+      {
+        "type": "Person",
+        "name": "Priya Nair"
+      },
+      {
+        "type": "Person",
+        "name": "Rahul Sharma"
+      },
+      {
+        "type": "Person",
+        "name": "Meera Iyer"
+      },
+      {
+        "type": "Person",
+        "name": "Sandeep Menon"
+      },
+      {
+        "type": "Person",
+        "name": "Kavita Rao"
+      },
+      {
+        "type": "Person",
+        "name": "Neha Singh"
+      },
+      {
+        "type": "Project",
+        "name": "Q4 Data Analytics Platform Rollout"
+      },
+      {
+        "type": "Vendor",
+        "name": "DataWeave Analytics"
+      },
+      {
+        "type": "Department",
+        "name": "Operations"
+      },
+      {
+        "type": "Department",
+        "name": "Finance"
+      },
+      {
+        "type": "Department",
+        "name": "HR"
+      },
+      {
+        "type": "Department",
+        "name": "IT"
+      },
+      {
+        "type": "Person",
+        "name": "Ankit Gupta"
+      },
+      {
+        "type": "Contract",
+        "name": "DataWeave Analytics contract"
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "document": "009_employee_bio.txt",
+    "entities": [
+      {
+        "type": "Person",
+        "name": "Vikram Patel"
+      },
+      {
+        "type": "Vendor",
+        "name": "Lattice Dynamics Pvt. Ltd."
+      },
+      {
+        "type": "Department",
+        "name": "Operations Department"
+      },
+      {
+        "type": "Project",
+        "name": "Project Velocity"
+      },
+      {
+        "type": "Vendor",
+        "name": "DataWeave Analytics"
+      },
+      {
+        "type": "Person",
+        "name": "Neha Singh"
+      },
+      {
+        "type": "Department",
+        "name": "Data Analytics team"
+      },
+      {
+        "type": "Person",
+        "name": "Meera Iyer"
+      },
+      {
+        "type": "Person",
+        "name": "Ankit Gupta"
+      },
+      {
+        "type": "Department",
+        "name": "IT Support"
+      },
+      {
+        "type": "Person",
+        "name": "Kavita Rao"
+      },
+      {
+        "type": "Person",
+        "name": "Arjun Verma"
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "document": "010_vendor_agreement.txt",
+    "entities": [
+      {
+        "type": "Contract",
+        "name": "Vendor Agreement"
+      },
+      {
+        "type": "Vendor",
+        "name": "Lattice Dynamics Pvt. Ltd."
+      },
+      {
+        "type": "Vendor",
+        "name": "TechNova Solutions Pvt Ltd"
+      },
+      {
+        "type": "Department",
+        "name": "IT department"
+      },
+      {
+        "type": "Person",
+        "name": "Rahul Sharma"
+      },
+      {
+        "type": "Person",
+        "name": "Priya Nair"
+      },
+      {
+        "type": "Person",
+        "name": "Meera Iyer"
+      },
+      {
+        "type": "Person",
+        "name": "Vikram Patel"
+      },
+      {
+        "type": "Person",
+        "name": "Authorized Representative"
+      },
+      {
+        "type": "Department",
+        "name": "Procurement team"
+      },
+      {
+        "type": "Department",
+        "name": "Operations teams"
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "document": "011_project_memo.txt",
+    "entities": [
+      {
+        "type": "Person",
+        "name": "Vikram Patel"
+      },
+      {
+        "type": "Person",
+        "name": "Sandeep Menon"
+      },
+      {
+        "type": "Person",
+        "name": "Priya Nair"
+      },
+      {
+        "type": "Person",
+        "name": "Arjun Verma"
+      },
+      {
+        "type": "Vendor",
+        "name": "Lattice Dynamics Pvt. Ltd."
+      },
+      {
+        "type": "Project",
+        "name": "Cloud Migration Initiative - Phase 1"
+      },
+      {
+        "type": "Project",
+        "name": "Cloud Migration Initiative"
+      },
+      {
+        "type": "Department",
+        "name": "Operations Department"
+      },
+      {
+        "type": "Person",
+        "name": "Rahul Sharma"
+      },
+      {
+        "type": "Department",
+        "name": "IT Department"
+      },
+      {
+        "type": "Person",
+        "name": "Neha Singh"
+      },
+      {
+        "type": "Person",
+        "name": "Ankit Gupta"
+      },
+      {
+        "type": "Department",
+        "name": "Finance Department"
+      },
+      {
+        "type": "Vendor",
+        "name": "CloudKart Services"
+      },
+      {
+        "type": "Vendor",
+        "name": "SecureNet Systems"
+      },
+      {
+        "type": "Project",
+        "name": "Phase 2"
+      },
+      {
+        "type": "Department",
+        "name": "Compliance team"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Arjun Verma",
+        "target": "Lattice Dynamics Pvt. Ltd.",
+        "relation": "WORKS_FOR"
+      }
+    ]
+  },
+  {
+    "document": "012_org_chart_notes.txt",
+    "entities": [
+      {
+        "type": "Person",
+        "name": "Rahul Sharma"
+      },
+      {
+        "type": "Department",
+        "name": "IT"
+      },
+      {
+        "type": "Project",
+        "name": "CloudKart Services migration"
+      },
+      {
+        "type": "Person",
+        "name": "Ankit Gupta"
+      },
+      {
+        "type": "Department",
+        "name": "Compliance department"
+      },
+      {
+        "type": "Person",
+        "name": "Sandeep Menon"
+      },
+      {
+        "type": "Department",
+        "name": "HR"
+      },
+      {
+        "type": "Person",
+        "name": "Kavita Rao"
+      },
+      {
+        "type": "Person",
+        "name": "Vikram Patel"
+      },
+      {
+        "type": "Person",
+        "name": "Priya Nair"
+      },
+      {
+        "type": "Person",
+        "name": "Rohan Das"
+      },
+      {
+        "type": "Vendor",
+        "name": "SecureNet Systems"
+      },
+      {
+        "type": "Person",
+        "name": "Neha Singh"
+      },
+      {
+        "type": "Department",
+        "name": "Operations/Project Management"
+      },
+      {
+        "type": "Person",
+        "name": "Arjun Verma"
+      },
+      {
+        "type": "Department",
+        "name": "Project Office"
+      },
+      {
+        "type": "Vendor",
+        "name": "ComplyHub Consulting"
+      },
+      {
+        "type": "Department",
+        "name": "Procurement"
+      },
+      {
+        "type": "Person",
+        "name": "Meera Iyer"
+      },
+      {
+        "type": "Vendor",
+        "name": "TechNova Solutions"
+      },
+      {
+        "type": "Vendor",
+        "name": "OfficeHive Supplies"
+      },
+      {
+        "type": "Vendor",
+        "name": "PrintPro India"
+      },
+      {
+        "type": "Department",
+        "name": "Finance"
+      },
+      {
+        "type": "Department",
+        "name": "Executive Office"
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "document": "013_email_thread.txt",
+    "entities": [
+      {
+        "type": "Person",
+        "name": "Rahul Sharma"
+      },
+      {
+        "type": "Person",
+        "name": "Arjun Verma"
+      },
+      {
+        "type": "Person",
+        "name": "Vikram Patel"
+      },
+      {
+        "type": "Person",
+        "name": "Neha Singh"
+      },
+      {
+        "type": "Person",
+        "name": "Meera Iyer"
+      },
+      {
+        "type": "Vendor",
+        "name": "Lattice Dynamics Pvt. Ltd."
+      },
+      {
+        "type": "Project",
+        "name": "Project Phoenix"
+      },
+      {
+        "type": "Contract",
+        "name": "Vendor Agreement"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Rahul Sharma",
+        "target": "Lattice Dynamics Pvt. Ltd.",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Arjun Verma",
+        "target": "Lattice Dynamics Pvt. Ltd.",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Vikram Patel",
+        "target": "Lattice Dynamics Pvt. Ltd.",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Neha Singh",
+        "target": "Lattice Dynamics Pvt. Ltd.",
+        "relation": "WORKS_FOR"
+      }
+    ]
+  },
+  {
+    "document": "014_transaction_log.txt",
+    "entities": [
+      {
+        "type": "Vendor",
+        "name": "Lattice Dynamics Pvt. Ltd."
+      },
+      {
+        "type": "Person",
+        "name": "Priya Nair"
+      },
+      {
+        "type": "Department",
+        "name": "Finance Department"
+      },
+      {
+        "type": "Transaction",
+        "name": "TL07-2024-001"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-TECHNOV-JULY-24-001"
+      },
+      {
+        "type": "Vendor",
+        "name": "TechNova Solutions Pvt Ltd"
+      },
+      {
+        "type": "Department",
+        "name": "IT"
+      },
+      {
+        "type": "Person",
+        "name": "Rahul Sharma"
+      },
+      {
+        "type": "Transaction",
+        "name": "TL07-2024-002"
+      },
+      {
+        "type": "Transaction",
+        "name": "PO-OFFICEHIVE-JULY-24-003"
+      },
+      {
+        "type": "Vendor",
+        "name": "OfficeHive Supplies"
+      },
+      {
+        "type": "Department",
+        "name": "Operations"
+      },
+      {
+        "type": "Person",
+        "name": "Meera Iyer"
+      },
+      {
+        "type": "Transaction",
+        "name": "TL08-2024-003"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-CLOUD-AUG-24-010"
+      },
+      {
+        "type": "Vendor",
+        "name": "CloudKart Services"
+      },
+      {
+        "type": "Person",
+        "name": "Ankit Gupta"
+      },
+      {
+        "type": "Transaction",
+        "name": "TL08-2024-004"
+      },
+      {
+        "type": "Transaction",
+        "name": "PO-BUILD-AUG-24-001"
+      },
+      {
+        "type": "Vendor",
+        "name": "BuildRight Contractors"
+      },
+      {
+        "type": "Department",
+        "name": "Executive Office"
+      },
+      {
+        "type": "Project",
+        "name": "Office Expansion Project"
+      },
+      {
+        "type": "Person",
+        "name": "Vikram Patel"
+      },
+      {
+        "type": "Person",
+        "name": "Arjun Verma"
+      },
+      {
+        "type": "Transaction",
+        "name": "TL09-2024-005"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-COMPLY-SEP-24-002"
+      },
+      {
+        "type": "Vendor",
+        "name": "ComplyHub Consulting"
+      },
+      {
+        "type": "Department",
+        "name": "Compliance"
+      },
+      {
+        "type": "Person",
+        "name": "Sandeep Menon"
+      },
+      {
+        "type": "Transaction",
+        "name": "TL09-2024-006"
+      },
+      {
+        "type": "Transaction",
+        "name": "EXP-KV-SEP-24-001"
+      },
+      {
+        "type": "Person",
+        "name": "Kavita Rao"
+      },
+      {
+        "type": "Department",
+        "name": "HR"
+      },
+      {
+        "type": "Transaction",
+        "name": "TL09-2024-007"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-DATW-SEP-24-005"
+      },
+      {
+        "type": "Vendor",
+        "name": "DataWeave Analytics"
+      },
+      {
+        "type": "Department",
+        "name": "Data Analytics"
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "document": "015_email_thread.txt",
+    "entities": [
+      {
+        "type": "Person",
+        "name": "Rahul Sharma"
+      },
+      {
+        "type": "Person",
+        "name": "Arjun Verma"
+      },
+      {
+        "type": "Person",
+        "name": "Priya Nair"
+      },
+      {
+        "type": "Person",
+        "name": "Sandeep Menon"
+      },
+      {
+        "type": "Person",
+        "name": "Vikram Patel"
+      },
+      {
+        "type": "Person",
+        "name": "Meera Iyer"
+      },
+      {
+        "type": "Vendor",
+        "name": "Lattice Dynamics Pvt. Ltd."
+      },
+      {
+        "type": "Vendor",
+        "name": "TechNova Solutions Pvt Ltd"
+      },
+      {
+        "type": "Project",
+        "name": "Project Orion"
+      },
+      {
+        "type": "Contract",
+        "name": "SLA"
+      },
+      {
+        "type": "Contract",
+        "name": "Annual Maintenance Contract"
+      },
+      {
+        "type": "Department",
+        "name": "Compliance Department"
+      },
+      {
+        "type": "Department",
+        "name": "Finance Department"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Rahul Sharma",
+        "target": "Lattice Dynamics Pvt. Ltd.",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Arjun Verma",
+        "target": "Lattice Dynamics Pvt. Ltd.",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Priya Nair",
+        "target": "Lattice Dynamics Pvt. Ltd.",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Sandeep Menon",
+        "target": "Lattice Dynamics Pvt. Ltd.",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Vikram Patel",
+        "target": "Lattice Dynamics Pvt. Ltd.",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Meera Iyer",
+        "target": "Lattice Dynamics Pvt. Ltd.",
+        "relation": "WORKS_FOR"
+      }
+    ]
+  },
+  {
+    "document": "016_expense_report.txt",
+    "entities": [
+      {
+        "type": "Person",
+        "name": "Arjun Verma"
+      },
+      {
+        "type": "Vendor",
+        "name": "Lattice Dynamics Pvt. Ltd."
+      },
+      {
+        "type": "Project",
+        "name": "Project Falcon"
+      },
+      {
+        "type": "Department",
+        "name": "Operations Department"
+      },
+      {
+        "type": "Department",
+        "name": "Finance Team"
+      },
+      {
+        "type": "Vendor",
+        "name": "SwiftTravel Co."
+      },
+      {
+        "type": "Vendor",
+        "name": "OfficeHive Supplies"
+      },
+      {
+        "type": "Vendor",
+        "name": "TechNova Solutions Pvt Ltd"
+      },
+      {
+        "type": "Person",
+        "name": "Vikram Patel"
+      },
+      {
+        "type": "Department",
+        "name": "IT department"
+      },
+      {
+        "type": "Person",
+        "name": "Kavita Rao"
+      },
+      {
+        "type": "Department",
+        "name": "HR Department"
+      },
+      {
+        "type": "Person",
+        "name": "Priya Nair"
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "document": "017_email_thread.txt",
+    "entities": [
+      {
+        "type": "Person",
+        "name": "Rahul Sharma"
+      },
+      {
+        "type": "Person",
+        "name": "Arjun Verma"
+      },
+      {
+        "type": "Person",
+        "name": "Neha Singh"
+      },
+      {
+        "type": "Person",
+        "name": "Vikram Patel"
+      },
+      {
+        "type": "Person",
+        "name": "Sandeep Menon"
+      },
+      {
+        "type": "Vendor",
+        "name": "Lattice Dynamics Pvt. Ltd."
+      },
+      {
+        "type": "Department",
+        "name": "IT Department"
+      },
+      {
+        "type": "Department",
+        "name": "Operations Department"
+      },
+      {
+        "type": "Department",
+        "name": "Compliance department"
+      },
+      {
+        "type": "Department",
+        "name": "IT Helpdesk"
+      },
+      {
+        "type": "Project",
+        "name": "Project Phoenix"
+      },
+      {
+        "type": "Vendor",
+        "name": "SecureNet Systems"
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "document": "018_transaction_log.txt",
+    "entities": [
+      {
+        "type": "Person",
+        "name": "Priya Nair"
+      },
+      {
+        "type": "Department",
+        "name": "Finance Department"
+      },
+      {
+        "type": "Transaction",
+        "name": "TRN-LD-2024-001"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-TNS-2345"
+      },
+      {
+        "type": "Vendor",
+        "name": "TechNova Solutions Pvt Ltd"
+      },
+      {
+        "type": "Department",
+        "name": "IT"
+      },
+      {
+        "type": "Project",
+        "name": "Server Upgrade Project - Phase 1"
+      },
+      {
+        "type": "Person",
+        "name": "Vikram Patel"
+      },
+      {
+        "type": "Transaction",
+        "name": "TRN-LD-2024-002"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-CKS-7890"
+      },
+      {
+        "type": "Vendor",
+        "name": "CloudKart Services"
+      },
+      {
+        "type": "Person",
+        "name": "Rahul Sharma"
+      },
+      {
+        "type": "Transaction",
+        "name": "TRN-LD-2024-003"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-OHS-1122"
+      },
+      {
+        "type": "Vendor",
+        "name": "OfficeHive Supplies"
+      },
+      {
+        "type": "Department",
+        "name": "Operations"
+      },
+      {
+        "type": "Person",
+        "name": "Meera Iyer"
+      },
+      {
+        "type": "Transaction",
+        "name": "TRN-LD-2024-004"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-PRI-5566"
+      },
+      {
+        "type": "Vendor",
+        "name": "PrintPro India"
+      },
+      {
+        "type": "Department",
+        "name": "HR"
+      },
+      {
+        "type": "Transaction",
+        "name": "TRN-LD-2024-005"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-TNS-2346"
+      },
+      {
+        "type": "Project",
+        "name": "Server Upgrade Project - Phase 2 Hardware"
+      },
+      {
+        "type": "Department",
+        "name": "Executive Office"
+      },
+      {
+        "type": "Transaction",
+        "name": "TRN-LD-2024-006"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-CKS-7891"
+      },
+      {
+        "type": "Transaction",
+        "name": "TRN-LD-2024-007"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-OHS-1123"
+      },
+      {
+        "type": "Department",
+        "name": "Procurement"
+      },
+      {
+        "type": "Person",
+        "name": "Sandeep Menon"
+      },
+      {
+        "type": "Project",
+        "name": "data analytics project"
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "document": "019_transaction_log.txt",
+    "entities": [
+      {
+        "type": "Vendor",
+        "name": "Lattice Dynamics Pvt. Ltd."
+      },
+      {
+        "type": "Person",
+        "name": "Priya Nair"
+      },
+      {
+        "type": "Vendor",
+        "name": "CloudKart Services"
+      },
+      {
+        "type": "Department",
+        "name": "IT"
+      },
+      {
+        "type": "Person",
+        "name": "Rahul Sharma"
+      },
+      {
+        "type": "Vendor",
+        "name": "OfficeHive Supplies"
+      },
+      {
+        "type": "Department",
+        "name": "Operations"
+      },
+      {
+        "type": "Person",
+        "name": "Arjun Verma"
+      },
+      {
+        "type": "Vendor",
+        "name": "TechNova Solutions Pvt Ltd"
+      },
+      {
+        "type": "Person",
+        "name": "Vikram Patel"
+      },
+      {
+        "type": "Vendor",
+        "name": "SecureNet Systems"
+      },
+      {
+        "type": "Vendor",
+        "name": "ComplyHub Consulting"
+      },
+      {
+        "type": "Department",
+        "name": "Compliance"
+      },
+      {
+        "type": "Person",
+        "name": "Sandeep Menon"
+      },
+      {
+        "type": "Vendor",
+        "name": "DataWeave Analytics"
+      },
+      {
+        "type": "Person",
+        "name": "Neha Singh"
+      },
+      {
+        "type": "Vendor",
+        "name": "PrintPro India"
+      },
+      {
+        "type": "Department",
+        "name": "HR"
+      },
+      {
+        "type": "Person",
+        "name": "Kavita Rao"
+      },
+      {
+        "type": "Vendor",
+        "name": "GreenByte Energy"
+      },
+      {
+        "type": "Transaction",
+        "name": "LD-TRX-24-07-001"
+      },
+      {
+        "type": "Transaction",
+        "name": "CW-2407-SUBS-0112"
+      },
+      {
+        "type": "Transaction",
+        "name": "LD-TRX-24-07-002"
+      },
+      {
+        "type": "Transaction",
+        "name": "OFC-2407-SUP-0078"
+      },
+      {
+        "type": "Transaction",
+        "name": "LD-TRX-24-08-003"
+      },
+      {
+        "type": "Transaction",
+        "name": "TN-2408-LIC-0130"
+      },
+      {
+        "type": "Transaction",
+        "name": "LD-TRX-24-08-004"
+      },
+      {
+        "type": "Transaction",
+        "name": "SN-2408-SEC-0021"
+      },
+      {
+        "type": "Transaction",
+        "name": "LD-TRX-24-09-005"
+      },
+      {
+        "type": "Transaction",
+        "name": "CH-2409-CONS-0008"
+      },
+      {
+        "type": "Transaction",
+        "name": "LD-TRX-24-09-006"
+      },
+      {
+        "type": "Transaction",
+        "name": "DT-2409-PLAT-0048"
+      },
+      {
+        "type": "Transaction",
+        "name": "LD-TRX-24-09-007"
+      },
+      {
+        "type": "Transaction",
+        "name": "PR-2409-MKTG-0035"
+      },
+      {
+        "type": "Transaction",
+        "name": "LD-TRX-24-09-008"
+      },
+      {
+        "type": "Transaction",
+        "name": "GB-2409-UTIL-0012"
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "document": "020_email_thread.txt",
+    "entities": [
+      {
+        "type": "Person",
+        "name": "Arjun Verma"
+      },
+      {
+        "type": "Person",
+        "name": "Rahul Sharma"
+      },
+      {
+        "type": "Person",
+        "name": "Meera Iyer"
+      },
+      {
+        "type": "Person",
+        "name": "Vikram Patel"
+      },
+      {
+        "type": "Vendor",
+        "name": "Lattice Dynamics Pvt. Ltd."
+      },
+      {
+        "type": "Project",
+        "name": "Q3 Infrastructure Upgrade Planning"
+      },
+      {
+        "type": "Project",
+        "name": "server virtualization project"
+      },
+      {
+        "type": "Project",
+        "name": "network security enhancements"
+      },
+      {
+        "type": "Project",
+        "name": "server virtualization (Phase 1)"
+      },
+      {
+        "type": "Vendor",
+        "name": "SecureNet Systems"
+      },
+      {
+        "type": "Vendor",
+        "name": "CloudKart Services"
+      },
+      {
+        "type": "Vendor",
+        "name": "DataWeave Analytics"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Arjun Verma",
+        "target": "Lattice Dynamics Pvt. Ltd.",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Rahul Sharma",
+        "target": "Lattice Dynamics Pvt. Ltd.",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Meera Iyer",
+        "target": "Lattice Dynamics Pvt. Ltd.",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Vikram Patel",
+        "target": "Lattice Dynamics Pvt. Ltd.",
+        "relation": "WORKS_FOR"
+      }
+    ]
+  },
+  {
+    "document": "021_vendor_agreement.txt",
+    "entities": [
+      {
+        "type": "Contract",
+        "name": "Vendor Agreement"
+      },
+      {
+        "type": "Vendor",
+        "name": "Lattice Dynamics Pvt. Ltd."
+      },
+      {
+        "type": "Vendor",
+        "name": "TechNova Solutions Pvt Ltd"
+      },
+      {
+        "type": "Contract",
+        "name": "Service Level Agreement (SLA)"
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "document": "023_project_memo.txt",
+    "entities": [
+      {
+        "type": "Person",
+        "name": "Vikram Patel"
+      },
+      {
+        "type": "Person",
+        "name": "Arjun Verma"
+      },
+      {
+        "type": "Project",
+        "name": "Q3 Data Infrastructure Upgrade & Security Enhancements"
+      },
+      {
+        "type": "Vendor",
+        "name": "Lattice Dynamics"
+      },
+      {
+        "type": "Department",
+        "name": "Operations"
+      },
+      {
+        "type": "Person",
+        "name": "Rahul Sharma"
+      },
+      {
+        "type": "Department",
+        "name": "IT Department"
+      },
+      {
+        "type": "Person",
+        "name": "Neha Singh"
+      },
+      {
+        "type": "Department",
+        "name": "IT/Data Analytics"
+      },
+      {
+        "type": "Person",
+        "name": "Ankit Gupta"
+      },
+      {
+        "type": "Person",
+        "name": "Rohan Das"
+      },
+      {
+        "type": "Vendor",
+        "name": "CloudKart Services"
+      },
+      {
+        "type": "Vendor",
+        "name": "SecureNet Systems"
+      },
+      {
+        "type": "Vendor",
+        "name": "DataWeave Analytics"
+      },
+      {
+        "type": "Person",
+        "name": "Priya Nair"
+      },
+      {
+        "type": "Department",
+        "name": "Finance"
+      },
+      {
+        "type": "Person",
+        "name": "Sandeep Menon"
+      },
+      {
+        "type": "Department",
+        "name": "Compliance"
+      },
+      {
+        "type": "Department",
+        "name": "Executive Office"
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "document": "022_email_thread.txt",
+    "entities": [
+      {
+        "type": "Person",
+        "name": "Arjun Verma"
+      },
+      {
+        "type": "Vendor",
+        "name": "Lattice Dynamics Pvt. Ltd."
+      },
+      {
+        "type": "Project",
+        "name": "Project Nebula"
+      },
+      {
+        "type": "Person",
+        "name": "Meera Iyer"
+      },
+      {
+        "type": "Person",
+        "name": "Priya Nair"
+      },
+      {
+        "type": "Department",
+        "name": "Operations Department"
+      },
+      {
+        "type": "Department",
+        "name": "Procurement Department"
+      },
+      {
+        "type": "Department",
+        "name": "Finance Department"
+      },
+      {
+        "type": "Vendor",
+        "name": "TechNova Solutions"
+      },
+      {
+        "type": "Person",
+        "name": "Rahul Sharma"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Arjun Verma",
+        "target": "Operations Department",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Arjun Verma",
+        "target": "Lattice Dynamics Pvt. Ltd.",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Meera Iyer",
+        "target": "Procurement Department",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Meera Iyer",
+        "target": "Lattice Dynamics Pvt. Ltd.",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Priya Nair",
+        "target": "Finance Department",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Priya Nair",
+        "target": "Lattice Dynamics Pvt. Ltd.",
+        "relation": "WORKS_FOR"
+      }
+    ]
+  },
+  {
+    "document": "024_email_thread.txt",
+    "entities": [
+      {
+        "type": "Person",
+        "name": "Arjun Verma"
+      },
+      {
+        "type": "Person",
+        "name": "Vikram Patel"
+      },
+      {
+        "type": "Person",
+        "name": "Rahul Sharma"
+      },
+      {
+        "type": "Person",
+        "name": "Neha Singh"
+      },
+      {
+        "type": "Person",
+        "name": "Meera Iyer"
+      },
+      {
+        "type": "Project",
+        "name": "Project Nexus"
+      },
+      {
+        "type": "Vendor",
+        "name": "Lattice Dynamics Pvt. Ltd."
+      },
+      {
+        "type": "Vendor",
+        "name": "DataWeave Analytics"
+      },
+      {
+        "type": "Vendor",
+        "name": "OfficeHive Supplies"
+      },
+      {
+        "type": "Vendor",
+        "name": "ComplyHub Consulting"
+      },
+      {
+        "type": "Department",
+        "name": "IT team"
+      },
+      {
+        "type": "Department",
+        "name": "Data Analysts"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Arjun Verma",
+        "target": "Lattice Dynamics Pvt. Ltd.",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Vikram Patel",
+        "target": "Lattice Dynamics Pvt. Ltd.",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Rahul Sharma",
+        "target": "Lattice Dynamics Pvt. Ltd.",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Neha Singh",
+        "target": "Lattice Dynamics Pvt. Ltd.",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Meera Iyer",
+        "target": "Lattice Dynamics Pvt. Ltd.",
+        "relation": "WORKS_FOR"
+      }
+    ]
+  },
+  {
+    "document": "025_expense_report.txt",
+    "entities": [
+      {
+        "type": "Person",
+        "name": "Arjun Verma"
+      },
+      {
+        "type": "Vendor",
+        "name": "Lattice Dynamics Pvt. Ltd."
+      },
+      {
+        "type": "Department",
+        "name": "Operations"
+      },
+      {
+        "type": "Department",
+        "name": "Project Management Office"
+      },
+      {
+        "type": "Vendor",
+        "name": "SwiftTravel Co."
+      },
+      {
+        "type": "Vendor",
+        "name": "BuildRight Contractors"
+      },
+      {
+        "type": "Vendor",
+        "name": "DataWeave Analytics"
+      },
+      {
+        "type": "Vendor",
+        "name": "OfficeHive Supplies"
+      },
+      {
+        "type": "Vendor",
+        "name": "ComplyHub Consulting"
+      },
+      {
+        "type": "Person",
+        "name": "Meera Iyer"
+      },
+      {
+        "type": "Department",
+        "name": "Procurement"
+      },
+      {
+        "type": "Vendor",
+        "name": "CloudKart Services"
+      },
+      {
+        "type": "Project",
+        "name": "Project Alpha"
+      },
+      {
+        "type": "Department",
+        "name": "IT"
+      },
+      {
+        "type": "Person",
+        "name": "Rahul Sharma"
+      },
+      {
+        "type": "Vendor",
+        "name": "SecureNet Systems"
+      },
+      {
+        "type": "Person",
+        "name": "Priya Nair"
+      },
+      {
+        "type": "Department",
+        "name": "Finance"
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "document": "026_transaction_log.txt",
+    "entities": [
+      {
+        "type": "Vendor",
+        "name": "Lattice Dynamics Pvt. Ltd."
+      },
+      {
+        "type": "Person",
+        "name": "Priya Nair"
+      },
+      {
+        "type": "Transaction",
+        "name": "LD-TL-2405-001"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-TNS-05-01"
+      },
+      {
+        "type": "Vendor",
+        "name": "TechNova Solutions Pvt Ltd"
+      },
+      {
+        "type": "Department",
+        "name": "IT"
+      },
+      {
+        "type": "Person",
+        "name": "Rahul Sharma"
+      },
+      {
+        "type": "Transaction",
+        "name": "LD-TL-2405-002"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-DWA-05-02"
+      },
+      {
+        "type": "Vendor",
+        "name": "DataWeave Analytics"
+      },
+      {
+        "type": "Department",
+        "name": "Operations"
+      },
+      {
+        "type": "Person",
+        "name": "Vikram Patel"
+      },
+      {
+        "type": "Transaction",
+        "name": "LD-TL-2405-003"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-COS-05-03"
+      },
+      {
+        "type": "Vendor",
+        "name": "CloudKart Services"
+      },
+      {
+        "type": "Person",
+        "name": "Ankit Gupta"
+      },
+      {
+        "type": "Transaction",
+        "name": "LD-TL-2405-004"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-OHS-05-04"
+      },
+      {
+        "type": "Vendor",
+        "name": "OfficeHive Supplies"
+      },
+      {
+        "type": "Department",
+        "name": "Procurement"
+      },
+      {
+        "type": "Person",
+        "name": "Meera Iyer"
+      },
+      {
+        "type": "Transaction",
+        "name": "LD-TL-2405-005"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-SNS-05-05"
+      },
+      {
+        "type": "Vendor",
+        "name": "SecureNet Systems"
+      },
+      {
+        "type": "Transaction",
+        "name": "LD-TL-2405-006"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-CHB-05-06"
+      },
+      {
+        "type": "Vendor",
+        "name": "ComplyHub Consulting"
+      },
+      {
+        "type": "Department",
+        "name": "Compliance"
+      },
+      {
+        "type": "Person",
+        "name": "Sandeep Menon"
+      },
+      {
+        "type": "Transaction",
+        "name": "LD-TL-2405-007"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-PRI-05-07"
+      },
+      {
+        "type": "Vendor",
+        "name": "PrintPro India"
+      },
+      {
+        "type": "Department",
+        "name": "HR"
+      },
+      {
+        "type": "Person",
+        "name": "Kavita Rao"
+      },
+      {
+        "type": "Transaction",
+        "name": "LD-TL-2405-008"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-GBE-05-08"
+      },
+      {
+        "type": "Vendor",
+        "name": "GreenByte Energy"
+      },
+      {
+        "type": "Transaction",
+        "name": "LD-TL-2405-009"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-STC-05-09"
+      },
+      {
+        "type": "Vendor",
+        "name": "SwiftTravel Co."
+      },
+      {
+        "type": "Department",
+        "name": "Executive Office"
+      },
+      {
+        "type": "Transaction",
+        "name": "LD-TL-2405-010"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-BRC-05-10"
+      },
+      {
+        "type": "Vendor",
+        "name": "BuildRight Contractors"
+      },
+      {
+        "type": "Person",
+        "name": "Arjun Verma"
+      },
+      {
+        "type": "Transaction",
+        "name": "LD-TL-2405-011"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-COS-05-11"
+      },
+      {
+        "type": "Person",
+        "name": "Neha Singh"
+      },
+      {
+        "type": "Transaction",
+        "name": "LD-TL-2405-012"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-DWA-05-12"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "LD-TL-2405-001",
+        "target": "IT",
+        "relation": "RELATED_TO"
+      },
+      {
+        "source": "LD-TL-2405-002",
+        "target": "Operations",
+        "relation": "RELATED_TO"
+      },
+      {
+        "source": "LD-TL-2405-003",
+        "target": "IT",
+        "relation": "RELATED_TO"
+      },
+      {
+        "source": "LD-TL-2405-004",
+        "target": "Procurement",
+        "relation": "RELATED_TO"
+      },
+      {
+        "source": "LD-TL-2405-005",
+        "target": "IT",
+        "relation": "RELATED_TO"
+      },
+      {
+        "source": "LD-TL-2405-006",
+        "target": "Compliance",
+        "relation": "RELATED_TO"
+      },
+      {
+        "source": "LD-TL-2405-007",
+        "target": "HR",
+        "relation": "RELATED_TO"
+      },
+      {
+        "source": "LD-TL-2405-008",
+        "target": "Operations",
+        "relation": "RELATED_TO"
+      },
+      {
+        "source": "LD-TL-2405-009",
+        "target": "Executive Office",
+        "relation": "RELATED_TO"
+      },
+      {
+        "source": "LD-TL-2405-010",
+        "target": "Operations",
+        "relation": "RELATED_TO"
+      },
+      {
+        "source": "LD-TL-2405-011",
+        "target": "IT",
+        "relation": "RELATED_TO"
+      },
+      {
+        "source": "LD-TL-2405-012",
+        "target": "IT",
+        "relation": "RELATED_TO"
+      }
+    ]
+  },
+  {
+    "document": "027_org_chart_notes.txt",
+    "entities": [
+      {
+        "type": "Vendor",
+        "name": "Lattice Dynamics"
+      },
+      {
+        "type": "Person",
+        "name": "Vikram Patel"
+      },
+      {
+        "type": "Department",
+        "name": "Executive Office"
+      },
+      {
+        "type": "Person",
+        "name": "Neha Singh"
+      },
+      {
+        "type": "Department",
+        "name": "Operations"
+      },
+      {
+        "type": "Department",
+        "name": "IT"
+      },
+      {
+        "type": "Department",
+        "name": "Data Analytics"
+      },
+      {
+        "type": "Person",
+        "name": "Rahul Sharma"
+      },
+      {
+        "type": "Person",
+        "name": "Ankit Gupta"
+      },
+      {
+        "type": "Person",
+        "name": "Meera Iyer"
+      },
+      {
+        "type": "Person",
+        "name": "Arjun Verma"
+      },
+      {
+        "type": "Vendor",
+        "name": "BuildRight Contractors"
+      },
+      {
+        "type": "Vendor",
+        "name": "TechNova Solutions Pvt Ltd"
+      },
+      {
+        "type": "Vendor",
+        "name": "CloudKart Services"
+      },
+      {
+        "type": "Project",
+        "name": "DataWeave Analytics project"
+      },
+      {
+        "type": "Person",
+        "name": "Kavita Rao"
+      },
+      {
+        "type": "Person",
+        "name": "Sandeep Menon"
+      },
+      {
+        "type": "Vendor",
+        "name": "ComplyHub Consulting"
+      },
+      {
+        "type": "Person",
+        "name": "Rohan Das"
+      },
+      {
+        "type": "Person",
+        "name": "Priya Nair"
+      },
+      {
+        "type": "Department",
+        "name": "Procurement"
+      },
+      {
+        "type": "Department",
+        "name": "Project Management"
+      },
+      {
+        "type": "Department",
+        "name": "HR"
+      },
+      {
+        "type": "Department",
+        "name": "Compliance"
+      },
+      {
+        "type": "Department",
+        "name": "Finance"
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "document": "028_project_memo.txt",
+    "entities": [
+      {
+        "type": "Project",
+        "name": "SecureIT Infrastructure Upgrade - Phase I"
+      },
+      {
+        "type": "Person",
+        "name": "Vikram Patel"
+      },
+      {
+        "type": "Person",
+        "name": "Priya Nair"
+      },
+      {
+        "type": "Person",
+        "name": "Sandeep Menon"
+      },
+      {
+        "type": "Person",
+        "name": "Arjun Verma"
+      },
+      {
+        "type": "Person",
+        "name": "Rahul Sharma"
+      },
+      {
+        "type": "Person",
+        "name": "Ankit Gupta"
+      },
+      {
+        "type": "Person",
+        "name": "Neha Singh"
+      },
+      {
+        "type": "Vendor",
+        "name": "Lattice Dynamics Pvt. Ltd."
+      },
+      {
+        "type": "Vendor",
+        "name": "SecureNet Systems"
+      },
+      {
+        "type": "Vendor",
+        "name": "CloudKart Services"
+      },
+      {
+        "type": "Department",
+        "name": "Operations Department"
+      },
+      {
+        "type": "Department",
+        "name": "IT Department"
+      },
+      {
+        "type": "Department",
+        "name": "Compliance Department"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Arjun Verma",
+        "target": "Operations Department",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Rahul Sharma",
+        "target": "IT Department",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Ankit Gupta",
+        "target": "IT Department",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Neha Singh",
+        "target": "IT Department",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Sandeep Menon",
+        "target": "Compliance Department",
+        "relation": "WORKS_FOR"
+      }
+    ]
+  },
+  {
+    "document": "029_project_memo.txt",
+    "entities": [
+      {
+        "type": "Project",
+        "name": "SecureNet Integration Project \u2013 Phase 1"
+      },
+      {
+        "type": "Person",
+        "name": "Arjun Verma"
+      },
+      {
+        "type": "Person",
+        "name": "Vikram Patel"
+      },
+      {
+        "type": "Person",
+        "name": "Priya Nair"
+      },
+      {
+        "type": "Person",
+        "name": "Meera Iyer"
+      },
+      {
+        "type": "Person",
+        "name": "Rahul Sharma"
+      },
+      {
+        "type": "Person",
+        "name": "Neha Singh"
+      },
+      {
+        "type": "Person",
+        "name": "Ankit Gupta"
+      },
+      {
+        "type": "Person",
+        "name": "Sandeep Menon"
+      },
+      {
+        "type": "Vendor",
+        "name": "SecureNet Systems"
+      },
+      {
+        "type": "Department",
+        "name": "Finance department"
+      },
+      {
+        "type": "Department",
+        "name": "HR department"
+      },
+      {
+        "type": "Vendor",
+        "name": "ComplyHub Consulting"
+      },
+      {
+        "type": "Vendor",
+        "name": "Lattice Dynamics Pvt. Ltd."
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "document": "030_incident_report.txt",
+    "entities": [
+      {
+        "type": "Vendor",
+        "name": "Lattice Dynamics Pvt. Ltd."
+      },
+      {
+        "type": "Department",
+        "name": "Finance"
+      },
+      {
+        "type": "Department",
+        "name": "Procurement"
+      },
+      {
+        "type": "Department",
+        "name": "Operations"
+      },
+      {
+        "type": "Person",
+        "name": "Neha Singh"
+      },
+      {
+        "type": "Person",
+        "name": "Rahul Sharma"
+      },
+      {
+        "type": "Vendor",
+        "name": "CloudKart Services"
+      },
+      {
+        "type": "Contract",
+        "name": "Service Level Agreement (SLA)"
+      },
+      {
+        "type": "Person",
+        "name": "Ankit Gupta"
+      },
+      {
+        "type": "Person",
+        "name": "Meera Iyer"
+      },
+      {
+        "type": "Project",
+        "name": "Enhanced Monitoring project"
+      },
+      {
+        "type": "Communication",
+        "name": "Vendor Post-Mortem meeting"
+      },
+      {
+        "type": "Person",
+        "name": "Sandeep Menon"
+      },
+      {
+        "type": "Person",
+        "name": "Priya Nair"
+      },
+      {
+        "type": "Person",
+        "name": "Vikram Patel"
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "document": "031_transaction_log.txt",
+    "entities": [
+      {
+        "type": "Vendor",
+        "name": "Lattice Dynamics Pvt. Ltd."
+      },
+      {
+        "type": "Department",
+        "name": "Finance Department"
+      },
+      {
+        "type": "Person",
+        "name": "Priya Nair"
+      },
+      {
+        "type": "Department",
+        "name": "IT"
+      },
+      {
+        "type": "Department",
+        "name": "Operations"
+      },
+      {
+        "type": "Department",
+        "name": "Executive Office"
+      },
+      {
+        "type": "Department",
+        "name": "Compliance"
+      },
+      {
+        "type": "Department",
+        "name": "HR"
+      },
+      {
+        "type": "Department",
+        "name": "Procurement"
+      },
+      {
+        "type": "Vendor",
+        "name": "TechNova Solutions Pvt Ltd"
+      },
+      {
+        "type": "Transaction",
+        "name": "LD-TRX-07-001"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-TNS-2024-01"
+      },
+      {
+        "type": "Person",
+        "name": "Rahul Sharma"
+      },
+      {
+        "type": "Vendor",
+        "name": "OfficeHive Supplies"
+      },
+      {
+        "type": "Transaction",
+        "name": "LD-TRX-07-002"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-OHS-2024-07"
+      },
+      {
+        "type": "Person",
+        "name": "Arjun Verma"
+      },
+      {
+        "type": "Vendor",
+        "name": "SecureNet Systems"
+      },
+      {
+        "type": "Transaction",
+        "name": "LD-TRX-07-003"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-SNS-2024-03"
+      },
+      {
+        "type": "Person",
+        "name": "Vikram Patel"
+      },
+      {
+        "type": "Vendor",
+        "name": "DataWeave Analytics"
+      },
+      {
+        "type": "Transaction",
+        "name": "LD-TRX-07-004"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-DWA-2024-02"
+      },
+      {
+        "type": "Person",
+        "name": "Neha Singh"
+      },
+      {
+        "type": "Vendor",
+        "name": "CloudKart Services"
+      },
+      {
+        "type": "Transaction",
+        "name": "LD-TRX-08-001"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-CPS-2024-08"
+      },
+      {
+        "type": "Person",
+        "name": "Ankit Gupta"
+      },
+      {
+        "type": "Vendor",
+        "name": "ComplyHub Consulting"
+      },
+      {
+        "type": "Transaction",
+        "name": "LD-TRX-08-002"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-CHC-2024-01"
+      },
+      {
+        "type": "Person",
+        "name": "Sandeep Menon"
+      },
+      {
+        "type": "Vendor",
+        "name": "PrintPro India"
+      },
+      {
+        "type": "Transaction",
+        "name": "LD-TRX-08-003"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-PPT-2024-08"
+      },
+      {
+        "type": "Person",
+        "name": "Kavita Rao"
+      },
+      {
+        "type": "Vendor",
+        "name": "SwiftTravel Co."
+      },
+      {
+        "type": "Transaction",
+        "name": "LD-TRX-08-004"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-SWT-2024-05"
+      },
+      {
+        "type": "Vendor",
+        "name": "GreenByte Energy"
+      },
+      {
+        "type": "Transaction",
+        "name": "LD-TRX-09-001"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-GRN-2024-03"
+      },
+      {
+        "type": "Person",
+        "name": "Meera Iyer"
+      },
+      {
+        "type": "Transaction",
+        "name": "LD-TRX-09-002"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-TNS-2024-02"
+      },
+      {
+        "type": "Vendor",
+        "name": "BuildRight Contractors"
+      },
+      {
+        "type": "Transaction",
+        "name": "LD-TRX-09-003"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-BRC-2024-01"
+      },
+      {
+        "type": "Transaction",
+        "name": "LD-TRX-09-004"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-DWA-2024-03"
+      },
+      {
+        "type": "Transaction",
+        "name": "LD-TRX-09-005"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-OHS-2024-09"
+      },
+      {
+        "type": "Person",
+        "name": "Rohan Das"
+      },
+      {
+        "type": "Transaction",
+        "name": "LD-TRX-09-006"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-SWT-2024-06"
+      },
+      {
+        "type": "Transaction",
+        "name": "LD-TRX-09-007"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-CPS-2024-09"
+      },
+      {
+        "type": "Transaction",
+        "name": "LD-TRX-09-008"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-CHC-2024-02"
+      },
+      {
+        "type": "Project",
+        "name": "Minor office renovation project"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Priya Nair",
+        "target": "Finance Department",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "LD-TRX-07-001",
+        "target": "IT",
+        "relation": "RELATED_TO"
+      },
+      {
+        "source": "LD-TRX-07-002",
+        "target": "Operations",
+        "relation": "RELATED_TO"
+      },
+      {
+        "source": "Arjun Verma",
+        "target": "LD-TRX-07-002",
+        "relation": "APPROVED"
+      },
+      {
+        "source": "LD-TRX-07-003",
+        "target": "IT",
+        "relation": "RELATED_TO"
+      },
+      {
+        "source": "LD-TRX-07-004",
+        "target": "Executive Office",
+        "relation": "RELATED_TO"
+      },
+      {
+        "source": "LD-TRX-08-001",
+        "target": "IT",
+        "relation": "RELATED_TO"
+      },
+      {
+        "source": "LD-TRX-08-002",
+        "target": "Compliance",
+        "relation": "RELATED_TO"
+      },
+      {
+        "source": "LD-TRX-08-003",
+        "target": "HR",
+        "relation": "RELATED_TO"
+      },
+      {
+        "source": "Kavita Rao",
+        "target": "LD-TRX-08-003",
+        "relation": "APPROVED"
+      },
+      {
+        "source": "LD-TRX-08-004",
+        "target": "Executive Office",
+        "relation": "RELATED_TO"
+      },
+      {
+        "source": "LD-TRX-09-001",
+        "target": "Operations",
+        "relation": "RELATED_TO"
+      },
+      {
+        "source": "LD-TRX-09-002",
+        "target": "IT",
+        "relation": "RELATED_TO"
+      },
+      {
+        "source": "LD-TRX-09-003",
+        "target": "Operations",
+        "relation": "RELATED_TO"
+      },
+      {
+        "source": "LD-TRX-09-004",
+        "target": "Operations",
+        "relation": "RELATED_TO"
+      },
+      {
+        "source": "LD-TRX-09-005",
+        "target": "Procurement",
+        "relation": "RELATED_TO"
+      },
+      {
+        "source": "LD-TRX-09-006",
+        "target": "HR",
+        "relation": "RELATED_TO"
+      },
+      {
+        "source": "Kavita Rao",
+        "target": "LD-TRX-09-006",
+        "relation": "APPROVED"
+      },
+      {
+        "source": "LD-TRX-09-007",
+        "target": "IT",
+        "relation": "RELATED_TO"
+      },
+      {
+        "source": "LD-TRX-09-008",
+        "target": "Compliance",
+        "relation": "RELATED_TO"
+      },
+      {
+        "source": "Meera Iyer",
+        "target": "Procurement",
+        "relation": "WORKS_FOR"
+      }
+    ]
+  },
+  {
+    "document": "032_expense_report.txt",
+    "entities": [
+      {
+        "type": "Vendor",
+        "name": "Lattice Dynamics Pvt. Ltd."
+      },
+      {
+        "type": "Department",
+        "name": "Finance Department"
+      },
+      {
+        "type": "Department",
+        "name": "Operations Department"
+      },
+      {
+        "type": "Department",
+        "name": "IT Department"
+      },
+      {
+        "type": "Department",
+        "name": "Compliance & HR departments"
+      },
+      {
+        "type": "Department",
+        "name": "HR department"
+      },
+      {
+        "type": "Person",
+        "name": "Arjun Verma"
+      },
+      {
+        "type": "Person",
+        "name": "Priya"
+      },
+      {
+        "type": "Person",
+        "name": "Neha Singh"
+      },
+      {
+        "type": "Person",
+        "name": "Meera Iyer"
+      },
+      {
+        "type": "Person",
+        "name": "Rahul Sharma"
+      },
+      {
+        "type": "Person",
+        "name": "Rohan Das"
+      },
+      {
+        "type": "Person",
+        "name": "Sandeep Menon"
+      },
+      {
+        "type": "Person",
+        "name": "Ankit Gupta"
+      },
+      {
+        "type": "Person",
+        "name": "Vikram Patel"
+      },
+      {
+        "type": "Person",
+        "name": "Kavita Rao"
+      },
+      {
+        "type": "Vendor",
+        "name": "SwiftTravel Co."
+      },
+      {
+        "type": "Vendor",
+        "name": "CloudKart Services"
+      },
+      {
+        "type": "Vendor",
+        "name": "OfficeHive Supplies"
+      },
+      {
+        "type": "Vendor",
+        "name": "SecureNet Systems"
+      },
+      {
+        "type": "Vendor",
+        "name": "PrintPro India"
+      },
+      {
+        "type": "Vendor",
+        "name": "ComplyHub Consulting"
+      },
+      {
+        "type": "Vendor",
+        "name": "TechNova Solutions Pvt Ltd"
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "document": "033_incident_report.txt",
+    "entities": [
+      {
+        "type": "Incident",
+        "name": "LD-IT-2024-007"
+      },
+      {
+        "type": "Person",
+        "name": "Rahul Sharma"
+      },
+      {
+        "type": "Department",
+        "name": "IT"
+      },
+      {
+        "type": "Department",
+        "name": "Operations"
+      },
+      {
+        "type": "Department",
+        "name": "Executive Office"
+      },
+      {
+        "type": "Person",
+        "name": "Neha Singh"
+      },
+      {
+        "type": "Department",
+        "name": "Data Analysts"
+      },
+      {
+        "type": "Person",
+        "name": "Ankit Gupta"
+      },
+      {
+        "type": "Vendor",
+        "name": "CloudKart Services"
+      },
+      {
+        "type": "Vendor",
+        "name": "DataWeave Analytics"
+      },
+      {
+        "type": "Person",
+        "name": "Sandeep Menon"
+      },
+      {
+        "type": "Department",
+        "name": "Compliance"
+      },
+      {
+        "type": "Person",
+        "name": "Vikram Patel"
+      },
+      {
+        "type": "Communication",
+        "name": "post-incident review meeting"
+      },
+      {
+        "type": "Vendor",
+        "name": "Lattice Dynamics"
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "document": "034_org_chart_notes.txt",
+    "entities": [
+      {
+        "type": "Person",
+        "name": "Vikram Patel"
+      },
+      {
+        "type": "Department",
+        "name": "Executive Office"
+      },
+      {
+        "type": "Person",
+        "name": "Kavita Rao"
+      },
+      {
+        "type": "Department",
+        "name": "HR"
+      },
+      {
+        "type": "Person",
+        "name": "Arjun Verma"
+      },
+      {
+        "type": "Department",
+        "name": "Operations"
+      },
+      {
+        "type": "Person",
+        "name": "Priya Nair"
+      },
+      {
+        "type": "Department",
+        "name": "Finance"
+      },
+      {
+        "type": "Person",
+        "name": "Sandeep Menon"
+      },
+      {
+        "type": "Department",
+        "name": "Compliance"
+      },
+      {
+        "type": "Department",
+        "name": "IT Department"
+      },
+      {
+        "type": "Person",
+        "name": "Rahul Sharma"
+      },
+      {
+        "type": "Person",
+        "name": "Ankit Gupta"
+      },
+      {
+        "type": "Person",
+        "name": "Neha Singh"
+      },
+      {
+        "type": "Person",
+        "name": "Rohan Das"
+      },
+      {
+        "type": "Department",
+        "name": "Procurement"
+      },
+      {
+        "type": "Person",
+        "name": "Meera Iyer"
+      },
+      {
+        "type": "Vendor",
+        "name": "OfficeHive Supplies"
+      },
+      {
+        "type": "Vendor",
+        "name": "PrintPro India"
+      },
+      {
+        "type": "Vendor",
+        "name": "ComplyHub Consulting"
+      },
+      {
+        "type": "Contract",
+        "name": "ComplyHub Consulting contract"
+      },
+      {
+        "type": "Department",
+        "name": "Arjun Verma's project team"
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "document": "035_email_thread.txt",
+    "entities": [
+      {
+        "type": "Person",
+        "name": "Rahul Sharma"
+      },
+      {
+        "type": "Department",
+        "name": "IT Department"
+      },
+      {
+        "type": "Vendor",
+        "name": "Lattice Dynamics"
+      },
+      {
+        "type": "Person",
+        "name": "Arjun Verma"
+      },
+      {
+        "type": "Department",
+        "name": "Operations Department"
+      },
+      {
+        "type": "Person",
+        "name": "Meera Iyer"
+      },
+      {
+        "type": "Department",
+        "name": "Procurement Department"
+      },
+      {
+        "type": "Person",
+        "name": "Priya Nair"
+      },
+      {
+        "type": "Department",
+        "name": "Finance Department"
+      },
+      {
+        "type": "Project",
+        "name": "Q3 software license renewals"
+      },
+      {
+        "type": "Project",
+        "name": "System upgrade assessment"
+      },
+      {
+        "type": "Vendor",
+        "name": "TechNova Solutions Pvt Ltd"
+      },
+      {
+        "type": "Vendor",
+        "name": "SecureNet Systems"
+      },
+      {
+        "type": "Project",
+        "name": "ERP system renewal"
+      },
+      {
+        "type": "Project",
+        "name": "Firewall upgrade"
+      },
+      {
+        "type": "Vendor",
+        "name": "CloudKart Services"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Rahul Sharma",
+        "target": "IT Department",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Arjun Verma",
+        "target": "Operations Department",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Meera Iyer",
+        "target": "Procurement Department",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Priya Nair",
+        "target": "Finance Department",
+        "relation": "WORKS_FOR"
+      }
+    ]
+  },
+  {
+    "document": "036_employee_bio.txt",
+    "entities": [],
+    "relationships": []
+  },
+  {
+    "document": "037_expense_report.txt",
+    "entities": [
+      {
+        "type": "Vendor",
+        "name": "Lattice Dynamics Pvt. Ltd."
+      },
+      {
+        "type": "Person",
+        "name": "Arjun Verma"
+      },
+      {
+        "type": "Department",
+        "name": "Operations"
+      },
+      {
+        "type": "Vendor",
+        "name": "SwiftTravel Co."
+      },
+      {
+        "type": "Vendor",
+        "name": "BuildRight Contractors"
+      },
+      {
+        "type": "Vendor",
+        "name": "OfficeHive Supplies"
+      },
+      {
+        "type": "Vendor",
+        "name": "SecureNet Systems"
+      },
+      {
+        "type": "Project",
+        "name": "Project X"
+      },
+      {
+        "type": "Vendor",
+        "name": "ComplyHub Consulting"
+      },
+      {
+        "type": "Project",
+        "name": "Project Phoenix"
+      },
+      {
+        "type": "Person",
+        "name": "Vikram Patel"
+      },
+      {
+        "type": "Person",
+        "name": "Sandeep Menon"
+      },
+      {
+        "type": "Person",
+        "name": "Priya Nair"
+      },
+      {
+        "type": "Department",
+        "name": "Finance"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Arjun Verma",
+        "target": "Operations",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Priya Nair",
+        "target": "Finance",
+        "relation": "WORKS_FOR"
+      }
+    ]
+  },
+  {
+    "document": "038_employee_bio.txt",
+    "entities": [
+      {
+        "type": "Person",
+        "name": "Kavita Rao"
+      },
+      {
+        "type": "Vendor",
+        "name": "Lattice Dynamics Pvt. Ltd."
+      },
+      {
+        "type": "Department",
+        "name": "HR team"
+      },
+      {
+        "type": "Department",
+        "name": "Operations team"
+      },
+      {
+        "type": "Vendor",
+        "name": "ComplyHub Consulting"
+      },
+      {
+        "type": "Person",
+        "name": "Rohan Das"
+      },
+      {
+        "type": "Person",
+        "name": "Priya Nair"
+      },
+      {
+        "type": "Person",
+        "name": "Rahul Sharma"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Kavita Rao",
+        "target": "Lattice Dynamics Pvt. Ltd.",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Rohan Das",
+        "target": "Lattice Dynamics Pvt. Ltd.",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Priya Nair",
+        "target": "Lattice Dynamics Pvt. Ltd.",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Rahul Sharma",
+        "target": "Lattice Dynamics Pvt. Ltd.",
+        "relation": "WORKS_FOR"
+      }
+    ]
+  },
+  {
+    "document": "039_employee_bio.txt",
+    "entities": [
+      {
+        "type": "Person",
+        "name": "Priya Nair"
+      },
+      {
+        "type": "Vendor",
+        "name": "Lattice Dynamics Pvt. Ltd."
+      },
+      {
+        "type": "Vendor",
+        "name": "financial services firm"
+      },
+      {
+        "type": "Department",
+        "name": "Finance Department"
+      },
+      {
+        "type": "Person",
+        "name": "Meera Iyer"
+      },
+      {
+        "type": "Department",
+        "name": "Procurement"
+      },
+      {
+        "type": "Department",
+        "name": "Operations team"
+      },
+      {
+        "type": "Department",
+        "name": "Executive Office"
+      },
+      {
+        "type": "Vendor",
+        "name": "TechNova Solutions Pvt Ltd"
+      },
+      {
+        "type": "Person",
+        "name": "Vikram Patel"
+      },
+      {
+        "type": "Person",
+        "name": "Sandeep Menon"
+      },
+      {
+        "type": "Department",
+        "name": "Compliance"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Priya Nair",
+        "target": "Lattice Dynamics Pvt. Ltd.",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Priya Nair",
+        "target": "Finance Department",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Meera Iyer",
+        "target": "Procurement",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Sandeep Menon",
+        "target": "Compliance",
+        "relation": "WORKS_FOR"
+      }
+    ]
+  },
+  {
+    "document": "040_vendor_agreement.txt",
+    "entities": [
+      {
+        "type": "Contract",
+        "name": "Vendor Agreement"
+      },
+      {
+        "type": "Vendor",
+        "name": "Lattice Dynamics Pvt. Ltd."
+      },
+      {
+        "type": "Vendor",
+        "name": "SecureNet Systems"
+      },
+      {
+        "type": "Department",
+        "name": "IT Department"
+      },
+      {
+        "type": "Department",
+        "name": "Procurement"
+      },
+      {
+        "type": "Department",
+        "name": "Finance Department"
+      },
+      {
+        "type": "Person",
+        "name": "Meera Iyer"
+      },
+      {
+        "type": "Department",
+        "name": "Executive Office"
+      },
+      {
+        "type": "Person",
+        "name": "Vikram Patel"
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "document": "041_vendor_agreement.txt",
+    "entities": [
+      {
+        "type": "Contract",
+        "name": "Vendor Agreement"
+      },
+      {
+        "type": "Vendor",
+        "name": "Lattice Dynamics Pvt. Ltd."
+      },
+      {
+        "type": "Vendor",
+        "name": "CloudKart Services"
+      },
+      {
+        "type": "Person",
+        "name": "Rahul Sharma"
+      },
+      {
+        "type": "Department",
+        "name": "IT Department"
+      },
+      {
+        "type": "Person",
+        "name": "Ankit Gupta"
+      },
+      {
+        "type": "Department",
+        "name": "IT team"
+      },
+      {
+        "type": "Person",
+        "name": "Priya Nair"
+      },
+      {
+        "type": "Person",
+        "name": "Sandeep Menon"
+      },
+      {
+        "type": "Person",
+        "name": "Vikram Patel"
+      },
+      {
+        "type": "Person",
+        "name": "[Authorized Signatory Name]"
+      },
+      {
+        "type": "Person",
+        "name": "Meera Iyer"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Rahul Sharma",
+        "target": "Lattice Dynamics Pvt. Ltd.",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Ankit Gupta",
+        "target": "Lattice Dynamics Pvt. Ltd.",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Priya Nair",
+        "target": "Lattice Dynamics Pvt. Ltd.",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Sandeep Menon",
+        "target": "Lattice Dynamics Pvt. Ltd.",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Vikram Patel",
+        "target": "Vendor Agreement",
+        "relation": "SIGNED"
+      },
+      {
+        "source": "Vikram Patel",
+        "target": "Lattice Dynamics Pvt. Ltd.",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "[Authorized Signatory Name]",
+        "target": "Vendor Agreement",
+        "relation": "SIGNED"
+      },
+      {
+        "source": "[Authorized Signatory Name]",
+        "target": "CloudKart Services",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Meera Iyer",
+        "target": "Lattice Dynamics Pvt. Ltd.",
+        "relation": "WORKS_FOR"
+      }
+    ]
+  },
+  {
+    "document": "042_project_memo.txt",
+    "entities": [
+      {
+        "type": "Person",
+        "name": "Arjun Verma"
+      },
+      {
+        "type": "Department",
+        "name": "Operations Department"
+      },
+      {
+        "type": "Person",
+        "name": "Vikram Patel"
+      },
+      {
+        "type": "Person",
+        "name": "Priya Nair"
+      },
+      {
+        "type": "Department",
+        "name": "Finance"
+      },
+      {
+        "type": "Person",
+        "name": "Meera Iyer"
+      },
+      {
+        "type": "Department",
+        "name": "Procurement"
+      },
+      {
+        "type": "Person",
+        "name": "Kavita Rao"
+      },
+      {
+        "type": "Department",
+        "name": "HR"
+      },
+      {
+        "type": "Person",
+        "name": "Sandeep Menon"
+      },
+      {
+        "type": "Department",
+        "name": "Compliance"
+      },
+      {
+        "type": "Person",
+        "name": "Rahul Sharma"
+      },
+      {
+        "type": "Person",
+        "name": "Neha Singh"
+      },
+      {
+        "type": "Department",
+        "name": "IT"
+      },
+      {
+        "type": "Person",
+        "name": "Ankit Gupta"
+      },
+      {
+        "type": "Project",
+        "name": "Cloud Migration Initiative - Phase 1"
+      },
+      {
+        "type": "Vendor",
+        "name": "Lattice Dynamics Pvt. Ltd."
+      },
+      {
+        "type": "Department",
+        "name": "HR Team"
+      },
+      {
+        "type": "Department",
+        "name": "Finance Team"
+      },
+      {
+        "type": "Project",
+        "name": "Cloud Migration Initiative"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Arjun Verma",
+        "target": "Operations Department",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Arjun Verma",
+        "target": "Vikram Patel",
+        "relation": "REPORTS_TO"
+      },
+      {
+        "source": "Priya Nair",
+        "target": "Finance",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Meera Iyer",
+        "target": "Procurement",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Kavita Rao",
+        "target": "HR",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Sandeep Menon",
+        "target": "Compliance",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Rahul Sharma",
+        "target": "IT",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Neha Singh",
+        "target": "IT",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Ankit Gupta",
+        "target": "IT",
+        "relation": "WORKS_FOR"
+      }
+    ]
+  },
+  {
+    "document": "043_org_chart_notes.txt",
+    "entities": [
+      {
+        "type": "Person",
+        "name": "Vikram Patel"
+      },
+      {
+        "type": "Person",
+        "name": "Priya Nair"
+      },
+      {
+        "type": "Person",
+        "name": "Kavita Rao"
+      },
+      {
+        "type": "Person",
+        "name": "Sandeep Menon"
+      },
+      {
+        "type": "Person",
+        "name": "Arjun Verma"
+      },
+      {
+        "type": "Person",
+        "name": "Rahul Sharma"
+      },
+      {
+        "type": "Project",
+        "name": "Project Phoenix"
+      },
+      {
+        "type": "Department",
+        "name": "IT Department"
+      },
+      {
+        "type": "Person",
+        "name": "Ankit Gupta"
+      },
+      {
+        "type": "Project",
+        "name": "SecureNet Systems integration"
+      },
+      {
+        "type": "Person",
+        "name": "Rohan Das"
+      },
+      {
+        "type": "Department",
+        "name": "Finance"
+      },
+      {
+        "type": "Vendor",
+        "name": "CloudKart Services"
+      },
+      {
+        "type": "Vendor",
+        "name": "TechNova Solutions"
+      },
+      {
+        "type": "Department",
+        "name": "Procurement Department"
+      },
+      {
+        "type": "Person",
+        "name": "Meera Iyer"
+      },
+      {
+        "type": "Vendor",
+        "name": "BuildRight Contractors"
+      },
+      {
+        "type": "Vendor",
+        "name": "GreenByte Energy"
+      },
+      {
+        "type": "Department",
+        "name": "Operations"
+      },
+      {
+        "type": "Person",
+        "name": "Neha Singh"
+      },
+      {
+        "type": "Department",
+        "name": "HR"
+      },
+      {
+        "type": "Department",
+        "name": "Compliance"
+      },
+      {
+        "type": "Vendor",
+        "name": "SecureNet Systems"
+      },
+      {
+        "type": "Person",
+        "name": "Staff"
+      },
+      {
+        "type": "Vendor",
+        "name": "ComplyHub Consulting"
+      },
+      {
+        "type": "Project",
+        "name": "critical projects"
+      },
+      {
+        "type": "Project",
+        "name": "office expansion"
+      },
+      {
+        "type": "Project",
+        "name": "new initiatives"
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "document": "044_employee_bio.txt",
+    "entities": [
+      {
+        "type": "Person",
+        "name": "Rahul Sharma"
+      },
+      {
+        "type": "Vendor",
+        "name": "Lattice Dynamics Pvt. Ltd."
+      },
+      {
+        "type": "Vendor",
+        "name": "mid-sized financial firm"
+      },
+      {
+        "type": "Project",
+        "name": "secure network infrastructures"
+      },
+      {
+        "type": "Project",
+        "name": "critical data systems"
+      },
+      {
+        "type": "Department",
+        "name": "IT Department"
+      },
+      {
+        "type": "Department",
+        "name": "Procurement"
+      },
+      {
+        "type": "Department",
+        "name": "Compliance"
+      },
+      {
+        "type": "Project",
+        "name": "migration to CloudKart Services"
+      },
+      {
+        "type": "Vendor",
+        "name": "DataWeave Analytics"
+      },
+      {
+        "type": "Vendor",
+        "name": "SecureNet Systems"
+      },
+      {
+        "type": "Department",
+        "name": "Finance"
+      },
+      {
+        "type": "Department",
+        "name": "Executive Office"
+      },
+      {
+        "type": "Person",
+        "name": "Arjun Verma"
+      },
+      {
+        "type": "Person",
+        "name": "Vikram Patel"
+      },
+      {
+        "type": "Vendor",
+        "name": "local community centers"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Rahul Sharma",
+        "target": "Lattice Dynamics Pvt. Ltd.",
+        "relation": "WORKS_FOR"
+      },
+      {
+        "source": "Rahul Sharma",
+        "target": "IT Department",
+        "relation": "WORKS_FOR"
+      }
+    ]
+  },
+  {
+    "document": "045_transaction_log.txt",
+    "entities": [
+      {
+        "type": "Vendor",
+        "name": "Lattice Dynamics Pvt. Ltd."
+      },
+      {
+        "type": "Department",
+        "name": "Finance Department"
+      },
+      {
+        "type": "Transaction",
+        "name": "TD-Q2-001"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-TNS-04-24-001"
+      },
+      {
+        "type": "Vendor",
+        "name": "TechNova Solutions Pvt Ltd"
+      },
+      {
+        "type": "Person",
+        "name": "Priya Nair"
+      },
+      {
+        "type": "Transaction",
+        "name": "TD-Q2-002"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-CK-04-24-005"
+      },
+      {
+        "type": "Vendor",
+        "name": "CloudKart Services"
+      },
+      {
+        "type": "Person",
+        "name": "Rahul Sharma"
+      },
+      {
+        "type": "Department",
+        "name": "IT"
+      },
+      {
+        "type": "Transaction",
+        "name": "TD-Q2-003"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-OHS-05-24-012"
+      },
+      {
+        "type": "Vendor",
+        "name": "OfficeHive Supplies"
+      },
+      {
+        "type": "Transaction",
+        "name": "TD-Q2-004"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-SNS-05-24-003"
+      },
+      {
+        "type": "Vendor",
+        "name": "SecureNet Systems"
+      },
+      {
+        "type": "Person",
+        "name": "Meera Iyer"
+      },
+      {
+        "type": "Transaction",
+        "name": "TD-Q2-005"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-CHC-05-24-001"
+      },
+      {
+        "type": "Vendor",
+        "name": "ComplyHub Consulting"
+      },
+      {
+        "type": "Person",
+        "name": "Sandeep Menon"
+      },
+      {
+        "type": "Transaction",
+        "name": "TD-Q2-006"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-TNS-05-24-002"
+      },
+      {
+        "type": "Transaction",
+        "name": "TD-Q2-007"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-CK-06-24-008"
+      },
+      {
+        "type": "Person",
+        "name": "Arjun Verma"
+      },
+      {
+        "type": "Transaction",
+        "name": "TD-Q2-008"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-OHS-06-24-015"
+      },
+      {
+        "type": "Transaction",
+        "name": "TD-Q2-009"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-SNS-06-24-004"
+      },
+      {
+        "type": "Transaction",
+        "name": "TD-Q2-010"
+      },
+      {
+        "type": "Transaction",
+        "name": "INV-CHC-06-24-002"
+      },
+      {
+        "type": "Person",
+        "name": "Vikram Patel"
+      }
+    ],
+    "relationships": []
+  }
+]
