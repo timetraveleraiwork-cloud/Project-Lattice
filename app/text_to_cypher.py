@@ -1,7 +1,9 @@
+from __future__ import annotations
+
 from app.llm import call_model
 from app.schemas import CypherQuery
 
-SCHEMA = """
+DATABASE_SCHEMA = """
 Node Labels:
 Person
 Department
@@ -38,13 +40,24 @@ Rules:
 """
 
 
-def generate_cypher(question: str) -> str:
-    prompt = f"""
-You are an expert Neo4j Cypher generator.
+def _build_prompt(task: str) -> str:
+    """Build a prompt using the current database schema."""
 
+    return f"""
 Database Schema:
 
-{SCHEMA}
+{DATABASE_SCHEMA}
+
+{task}
+"""
+
+
+def generate_cypher(question: str) -> str:
+    """Generate a read-only Cypher query from a natural language question."""
+
+    prompt = _build_prompt(
+        f"""
+You are an expert Neo4j Cypher generator.
 
 Return ONLY JSON in this format:
 
@@ -55,6 +68,7 @@ Return ONLY JSON in this format:
 Question:
 {question}
 """
+    )
 
     response = call_model(prompt, CypherQuery)
 
@@ -66,14 +80,13 @@ def correct_cypher(
     failed_query: str,
     error_message: str,
 ) -> str:
-    prompt = f"""
+    """Correct a Cypher query that failed execution."""
+
+    prompt = _build_prompt(
+        f"""
 You are an expert Neo4j Cypher developer.
 
 The previous query failed.
-
-Database Schema:
-
-{SCHEMA}
 
 Original Question:
 {question}
@@ -95,6 +108,7 @@ Your task:
     "query": "<corrected cypher query>"
 }}
 """
+    )
 
     response = call_model(prompt, CypherQuery)
 

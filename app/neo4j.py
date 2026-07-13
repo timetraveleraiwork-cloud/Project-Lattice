@@ -1,9 +1,16 @@
+from __future__ import annotations
+
+import os
+from typing import Any
+
+from dotenv import load_dotenv
 from neo4j import GraphDatabase
 
-URI = "bolt://localhost:7687"
-USERNAME = "neo4j"
-PASSWORD = "Lattice*18"
+load_dotenv()
 
+URI = os.getenv("NEO4J_URI", "bolt://localhost:7687")
+USERNAME = os.getenv("NEO4J_USERNAME", "neo4j")
+PASSWORD = os.getenv("NEO4J_PASSWORD")
 
 driver = GraphDatabase.driver(
     URI,
@@ -11,7 +18,10 @@ driver = GraphDatabase.driver(
 )
 
 
-def run_query(query: str, parameters: dict | None = None):
+def run_query(
+    query: str,
+    parameters: dict[str, Any] | None = None,
+) -> list[dict[str, Any]]:
     """Execute a Cypher query and return the results."""
 
     with driver.session() as session:
@@ -19,5 +29,7 @@ def run_query(query: str, parameters: dict | None = None):
         return [record.data() for record in result]
 
 
-def close():
+def close() -> None:
+    """Close the Neo4j driver."""
+
     driver.close()

@@ -1,33 +1,37 @@
-from app.text_to_cypher import generate_cypher, correct_cypher
+from __future__ import annotations
+
 from app.cypher_safety import validate_query
 from app.neo4j import run_query
 from app.schemas import QueryResponse
+from app.text_to_cypher import correct_cypher, generate_cypher
 
 
 def answer_question(question: str) -> QueryResponse:
+    """Generate, validate and execute a Cypher query."""
+
     cypher = generate_cypher(question)
 
-    validate_query(cypher)
+    for attempt in range(2):
+        try:
+            validate_query(cypher)
 
-    try:
-        results = run_query(cypher)
+            results = run_query(cypher)
 
-    except Exception as e:
-        corrected = correct_cypher(
-            question=question,
-            failed_query=cypher,
-            error_message=str(e),
-        )
+            return QueryResponse(
+                question=question,
+                cypher=cypher,
+                results=results,
+                supporting_nodes=results,
+            )
 
-        validate_query(corrected)
+        except Exception as exc:
+            if attempt == 1:
+                raise
 
-        results = run_query(corrected)
+            cypher = correct_cypher(
+                question=question,
+                failed_query=cypher,
+                error_message=str(exc),
+            )
 
-        cypher = corrected
-
-    return QueryResponse(
-        question=question,
-        cypher=cypher,
-        results=results,
-        supporting_nodes=results,
-    )
+    raise RuntimeError("Unexpected failure in answer_question().")
