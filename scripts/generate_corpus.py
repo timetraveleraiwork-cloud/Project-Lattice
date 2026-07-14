@@ -8,7 +8,7 @@ sys.path.insert(0, str(ROOT))
 
 from app.llm import call_model
 from app.schemas import GeneratedDocument
-from Week_2.corpus_plan import DOCUMENT_TYPES, EMAIL_STYLES, PATTERNS
+from docs.corpus_plan import DOCUMENT_TYPES, EMAIL_STYLES, PATTERNS
 
 # Project root
 ROOT = Path(__file__).resolve().parents[2]

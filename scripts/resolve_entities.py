@@ -63,33 +63,26 @@ def is_duplicate(name1: str, name2: str) -> bool:
 def resolve_entities(documents: list[dict]):
     """Resolve duplicate entities across all documents."""
 
-    canonical_entities: dict[str, list[dict]] = {}
-    canonical_name_map: dict[tuple[str, str], str] = {}
+    canonical_entities: list[dict] = []
+    canonical_name_map: dict[str, str] = {}
 
     duplicates_removed = 0
 
     for document in documents:
         resolved_entities = []
 
-        # --------------------------------------------------
-        # Resolve duplicate entities
-        # --------------------------------------------------
         for entity in document.get("entities", []):
-            entity_type = entity["type"]
             entity_name = entity["name"]
-
             normalized = normalize_name(entity_name)
-
-            canonical_entities.setdefault(entity_type, [])
 
             matched_entity = None
 
-            for existing in canonical_entities[entity_type]:
+            for existing in canonical_entities:
                 existing_normalized = normalize_name(existing["name"])
 
                 if is_duplicate(normalized, existing_normalized):
                     matched_entity = existing
-                    canonical_name_map[(entity_type, entity_name)] = existing["name"]
+                    canonical_name_map[entity_name] = existing["name"]
                     break
 
             if matched_entity:
@@ -97,35 +90,18 @@ def resolve_entities(documents: list[dict]):
                 resolved_entities.append(matched_entity)
 
             else:
-                canonical_entities[entity_type].append(entity)
-                canonical_name_map[(entity_type, entity_name)] = entity_name
+                canonical_entities.append(entity)
+                canonical_name_map[entity_name] = entity["name"]
                 resolved_entities.append(entity)
 
         document["entities"] = resolved_entities
 
-        # --------------------------------------------------
-        # Fast lookup for entity types
-        # --------------------------------------------------
-        entity_lookup = {entity["name"]: entity["type"] for entity in resolved_entities}
-
-        # --------------------------------------------------
-        # Rewrite relationship endpoints
-        # --------------------------------------------------
         for relationship in document.get("relationships", []):
-            source_type = entity_lookup.get(relationship["source"])
-            target_type = entity_lookup.get(relationship["target"])
+            if relationship["source"] in canonical_name_map:
+                relationship["source"] = canonical_name_map[relationship["source"]]
 
-            if source_type:
-                relationship["source"] = canonical_name_map.get(
-                    (source_type, relationship["source"]),
-                    relationship["source"],
-                )
-
-            if target_type:
-                relationship["target"] = canonical_name_map.get(
-                    (target_type, relationship["target"]),
-                    relationship["target"],
-                )
+            if relationship["target"] in canonical_name_map:
+                relationship["target"] = canonical_name_map[relationship["target"]]
 
     return documents, canonical_entities, duplicates_removed
 
@@ -162,9 +138,8 @@ def main() -> None:
 
     total_entities = 0
 
-    for entity_type, entities in sorted(canonical_entities.items()):
-        print(f"{entity_type:<15}: {len(entities)} canonical entities")
-        total_entities += len(entities)
+    print(f"Canonical entities : {len(canonical_entities)}")
+    total_entities = len(canonical_entities)
 
     print()
     print(f"Duplicates removed : {duplicates_removed}")

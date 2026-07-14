@@ -1480,25 +1480,25 @@
         "source_document": "004_expense_report.txt"
       },
       {
-        "source": "Transaction 2024-08-12 OfficeHive Supplies",
+        "source": "Transaction 2024-07-10 OfficeHive Supplies",
         "target": "OfficeHive Supplies",
         "relation": "PAID_TO",
         "source_document": "004_expense_report.txt"
       },
       {
-        "source": "Transaction 2024-08-12 OfficeHive Supplies",
+        "source": "Transaction 2024-07-10 OfficeHive Supplies",
         "target": "LD-OHS-20240812-002",
         "relation": "HAS_INVOICE",
         "source_document": "004_expense_report.txt"
       },
       {
-        "source": "Transaction 2024-08-12 OfficeHive Supplies",
+        "source": "Transaction 2024-07-10 OfficeHive Supplies",
         "target": "Nebula Initiative",
         "relation": "RELATED_TO",
         "source_document": "004_expense_report.txt"
       },
       {
-        "source": "Transaction 2024-08-12 OfficeHive Supplies",
+        "source": "Transaction 2024-07-10 OfficeHive Supplies",
         "target": "Printer cartridges and specialized cables",
         "relation": "MENTIONS",
         "source_document": "004_expense_report.txt"
@@ -1587,7 +1587,7 @@
     "relationships": [
       {
         "source": "Priya Nair",
-        "target": "Finance department",
+        "target": "Finance Department",
         "relation": "WORKS_IN",
         "source_document": "005_employee_bio.txt"
       },
@@ -1605,13 +1605,13 @@
       },
       {
         "source": "Priya Nair",
-        "target": "IT department",
+        "target": "IT Department",
         "relation": "COMMUNICATED_WITH",
         "source_document": "005_employee_bio.txt"
       },
       {
         "source": "Rahul Sharma",
-        "target": "IT department",
+        "target": "IT Department",
         "relation": "WORKS_IN",
         "source_document": "005_employee_bio.txt"
       },
@@ -2942,7 +2942,7 @@
       },
       {
         "source": "Rahul Sharma",
-        "target": "IT department",
+        "target": "IT Department",
         "relation": "WORKS_IN",
         "source_document": "010_vendor_agreement.txt"
       },
@@ -2960,7 +2960,7 @@
       },
       {
         "source": "Vendor Agreement - TechNova Solutions Pvt Ltd",
-        "target": "IT department",
+        "target": "IT Department",
         "relation": "MENTIONS",
         "source_document": "010_vendor_agreement.txt"
       },
@@ -3258,7 +3258,7 @@
       },
       {
         "source": "Project Memo: Cloud Migration Initiative - Phase 1 Kick-off",
-        "target": "Security Vulnerabilities",
+        "target": "R-04: Security Vulnerabilities",
         "relation": "MENTIONS",
         "source_document": "011_project_memo.txt"
       },
@@ -3360,7 +3360,7 @@
       },
       {
         "source": "Compliance",
-        "target": "Security Vulnerabilities",
+        "target": "R-04: Security Vulnerabilities",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "011_project_memo.txt"
       },
@@ -3378,7 +3378,7 @@
       },
       {
         "source": "Cloud Migration Initiative - Phase 1",
-        "target": "Security Vulnerabilities",
+        "target": "R-04: Security Vulnerabilities",
         "relation": "HAS_RISK",
         "source_document": "011_project_memo.txt"
       },
@@ -5382,8 +5382,8 @@
         "source_document": "016_expense_report.txt"
       },
       {
-        "type": "Transaction",
-        "name": "Temporary software license for specialized project planning & resource allocation tool expense",
+        "type": "Service",
+        "name": "Temporary software license for specialized project planning & resource allocation tool",
         "source_document": "016_expense_report.txt"
       },
       {
@@ -5440,7 +5440,7 @@
     "relationships": [
       {
         "source": "Arjun Verma",
-        "target": "Operations (Project Management)",
+        "target": "Operations/Project Management",
         "relation": "WORKS_IN",
         "source_document": "016_expense_report.txt"
       },
@@ -5464,7 +5464,7 @@
       },
       {
         "source": "Expense Report - Project Falcon - Feb 2024 (Arjun Verma)",
-        "target": "Operations (Project Management)",
+        "target": "Operations/Project Management",
         "relation": "MENTIONS",
         "source_document": "016_expense_report.txt"
       },
@@ -5500,7 +5500,7 @@
       },
       {
         "source": "Expense Report - Project Falcon - Feb 2024 (Arjun Verma)",
-        "target": "IT department",
+        "target": "IT Department",
         "relation": "MENTIONS",
         "source_document": "016_expense_report.txt"
       },
@@ -5559,13 +5559,13 @@
         "source_document": "016_expense_report.txt"
       },
       {
-        "source": "Temporary software license for specialized project planning & resource allocation tool expense",
+        "source": "Temporary software license for specialized project planning & resource allocation tool",
         "target": "TechNova Solutions Pvt Ltd",
         "relation": "PAID_TO",
         "source_document": "016_expense_report.txt"
       },
       {
-        "source": "Temporary software license for specialized project planning & resource allocation tool expense",
+        "source": "Temporary software license for specialized project planning & resource allocation tool",
         "target": "Expense Report Receipts",
         "relation": "HAS_INVOICE",
         "source_document": "016_expense_report.txt"
@@ -5625,7 +5625,7 @@
         "source_document": "016_expense_report.txt"
       },
       {
-        "source": "IT department",
+        "source": "IT Department",
         "target": "Project Falcon",
         "relation": "RELATED_TO",
         "source_document": "016_expense_report.txt"
@@ -5698,9 +5698,9 @@
         "source_document": "013_email_thread.txt"
       },
       {
-        "type": "Service",
+        "type": "Vendor",
         "name": "CloudKart Services",
-        "source_document": "017_email_thread.txt"
+        "source_document": "001_employee_bio.txt"
       },
       {
         "type": "Service",
@@ -5748,7 +5748,7 @@
       },
       {
         "source": "Sandeep Menon",
-        "target": "Compliance department",
+        "target": "Compliance Department",
         "relation": "WORKS_IN",
         "source_document": "017_email_thread.txt"
       },
@@ -5771,7 +5771,7 @@
         "source_document": "017_email_thread.txt"
       },
       {
-        "source": "Compliance department",
+        "source": "Compliance Department",
         "target": "Regulatory compliance requirements",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "017_email_thread.txt"
@@ -5795,7 +5795,7 @@
         "source_document": "017_email_thread.txt"
       },
       {
-        "source": "Compliance department",
+        "source": "Compliance Department",
         "target": "Regulatory compliance requirements",
         "relation": "HAS_RISK",
         "source_document": "017_email_thread.txt"
@@ -5988,7 +5988,7 @@
       },
       {
         "source": "Email Thread: Urgent: Network Latency Issues Affecting Operations",
-        "target": "Compliance department",
+        "target": "Compliance Department",
         "relation": "MENTIONS",
         "source_document": "017_email_thread.txt"
       },
@@ -7750,9 +7750,9 @@
         "source_document": "021_vendor_agreement.txt"
       },
       {
-        "type": "Department",
+        "type": "Vendor",
         "name": "Lattice Dynamics Pvt. Ltd.",
-        "source_document": "021_vendor_agreement.txt"
+        "source_document": "006_employee_bio.txt"
       },
       {
         "type": "Person",
@@ -7970,9 +7970,9 @@
         "source_document": "022_email_thread.txt"
       },
       {
-        "type": "Service",
+        "type": "Vendor",
         "name": "CloudKart Services",
-        "source_document": "017_email_thread.txt"
+        "source_document": "001_employee_bio.txt"
       },
       {
         "type": "Project",
@@ -8360,7 +8360,7 @@
       },
       {
         "source": "PROJECT MEMO: Q3 Data Infrastructure Upgrade & Security Enhancements",
-        "target": "IT/Data Analytics",
+        "target": "Data Analytics",
         "relation": "MENTIONS",
         "source_document": "023_project_memo.txt"
       },
@@ -8390,7 +8390,7 @@
       },
       {
         "source": "PROJECT MEMO: Q3 Data Infrastructure Upgrade & Security Enhancements",
-        "target": "Security Vulnerabilities",
+        "target": "R-04: Security Vulnerabilities",
         "relation": "MENTIONS",
         "source_document": "023_project_memo.txt"
       },
@@ -8468,7 +8468,7 @@
       },
       {
         "source": "Neha Singh",
-        "target": "IT/Data Analytics",
+        "target": "Data Analytics",
         "relation": "WORKS_IN",
         "source_document": "023_project_memo.txt"
       },
@@ -8546,7 +8546,7 @@
       },
       {
         "source": "Sandeep Menon",
-        "target": "Security Vulnerabilities",
+        "target": "R-04: Security Vulnerabilities",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "023_project_memo.txt"
       },
@@ -8570,7 +8570,7 @@
       },
       {
         "source": "Q3 Data Infrastructure Upgrade & Security Enhancements",
-        "target": "Security Vulnerabilities",
+        "target": "R-04: Security Vulnerabilities",
         "relation": "HAS_RISK",
         "source_document": "023_project_memo.txt"
       },
@@ -9846,12 +9846,12 @@
       },
       {
         "source": "LD-TL-2405-001",
-        "target": "Q2 software license renewal",
+        "target": "Software license renewals",
         "relation": "RELATED_TO",
         "source_document": "026_transaction_log.txt"
       },
       {
-        "source": "Q2 software license renewal",
+        "source": "Software license renewals",
         "target": "TechNova Solutions Pvt Ltd",
         "relation": "PROVIDED_BY",
         "source_document": "026_transaction_log.txt"
@@ -9870,7 +9870,7 @@
       },
       {
         "source": "IT",
-        "target": "Q2 software license renewal",
+        "target": "Software license renewals",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "026_transaction_log.txt"
       },
@@ -10901,133 +10901,133 @@
         "source_document": "028_project_memo.txt"
       },
       {
-        "source": "Project Memo",
+        "source": "PROJECT MEMO",
         "target": "Vikram Patel",
         "relation": "MENTIONS",
         "source_document": "028_project_memo.txt"
       },
       {
-        "source": "Project Memo",
+        "source": "PROJECT MEMO",
         "target": "Priya Nair",
         "relation": "MENTIONS",
         "source_document": "028_project_memo.txt"
       },
       {
-        "source": "Project Memo",
+        "source": "PROJECT MEMO",
         "target": "Sandeep Menon",
         "relation": "MENTIONS",
         "source_document": "028_project_memo.txt"
       },
       {
-        "source": "Project Memo",
+        "source": "PROJECT MEMO",
         "target": "Arjun Verma",
         "relation": "MENTIONS",
         "source_document": "028_project_memo.txt"
       },
       {
-        "source": "Project Memo",
+        "source": "PROJECT MEMO",
         "target": "SecureIT Infrastructure Upgrade",
         "relation": "MENTIONS",
         "source_document": "028_project_memo.txt"
       },
       {
-        "source": "Project Memo",
+        "source": "PROJECT MEMO",
         "target": "SecureIT Infrastructure Upgrade - Phase I",
         "relation": "MENTIONS",
         "source_document": "028_project_memo.txt"
       },
       {
-        "source": "Project Memo",
+        "source": "PROJECT MEMO",
         "target": "Operations Department",
         "relation": "MENTIONS",
         "source_document": "028_project_memo.txt"
       },
       {
-        "source": "Project Memo",
+        "source": "PROJECT MEMO",
         "target": "Rahul Sharma",
         "relation": "MENTIONS",
         "source_document": "028_project_memo.txt"
       },
       {
-        "source": "Project Memo",
+        "source": "PROJECT MEMO",
         "target": "IT Department",
         "relation": "MENTIONS",
         "source_document": "028_project_memo.txt"
       },
       {
-        "source": "Project Memo",
+        "source": "PROJECT MEMO",
         "target": "Ankit Gupta",
         "relation": "MENTIONS",
         "source_document": "028_project_memo.txt"
       },
       {
-        "source": "Project Memo",
+        "source": "PROJECT MEMO",
         "target": "Neha Singh",
         "relation": "MENTIONS",
         "source_document": "028_project_memo.txt"
       },
       {
-        "source": "Project Memo",
+        "source": "PROJECT MEMO",
         "target": "Compliance Department",
         "relation": "MENTIONS",
         "source_document": "028_project_memo.txt"
       },
       {
-        "source": "Project Memo",
+        "source": "PROJECT MEMO",
         "target": "SecureNet Systems",
         "relation": "MENTIONS",
         "source_document": "028_project_memo.txt"
       },
       {
-        "source": "Project Memo",
+        "source": "PROJECT MEMO",
         "target": "CloudKart Services",
         "relation": "MENTIONS",
         "source_document": "028_project_memo.txt"
       },
       {
-        "source": "Project Memo",
+        "source": "PROJECT MEMO",
         "target": "Advanced Firewall Solutions and Intrusion Detection Systems",
         "relation": "MENTIONS",
         "source_document": "028_project_memo.txt"
       },
       {
-        "source": "Project Memo",
+        "source": "PROJECT MEMO",
         "target": "Cloud Data Storage and Application Workloads",
         "relation": "MENTIONS",
         "source_document": "028_project_memo.txt"
       },
       {
-        "source": "Project Memo",
+        "source": "PROJECT MEMO",
         "target": "detailed budget breakdown",
         "relation": "MENTIONS",
         "source_document": "028_project_memo.txt"
       },
       {
-        "source": "Project Memo",
+        "source": "PROJECT MEMO",
         "target": "Vendor Agreements",
         "relation": "MENTIONS",
         "source_document": "028_project_memo.txt"
       },
       {
-        "source": "Project Memo",
+        "source": "PROJECT MEMO",
         "target": "Data Migration Issues",
         "relation": "MENTIONS",
         "source_document": "028_project_memo.txt"
       },
       {
-        "source": "Project Memo",
+        "source": "PROJECT MEMO",
         "target": "Unexpected Downtime",
         "relation": "MENTIONS",
         "source_document": "028_project_memo.txt"
       },
       {
-        "source": "Project Memo",
+        "source": "PROJECT MEMO",
         "target": "Budget Escalation",
         "relation": "MENTIONS",
         "source_document": "028_project_memo.txt"
       },
       {
-        "source": "Project Memo",
+        "source": "PROJECT MEMO",
         "target": "Integration Challenges with Legacy Systems",
         "relation": "MENTIONS",
         "source_document": "028_project_memo.txt"
@@ -14497,9 +14497,9 @@
         "source_document": "001_employee_bio.txt"
       },
       {
-        "type": "Project",
-        "name": "Q3 Software License Renewals",
-        "source_document": "035_email_thread.txt"
+        "type": "Service",
+        "name": "Software license renewals",
+        "source_document": "019_transaction_log.txt"
       },
       {
         "type": "Project",
@@ -14656,7 +14656,7 @@
       },
       {
         "source": "Rahul Sharma",
-        "target": "Q3 Software License Renewals",
+        "target": "Software license renewals",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "035_email_thread.txt"
       },
@@ -14668,7 +14668,7 @@
       },
       {
         "source": "Arjun Verma",
-        "target": "Q3 Software License Renewals",
+        "target": "Software license renewals",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "035_email_thread.txt"
       },
@@ -14680,13 +14680,13 @@
       },
       {
         "source": "Operations Department",
-        "target": "Q3 Software License Renewals",
+        "target": "Software license renewals",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "035_email_thread.txt"
       },
       {
         "source": "Meera Iyer",
-        "target": "Q3 Software License Renewals",
+        "target": "Software license renewals",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "035_email_thread.txt"
       },
@@ -14698,7 +14698,7 @@
       },
       {
         "source": "Procurement Department",
-        "target": "Q3 Software License Renewals",
+        "target": "Software license renewals",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "035_email_thread.txt"
       },
@@ -14710,7 +14710,7 @@
       },
       {
         "source": "Priya Nair",
-        "target": "Q3 Software License Renewals",
+        "target": "Software license renewals",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "035_email_thread.txt"
       },
@@ -14722,7 +14722,7 @@
       },
       {
         "source": "Finance Department",
-        "target": "Q3 Software License Renewals",
+        "target": "Software license renewals",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "035_email_thread.txt"
       },
@@ -14824,7 +14824,7 @@
       },
       {
         "source": "Email Thread: Q3 IT Infrastructure Renewals and Upgrades",
-        "target": "Q3 Software License Renewals",
+        "target": "Software license renewals",
         "relation": "MENTIONS",
         "source_document": "035_email_thread.txt"
       },
@@ -14914,7 +14914,7 @@
       },
       {
         "source": "technical specifications",
-        "target": "Q3 Software License Renewals",
+        "target": "Software license renewals",
         "relation": "MENTIONS",
         "source_document": "035_email_thread.txt"
       },
@@ -14944,7 +14944,7 @@
       },
       {
         "source": "comprehensive document",
-        "target": "Q3 Software License Renewals",
+        "target": "Software license renewals",
         "relation": "MENTIONS",
         "source_document": "035_email_thread.txt"
       },
@@ -15765,9 +15765,9 @@
         "source_document": "001_employee_bio.txt"
       },
       {
-        "type": "Department",
+        "type": "Vendor",
         "name": "Lattice Dynamics Pvt. Ltd.",
-        "source_document": "021_vendor_agreement.txt"
+        "source_document": "006_employee_bio.txt"
       },
       {
         "type": "Department",
@@ -15914,9 +15914,9 @@
         "source_document": "040_vendor_agreement.txt"
       },
       {
-        "type": "Department",
+        "type": "Vendor",
         "name": "Lattice Dynamics Pvt. Ltd.",
-        "source_document": "021_vendor_agreement.txt"
+        "source_document": "006_employee_bio.txt"
       },
       {
         "type": "Vendor",
@@ -16176,7 +16176,7 @@
     ],
     "relationships": [
       {
-        "source": "Cloud Infrastructure Services",
+        "source": "Cloud infrastructure services",
         "target": "CloudKart Services",
         "relation": "PROVIDED_BY",
         "source_document": "041_vendor_agreement.txt"
@@ -16541,7 +16541,7 @@
       },
       {
         "source": "Sandeep Menon",
-        "target": "Security Vulnerabilities",
+        "target": "R-04: Security Vulnerabilities",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "042_project_memo.txt"
       },
@@ -16571,7 +16571,7 @@
       },
       {
         "source": "Cloud Migration Initiative - Phase 1",
-        "target": "Security Vulnerabilities",
+        "target": "R-04: Security Vulnerabilities",
         "relation": "HAS_RISK",
         "source_document": "042_project_memo.txt"
       },
@@ -16751,7 +16751,7 @@
       },
       {
         "source": "PROJECT MEMO: Cloud Migration Initiative - Phase 1 Progress & Upcoming Milestones",
-        "target": "Security Vulnerabilities",
+        "target": "R-04: Security Vulnerabilities",
         "relation": "MENTIONS",
         "source_document": "042_project_memo.txt"
       },
@@ -16901,9 +16901,9 @@
         "source_document": "001_employee_bio.txt"
       },
       {
-        "type": "Service",
+        "type": "Vendor",
         "name": "SecureNet Systems",
-        "source_document": "043_org_chart_notes.txt"
+        "source_document": "003_project_memo.txt"
       },
       {
         "type": "Project",
@@ -17175,9 +17175,9 @@
         "source_document": "001_employee_bio.txt"
       },
       {
-        "type": "Department",
+        "type": "Vendor",
         "name": "Lattice Dynamics Pvt. Ltd.",
-        "source_document": "021_vendor_agreement.txt"
+        "source_document": "006_employee_bio.txt"
       },
       {
         "type": "Department",
@@ -17577,7 +17577,7 @@
         "source_document": "045_transaction_log.txt"
       },
       {
-        "source": "Software license renewal",
+        "source": "Software license renewals",
         "target": "TechNova Solutions Pvt Ltd",
         "relation": "PROVIDED_BY",
         "source_document": "045_transaction_log.txt"
