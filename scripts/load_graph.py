@@ -11,6 +11,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
 from app.canonical_map import map_node_type, map_rel_type
+from app.schema import RELATION_SCHEMA
 
 load_dotenv()
 
@@ -33,6 +34,34 @@ print(f"Loaded {len(documents)} documents.")
 
 def normalize_label(label: str) -> str:
     return re.sub(r"[^A-Za-z0-9_]", "_", label.strip())
+
+
+def is_valid_relationship(
+    source_label: str,
+    rel_type: str,
+    target_label: str,
+) -> bool:
+    """Validate a relationship against the frozen ontology."""
+
+    schema = RELATION_SCHEMA.get(rel_type)
+
+    if schema is None:
+        return False
+
+    allowed_source, allowed_target = schema
+
+    def matches(actual: str, allowed) -> bool:
+        if allowed is None:
+            return True
+
+        if isinstance(allowed, tuple):
+            return actual in {node.value for node in allowed}
+
+        return actual == allowed.value
+
+    return matches(source_label, allowed_source) and matches(
+        target_label, allowed_target
+    )
 
 
 def normalize_relationship(rel: str) -> str:
@@ -70,34 +99,53 @@ def load_node(tx, entity, source_document):
     )
 
 
-def load_relationship(tx, relationship, source_document):
-    mapped = map_rel_type(relationship["relation"])
+def load_relationship(tx, relationship, entity_lookup, source_document):
+    relation = map_rel_type(relationship["relation"])
 
-    if mapped is None:
+    if relation is None:
         return
 
-    relation = normalize_relationship(mapped)
+    source_name = relationship["source"]
+    target_name = relationship["target"]
 
-    properties = relationship.copy()
-    properties.pop("source", None)
-    properties.pop("target", None)
-    properties.pop("relation", None)
+    source_label = entity_lookup.get(source_name)
+    target_label = entity_lookup.get(target_name)
+
+    if source_label is None or target_label is None:
+        return
+
+    if not is_valid_relationship(source_label, relation, target_label):
+        print(
+            f"Skipped relationship: "
+            f"{source_name} ({source_label}) "
+            f"-[:{relation}]-> "
+            f"{target_name} ({target_label})"
+        )
+        return
 
     query = f"""
-    MATCH (source {{name: $source}})
-    MATCH (target {{name: $target}})
+    MATCH (source:{source_label} {{name:$source}})
+    MATCH (target:{target_label} {{name:$target}})
     MERGE (source)-[r:{relation}]->(target)
-    SET r += $properties
-    SET r.source_document = $source_document
+    SET r.source_document=$source_document
     """
 
-    tx.run(
+    result = tx.run(
         query,
-        source=relationship["source"],
-        target=relationship["target"],
-        properties=properties,
+        source=source_name,
+        target=target_name,
         source_document=source_document,
     )
+
+    summary = result.consume()
+
+    if summary.counters.relationships_created == 0:
+        print(
+            f"Relationship already existed or nodes not found: "
+            f"{source_name} ({source_label}) "
+            f"-[:{relation}]-> "
+            f"{target_name} ({target_label})"
+        )
 
 
 try:
@@ -108,6 +156,9 @@ try:
         for document in documents:
             source_document = document["document"]
 
+            # -------------------------
+            # Load Nodes
+            # -------------------------
             for entity in document["entities"]:
                 session.execute_write(
                     load_node,
@@ -115,15 +166,26 @@ try:
                     source_document,
                 )
 
+            # -------------------------
+            # Build lookup for this document
+            # -------------------------
+            entity_lookup = {
+                entity["name"]: map_node_type(entity["type"])
+                for entity in document["entities"]
+            }
+
+            # -------------------------
+            # Load Relationships
+            # -------------------------
             for relationship in document["relationships"]:
                 session.execute_write(
                     load_relationship,
                     relationship,
+                    entity_lookup,
                     source_document,
                 )
 
     print("✅ All nodes and relationships loaded successfully!")
 
 finally:
-    if driver:
-        driver.close()
+    driver.close()

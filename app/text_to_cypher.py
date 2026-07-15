@@ -5,37 +5,38 @@ from app.schemas import CypherQuery
 
 DATABASE_SCHEMA = """
 Node Labels:
-Person
-Department
-Vendor
-Transaction
-Project
-Risk
-Invoice
-Agreement
-Service
-Role
-Amount
-Document
+- Person
+- Department
+- Vendor
+- Project
+- Contract
+- Transaction
+- Invoice
+- Document
+- Risk
+- Service
 
 Relationship Types:
-WORKS_IN
-REPORTS_TO
-HAS_ROLE
-APPROVED
-PAID_TO
-HAS_AMOUNT
-FOR_DEPARTMENT
-HAS_INVOICE
-PROVIDED_BY
-FINALIZED_AGREEMENT_WITH
-HAS_RISK
-RESPONSIBLE_FOR
+
+- WORKS_IN           : (Person) -> (Department)
+- REPORTS_TO         : (Person) -> (Person)
+- ASSIGNED_TO        : (Person) -> (Project)
+- RESPONSIBLE_FOR    : (Person) -> (Project)
+- APPROVED           : (Person) -> (Transaction | Contract | Document | Invoice)
+- PAID_TO            : (Transaction) -> (Vendor)
+- HAS_INVOICE        : (Transaction) -> (Invoice)
+- HAS_RISK           : (Project | Department) -> (Risk)
+- PROVIDED_BY        : (Service) -> (Vendor)
+- COMMUNICATED_WITH  : (Person | Department) -> (Person | Vendor | Department)
+- MENTIONS           : (Document) -> (Any)
+- RELATED_TO         : Generic fallback when no specific relationship exists.
 
 Rules:
-- Generate ONLY a read-only Cypher query.
-- Never use CREATE, MERGE, DELETE, SET, REMOVE, DROP.
-- Always return valid Cypher.
+- Generate ONLY read-only Cypher.
+- Never use CREATE, MERGE, DELETE, SET, REMOVE or DROP.
+- Use ONLY the node labels and relationship types listed above.
+- Never invent labels or relationships.
+- If multiple relationship types are possible, prefer the most specific one over RELATED_TO.
 - Add LIMIT 50 unless the user explicitly requests more.
 """
 
