@@ -7,35 +7,52 @@ from app.schema import NodeType, RelType
 # ==========================================================
 
 NODE_MAP: dict[str, str | None] = {
+    # ------------------------------------------------------
     # Vendors
+    # ------------------------------------------------------
     "Company": NodeType.VENDOR.value,
     "Organization": NodeType.VENDOR.value,
     "Organisation": NodeType.VENDOR.value,
+    # ------------------------------------------------------
     # People
+    # ------------------------------------------------------
     "Employee": NodeType.PERSON.value,
     "Staff": NodeType.PERSON.value,
     "Staff_Member": NodeType.PERSON.value,
     "Manager": NodeType.PERSON.value,
+    # ------------------------------------------------------
     # Departments
+    # ------------------------------------------------------
     "Dept": NodeType.DEPARTMENT.value,
     "Team": NodeType.DEPARTMENT.value,
+    # ------------------------------------------------------
     # Contracts
+    # ------------------------------------------------------
     "Agreement": NodeType.CONTRACT.value,
-    # Transactions
-    "Invoice": NodeType.TRANSACTION.value,
+    # ------------------------------------------------------
+    # Transactions / Invoices
+    # ------------------------------------------------------
     "Payment": NodeType.TRANSACTION.value,
-    # Documents (drop them; provenance is stored in source_document)
-    "Document": None,
-    "Email": None,
-    "Memo": None,
-    "Meeting Notes": None,
-    "Report": None,
+    # Keep Invoice as its own node type
+    "Invoice": NodeType.INVOICE.value,
+    # ------------------------------------------------------
+    # Documents
+    # ------------------------------------------------------
+    "Email": NodeType.DOCUMENT.value,
+    "Memo": NodeType.DOCUMENT.value,
+    "Meeting Notes": NodeType.DOCUMENT.value,
+    "Report": NodeType.DOCUMENT.value,
+    # ------------------------------------------------------
     # Risks
-    "Risk": NodeType.RISK.value,
+    # ------------------------------------------------------
     "Incident": NodeType.RISK.value,
-    # Services (drop for now)
-    "Service": None,
-    # Attribute-like nodes
+    # ------------------------------------------------------
+    # Services
+    # ------------------------------------------------------
+    "Service": NodeType.SERVICE.value,
+    # ------------------------------------------------------
+    # Attribute-like nodes (drop)
+    # ------------------------------------------------------
     "Amount": None,
     "Budget": None,
     "Budget_Code": None,
@@ -59,13 +76,12 @@ REL_MAP: dict[str, str | None] = {
     "APPROVED": RelType.APPROVED.value,
     "PAID": RelType.PAID_TO.value,
     "PAID_TO": RelType.PAID_TO.value,
+    "HAS_INVOICE": RelType.HAS_INVOICE.value,
+    "HAS_RISK": RelType.HAS_RISK.value,
+    "PROVIDED_BY": RelType.PROVIDED_BY.value,
     "COMMUNICATED_WITH": RelType.COMMUNICATED_WITH.value,
+    "MENTIONS": RelType.MENTIONS.value,
     "RELATED_TO": RelType.RELATED_TO.value,
-    # Drop these
-    "HAS_INVOICE": None,
-    "HAS_RISK": None,
-    "PROVIDED_BY": None,
-    "MENTIONS": None,
     # Legacy
     "HAS_ROLE": None,
     "FOR_DEPARTMENT": None,
@@ -76,16 +92,22 @@ REL_MAP: dict[str, str | None] = {
 def map_node_type(raw: str) -> str | None:
     """Return the canonical node type or None if it should be dropped."""
 
+    if raw in NODE_MAP:
+        return NODE_MAP[raw]
+
     if raw in {node.value for node in NodeType}:
         return raw
 
-    return NODE_MAP.get(raw)
+    return None
 
 
 def map_rel_type(raw: str) -> str | None:
     """Return the canonical relationship type or None if it should be dropped."""
 
+    if raw in REL_MAP:
+        return REL_MAP[raw]
+
     if raw in {rel.value for rel in RelType}:
         return raw
 
-    return REL_MAP.get(raw)
+    return None

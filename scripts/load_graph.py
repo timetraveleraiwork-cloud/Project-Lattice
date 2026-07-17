@@ -74,6 +74,12 @@ def normalize_relationship(rel: str) -> str:
 
 def load_node(tx, entity, source_document):
     mapped = map_node_type(entity["type"])
+    print(
+        entity["type"],
+        "->",
+        mapped,
+        entity["name"],
+    )
 
     if mapped is None:
         return

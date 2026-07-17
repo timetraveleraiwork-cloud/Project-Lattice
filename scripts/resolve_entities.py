@@ -1,6 +1,6 @@
 # ruff: noqa: E402
 from __future__ import annotations
-
+import yaml
 import json
 import re
 import sys
@@ -22,6 +22,13 @@ OUTPUT_FILE = OUTPUT_DIR / "resolved_extractions.json"
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
+REVIEW_DIR = PROJECT_ROOT / "data" / "review"
+REVIEW_CANDIDATES_FILE = REVIEW_DIR / "review_candidates.jsonl"
+
+REVIEW_DIR.mkdir(parents=True, exist_ok=True)
+
+CANONICAL_MAP_FILE = REVIEW_DIR / "canonical_map.yaml"
+
 SIMILARITY_THRESHOLD = 92
 
 TITLES = {
@@ -30,6 +37,52 @@ TITLES = {
     "ms",
     "dr",
     "prof",
+}
+
+PLACEHOLDER_PATTERNS = [
+    re.compile(r"^\[.*\]$"),
+    re.compile(r"^<.*>$"),
+]
+
+PLACEHOLDER_NAMES = {
+    "staff",
+    "employee",
+    "manager",
+    "vendor",
+    "client",
+    "authorized representative",
+    "authorized signatory",
+    "representative",
+    "signatory",
+    "unknown",
+    "n/a",
+    "na",
+    "tbd",
+}
+
+ORG_SUFFIXES = {
+    "pvt ltd",
+    "private limited",
+    "ltd",
+    "limited",
+    "inc",
+    "corp",
+    "corporation",
+    "llc",
+    "co",
+    "company",
+}
+
+DEPARTMENT_SUFFIXES = {
+    "department",
+    "dept",
+    "team",
+}
+
+REVIEWABLE_TYPES = {
+    "Department",
+    "Vendor",
+    "Person",
 }
 
 # ==========================================================
@@ -41,10 +94,36 @@ def normalize_name(name: str) -> str:
     """Normalize names before fuzzy matching."""
 
     name = name.lower()
-
     name = re.sub(r"[^\w\s]", "", name)
 
     words = [word for word in name.split() if word not in TITLES]
+
+    return " ".join(words).strip()
+
+
+def normalize_organization(name: str) -> str:
+    """Normalize organization and department names."""
+
+    normalized = normalize_name(name)
+
+    words = normalized.split()
+
+    while words:
+        last = " ".join(words[-2:])
+
+        if last in ORG_SUFFIXES:
+            words = words[:-2]
+            continue
+
+        if words[-1] in ORG_SUFFIXES:
+            words.pop()
+            continue
+
+        if words[-1] in DEPARTMENT_SUFFIXES:
+            words.pop()
+            continue
+
+        break
 
     return " ".join(words).strip()
 
@@ -55,38 +134,142 @@ def is_duplicate(name1: str, name2: str) -> bool:
     return fuzz.token_sort_ratio(name1, name2) >= SIMILARITY_THRESHOLD
 
 
+def is_placeholder(name: str) -> bool:
+    """Return True if the entity name is a placeholder."""
+
+    if not name:
+        return True
+
+    cleaned = normalize_name(name)
+
+    if cleaned in PLACEHOLDER_NAMES:
+        return True
+
+    return any(pattern.match(name.strip()) for pattern in PLACEHOLDER_PATTERNS)
+
+
+def is_suspect_name(name: str) -> bool:
+    return "/" in name or "(" in name or ")" in name or "'" in name
+
+
+def add_review_candidate(
+    review_candidates: list[dict],
+    entity_a: dict,
+    entity_b: dict,
+    similarity: float,
+) -> None:
+    """Record a possible duplicate for manual review."""
+
+    review_candidates.append(
+        {
+            "a": entity_a["name"],
+            "b": entity_b["name"],
+            "label": entity_a["type"],
+            "similarity": round(similarity, 2),
+            "status": "pending",
+            "decision": None,
+            "decided_by": None,
+            "decided_at": None,
+        }
+    )
+
+
+def load_canonical_map() -> dict[tuple[str, str], str]:
+    """Load manually approved canonical mappings."""
+
+    if not CANONICAL_MAP_FILE.exists():
+        return {}
+
+    with CANONICAL_MAP_FILE.open(
+        "r",
+        encoding="utf-8",
+    ) as f:
+        data = yaml.safe_load(f) or {}
+
+    mappings = {}
+
+    for label, pairs in data.items():
+        for alias, canonical in pairs.items():
+            mappings[(label, alias)] = canonical
+
+    return mappings
+
+
 # ==========================================================
 # Entity Resolution
 # ==========================================================
 
 
 def resolve_entities(documents: list[dict]):
+    manual_map = load_canonical_map()
     """Resolve duplicate entities across all documents."""
 
     canonical_entities: list[dict] = []
     canonical_name_map: dict[str, str] = {}
+    review_candidates: list[dict] = []
 
     duplicates_removed = 0
+    placeholders_removed = 0
 
     for document in documents:
         resolved_entities = []
 
         for entity in document.get("entities", []):
             entity_name = entity["name"]
-            normalized = normalize_name(entity_name)
+            manual_key = (
+                entity["type"],
+                entity_name,
+            )
+            if manual_key in manual_map:
+                entity_name = manual_map[manual_key]
+
+            if is_placeholder(entity_name):
+                placeholders_removed += 1
+                continue
+
+            normalized = normalize_organization(entity_name)
 
             matched_entity = None
 
             for existing in canonical_entities:
-                existing_normalized = normalize_name(existing["name"])
+                if entity["type"] != existing["type"]:
+                    continue
+                existing_normalized = normalize_organization(existing["name"])
 
-                if is_duplicate(normalized, existing_normalized):
+                score = fuzz.token_sort_ratio(
+                    normalized,
+                    existing_normalized,
+                )
+
+                if score >= SIMILARITY_THRESHOLD:
                     matched_entity = existing
                     canonical_name_map[entity_name] = existing["name"]
-                    break
+                    aliases = matched_entity.setdefault("aliases", [])
+                    if (
+                        entity_name != matched_entity["name"]
+                        and entity_name not in aliases
+                    ):
+                        aliases.append(entity_name)
+                        break
+
+                elif (
+                    entity["type"] in REVIEWABLE_TYPES
+                    and entity["type"] == existing["type"]
+                    and 70 <= score < SIMILARITY_THRESHOLD
+                ):
+                    add_review_candidate(
+                        review_candidates,
+                        entity,
+                        existing,
+                        score,
+                    )
 
             if matched_entity:
                 duplicates_removed += 1
+                aliases = matched_entity.setdefault("aliases", [])
+
+                if entity_name != matched_entity["name"] and entity_name not in aliases:
+                    aliases.append(entity_name)
                 resolved_entities.append(matched_entity)
 
             else:
@@ -96,14 +279,49 @@ def resolve_entities(documents: list[dict]):
 
         document["entities"] = resolved_entities
 
+        filtered_relationships = []
+
         for relationship in document.get("relationships", []):
+            if is_placeholder(relationship["source"]) or is_placeholder(
+                relationship["target"]
+            ):
+                continue
+
             if relationship["source"] in canonical_name_map:
                 relationship["source"] = canonical_name_map[relationship["source"]]
 
             if relationship["target"] in canonical_name_map:
                 relationship["target"] = canonical_name_map[relationship["target"]]
 
-    return documents, canonical_entities, duplicates_removed
+            filtered_relationships.append(relationship)
+
+        document["relationships"] = filtered_relationships
+
+    unique_candidates = {}
+
+    for candidate in review_candidates:
+        key = (
+            tuple(sorted([candidate["a"], candidate["b"]])),
+            candidate["label"],
+        )
+
+    if key not in unique_candidates:
+        unique_candidates[key] = candidate
+
+    review_candidates = list(unique_candidates.values())
+
+    with REVIEW_CANDIDATES_FILE.open("w", encoding="utf-8") as f:
+        for candidate in review_candidates:
+            json.dump(candidate, f)
+            f.write("\n")
+
+    return (
+        documents,
+        canonical_entities,
+        duplicates_removed,
+        placeholders_removed,
+        len(review_candidates),
+    )
 
 
 # ==========================================================
@@ -116,16 +334,24 @@ def main() -> None:
         print(f"Input file not found:\n{INPUT_FILE}")
         return
 
-    with INPUT_FILE.open("r", encoding="utf-8") as f:
+    with INPUT_FILE.open(
+        "r",
+        encoding="utf-8",
+    ) as f:
         documents = json.load(f)
 
     (
         resolved_documents,
         canonical_entities,
         duplicates_removed,
+        placeholders_removed,
+        review_candidates_count,
     ) = resolve_entities(documents)
 
-    with OUTPUT_FILE.open("w", encoding="utf-8") as f:
+    with OUTPUT_FILE.open(
+        "w",
+        encoding="utf-8",
+    ) as f:
         json.dump(
             resolved_documents,
             f,
@@ -136,15 +362,13 @@ def main() -> None:
     print("Entity Resolution Complete")
     print("=" * 60)
 
-    total_entities = 0
-
-    print(f"Canonical entities : {len(canonical_entities)}")
     total_entities = len(canonical_entities)
 
-    print()
-    print(f"Duplicates removed : {duplicates_removed}")
-    print(f"Canonical entities : {total_entities}")
-    print(f"Output written to  : {OUTPUT_FILE}")
+    print(f"Canonical entities    : {total_entities}")
+    print(f"Duplicates removed    : {duplicates_removed}")
+    print(f"Placeholders removed  : {placeholders_removed}")
+    print(f"Review candidates     : {review_candidates_count}")
+    print(f"Output written to     : {OUTPUT_FILE}")
 
 
 if __name__ == "__main__":
