@@ -11,3 +11,6 @@ wheels/
 
 # Enveronmental variables
 .env
+
+#Embeddings
+app/cache/
