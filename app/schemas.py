@@ -52,3 +52,19 @@ class ErrorResponse(BaseModel):
 
     question: str
     error: str
+
+
+class SemanticSearchRequest(BaseModel):
+    question: str
+    top_k: int = 5
+
+
+class SemanticSearchResult(BaseModel):
+    name: str
+    source_document: str
+    score: float
+
+
+class SemanticSearchResponse(BaseModel):
+    question: str
+    results: list[SemanticSearchResult]

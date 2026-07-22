@@ -3,8 +3,17 @@ from __future__ import annotations
 from fastapi import FastAPI
 from fastapi.responses import JSONResponse
 
-from app.query_service import answer_question
-from app.schemas import ErrorResponse, QueryResponse, QuestionRequest
+from app.query_service import (
+    answer_question,
+    semantic_search,
+)
+from app.schemas import (
+    ErrorResponse,
+    QueryResponse,
+    QuestionRequest,
+    SemanticSearchRequest,
+    SemanticSearchResponse,
+)
 
 app = FastAPI(
     title="Project Lattice",
@@ -38,3 +47,16 @@ def ask(request: QuestionRequest):
                 error=str(exc),
             ).model_dump(),
         )
+
+
+@app.post(
+    "/semantic_search",
+    response_model=SemanticSearchResponse,
+)
+def search(request: SemanticSearchRequest):
+    """Semantic document search."""
+
+    return semantic_search(
+        question=request.question,
+        top_k=request.top_k,
+    )

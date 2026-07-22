@@ -1,6 +1,6 @@
 [
   {
-    "source_document": "docs/001_employee_bio.txt",
+    "source_document": "001_employee_bio.txt",
     "title": "001_employee_bio",
     "embedding": [
       7.154389e-05,
@@ -774,7 +774,7 @@
     ]
   },
   {
-    "source_document": "docs/002_incident_report.txt",
+    "source_document": "002_incident_report.txt",
     "title": "002_incident_report",
     "embedding": [
       0.053642668,
@@ -1548,7 +1548,7 @@
     ]
   },
   {
-    "source_document": "docs/003_project_memo.txt",
+    "source_document": "003_project_memo.txt",
     "title": "003_project_memo",
     "embedding": [
       -0.01656959,
@@ -2322,7 +2322,7 @@
     ]
   },
   {
-    "source_document": "docs/004_expense_report.txt",
+    "source_document": "004_expense_report.txt",
     "title": "004_expense_report",
     "embedding": [
       -0.025328118,
@@ -3096,7 +3096,7 @@
     ]
   },
   {
-    "source_document": "docs/005_employee_bio.txt",
+    "source_document": "005_employee_bio.txt",
     "title": "005_employee_bio",
     "embedding": [
       0.02194483,
@@ -3870,7 +3870,7 @@
     ]
   },
   {
-    "source_document": "docs/006_employee_bio.txt",
+    "source_document": "006_employee_bio.txt",
     "title": "006_employee_bio",
     "embedding": [
       -0.02185182,
@@ -4644,7 +4644,7 @@
     ]
   },
   {
-    "source_document": "docs/007_project_memo.txt",
+    "source_document": "007_project_memo.txt",
     "title": "007_project_memo",
     "embedding": [
       -0.008182656,
@@ -5418,7 +5418,7 @@
     ]
   },
   {
-    "source_document": "docs/008_email_thread.txt",
+    "source_document": "008_email_thread.txt",
     "title": "008_email_thread",
     "embedding": [
       -0.0035386086,
@@ -6192,7 +6192,7 @@
     ]
   },
   {
-    "source_document": "docs/009_employee_bio.txt",
+    "source_document": "009_employee_bio.txt",
     "title": "009_employee_bio",
     "embedding": [
       0.0011040737,
@@ -6966,7 +6966,7 @@
     ]
   },
   {
-    "source_document": "docs/010_vendor_agreement.txt",
+    "source_document": "010_vendor_agreement.txt",
     "title": "010_vendor_agreement",
     "embedding": [
       -0.030307613,
@@ -7740,7 +7740,7 @@
     ]
   },
   {
-    "source_document": "docs/011_project_memo.txt",
+    "source_document": "011_project_memo.txt",
     "title": "011_project_memo",
     "embedding": [
       -0.018325308,
@@ -8514,7 +8514,7 @@
     ]
   },
   {
-    "source_document": "docs/012_org_chart_notes.txt",
+    "source_document": "012_org_chart_notes.txt",
     "title": "012_org_chart_notes",
     "embedding": [
       -0.055678442,
@@ -9288,7 +9288,7 @@
     ]
   },
   {
-    "source_document": "docs/013_email_thread.txt",
+    "source_document": "013_email_thread.txt",
     "title": "013_email_thread",
     "embedding": [
       0.018052636,
@@ -10062,7 +10062,7 @@
     ]
   },
   {
-    "source_document": "docs/014_transaction_log.txt",
+    "source_document": "014_transaction_log.txt",
     "title": "014_transaction_log",
     "embedding": [
       0.01802827,
@@ -10836,7 +10836,7 @@
     ]
   },
   {
-    "source_document": "docs/015_email_thread.txt",
+    "source_document": "015_email_thread.txt",
     "title": "015_email_thread",
     "embedding": [
       -0.0139998,
@@ -11610,7 +11610,7 @@
     ]
   },
   {
-    "source_document": "docs/016_expense_report.txt",
+    "source_document": "016_expense_report.txt",
     "title": "016_expense_report",
     "embedding": [
       -0.018529935,
@@ -12384,7 +12384,7 @@
     ]
   },
   {
-    "source_document": "docs/017_email_thread.txt",
+    "source_document": "017_email_thread.txt",
     "title": "017_email_thread",
     "embedding": [
       0.019565545,
@@ -13158,7 +13158,7 @@
     ]
   },
   {
-    "source_document": "docs/018_transaction_log.txt",
+    "source_document": "018_transaction_log.txt",
     "title": "018_transaction_log",
     "embedding": [
       -0.028399821,
@@ -13932,7 +13932,7 @@
     ]
   },
   {
-    "source_document": "docs/019_transaction_log.txt",
+    "source_document": "019_transaction_log.txt",
     "title": "019_transaction_log",
     "embedding": [
       -0.011060064,
@@ -14706,7 +14706,7 @@
     ]
   },
   {
-    "source_document": "docs/020_email_thread.txt",
+    "source_document": "020_email_thread.txt",
     "title": "020_email_thread",
     "embedding": [
       -0.017832529,
@@ -15480,7 +15480,7 @@
     ]
   },
   {
-    "source_document": "docs/021_vendor_agreement.txt",
+    "source_document": "021_vendor_agreement.txt",
     "title": "021_vendor_agreement",
     "embedding": [
       -0.027290946,
@@ -16254,7 +16254,7 @@
     ]
   },
   {
-    "source_document": "docs/022_email_thread.txt",
+    "source_document": "022_email_thread.txt",
     "title": "022_email_thread",
     "embedding": [
       -0.03563943,
@@ -17028,7 +17028,7 @@
     ]
   },
   {
-    "source_document": "docs/023_project_memo.txt",
+    "source_document": "023_project_memo.txt",
     "title": "023_project_memo",
     "embedding": [
       -0.010901317,
@@ -17802,7 +17802,7 @@
     ]
   },
   {
-    "source_document": "docs/024_email_thread.txt",
+    "source_document": "024_email_thread.txt",
     "title": "024_email_thread",
     "embedding": [
       -0.012258365,
@@ -18576,7 +18576,7 @@
     ]
   },
   {
-    "source_document": "docs/025_expense_report.txt",
+    "source_document": "025_expense_report.txt",
     "title": "025_expense_report",
     "embedding": [
       -0.0151808215,
@@ -19350,7 +19350,7 @@
     ]
   },
   {
-    "source_document": "docs/026_transaction_log.txt",
+    "source_document": "026_transaction_log.txt",
     "title": "026_transaction_log",
     "embedding": [
       -0.0015335603,
@@ -20124,7 +20124,7 @@
     ]
   },
   {
-    "source_document": "docs/027_org_chart_notes.txt",
+    "source_document": "027_org_chart_notes.txt",
     "title": "027_org_chart_notes",
     "embedding": [
       -0.039032385,
@@ -20898,7 +20898,7 @@
     ]
   },
   {
-    "source_document": "docs/028_project_memo.txt",
+    "source_document": "028_project_memo.txt",
     "title": "028_project_memo",
     "embedding": [
       -0.015669556,
@@ -21672,7 +21672,7 @@
     ]
   },
   {
-    "source_document": "docs/029_project_memo.txt",
+    "source_document": "029_project_memo.txt",
     "title": "029_project_memo",
     "embedding": [
       0.0059950086,
@@ -22446,7 +22446,7 @@
     ]
   },
   {
-    "source_document": "docs/030_incident_report.txt",
+    "source_document": "030_incident_report.txt",
     "title": "030_incident_report",
     "embedding": [
       0.06670924,
@@ -23220,7 +23220,7 @@
     ]
   },
   {
-    "source_document": "docs/031_transaction_log.txt",
+    "source_document": "031_transaction_log.txt",
     "title": "031_transaction_log",
     "embedding": [
       0.025213925,
@@ -23994,7 +23994,7 @@
     ]
   },
   {
-    "source_document": "docs/032_expense_report.txt",
+    "source_document": "032_expense_report.txt",
     "title": "032_expense_report",
     "embedding": [
       -0.018165432,
@@ -24768,7 +24768,7 @@
     ]
   },
   {
-    "source_document": "docs/033_incident_report.txt",
+    "source_document": "033_incident_report.txt",
     "title": "033_incident_report",
     "embedding": [
       0.037956133,
@@ -25542,7 +25542,7 @@
     ]
   },
   {
-    "source_document": "docs/034_org_chart_notes.txt",
+    "source_document": "034_org_chart_notes.txt",
     "title": "034_org_chart_notes",
     "embedding": [
       -0.0849109,
@@ -26316,7 +26316,7 @@
     ]
   },
   {
-    "source_document": "docs/035_email_thread.txt",
+    "source_document": "035_email_thread.txt",
     "title": "035_email_thread",
     "embedding": [
       0.0030377235,
@@ -27090,7 +27090,7 @@
     ]
   },
   {
-    "source_document": "docs/036_employee_bio.txt",
+    "source_document": "036_employee_bio.txt",
     "title": "036_employee_bio",
     "embedding": [
       -0.013449764,
@@ -27864,7 +27864,7 @@
     ]
   },
   {
-    "source_document": "docs/037_expense_report.txt",
+    "source_document": "037_expense_report.txt",
     "title": "037_expense_report",
     "embedding": [
       0.014318784,
@@ -28638,7 +28638,7 @@
     ]
   },
   {
-    "source_document": "docs/038_employee_bio.txt",
+    "source_document": "038_employee_bio.txt",
     "title": "038_employee_bio",
     "embedding": [
       -0.0067896764,
@@ -29412,7 +29412,7 @@
     ]
   },
   {
-    "source_document": "docs/039_employee_bio.txt",
+    "source_document": "039_employee_bio.txt",
     "title": "039_employee_bio",
     "embedding": [
       0.020974085,
@@ -30186,7 +30186,7 @@
     ]
   },
   {
-    "source_document": "docs/040_vendor_agreement.txt",
+    "source_document": "040_vendor_agreement.txt",
     "title": "040_vendor_agreement",
     "embedding": [
       -0.0021688621,
@@ -30960,7 +30960,7 @@
     ]
   },
   {
-    "source_document": "docs/041_vendor_agreement.txt",
+    "source_document": "041_vendor_agreement.txt",
     "title": "041_vendor_agreement",
     "embedding": [
       -0.03390649,
@@ -31734,7 +31734,7 @@
     ]
   },
   {
-    "source_document": "docs/042_project_memo.txt",
+    "source_document": "042_project_memo.txt",
     "title": "042_project_memo",
     "embedding": [
       -0.03486241,
@@ -32508,7 +32508,7 @@
     ]
   },
   {
-    "source_document": "docs/043_org_chart_notes.txt",
+    "source_document": "043_org_chart_notes.txt",
     "title": "043_org_chart_notes",
     "embedding": [
       -0.08003227,
@@ -33282,7 +33282,7 @@
     ]
   },
   {
-    "source_document": "docs/044_employee_bio.txt",
+    "source_document": "044_employee_bio.txt",
     "title": "044_employee_bio",
     "embedding": [
       -0.0003797573,
@@ -34056,7 +34056,7 @@
     ]
   },
   {
-    "source_document": "docs/045_transaction_log.txt",
+    "source_document": "045_transaction_log.txt",
     "title": "045_transaction_log",
     "embedding": [
       0.0024043033,
