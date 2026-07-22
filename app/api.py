@@ -6,6 +6,8 @@ from fastapi.responses import JSONResponse
 from app.query_service import (
     answer_question,
     semantic_search,
+    ask_hybrid,
+    HybridResponse,
 )
 from app.schemas import (
     ErrorResponse,
@@ -60,3 +62,13 @@ def search(request: SemanticSearchRequest):
         question=request.question,
         top_k=request.top_k,
     )
+
+
+@app.post(
+    "/ask_hybrid",
+    response_model=HybridResponse,
+)
+def ask_hybrid_endpoint(request: QuestionRequest):
+    """Answer a question using the hybrid GraphRAG pipeline."""
+
+    return ask_hybrid(request.question)

@@ -1,16 +1,28 @@
 from __future__ import annotations
 
-from app.cypher_safety import validate_query
-from app.neo4j import run_query
-from app.schemas import QueryResponse
-from app.text_to_cypher import correct_cypher, generate_cypher
+import logging
 
-from app.embeddings import embed
-from app.neo4j import driver
-from app.schemas import (
-    SemanticSearchResponse,
-    SemanticSearchResult,
+from app.cypher_safety import validate_query
+from app.llm import call_model
+from app.neo4j import run_query
+from app.retrieval import (
+    build_context,
+    expand_graph,
+    get_context_documents,
+    retrieve_anchors,
+    serialize_paths,
 )
+from app.schemas import (
+    HybridResponse,
+    QueryResponse,
+    SemanticSearchResponse,
+)
+from app.text_to_cypher import (
+    correct_cypher,
+    generate_cypher,
+)
+
+logger = logging.getLogger(__name__)
 
 
 def answer_question(question: str) -> QueryResponse:
@@ -48,39 +60,114 @@ def semantic_search(
     question: str,
     top_k: int = 5,
 ) -> SemanticSearchResponse:
-    """Perform semantic document search using Neo4j vector index."""
+    """Perform semantic document search."""
 
-    query_embedding = embed(question)
-
-    with driver.session() as session:
-        result = session.run(
-            """
-            CALL db.index.vector.queryNodes(
-                'doc_embeddings',
-                $top_k,
-                $embedding
-            )
-            YIELD node, score
-
-            RETURN
-                node.name AS name,
-                node.source_document AS source_document,
-                score
-            """,
-            embedding=query_embedding,
-            top_k=top_k,
-        )
-
-        results = [
-            SemanticSearchResult(
-                name=record["name"],
-                source_document=record["source_document"],
-                score=round(record["score"], 4),
-            )
-            for record in result
-        ]
+    anchors = retrieve_anchors(
+        question=question,
+        top_k=top_k,
+    )
 
     return SemanticSearchResponse(
         question=question,
-        results=results,
+        results=anchors,
+    )
+
+
+def generate_grounded_answer(
+    question: str,
+    context: str,
+) -> HybridResponse:
+    """Generate a grounded answer using the supplied context."""
+
+    prompt = f"""
+You are an assistant answering questions about the Project Lattice knowledge base.
+
+Rules:
+
+1. Use ONLY the supplied context.
+2. Never use outside knowledge.
+3. Every factual claim must be supported by the supplied context.
+4. citations must contain ONLY source_document filenames.
+5. graph_paths should contain the graph triples you used.
+6. anchors_used should contain the source documents that were most useful.
+7. If the answer cannot be found, reply exactly:
+
+INSUFFICIENT_EVIDENCE
+
+================ CONTEXT ================
+
+{context}
+
+================ QUESTION ================
+
+{question}
+"""
+
+    return call_model(
+        prompt,
+        HybridResponse,
+    )
+
+
+def validate_citations(
+    response: HybridResponse,
+    valid_sources: list[str],
+) -> HybridResponse:
+    """Remove citations not present in the retrieval context."""
+
+    valid = set(valid_sources)
+
+    removed = [citation for citation in response.citations if citation not in valid]
+
+    if removed:
+        logger.warning(
+            "Removed hallucinated citations: %s",
+            removed,
+        )
+
+    response.citations = [
+        citation for citation in response.citations if citation in valid
+    ]
+
+    response.anchors_used = [
+        anchor for anchor in response.anchors_used if anchor in valid
+    ]
+
+    if response.answer == "INSUFFICIENT_EVIDENCE":
+        response.citations = []
+        response.graph_paths = []
+        response.anchors_used = []
+
+    return response
+
+
+def ask_hybrid(
+    question: str,
+) -> HybridResponse:
+    """Hybrid GraphRAG question answering pipeline."""
+
+    anchors = retrieve_anchors(question)
+
+    paths = expand_graph(anchors)
+
+    triples = serialize_paths(paths)
+
+    documents = get_context_documents(
+        anchors,
+        triples,
+    )
+
+    context, sources = build_context(
+        triples,
+        documents,
+    )
+
+    response = generate_grounded_answer(
+        question=question,
+        context=context,
+    )
+
+    return validate_citations(
+        response,
+        sources,
     )

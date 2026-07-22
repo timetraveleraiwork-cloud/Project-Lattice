@@ -60,6 +60,7 @@ class SemanticSearchRequest(BaseModel):
 
 
 class SemanticSearchResult(BaseModel):
+    element_id: str
     name: str
     source_document: str
     score: float
@@ -68,3 +69,10 @@ class SemanticSearchResult(BaseModel):
 class SemanticSearchResponse(BaseModel):
     question: str
     results: list[SemanticSearchResult]
+
+
+class HybridResponse(BaseModel):
+    answer: str
+    citations: list[str]
+    graph_paths: list[str]
+    anchors_used: list[str]
