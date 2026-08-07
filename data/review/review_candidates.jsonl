@@ -1,1 +1,11 @@
-{"a": "Lattice Dynamics Pvt. Ltd.", "b": "Lattice Dynamics' IT Department", "label": "Department", "similarity": 91.43, "status": "pending", "decision": null, "decided_by": null, "decided_at": null}
+{"a": "IT Support", "b": "Support", "label": "Department", "similarity": 82.35, "status": "pending", "decision": null, "decided_by": null, "decided_at": null}
+{"a": "Operations/Project Management", "b": "Project Management", "label": "Department", "similarity": 78.26, "status": "pending", "decision": null, "decided_by": null, "decided_at": null}
+{"a": "Operations (Project Management)", "b": "Project Management", "label": "Department", "similarity": 76.6, "status": "pending", "decision": null, "decided_by": null, "decided_at": null}
+{"a": "Project Mgmt", "b": "Project Management", "label": "Department", "similarity": 80.0, "status": "pending", "decision": null, "decided_by": null, "decided_at": null}
+{"a": "Lattice Dynamics' IT Department", "b": "Lattice Dynamics Pvt. Ltd.", "label": "Department", "similarity": 91.43, "status": "pending", "decision": null, "decided_by": null, "decided_at": null}
+{"a": "Data Analysts", "b": "Data Analytics", "label": "Department", "similarity": 88.89, "status": "pending", "decision": null, "decided_by": null, "decided_at": null}
+{"a": "Operations (Project Management Office)", "b": "Operations/Project Management", "label": "Department", "similarity": 87.5, "status": "pending", "decision": null, "decided_by": null, "decided_at": null}
+{"a": "Project Management Office", "b": "Project Management", "label": "Department", "similarity": 83.72, "status": "pending", "decision": null, "decided_by": null, "decided_at": null}
+{"a": "Project Management Office", "b": "Operations/Project Management", "label": "Department", "similarity": 75.47, "status": "pending", "decision": null, "decided_by": null, "decided_at": null}
+{"a": "Project Management Office", "b": "Project Office", "label": "Department", "similarity": 71.79, "status": "pending", "decision": null, "decided_by": null, "decided_at": null}
+{"a": "Project Management Office", "b": "Operations (Project Management Office)", "label": "Department", "similarity": 81.97, "status": "pending", "decision": null, "decided_by": null, "decided_at": null}

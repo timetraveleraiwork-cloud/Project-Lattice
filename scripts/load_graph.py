@@ -107,7 +107,6 @@ def load_node(tx, entity, source_document):
 
 def load_relationship(tx, relationship, entity_lookup, source_document):
     relation = map_rel_type(relationship["relation"])
-
     if relation is None:
         return
 
@@ -118,7 +117,22 @@ def load_relationship(tx, relationship, entity_lookup, source_document):
     target_label = entity_lookup.get(target_name)
 
     if source_label is None or target_label is None:
+        print(
+            f"Missing endpoint:"
+            f" source={source_name} ({source_label})"
+            f" target={target_name} ({target_label})"
+            f" in {source_document}"
+        )
         return
+
+    if source_label is None or target_label is None:
+        return
+
+    print(
+        source_name,
+        relation,
+        target_name,
+    )
 
     if not is_valid_relationship(source_label, relation, target_label):
         print(

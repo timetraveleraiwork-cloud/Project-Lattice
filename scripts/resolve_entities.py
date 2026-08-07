@@ -128,6 +128,27 @@ def normalize_organization(name: str) -> str:
     return " ".join(words).strip()
 
 
+def preferred_name(name1: str, name2: str) -> str:
+    """
+    Prefer shorter canonical names.
+
+    Finance < Finance Department
+    IT < IT Department
+    CloudKart Services < CloudKart Services Pvt Ltd
+    """
+
+    n1 = normalize_organization(name1)
+    n2 = normalize_organization(name2)
+
+    if n1 != n2:
+        return name1
+
+    if len(name1) <= len(name2):
+        return name1
+
+    return name2
+
+
 def is_duplicate(name1: str, name2: str) -> bool:
     """Return True if two names refer to the same entity."""
 
@@ -195,6 +216,42 @@ def load_canonical_map() -> dict[tuple[str, str], str]:
     return mappings
 
 
+def resolve_person_fragments(person_names: list[str]):
+    """
+    Merge unique first-name fragments into their matching full names.
+
+    Returns:
+        merge_map: {"Priya": "Priya Nair"}
+        review: [{"fragment": "...", "candidates": [...]}]
+    """
+
+    merge_map = {}
+    review = []
+
+    full_names = [n for n in person_names if len(n.split()) > 1]
+
+    for name in person_names:
+        if len(name.split()) != 1:
+            continue
+
+        candidates = [
+            full for full in full_names if full.split()[0].lower() == name.lower()
+        ]
+
+        if len(candidates) == 1:
+            merge_map[name] = candidates[0]
+
+        elif len(candidates) > 1:
+            review.append(
+                {
+                    "fragment": name,
+                    "candidates": sorted(candidates),
+                }
+            )
+
+    return merge_map, review
+
+
 # ==========================================================
 # Entity Resolution
 # ==========================================================
@@ -211,15 +268,34 @@ def resolve_entities(documents: list[dict]):
     duplicates_removed = 0
     placeholders_removed = 0
 
+    # --------------------------------------------------
+    # Resolve single-token person fragments
+    # --------------------------------------------------
+
+    person_names = []
+
+    for document in documents:
+        for entity in document.get("entities", []):
+            if entity["type"] == "Person":
+                person_names.append(entity["name"])
+
+    merge_map, _ = resolve_person_fragments(person_names)
+
     for document in documents:
         resolved_entities = []
 
         for entity in document.get("entities", []):
             entity_name = entity["name"]
+
+            entity_name = merge_map.get(
+                entity_name,
+                entity_name,
+            )
             manual_key = (
                 entity["type"],
                 entity_name,
             )
+
             if manual_key in manual_map:
                 entity_name = manual_map[manual_key]
 
@@ -243,14 +319,26 @@ def resolve_entities(documents: list[dict]):
 
                 if score >= SIMILARITY_THRESHOLD:
                     matched_entity = existing
-                    canonical_name_map[entity_name] = existing["name"]
+
+                    canonical = preferred_name(
+                        matched_entity["name"],
+                        entity_name,
+                    )
+
+                    if canonical != matched_entity["name"]:
+                        aliases = matched_entity.setdefault("aliases", [])
+                        aliases.append(matched_entity["name"])
+                        matched_entity["name"] = canonical
+
                     aliases = matched_entity.setdefault("aliases", [])
+
                     if (
                         entity_name != matched_entity["name"]
                         and entity_name not in aliases
                     ):
                         aliases.append(entity_name)
-                        break
+
+                    break
 
                 elif (
                     entity["type"] in REVIEWABLE_TYPES
@@ -270,15 +358,34 @@ def resolve_entities(documents: list[dict]):
 
                 if entity_name != matched_entity["name"] and entity_name not in aliases:
                     aliases.append(entity_name)
+
                 resolved_entities.append(matched_entity)
 
             else:
+                entity["name"] = entity_name
                 canonical_entities.append(entity)
-                canonical_name_map[entity_name] = entity["name"]
                 resolved_entities.append(entity)
 
         document["entities"] = resolved_entities
 
+        # --------------------------------------------------
+        # Build canonical name lookup (after ALL entities)
+        # --------------------------------------------------
+
+        canonical_name_map = {}
+
+        for entity in canonical_entities:
+            canonical = entity["name"]
+            canonical_name_map[normalize_organization(canonical)] = canonical
+
+        for alias in entity.get("aliases", []):
+            canonical_name_map[normalize_organization(alias)] = canonical
+
+    print(canonical_name_map.get("Finance department"))
+    print(canonical_name_map.get("Procurement department"))
+    print(canonical_name_map.get("IT department"))
+
+    for document in documents:
         filtered_relationships = []
 
         for relationship in document.get("relationships", []):
@@ -287,11 +394,15 @@ def resolve_entities(documents: list[dict]):
             ):
                 continue
 
-            if relationship["source"] in canonical_name_map:
-                relationship["source"] = canonical_name_map[relationship["source"]]
+            normalized_source = normalize_organization(relationship["source"])
 
-            if relationship["target"] in canonical_name_map:
-                relationship["target"] = canonical_name_map[relationship["target"]]
+            if normalized_source in canonical_name_map:
+                relationship["source"] = canonical_name_map[normalized_source]
+
+            normalized_target = normalize_organization(relationship["target"])
+
+            if normalized_target in canonical_name_map:
+                relationship["target"] = canonical_name_map[normalized_target]
 
             filtered_relationships.append(relationship)
 
@@ -300,14 +411,16 @@ def resolve_entities(documents: list[dict]):
     unique_candidates = {}
 
     for candidate in review_candidates:
+        if "a" not in candidate:
+            continue
+
         key = (
             tuple(sorted([candidate["a"], candidate["b"]])),
             candidate["label"],
         )
 
-    if key not in unique_candidates:
-        unique_candidates[key] = candidate
-
+        if key not in unique_candidates:
+            unique_candidates[key] = candidate
     review_candidates = list(unique_candidates.values())
 
     with REVIEW_CANDIDATES_FILE.open("w", encoding="utf-8") as f:

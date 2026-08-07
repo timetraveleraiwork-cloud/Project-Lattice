@@ -10,10 +10,10 @@
       },
       {
         "type": "Department",
-        "name": "Operations Department",
+        "name": "Operations",
         "source_document": "001_employee_bio.txt",
         "aliases": [
-          "Operations",
+          "Operations Department",
           "Operations team"
         ]
       },
@@ -158,7 +158,7 @@
     "relationships": [
       {
         "source": "Vikram Patel",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "WORKS_IN",
         "source_document": "001_employee_bio.txt"
       },
@@ -339,10 +339,10 @@
       },
       {
         "type": "Department",
-        "name": "Operations Department",
+        "name": "Operations",
         "source_document": "001_employee_bio.txt",
         "aliases": [
-          "Operations",
+          "Operations Department",
           "Operations team"
         ]
       },
@@ -480,7 +480,7 @@
       },
       {
         "source": "Incident Report: Critical Application Downtime - Cloud Services Outage",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "MENTIONS",
         "source_document": "002_incident_report.txt"
       },
@@ -510,7 +510,7 @@
       },
       {
         "source": "Incident Report: Critical Application Downtime - Cloud Services Outage",
-        "target": "IT Department",
+        "target": "IT",
         "relation": "MENTIONS",
         "source_document": "002_incident_report.txt"
       },
@@ -570,7 +570,7 @@
       },
       {
         "source": "Incident Report: Critical Application Downtime - Cloud Services Outage",
-        "target": "TechNova Solutions",
+        "target": "TechNova Solutions Pvt Ltd",
         "relation": "MENTIONS",
         "source_document": "002_incident_report.txt"
       },
@@ -594,13 +594,13 @@
       },
       {
         "source": "Rahul Sharma",
-        "target": "IT Department",
+        "target": "IT",
         "relation": "WORKS_IN",
         "source_document": "002_incident_report.txt"
       },
       {
         "source": "Ankit Gupta",
-        "target": "IT Department",
+        "target": "IT",
         "relation": "WORKS_IN",
         "source_document": "002_incident_report.txt"
       },
@@ -641,7 +641,7 @@
         "source_document": "002_incident_report.txt"
       },
       {
-        "source": "IT Department",
+        "source": "IT",
         "target": "Cloud Services Outage",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "002_incident_report.txt"
@@ -689,7 +689,7 @@
         "source_document": "002_incident_report.txt"
       },
       {
-        "source": "IT Department",
+        "source": "IT",
         "target": "DR Plan Drill",
         "relation": "RELATED_TO",
         "source_document": "002_incident_report.txt"
@@ -701,14 +701,14 @@
         "source_document": "002_incident_report.txt"
       },
       {
-        "source": "IT Department",
+        "source": "IT",
         "target": "Multi-Cloud Strategy Exploration",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "002_incident_report.txt"
       },
       {
         "source": "Multi-Cloud Strategy Exploration",
-        "target": "TechNova Solutions",
+        "target": "TechNova Solutions Pvt Ltd",
         "relation": "MENTIONS",
         "source_document": "002_incident_report.txt"
       },
@@ -719,7 +719,7 @@
         "source_document": "002_incident_report.txt"
       },
       {
-        "source": "Operations Department",
+        "source": "Operations",
         "target": "Internal Communication Protocol Refinement",
         "relation": "RELATED_TO",
         "source_document": "002_incident_report.txt"
@@ -732,7 +732,7 @@
       },
       {
         "source": "Internal Project Management Portal (PMP)",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "RELATED_TO",
         "source_document": "002_incident_report.txt"
       },
@@ -797,10 +797,10 @@
       },
       {
         "type": "Department",
-        "name": "Operations Department",
+        "name": "Operations",
         "source_document": "001_employee_bio.txt",
         "aliases": [
-          "Operations",
+          "Operations Department",
           "Operations team"
         ]
       },
@@ -927,7 +927,7 @@
       },
       {
         "source": "Arjun Verma",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "WORKS_IN",
         "source_document": "003_project_memo.txt"
       },
@@ -939,7 +939,7 @@
       },
       {
         "source": "Neha Singh",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "WORKS_IN",
         "source_document": "003_project_memo.txt"
       },
@@ -1160,10 +1160,10 @@
       },
       {
         "type": "Department",
-        "name": "Operations Department",
+        "name": "Operations",
         "source_document": "001_employee_bio.txt",
         "aliases": [
-          "Operations",
+          "Operations Department",
           "Operations team"
         ]
       },
@@ -1332,7 +1332,7 @@
     "relationships": [
       {
         "source": "Arjun Verma",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "WORKS_IN",
         "source_document": "004_expense_report.txt"
       },
@@ -1344,7 +1344,7 @@
       },
       {
         "source": "Priya Nair",
-        "target": "Finance Department",
+        "target": "Finance",
         "relation": "WORKS_IN",
         "source_document": "004_expense_report.txt"
       },
@@ -1392,13 +1392,13 @@
       },
       {
         "source": "Expense Report - Arjun Verma - August 2024",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "MENTIONS",
         "source_document": "004_expense_report.txt"
       },
       {
         "source": "Expense Report - Arjun Verma - August 2024",
-        "target": "Finance Department",
+        "target": "Finance",
         "relation": "MENTIONS",
         "source_document": "004_expense_report.txt"
       },
@@ -1589,25 +1589,25 @@
         "source_document": "004_expense_report.txt"
       },
       {
-        "source": "Transaction 2024-07-10 OfficeHive Supplies",
+        "source": "Transaction 2024-08-12 OfficeHive Supplies",
         "target": "OfficeHive Supplies",
         "relation": "PAID_TO",
         "source_document": "004_expense_report.txt"
       },
       {
-        "source": "Transaction 2024-07-10 OfficeHive Supplies",
+        "source": "Transaction 2024-08-12 OfficeHive Supplies",
         "target": "LD-OHS-20240812-002",
         "relation": "HAS_INVOICE",
         "source_document": "004_expense_report.txt"
       },
       {
-        "source": "Transaction 2024-07-10 OfficeHive Supplies",
+        "source": "Transaction 2024-08-12 OfficeHive Supplies",
         "target": "Nebula Initiative",
         "relation": "RELATED_TO",
         "source_document": "004_expense_report.txt"
       },
       {
-        "source": "Transaction 2024-07-10 OfficeHive Supplies",
+        "source": "Transaction 2024-08-12 OfficeHive Supplies",
         "target": "Printer cartridges and specialized cables",
         "relation": "MENTIONS",
         "source_document": "004_expense_report.txt"
@@ -1880,10 +1880,10 @@
       },
       {
         "type": "Department",
-        "name": "Operations Department",
+        "name": "Operations",
         "source_document": "001_employee_bio.txt",
         "aliases": [
-          "Operations",
+          "Operations Department",
           "Operations team"
         ]
       },
@@ -2041,10 +2041,10 @@
       },
       {
         "type": "Department",
-        "name": "Operations Department",
+        "name": "Operations",
         "source_document": "001_employee_bio.txt",
         "aliases": [
-          "Operations",
+          "Operations Department",
           "Operations team"
         ]
       },
@@ -2157,7 +2157,7 @@
       },
       {
         "source": "Project Memo: SecureNet Infrastructure Upgrade Project",
-        "target": "Finance Department",
+        "target": "Finance",
         "relation": "MENTIONS",
         "source_document": "007_project_memo.txt"
       },
@@ -2181,7 +2181,7 @@
       },
       {
         "source": "Project Memo: SecureNet Infrastructure Upgrade Project",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "MENTIONS",
         "source_document": "007_project_memo.txt"
       },
@@ -2199,7 +2199,7 @@
       },
       {
         "source": "Project Memo: SecureNet Infrastructure Upgrade Project",
-        "target": "IT Department",
+        "target": "IT",
         "relation": "MENTIONS",
         "source_document": "007_project_memo.txt"
       },
@@ -2217,7 +2217,7 @@
       },
       {
         "source": "Project Memo: SecureNet Infrastructure Upgrade Project",
-        "target": "Procurement Department",
+        "target": "Procurement",
         "relation": "MENTIONS",
         "source_document": "007_project_memo.txt"
       },
@@ -2277,7 +2277,7 @@
       },
       {
         "source": "Priya Nair",
-        "target": "Finance Department",
+        "target": "Finance",
         "relation": "WORKS_IN",
         "source_document": "007_project_memo.txt"
       },
@@ -2289,31 +2289,31 @@
       },
       {
         "source": "Arjun Verma",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "WORKS_IN",
         "source_document": "007_project_memo.txt"
       },
       {
         "source": "Rahul Sharma",
-        "target": "IT Department",
+        "target": "IT",
         "relation": "WORKS_IN",
         "source_document": "007_project_memo.txt"
       },
       {
         "source": "Ankit Gupta",
-        "target": "IT Department",
+        "target": "IT",
         "relation": "WORKS_IN",
         "source_document": "007_project_memo.txt"
       },
       {
         "source": "Meera Iyer",
-        "target": "Procurement Department",
+        "target": "Procurement",
         "relation": "WORKS_IN",
         "source_document": "007_project_memo.txt"
       },
       {
         "source": "Neha Singh",
-        "target": "IT Department",
+        "target": "IT",
         "relation": "WORKS_IN",
         "source_document": "007_project_memo.txt"
       },
@@ -2533,10 +2533,10 @@
       },
       {
         "type": "Department",
-        "name": "Operations Department",
+        "name": "Operations",
         "source_document": "001_employee_bio.txt",
         "aliases": [
-          "Operations",
+          "Operations Department",
           "Operations team"
         ]
       },
@@ -2677,7 +2677,7 @@
         "source_document": "008_email_thread.txt"
       },
       {
-        "source": "Operations Department",
+        "source": "Operations",
         "target": "API integration issues",
         "relation": "HAS_RISK",
         "source_document": "008_email_thread.txt"
@@ -2875,7 +2875,7 @@
         "source_document": "008_email_thread.txt"
       },
       {
-        "source": "Operations Department",
+        "source": "Operations",
         "target": "InsightStream",
         "relation": "RELATED_TO",
         "source_document": "008_email_thread.txt"
@@ -2905,10 +2905,10 @@
       },
       {
         "type": "Department",
-        "name": "Operations Department",
+        "name": "Operations",
         "source_document": "001_employee_bio.txt",
         "aliases": [
-          "Operations",
+          "Operations Department",
           "Operations team"
         ]
       },
@@ -2931,10 +2931,10 @@
       },
       {
         "type": "Department",
-        "name": "Data Analytics team",
+        "name": "Data Analytics",
         "source_document": "009_employee_bio.txt",
         "aliases": [
-          "Data Analytics",
+          "Data Analytics team",
           "IT/Data Analytics"
         ]
       },
@@ -2989,13 +2989,13 @@
       },
       {
         "source": "Vikram Patel",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "WORKS_IN",
         "source_document": "009_employee_bio.txt"
       },
       {
         "source": "Vikram Patel",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "009_employee_bio.txt"
       },
@@ -3025,7 +3025,7 @@
       },
       {
         "source": "Neha Singh",
-        "target": "Data Analytics team",
+        "target": "Data Analytics",
         "relation": "WORKS_IN",
         "source_document": "009_employee_bio.txt"
       },
@@ -3147,10 +3147,10 @@
       },
       {
         "type": "Department",
-        "name": "Operations Department",
+        "name": "Operations",
         "source_document": "001_employee_bio.txt",
         "aliases": [
-          "Operations",
+          "Operations Department",
           "Operations team"
         ]
       },
@@ -3200,7 +3200,7 @@
       },
       {
         "source": "Vendor Agreement - TechNova Solutions Pvt Ltd",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "MENTIONS",
         "source_document": "010_vendor_agreement.txt"
       },
@@ -3312,10 +3312,10 @@
       },
       {
         "type": "Department",
-        "name": "Operations Department",
+        "name": "Operations",
         "source_document": "001_employee_bio.txt",
         "aliases": [
-          "Operations",
+          "Operations Department",
           "Operations team"
         ]
       },
@@ -3442,7 +3442,7 @@
       },
       {
         "source": "Project Memo: Cloud Migration Initiative - Phase 1 Kick-off",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "MENTIONS",
         "source_document": "011_project_memo.txt"
       },
@@ -3496,7 +3496,7 @@
       },
       {
         "source": "Project Memo: Cloud Migration Initiative - Phase 1 Kick-off",
-        "target": "R-04: Security Vulnerabilities",
+        "target": "Security Vulnerabilities",
         "relation": "MENTIONS",
         "source_document": "011_project_memo.txt"
       },
@@ -3526,7 +3526,7 @@
       },
       {
         "source": "Arjun Verma",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "WORKS_IN",
         "source_document": "011_project_memo.txt"
       },
@@ -3598,7 +3598,7 @@
       },
       {
         "source": "Compliance",
-        "target": "R-04: Security Vulnerabilities",
+        "target": "Security Vulnerabilities",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "011_project_memo.txt"
       },
@@ -3616,7 +3616,7 @@
       },
       {
         "source": "Cloud Migration Initiative - Phase 1",
-        "target": "R-04: Security Vulnerabilities",
+        "target": "Security Vulnerabilities",
         "relation": "HAS_RISK",
         "source_document": "011_project_memo.txt"
       },
@@ -3951,7 +3951,7 @@
       },
       {
         "source": "Org Chart Review - Leadership Meeting Follow-up Notes (15.03.2024)",
-        "target": "TechNova Solutions",
+        "target": "TechNova Solutions Pvt Ltd",
         "relation": "MENTIONS",
         "source_document": "012_org_chart_notes.txt"
       },
@@ -4101,7 +4101,7 @@
       },
       {
         "source": "Procurement",
-        "target": "TechNova Solutions",
+        "target": "TechNova Solutions Pvt Ltd",
         "relation": "RELATED_TO",
         "source_document": "012_org_chart_notes.txt"
       },
@@ -4476,10 +4476,10 @@
       },
       {
         "type": "Department",
-        "name": "Operations Department",
+        "name": "Operations",
         "source_document": "001_employee_bio.txt",
         "aliases": [
-          "Operations",
+          "Operations Department",
           "Operations team"
         ]
       },
@@ -4646,10 +4646,10 @@
       },
       {
         "type": "Department",
-        "name": "Data Analytics team",
+        "name": "Data Analytics",
         "source_document": "009_employee_bio.txt",
         "aliases": [
-          "Data Analytics",
+          "Data Analytics team",
           "IT/Data Analytics"
         ]
       },
@@ -4674,7 +4674,7 @@
       },
       {
         "source": "Lattice Dynamics Pvt. Ltd. - Q3 2024 Transaction Log",
-        "target": "Finance Department",
+        "target": "Finance",
         "relation": "MENTIONS",
         "source_document": "014_transaction_log.txt"
       },
@@ -4722,7 +4722,7 @@
       },
       {
         "source": "Lattice Dynamics Pvt. Ltd. - Q3 2024 Transaction Log",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "MENTIONS",
         "source_document": "014_transaction_log.txt"
       },
@@ -4866,7 +4866,7 @@
       },
       {
         "source": "Lattice Dynamics Pvt. Ltd. - Q3 2024 Transaction Log",
-        "target": "Data Analytics team",
+        "target": "Data Analytics",
         "relation": "MENTIONS",
         "source_document": "014_transaction_log.txt"
       },
@@ -4884,7 +4884,7 @@
       },
       {
         "source": "Priya Nair",
-        "target": "Finance Department",
+        "target": "Finance",
         "relation": "WORKS_IN",
         "source_document": "014_transaction_log.txt"
       },
@@ -4937,7 +4937,7 @@
         "source_document": "014_transaction_log.txt"
       },
       {
-        "source": "Operations Department",
+        "source": "Operations",
         "target": "Q3 Office Supplies Bulk Order",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "014_transaction_log.txt"
@@ -4997,7 +4997,7 @@
         "source_document": "014_transaction_log.txt"
       },
       {
-        "source": "Operations Department",
+        "source": "Operations",
         "target": "Office Expansion Project - Phase 1",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "014_transaction_log.txt"
@@ -5105,13 +5105,13 @@
         "source_document": "014_transaction_log.txt"
       },
       {
-        "source": "Operations Department",
+        "source": "Operations",
         "target": "Q3 Data Reporting & Insight Generation Services",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "014_transaction_log.txt"
       },
       {
-        "source": "Data Analytics team",
+        "source": "Data Analytics",
         "target": "Q3 Data Reporting & Insight Generation Services",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "014_transaction_log.txt"
@@ -5285,7 +5285,7 @@
     "relationships": [
       {
         "source": "Rahul Sharma",
-        "target": "IT Department",
+        "target": "IT",
         "relation": "WORKS_IN",
         "source_document": "015_email_thread.txt"
       },
@@ -5573,7 +5573,7 @@
       },
       {
         "source": "Email Thread: Urgent: Server Room Access Request for Hardware Upgrade",
-        "target": "IT Department",
+        "target": "IT",
         "relation": "MENTIONS",
         "source_document": "015_email_thread.txt"
       },
@@ -5793,7 +5793,7 @@
     "relationships": [
       {
         "source": "Arjun Verma",
-        "target": "Operations/Project Management",
+        "target": "Operations (Project Management)",
         "relation": "WORKS_IN",
         "source_document": "016_expense_report.txt"
       },
@@ -5817,7 +5817,7 @@
       },
       {
         "source": "Expense Report - Project Falcon - Feb 2024 (Arjun Verma)",
-        "target": "Operations/Project Management",
+        "target": "Operations (Project Management)",
         "relation": "MENTIONS",
         "source_document": "016_expense_report.txt"
       },
@@ -5841,7 +5841,7 @@
       },
       {
         "source": "Expense Report - Project Falcon - Feb 2024 (Arjun Verma)",
-        "target": "Finance Department",
+        "target": "Finance",
         "relation": "MENTIONS",
         "source_document": "016_expense_report.txt"
       },
@@ -5955,7 +5955,7 @@
       },
       {
         "source": "Arjun Verma",
-        "target": "Finance Department",
+        "target": "Finance",
         "relation": "COMMUNICATED_WITH",
         "source_document": "016_expense_report.txt"
       },
@@ -5985,7 +5985,7 @@
       },
       {
         "source": "Priya Nair",
-        "target": "Finance Department",
+        "target": "Finance",
         "relation": "WORKS_IN",
         "source_document": "016_expense_report.txt"
       },
@@ -6041,10 +6041,10 @@
       },
       {
         "type": "Department",
-        "name": "Operations Department",
+        "name": "Operations",
         "source_document": "001_employee_bio.txt",
         "aliases": [
-          "Operations",
+          "Operations Department",
           "Operations team"
         ]
       },
@@ -6109,13 +6109,13 @@
     "relationships": [
       {
         "source": "Rahul Sharma",
-        "target": "IT Department",
+        "target": "IT",
         "relation": "WORKS_IN",
         "source_document": "017_email_thread.txt"
       },
       {
         "source": "Arjun Verma",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "WORKS_IN",
         "source_document": "017_email_thread.txt"
       },
@@ -6132,13 +6132,13 @@
         "source_document": "017_email_thread.txt"
       },
       {
-        "source": "IT Department",
+        "source": "IT",
         "target": "Network Latency Issues",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "017_email_thread.txt"
       },
       {
-        "source": "IT Department",
+        "source": "IT",
         "target": "Data integrity and security protocols",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "017_email_thread.txt"
@@ -6156,13 +6156,13 @@
         "source_document": "017_email_thread.txt"
       },
       {
-        "source": "Operations Department",
+        "source": "Operations",
         "target": "Network Latency Issues",
         "relation": "HAS_RISK",
         "source_document": "017_email_thread.txt"
       },
       {
-        "source": "IT Department",
+        "source": "IT",
         "target": "Data integrity and security protocols",
         "relation": "HAS_RISK",
         "source_document": "017_email_thread.txt"
@@ -6192,7 +6192,7 @@
         "source_document": "017_email_thread.txt"
       },
       {
-        "source": "IT Department",
+        "source": "IT",
         "target": "IT Helpdesk",
         "relation": "RELATED_TO",
         "source_document": "017_email_thread.txt"
@@ -6349,13 +6349,13 @@
       },
       {
         "source": "Email Thread: Urgent: Network Latency Issues Affecting Operations",
-        "target": "IT Department",
+        "target": "IT",
         "relation": "MENTIONS",
         "source_document": "017_email_thread.txt"
       },
       {
         "source": "Email Thread: Urgent: Network Latency Issues Affecting Operations",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "MENTIONS",
         "source_document": "017_email_thread.txt"
       },
@@ -6467,10 +6467,10 @@
       },
       {
         "type": "Department",
-        "name": "Operations Department",
+        "name": "Operations",
         "source_document": "001_employee_bio.txt",
         "aliases": [
-          "Operations",
+          "Operations Department",
           "Operations team"
         ]
       },
@@ -6640,7 +6640,7 @@
     "relationships": [
       {
         "source": "Priya Nair",
-        "target": "Finance Department",
+        "target": "Finance",
         "relation": "WORKS_IN",
         "source_document": "018_transaction_log.txt"
       },
@@ -6748,7 +6748,7 @@
       },
       {
         "source": "TRN-LD-2024-003",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "RELATED_TO",
         "source_document": "018_transaction_log.txt"
       },
@@ -6874,7 +6874,7 @@
       },
       {
         "source": "TRN-LD-2024-007",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "RELATED_TO",
         "source_document": "018_transaction_log.txt"
       },
@@ -6988,7 +6988,7 @@
       },
       {
         "source": "Transaction Log - Q3 FY24 Procurement & IT Expenses",
-        "target": "Finance Department",
+        "target": "Finance",
         "relation": "MENTIONS",
         "source_document": "018_transaction_log.txt"
       },
@@ -7036,7 +7036,7 @@
       },
       {
         "source": "Transaction Log - Q3 FY24 Procurement & IT Expenses",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "MENTIONS",
         "source_document": "018_transaction_log.txt"
       },
@@ -7238,10 +7238,10 @@
       },
       {
         "type": "Department",
-        "name": "Operations Department",
+        "name": "Operations",
         "source_document": "001_employee_bio.txt",
         "aliases": [
-          "Operations",
+          "Operations Department",
           "Operations team"
         ]
       },
@@ -7499,7 +7499,7 @@
       },
       {
         "source": "Arjun Verma",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "WORKS_IN",
         "source_document": "019_transaction_log.txt"
       },
@@ -7625,7 +7625,7 @@
       },
       {
         "source": "Neha Singh",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "WORKS_IN",
         "source_document": "019_transaction_log.txt"
       },
@@ -8212,7 +8212,7 @@
       },
       {
         "type": "Person",
-        "name": "Rajesh Kumar",
+        "name": " Kumar",
         "source_document": "021_vendor_agreement.txt"
       },
       {
@@ -8404,10 +8404,10 @@
       },
       {
         "type": "Department",
-        "name": "Operations Department",
+        "name": "Operations",
         "source_document": "001_employee_bio.txt",
         "aliases": [
-          "Operations",
+          "Operations Department",
           "Operations team"
         ]
       },
@@ -8472,19 +8472,19 @@
     "relationships": [
       {
         "source": "Arjun Verma",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "WORKS_IN",
         "source_document": "022_email_thread.txt"
       },
       {
         "source": "Meera Iyer",
-        "target": "Procurement Department",
+        "target": "Procurement",
         "relation": "WORKS_IN",
         "source_document": "022_email_thread.txt"
       },
       {
         "source": "Priya Nair",
-        "target": "Finance Department",
+        "target": "Finance",
         "relation": "WORKS_IN",
         "source_document": "022_email_thread.txt"
       },
@@ -8568,13 +8568,13 @@
       },
       {
         "source": "Meera Iyer",
-        "target": "TechNova Solutions",
+        "target": "TechNova Solutions Pvt Ltd",
         "relation": "MENTIONS",
         "source_document": "022_email_thread.txt"
       },
       {
         "source": "Arjun Verma",
-        "target": "TechNova Solutions",
+        "target": "TechNova Solutions Pvt Ltd",
         "relation": "MENTIONS",
         "source_document": "022_email_thread.txt"
       }
@@ -8608,10 +8608,10 @@
       },
       {
         "type": "Department",
-        "name": "Operations Department",
+        "name": "Operations",
         "source_document": "001_employee_bio.txt",
         "aliases": [
-          "Operations",
+          "Operations Department",
           "Operations team"
         ]
       },
@@ -8643,10 +8643,10 @@
       },
       {
         "type": "Department",
-        "name": "Data Analytics team",
+        "name": "Data Analytics",
         "source_document": "009_employee_bio.txt",
         "aliases": [
-          "Data Analytics",
+          "Data Analytics team",
           "IT/Data Analytics"
         ]
       },
@@ -8847,19 +8847,19 @@
       },
       {
         "source": "PROJECT MEMO: Q3 Data Infrastructure Upgrade & Security Enhancements",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "MENTIONS",
         "source_document": "023_project_memo.txt"
       },
       {
         "source": "PROJECT MEMO: Q3 Data Infrastructure Upgrade & Security Enhancements",
-        "target": "IT Department",
+        "target": "IT",
         "relation": "MENTIONS",
         "source_document": "023_project_memo.txt"
       },
       {
         "source": "PROJECT MEMO: Q3 Data Infrastructure Upgrade & Security Enhancements",
-        "target": "Data Analytics team",
+        "target": "IT/Data Analytics",
         "relation": "MENTIONS",
         "source_document": "023_project_memo.txt"
       },
@@ -8889,7 +8889,7 @@
       },
       {
         "source": "PROJECT MEMO: Q3 Data Infrastructure Upgrade & Security Enhancements",
-        "target": "R-04: Security Vulnerabilities",
+        "target": "Security Vulnerabilities",
         "relation": "MENTIONS",
         "source_document": "023_project_memo.txt"
       },
@@ -8955,31 +8955,31 @@
       },
       {
         "source": "Arjun Verma",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "WORKS_IN",
         "source_document": "023_project_memo.txt"
       },
       {
         "source": "Rahul Sharma",
-        "target": "IT Department",
+        "target": "IT",
         "relation": "WORKS_IN",
         "source_document": "023_project_memo.txt"
       },
       {
         "source": "Neha Singh",
-        "target": "Data Analytics team",
+        "target": "IT/Data Analytics",
         "relation": "WORKS_IN",
         "source_document": "023_project_memo.txt"
       },
       {
         "source": "Ankit Gupta",
-        "target": "IT Department",
+        "target": "IT",
         "relation": "WORKS_IN",
         "source_document": "023_project_memo.txt"
       },
       {
         "source": "Rohan Das",
-        "target": "IT Department",
+        "target": "IT",
         "relation": "WORKS_IN",
         "source_document": "023_project_memo.txt"
       },
@@ -9045,7 +9045,7 @@
       },
       {
         "source": "Sandeep Menon",
-        "target": "R-04: Security Vulnerabilities",
+        "target": "Security Vulnerabilities",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "023_project_memo.txt"
       },
@@ -9069,7 +9069,7 @@
       },
       {
         "source": "Q3 Data Infrastructure Upgrade & Security Enhancements",
-        "target": "R-04: Security Vulnerabilities",
+        "target": "Security Vulnerabilities",
         "relation": "HAS_RISK",
         "source_document": "023_project_memo.txt"
       },
@@ -10123,10 +10123,10 @@
       },
       {
         "type": "Department",
-        "name": "Operations Department",
+        "name": "Operations",
         "source_document": "001_employee_bio.txt",
         "aliases": [
-          "Operations",
+          "Operations Department",
           "Operations team"
         ]
       },
@@ -10420,12 +10420,12 @@
       },
       {
         "source": "LD-TL-2405-001",
-        "target": "Software license renewals",
+        "target": "Q2 software license renewal",
         "relation": "RELATED_TO",
         "source_document": "026_transaction_log.txt"
       },
       {
-        "source": "Software license renewals",
+        "source": "Q2 software license renewal",
         "target": "TechNova Solutions Pvt Ltd",
         "relation": "PROVIDED_BY",
         "source_document": "026_transaction_log.txt"
@@ -10444,7 +10444,7 @@
       },
       {
         "source": "IT",
-        "target": "Software license renewals",
+        "target": "Q2 software license renewal",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "026_transaction_log.txt"
       },
@@ -10480,12 +10480,12 @@
       },
       {
         "source": "Vikram Patel",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "WORKS_IN",
         "source_document": "026_transaction_log.txt"
       },
       {
-        "source": "Operations Department",
+        "source": "Operations",
         "target": "Strategic data insights for H1",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "026_transaction_log.txt"
@@ -10713,7 +10713,7 @@
         "source_document": "026_transaction_log.txt"
       },
       {
-        "source": "Operations Department",
+        "source": "Operations",
         "target": "Office utility charges for April consumption",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "026_transaction_log.txt"
@@ -10779,14 +10779,14 @@
         "source_document": "026_transaction_log.txt"
       },
       {
-        "source": "Operations Department",
+        "source": "Operations",
         "target": "Office Expansion",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "026_transaction_log.txt"
       },
       {
         "source": "Arjun Verma",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "WORKS_IN",
         "source_document": "026_transaction_log.txt"
       },
@@ -10893,10 +10893,10 @@
       },
       {
         "type": "Department",
-        "name": "Operations Department",
+        "name": "Operations",
         "source_document": "001_employee_bio.txt",
         "aliases": [
-          "Operations",
+          "Operations Department",
           "Operations team"
         ]
       },
@@ -11076,7 +11076,7 @@
       },
       {
         "source": "Neha Singh",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "WORKS_IN",
         "source_document": "027_org_chart_notes.txt"
       },
@@ -11289,10 +11289,10 @@
       },
       {
         "type": "Department",
-        "name": "Operations Department",
+        "name": "Operations",
         "source_document": "001_employee_bio.txt",
         "aliases": [
-          "Operations",
+          "Operations Department",
           "Operations team"
         ]
       },
@@ -11415,25 +11415,25 @@
       },
       {
         "source": "Arjun Verma",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "WORKS_IN",
         "source_document": "028_project_memo.txt"
       },
       {
         "source": "Rahul Sharma",
-        "target": "IT Department",
+        "target": "IT",
         "relation": "WORKS_IN",
         "source_document": "028_project_memo.txt"
       },
       {
         "source": "Ankit Gupta",
-        "target": "IT Department",
+        "target": "IT",
         "relation": "WORKS_IN",
         "source_document": "028_project_memo.txt"
       },
       {
         "source": "Neha Singh",
-        "target": "IT Department",
+        "target": "IT",
         "relation": "WORKS_IN",
         "source_document": "028_project_memo.txt"
       },
@@ -11565,7 +11565,7 @@
       },
       {
         "source": "PROJECT MEMO",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "MENTIONS",
         "source_document": "028_project_memo.txt"
       },
@@ -11577,7 +11577,7 @@
       },
       {
         "source": "PROJECT MEMO",
-        "target": "IT Department",
+        "target": "IT",
         "relation": "MENTIONS",
         "source_document": "028_project_memo.txt"
       },
@@ -12221,10 +12221,10 @@
       },
       {
         "type": "Department",
-        "name": "Operations Department",
+        "name": "Operations",
         "source_document": "001_employee_bio.txt",
         "aliases": [
-          "Operations",
+          "Operations Department",
           "Operations team"
         ]
       },
@@ -12488,7 +12488,7 @@
         "source_document": "030_incident_report.txt"
       },
       {
-        "source": "Operations Department",
+        "source": "Operations",
         "target": "Critical System Outage - Core Infrastructure",
         "relation": "HAS_RISK",
         "source_document": "030_incident_report.txt"
@@ -12571,10 +12571,10 @@
       },
       {
         "type": "Department",
-        "name": "Operations Department",
+        "name": "Operations",
         "source_document": "001_employee_bio.txt",
         "aliases": [
-          "Operations",
+          "Operations Department",
           "Operations team"
         ]
       },
@@ -12930,7 +12930,7 @@
     "relationships": [
       {
         "source": "Priya Nair",
-        "target": "Finance Department",
+        "target": "Finance",
         "relation": "WORKS_IN",
         "source_document": "031_transaction_log.txt"
       },
@@ -12977,7 +12977,7 @@
         "source_document": "031_transaction_log.txt"
       },
       {
-        "source": "Operations Department",
+        "source": "Operations",
         "target": "Bulk office stationery order",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "031_transaction_log.txt"
@@ -13187,7 +13187,7 @@
         "source_document": "031_transaction_log.txt"
       },
       {
-        "source": "Operations Department",
+        "source": "Operations",
         "target": "Office energy efficiency assessment",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "031_transaction_log.txt"
@@ -13247,7 +13247,7 @@
         "source_document": "031_transaction_log.txt"
       },
       {
-        "source": "Operations Department",
+        "source": "Operations",
         "target": "Minor office renovation project, Phase 1 completion",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "031_transaction_log.txt"
@@ -13277,7 +13277,7 @@
         "source_document": "031_transaction_log.txt"
       },
       {
-        "source": "Operations Department",
+        "source": "Operations",
         "target": "Q3 market analysis report",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "031_transaction_log.txt"
@@ -13445,7 +13445,7 @@
         "source_document": "031_transaction_log.txt"
       },
       {
-        "source": "Finance Department",
+        "source": "Finance",
         "target": "LD-TRX-09-003",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "031_transaction_log.txt"
@@ -13482,7 +13482,7 @@
       },
       {
         "source": "Q3 2024 Transaction Log",
-        "target": "Finance Department",
+        "target": "Finance",
         "relation": "MENTIONS",
         "source_document": "031_transaction_log.txt"
       },
@@ -13518,7 +13518,7 @@
       },
       {
         "source": "Q3 2024 Transaction Log",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "MENTIONS",
         "source_document": "031_transaction_log.txt"
       },
@@ -13770,10 +13770,10 @@
       },
       {
         "type": "Department",
-        "name": "Operations Department",
+        "name": "Operations",
         "source_document": "001_employee_bio.txt",
         "aliases": [
-          "Operations",
+          "Operations Department",
           "Operations team"
         ]
       },
@@ -13990,13 +13990,13 @@
     "relationships": [
       {
         "source": "Arjun Verma",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "WORKS_IN",
         "source_document": "032_expense_report.txt"
       },
       {
         "source": "Arjun Verma",
-        "target": "Finance Department",
+        "target": "Finance",
         "relation": "RELATED_TO",
         "source_document": "032_expense_report.txt"
       },
@@ -14092,7 +14092,7 @@
       },
       {
         "source": "Meera Iyer",
-        "target": "IT Department",
+        "target": "IT",
         "relation": "WORKS_IN",
         "source_document": "032_expense_report.txt"
       },
@@ -14127,13 +14127,13 @@
         "source_document": "032_expense_report.txt"
       },
       {
-        "source": "IT Department",
+        "source": "IT",
         "target": "LD-EXP-2024-003",
         "relation": "RELATED_TO",
         "source_document": "032_expense_report.txt"
       },
       {
-        "source": "IT Department",
+        "source": "IT",
         "target": "Office Workstation Chairs & Ergonomic Accessories",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "032_expense_report.txt"
@@ -14211,7 +14211,7 @@
         "source_document": "032_expense_report.txt"
       },
       {
-        "source": "HR Department",
+        "source": "HR",
         "target": "Intern project support",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "032_expense_report.txt"
@@ -14253,14 +14253,14 @@
         "source_document": "032_expense_report.txt"
       },
       {
-        "source": "HR Department",
+        "source": "HR",
         "target": "Regulatory Compliance Workshop",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "032_expense_report.txt"
       },
       {
         "source": "Ankit Gupta",
-        "target": "IT Department",
+        "target": "IT",
         "relation": "WORKS_IN",
         "source_document": "032_expense_report.txt"
       },
@@ -14301,7 +14301,7 @@
         "source_document": "032_expense_report.txt"
       },
       {
-        "source": "IT Department",
+        "source": "IT",
         "target": "Emergency Hardware Replacement",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "032_expense_report.txt"
@@ -14320,7 +14320,7 @@
       },
       {
         "source": "Expense Report Summary - Q2 FY24",
-        "target": "Finance Department",
+        "target": "Finance",
         "relation": "MENTIONS",
         "source_document": "032_expense_report.txt"
       },
@@ -14350,7 +14350,7 @@
       },
       {
         "source": "Expense Report Summary - Q2 FY24",
-        "target": "IT Department",
+        "target": "IT",
         "relation": "MENTIONS",
         "source_document": "032_expense_report.txt"
       },
@@ -14362,13 +14362,13 @@
       },
       {
         "source": "Expense Report Summary - Q2 FY24",
-        "target": "HR Department",
+        "target": "HR",
         "relation": "MENTIONS",
         "source_document": "032_expense_report.txt"
       },
       {
         "source": "Expense Report Summary - Q2 FY24",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "MENTIONS",
         "source_document": "032_expense_report.txt"
       },
@@ -14420,10 +14420,10 @@
       },
       {
         "type": "Department",
-        "name": "Operations Department",
+        "name": "Operations",
         "source_document": "001_employee_bio.txt",
         "aliases": [
-          "Operations",
+          "Operations Department",
           "Operations team"
         ]
       },
@@ -14523,7 +14523,7 @@
         "source_document": "033_incident_report.txt"
       },
       {
-        "source": "Operations Department",
+        "source": "Operations",
         "target": "LD-IT-2024-007",
         "relation": "HAS_RISK",
         "source_document": "033_incident_report.txt"
@@ -14632,7 +14632,7 @@
       },
       {
         "source": "Incident Report: Critical Cloud Service Disruption (LD-IT-2024-007)",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "MENTIONS",
         "source_document": "033_incident_report.txt"
       },
@@ -14727,10 +14727,10 @@
       },
       {
         "type": "Department",
-        "name": "Operations Department",
+        "name": "Operations",
         "source_document": "001_employee_bio.txt",
         "aliases": [
-          "Operations",
+          "Operations Department",
           "Operations team"
         ]
       },
@@ -14935,7 +14935,7 @@
       },
       {
         "source": "Arjun Verma",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "WORKS_IN",
         "source_document": "034_org_chart_notes.txt"
       },
@@ -14953,25 +14953,25 @@
       },
       {
         "source": "Rahul Sharma",
-        "target": "IT Department",
+        "target": "IT",
         "relation": "WORKS_IN",
         "source_document": "034_org_chart_notes.txt"
       },
       {
         "source": "Ankit Gupta",
-        "target": "IT Department",
+        "target": "IT",
         "relation": "WORKS_IN",
         "source_document": "034_org_chart_notes.txt"
       },
       {
         "source": "Neha Singh",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "WORKS_IN",
         "source_document": "034_org_chart_notes.txt"
       },
       {
         "source": "Rohan Das",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "WORKS_IN",
         "source_document": "034_org_chart_notes.txt"
       },
@@ -14994,13 +14994,13 @@
         "source_document": "034_org_chart_notes.txt"
       },
       {
-        "source": "IT Department",
+        "source": "IT",
         "target": "SecureNet Systems Security Rollouts",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "034_org_chart_notes.txt"
       },
       {
-        "source": "IT Department",
+        "source": "IT",
         "target": "IT Project Management Capacity Risk",
         "relation": "HAS_RISK",
         "source_document": "034_org_chart_notes.txt"
@@ -15267,10 +15267,10 @@
       },
       {
         "type": "Department",
-        "name": "Operations Department",
+        "name": "Operations",
         "source_document": "001_employee_bio.txt",
         "aliases": [
-          "Operations",
+          "Operations Department",
           "Operations team"
         ]
       },
@@ -15370,25 +15370,25 @@
     "relationships": [
       {
         "source": "Rahul Sharma",
-        "target": "IT Department",
+        "target": "IT",
         "relation": "WORKS_IN",
         "source_document": "035_email_thread.txt"
       },
       {
         "source": "Arjun Verma",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "WORKS_IN",
         "source_document": "035_email_thread.txt"
       },
       {
         "source": "Meera Iyer",
-        "target": "Procurement Department",
+        "target": "Procurement",
         "relation": "WORKS_IN",
         "source_document": "035_email_thread.txt"
       },
       {
         "source": "Priya Nair",
-        "target": "Finance Department",
+        "target": "Finance",
         "relation": "WORKS_IN",
         "source_document": "035_email_thread.txt"
       },
@@ -15489,7 +15489,7 @@
         "source_document": "035_email_thread.txt"
       },
       {
-        "source": "Operations Department",
+        "source": "Operations",
         "target": "Q3 Software License Renewals",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "035_email_thread.txt"
@@ -15507,13 +15507,13 @@
         "source_document": "035_email_thread.txt"
       },
       {
-        "source": "Procurement Department",
+        "source": "Procurement",
         "target": "Q3 Software License Renewals",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "035_email_thread.txt"
       },
       {
-        "source": "Procurement Department",
+        "source": "Procurement",
         "target": "Firewall Infrastructure Upgrade",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "035_email_thread.txt"
@@ -15531,13 +15531,13 @@
         "source_document": "035_email_thread.txt"
       },
       {
-        "source": "Finance Department",
+        "source": "Finance",
         "target": "Q3 Software License Renewals",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "035_email_thread.txt"
       },
       {
-        "source": "Finance Department",
+        "source": "Finance",
         "target": "Firewall Infrastructure Upgrade",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "035_email_thread.txt"
@@ -15592,25 +15592,25 @@
       },
       {
         "source": "Email Thread: Q3 IT Infrastructure Renewals and Upgrades",
-        "target": "IT Department",
+        "target": "IT",
         "relation": "MENTIONS",
         "source_document": "035_email_thread.txt"
       },
       {
         "source": "Email Thread: Q3 IT Infrastructure Renewals and Upgrades",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "MENTIONS",
         "source_document": "035_email_thread.txt"
       },
       {
         "source": "Email Thread: Q3 IT Infrastructure Renewals and Upgrades",
-        "target": "Procurement Department",
+        "target": "Procurement",
         "relation": "MENTIONS",
         "source_document": "035_email_thread.txt"
       },
       {
         "source": "Email Thread: Q3 IT Infrastructure Renewals and Upgrades",
-        "target": "Finance Department",
+        "target": "Finance",
         "relation": "MENTIONS",
         "source_document": "035_email_thread.txt"
       },
@@ -15748,7 +15748,7 @@
       },
       {
         "source": "PRC-005",
-        "target": "Procurement Department",
+        "target": "Procurement",
         "relation": "MENTIONS",
         "source_document": "035_email_thread.txt"
       },
@@ -15811,10 +15811,10 @@
       },
       {
         "type": "Department",
-        "name": "Operations Department",
+        "name": "Operations",
         "source_document": "001_employee_bio.txt",
         "aliases": [
-          "Operations",
+          "Operations Department",
           "Operations team"
         ]
       },
@@ -15884,7 +15884,7 @@
       },
       {
         "source": "new enterprise resource planning (ERP) system",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "RELATED_TO",
         "source_document": "036_employee_bio.txt"
       },
@@ -15936,10 +15936,10 @@
       },
       {
         "type": "Department",
-        "name": "Operations Department",
+        "name": "Operations",
         "source_document": "001_employee_bio.txt",
         "aliases": [
-          "Operations",
+          "Operations Department",
           "Operations team"
         ]
       },
@@ -16066,7 +16066,7 @@
       },
       {
         "source": "Expense Report - Arjun Verma - March 2024",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "MENTIONS",
         "source_document": "037_expense_report.txt"
       },
@@ -16192,7 +16192,7 @@
       },
       {
         "source": "Arjun Verma",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "WORKS_IN",
         "source_document": "037_expense_report.txt"
       },
@@ -16269,7 +16269,7 @@
         "source_document": "037_expense_report.txt"
       },
       {
-        "source": "Operations Department",
+        "source": "Operations",
         "target": "Project Phoenix",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "037_expense_report.txt"
@@ -16412,10 +16412,10 @@
       },
       {
         "type": "Department",
-        "name": "Operations Department",
+        "name": "Operations",
         "source_document": "001_employee_bio.txt",
         "aliases": [
-          "Operations",
+          "Operations Department",
           "Operations team"
         ]
       },
@@ -16538,7 +16538,7 @@
       },
       {
         "source": "Kavita Rao",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "RELATED_TO",
         "source_document": "038_employee_bio.txt"
       },
@@ -16562,7 +16562,7 @@
       },
       {
         "source": "Employee Spotlight: Kavita Rao",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "MENTIONS",
         "source_document": "038_employee_bio.txt"
       },
@@ -16659,10 +16659,10 @@
       },
       {
         "type": "Department",
-        "name": "Operations Department",
+        "name": "Operations",
         "source_document": "001_employee_bio.txt",
         "aliases": [
-          "Operations",
+          "Operations Department",
           "Operations team"
         ]
       },
@@ -16724,7 +16724,7 @@
       },
       {
         "source": "Priya Nair",
-        "target": "Finance Department",
+        "target": "Finance",
         "relation": "WORKS_IN",
         "source_document": "039_employee_bio.txt"
       },
@@ -16736,7 +16736,7 @@
       },
       {
         "source": "Priya Nair",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "COMMUNICATED_WITH",
         "source_document": "039_employee_bio.txt"
       },
@@ -16921,7 +16921,7 @@
         "source_document": "040_vendor_agreement.txt"
       },
       {
-        "source": "IT Department",
+        "source": "IT",
         "target": "SecureNet Systems",
         "relation": "COMMUNICATED_WITH",
         "source_document": "040_vendor_agreement.txt"
@@ -16933,7 +16933,7 @@
         "source_document": "040_vendor_agreement.txt"
       },
       {
-        "source": "Finance Department",
+        "source": "Finance",
         "target": "Vendor Agreement - SecureNet Systems Cybersecurity Solutions",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "040_vendor_agreement.txt"
@@ -16963,7 +16963,7 @@
         "source_document": "040_vendor_agreement.txt"
       },
       {
-        "source": "IT Department",
+        "source": "IT",
         "target": "Lattice Dynamics Pvt. Ltd.",
         "relation": "RELATED_TO",
         "source_document": "040_vendor_agreement.txt"
@@ -16975,7 +16975,7 @@
         "source_document": "040_vendor_agreement.txt"
       },
       {
-        "source": "Finance Department",
+        "source": "Finance",
         "target": "Lattice Dynamics Pvt. Ltd.",
         "relation": "RELATED_TO",
         "source_document": "040_vendor_agreement.txt"
@@ -17095,13 +17095,13 @@
       },
       {
         "source": "Rahul Sharma",
-        "target": "IT Department",
+        "target": "IT",
         "relation": "WORKS_IN",
         "source_document": "041_vendor_agreement.txt"
       },
       {
         "source": "Ankit Gupta",
-        "target": "IT Department",
+        "target": "IT",
         "relation": "WORKS_IN",
         "source_document": "041_vendor_agreement.txt"
       },
@@ -17166,7 +17166,7 @@
         "source_document": "041_vendor_agreement.txt"
       },
       {
-        "source": "IT Department",
+        "source": "IT",
         "target": "Data Security Risk",
         "relation": "HAS_RISK",
         "source_document": "041_vendor_agreement.txt"
@@ -17201,10 +17201,10 @@
       },
       {
         "type": "Department",
-        "name": "Operations Department",
+        "name": "Operations",
         "source_document": "001_employee_bio.txt",
         "aliases": [
-          "Operations",
+          "Operations Department",
           "Operations team"
         ]
       },
@@ -17354,7 +17354,7 @@
     "relationships": [
       {
         "source": "Arjun Verma",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "WORKS_IN",
         "source_document": "042_project_memo.txt"
       },
@@ -17486,7 +17486,7 @@
       },
       {
         "source": "Sandeep Menon",
-        "target": "R-04: Security Vulnerabilities",
+        "target": "Security Vulnerabilities",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "042_project_memo.txt"
       },
@@ -17516,7 +17516,7 @@
       },
       {
         "source": "Cloud Migration Initiative - Phase 1",
-        "target": "R-04: Security Vulnerabilities",
+        "target": "Security Vulnerabilities",
         "relation": "HAS_RISK",
         "source_document": "042_project_memo.txt"
       },
@@ -17588,7 +17588,7 @@
       },
       {
         "source": "PROJECT MEMO: Cloud Migration Initiative - Phase 1 Progress & Upcoming Milestones",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "MENTIONS",
         "source_document": "042_project_memo.txt"
       },
@@ -17696,7 +17696,7 @@
       },
       {
         "source": "PROJECT MEMO: Cloud Migration Initiative - Phase 1 Progress & Upcoming Milestones",
-        "target": "R-04: Security Vulnerabilities",
+        "target": "Security Vulnerabilities",
         "relation": "MENTIONS",
         "source_document": "042_project_memo.txt"
       },
@@ -17859,10 +17859,10 @@
       },
       {
         "type": "Department",
-        "name": "Operations Department",
+        "name": "Operations",
         "source_document": "001_employee_bio.txt",
         "aliases": [
-          "Operations",
+          "Operations Department",
           "Operations team"
         ]
       },
@@ -17923,31 +17923,31 @@
     "relationships": [
       {
         "source": "Rahul Sharma",
-        "target": "IT Department",
+        "target": "IT",
         "relation": "WORKS_IN",
         "source_document": "043_org_chart_notes.txt"
       },
       {
         "source": "Ankit Gupta",
-        "target": "IT Department",
+        "target": "IT",
         "relation": "WORKS_IN",
         "source_document": "043_org_chart_notes.txt"
       },
       {
         "source": "Rohan Das",
-        "target": "IT Department",
+        "target": "IT",
         "relation": "WORKS_IN",
         "source_document": "043_org_chart_notes.txt"
       },
       {
         "source": "Meera Iyer",
-        "target": "Procurement Department",
+        "target": "Procurement",
         "relation": "WORKS_IN",
         "source_document": "043_org_chart_notes.txt"
       },
       {
         "source": "Neha Singh",
-        "target": "Operations Department",
+        "target": "Operations",
         "relation": "WORKS_IN",
         "source_document": "043_org_chart_notes.txt"
       },
@@ -17982,19 +17982,19 @@
         "source_document": "043_org_chart_notes.txt"
       },
       {
-        "source": "IT Department",
+        "source": "IT",
         "target": "CloudKart Services",
         "relation": "RELATED_TO",
         "source_document": "043_org_chart_notes.txt"
       },
       {
-        "source": "IT Department",
-        "target": "TechNova Solutions",
+        "source": "IT",
+        "target": "TechNova Solutions Pvt Ltd",
         "relation": "RELATED_TO",
         "source_document": "043_org_chart_notes.txt"
       },
       {
-        "source": "Procurement Department",
+        "source": "Procurement",
         "target": "BuildRight Contractors Contract",
         "relation": "RELATED_TO",
         "source_document": "043_org_chart_notes.txt"
@@ -18006,7 +18006,7 @@
         "source_document": "043_org_chart_notes.txt"
       },
       {
-        "source": "Procurement Department",
+        "source": "Procurement",
         "target": "GreenByte Energy Contract",
         "relation": "RELATED_TO",
         "source_document": "043_org_chart_notes.txt"
@@ -18024,7 +18024,7 @@
         "source_document": "043_org_chart_notes.txt"
       },
       {
-        "source": "IT Department",
+        "source": "IT",
         "target": "SecureNet Systems",
         "relation": "RELATED_TO",
         "source_document": "043_org_chart_notes.txt"
@@ -18126,7 +18126,7 @@
         "source_document": "043_org_chart_notes.txt"
       },
       {
-        "source": "IT Department",
+        "source": "IT",
         "target": "SLA Non-Compliance Risk",
         "relation": "HAS_RISK",
         "source_document": "043_org_chart_notes.txt"
@@ -18139,7 +18139,7 @@
       },
       {
         "source": "SLA Non-Compliance Risk",
-        "target": "TechNova Solutions",
+        "target": "TechNova Solutions Pvt Ltd",
         "relation": "RELATED_TO",
         "source_document": "043_org_chart_notes.txt"
       }
@@ -18237,7 +18237,7 @@
     "relationships": [
       {
         "source": "Rahul Sharma",
-        "target": "IT Department",
+        "target": "IT",
         "relation": "WORKS_IN",
         "source_document": "044_employee_bio.txt"
       },
@@ -18562,19 +18562,19 @@
     "relationships": [
       {
         "source": "Priya Nair",
-        "target": "Finance Department",
+        "target": "Finance",
         "relation": "WORKS_IN",
         "source_document": "045_transaction_log.txt"
       },
       {
         "source": "Meera Iyer",
-        "target": "Finance Department",
+        "target": "Finance",
         "relation": "WORKS_IN",
         "source_document": "045_transaction_log.txt"
       },
       {
         "source": "Sandeep Menon",
-        "target": "Finance Department",
+        "target": "Finance",
         "relation": "WORKS_IN",
         "source_document": "045_transaction_log.txt"
       },
@@ -18603,7 +18603,7 @@
         "source_document": "045_transaction_log.txt"
       },
       {
-        "source": "Software license renewals",
+        "source": "Software license renewal",
         "target": "TechNova Solutions Pvt Ltd",
         "relation": "PROVIDED_BY",
         "source_document": "045_transaction_log.txt"
@@ -18874,13 +18874,13 @@
       },
       {
         "source": "Regulatory update workshop for compliance team",
-        "target": "Compliance Team",
+        "target": "Compliance",
         "relation": "RELATED_TO",
         "source_document": "045_transaction_log.txt"
       },
       {
         "source": "Q2 FY24 Vendor Payment Transaction Log",
-        "target": "Finance Department",
+        "target": "Finance",
         "relation": "MENTIONS",
         "source_document": "045_transaction_log.txt"
       },
@@ -18958,7 +18958,7 @@
       },
       {
         "source": "Q2 FY24 Vendor Payment Transaction Log",
-        "target": "Compliance Team",
+        "target": "Compliance",
         "relation": "MENTIONS",
         "source_document": "045_transaction_log.txt"
       }
