@@ -7,11 +7,11 @@ import sys
 import time
 from pathlib import Path
 
-from app.embeddings import embed
-from app.neo4j import close, run_query
-
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
+
+from app.embeddings import embed
+from app.neo4j import close, run_query
 
 
 OUTPUT_FILE = PROJECT_ROOT / "data" / "node_embeddings.json"

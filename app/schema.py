@@ -57,9 +57,15 @@ RELATION_SCHEMA = {
     RelType.APPROVED: (NodeType.PERSON, NodeType.TRANSACTION),
     RelType.PAID_TO: (NodeType.TRANSACTION, NodeType.VENDOR),
     RelType.HAS_INVOICE: (NodeType.TRANSACTION, NodeType.INVOICE),
-    RelType.HAS_RISK: ((NodeType.PROJECT, NodeType.DEPARTMENT), NodeType.RISK),
+    RelType.HAS_RISK: (
+        (NodeType.PROJECT, NodeType.DEPARTMENT),
+        NodeType.RISK,
+    ),
     RelType.PROVIDED_BY: (NodeType.SERVICE, NodeType.VENDOR),
-    RelType.COMMUNICATED_WITH: (NodeType.PERSON, NodeType.PERSON),
+    RelType.COMMUNICATED_WITH: (
+        NodeType.PERSON,
+        NodeType.PERSON,
+    ),
     RelType.MENTIONS: (NodeType.DOCUMENT, None),
     RelType.OWNS: (NodeType.PERSON, NodeType.VENDOR),
     RelType.RELATIVE_OF: (NodeType.PERSON, NodeType.PERSON),

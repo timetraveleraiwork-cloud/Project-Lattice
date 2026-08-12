@@ -74,6 +74,7 @@ def normalize_relationship(rel: str) -> str:
 
 def load_node(tx, entity, source_document):
     mapped = map_node_type(entity["type"])
+
     print(
         entity["type"],
         "->",
@@ -107,26 +108,30 @@ def load_node(tx, entity, source_document):
 
 def load_relationship(tx, relationship, entity_lookup, source_document):
     relation = map_rel_type(relationship["relation"])
+
     if relation is None:
         return
 
     source_name = relationship["source"]
     target_name = relationship["target"]
 
-    source_label = entity_lookup.get(source_name)
-    target_label = entity_lookup.get(target_name)
+    source_info = entity_lookup.get(source_name)
+    target_info = entity_lookup.get(target_name)
 
-    if source_label is None or target_label is None:
+    if source_info is None or target_info is None:
         print(
             f"Missing endpoint:"
-            f" source={source_name} ({source_label})"
-            f" target={target_name} ({target_label})"
+            f" source={source_name} ({source_info})"
+            f" target={target_name} ({target_info})"
             f" in {source_document}"
         )
         return
 
-    if source_label is None or target_label is None:
-        return
+    source_canonical_name = source_info["name"]
+    source_label = source_info["label"]
+
+    target_canonical_name = target_info["name"]
+    target_label = target_info["label"]
 
     print(
         source_name,
@@ -134,7 +139,11 @@ def load_relationship(tx, relationship, entity_lookup, source_document):
         target_name,
     )
 
-    if not is_valid_relationship(source_label, relation, target_label):
+    if not is_valid_relationship(
+        source_label,
+        relation,
+        target_label,
+    ):
         print(
             f"Skipped relationship: "
             f"{source_name} ({source_label}) "
@@ -144,16 +153,16 @@ def load_relationship(tx, relationship, entity_lookup, source_document):
         return
 
     query = f"""
-    MATCH (source:{source_label} {{name:$source}})
-    MATCH (target:{target_label} {{name:$target}})
+    MATCH (source:{source_label} {{name: $source}})
+    MATCH (target:{target_label} {{name: $target}})
     MERGE (source)-[r:{relation}]->(target)
-    SET r.source_document=$source_document
+    SET r.source_document = $source_document
     """
 
     result = tx.run(
         query,
-        source=source_name,
-        target=target_name,
+        source=source_canonical_name,
+        target=target_canonical_name,
         source_document=source_document,
     )
 
@@ -162,9 +171,9 @@ def load_relationship(tx, relationship, entity_lookup, source_document):
     if summary.counters.relationships_created == 0:
         print(
             f"Relationship already existed or nodes not found: "
-            f"{source_name} ({source_label}) "
+            f"{source_canonical_name} ({source_label}) "
             f"-[:{relation}]-> "
-            f"{target_name} ({target_label})"
+            f"{target_canonical_name} ({target_label})"
         )
 
 
@@ -189,10 +198,28 @@ try:
             # -------------------------
             # Build lookup for this document
             # -------------------------
-            entity_lookup = {
-                entity["name"]: map_node_type(entity["type"])
-                for entity in document["entities"]
-            }
+            entity_lookup = {}
+
+            for entity in document["entities"]:
+                mapped_type = map_node_type(entity["type"])
+
+                if mapped_type is None:
+                    continue
+
+                canonical_name = entity["name"]
+
+                # Map canonical name
+                entity_lookup[canonical_name] = {
+                    "name": canonical_name,
+                    "label": mapped_type,
+                }
+
+                # Map aliases to the canonical entity
+                for alias in entity.get("aliases", []):
+                    entity_lookup[alias] = {
+                        "name": canonical_name,
+                        "label": mapped_type,
+                    }
 
             # -------------------------
             # Load Relationships

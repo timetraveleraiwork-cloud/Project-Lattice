@@ -76,9 +76,11 @@
       },
       {
         "type": "Vendor",
-        "name": "CloudKart Services",
+        "name": "CloudKart",
         "source_document": "001_employee_bio.txt",
-        "aliases": []
+        "aliases": [
+          "CloudKart Services"
+        ]
       },
       {
         "type": "Person",
@@ -382,9 +384,11 @@
       },
       {
         "type": "Vendor",
-        "name": "CloudKart Services",
+        "name": "CloudKart",
         "source_document": "001_employee_bio.txt",
-        "aliases": []
+        "aliases": [
+          "CloudKart Services"
+        ]
       },
       {
         "type": "Risk",
@@ -843,9 +847,11 @@
       },
       {
         "type": "Vendor",
-        "name": "CloudKart Services",
+        "name": "CloudKart",
         "source_document": "001_employee_bio.txt",
-        "aliases": []
+        "aliases": [
+          "CloudKart Services"
+        ]
       },
       {
         "type": "Service",
@@ -1204,9 +1210,11 @@
       },
       {
         "type": "Vendor",
-        "name": "CloudKart Services",
+        "name": "CloudKart",
         "source_document": "001_employee_bio.txt",
-        "aliases": []
+        "aliases": [
+          "CloudKart Services"
+        ]
       },
       {
         "type": "Vendor",
@@ -1589,25 +1597,25 @@
         "source_document": "004_expense_report.txt"
       },
       {
-        "source": "Transaction 2024-08-12 OfficeHive Supplies",
+        "source": "Transaction 2024-07-10 OfficeHive Supplies",
         "target": "OfficeHive Supplies",
         "relation": "PAID_TO",
         "source_document": "004_expense_report.txt"
       },
       {
-        "source": "Transaction 2024-08-12 OfficeHive Supplies",
+        "source": "Transaction 2024-07-10 OfficeHive Supplies",
         "target": "LD-OHS-20240812-002",
         "relation": "HAS_INVOICE",
         "source_document": "004_expense_report.txt"
       },
       {
-        "source": "Transaction 2024-08-12 OfficeHive Supplies",
+        "source": "Transaction 2024-07-10 OfficeHive Supplies",
         "target": "Nebula Initiative",
         "relation": "RELATED_TO",
         "source_document": "004_expense_report.txt"
       },
       {
-        "source": "Transaction 2024-08-12 OfficeHive Supplies",
+        "source": "Transaction 2024-07-10 OfficeHive Supplies",
         "target": "Printer cartridges and specialized cables",
         "relation": "MENTIONS",
         "source_document": "004_expense_report.txt"
@@ -1653,9 +1661,11 @@
       },
       {
         "type": "Vendor",
-        "name": "CloudKart Services",
+        "name": "CloudKart",
         "source_document": "001_employee_bio.txt",
-        "aliases": []
+        "aliases": [
+          "CloudKart Services"
+        ]
       },
       {
         "type": "Vendor",
@@ -2550,9 +2560,11 @@
       },
       {
         "type": "Vendor",
-        "name": "CloudKart Services",
+        "name": "CloudKart",
         "source_document": "001_employee_bio.txt",
-        "aliases": []
+        "aliases": [
+          "CloudKart Services"
+        ]
       },
       {
         "type": "Department",
@@ -3347,9 +3359,11 @@
       },
       {
         "type": "Vendor",
-        "name": "CloudKart Services",
+        "name": "CloudKart",
         "source_document": "001_employee_bio.txt",
-        "aliases": []
+        "aliases": [
+          "CloudKart Services"
+        ]
       },
       {
         "type": "Vendor",
@@ -3496,7 +3510,7 @@
       },
       {
         "source": "Project Memo: Cloud Migration Initiative - Phase 1 Kick-off",
-        "target": "Security Vulnerabilities",
+        "target": "R-04: Security Vulnerabilities",
         "relation": "MENTIONS",
         "source_document": "011_project_memo.txt"
       },
@@ -3598,7 +3612,7 @@
       },
       {
         "source": "Compliance",
-        "target": "Security Vulnerabilities",
+        "target": "R-04: Security Vulnerabilities",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "011_project_memo.txt"
       },
@@ -3616,7 +3630,7 @@
       },
       {
         "source": "Cloud Migration Initiative - Phase 1",
-        "target": "Security Vulnerabilities",
+        "target": "R-04: Security Vulnerabilities",
         "relation": "HAS_RISK",
         "source_document": "011_project_memo.txt"
       },
@@ -4178,9 +4192,11 @@
       },
       {
         "type": "Vendor",
-        "name": "CloudKart Services",
+        "name": "CloudKart",
         "source_document": "001_employee_bio.txt",
-        "aliases": []
+        "aliases": [
+          "CloudKart Services"
+        ]
       },
       {
         "type": "Project",
@@ -4506,9 +4522,11 @@
       },
       {
         "type": "Vendor",
-        "name": "CloudKart Services",
+        "name": "CloudKart",
         "source_document": "001_employee_bio.txt",
-        "aliases": []
+        "aliases": [
+          "CloudKart Services"
+        ]
       },
       {
         "type": "Service",
@@ -5793,7 +5811,7 @@
     "relationships": [
       {
         "source": "Arjun Verma",
-        "target": "Operations (Project Management)",
+        "target": "Operations/Project Management",
         "relation": "WORKS_IN",
         "source_document": "016_expense_report.txt"
       },
@@ -5817,7 +5835,7 @@
       },
       {
         "source": "Expense Report - Project Falcon - Feb 2024 (Arjun Verma)",
-        "target": "Operations (Project Management)",
+        "target": "Operations/Project Management",
         "relation": "MENTIONS",
         "source_document": "016_expense_report.txt"
       },
@@ -6500,9 +6518,11 @@
       },
       {
         "type": "Vendor",
-        "name": "CloudKart Services",
+        "name": "CloudKart",
         "source_document": "001_employee_bio.txt",
-        "aliases": []
+        "aliases": [
+          "CloudKart Services"
+        ]
       },
       {
         "type": "Vendor",
@@ -7196,9 +7216,11 @@
       },
       {
         "type": "Vendor",
-        "name": "CloudKart Services",
+        "name": "CloudKart",
         "source_document": "001_employee_bio.txt",
-        "aliases": []
+        "aliases": [
+          "CloudKart Services"
+        ]
       },
       {
         "type": "Department",
@@ -7761,9 +7783,11 @@
       },
       {
         "type": "Vendor",
-        "name": "CloudKart Services",
+        "name": "CloudKart",
         "source_document": "001_employee_bio.txt",
-        "aliases": []
+        "aliases": [
+          "CloudKart Services"
+        ]
       },
       {
         "type": "Vendor",
@@ -8428,7 +8452,10 @@
       {
         "type": "Vendor",
         "name": "CloudKart",
-        "source_document": "022_email_thread.txt"
+        "source_document": "001_employee_bio.txt",
+        "aliases": [
+          "CloudKart Services"
+        ]
       },
       {
         "type": "Service",
@@ -8514,7 +8541,7 @@
       },
       {
         "source": "CloudKart Services",
-        "target": "CloudKart",
+        "target": "CloudKart Services",
         "relation": "PROVIDED_BY",
         "source_document": "022_email_thread.txt"
       },
@@ -8562,7 +8589,7 @@
       },
       {
         "source": "engagement with CloudKart Services",
-        "target": "CloudKart",
+        "target": "CloudKart Services",
         "relation": "PAID_TO",
         "source_document": "022_email_thread.txt"
       },
@@ -8664,9 +8691,11 @@
       },
       {
         "type": "Vendor",
-        "name": "CloudKart Services",
+        "name": "CloudKart",
         "source_document": "001_employee_bio.txt",
-        "aliases": []
+        "aliases": [
+          "CloudKart Services"
+        ]
       },
       {
         "type": "Service",
@@ -8859,7 +8888,7 @@
       },
       {
         "source": "PROJECT MEMO: Q3 Data Infrastructure Upgrade & Security Enhancements",
-        "target": "IT/Data Analytics",
+        "target": "Data Analytics",
         "relation": "MENTIONS",
         "source_document": "023_project_memo.txt"
       },
@@ -8889,7 +8918,7 @@
       },
       {
         "source": "PROJECT MEMO: Q3 Data Infrastructure Upgrade & Security Enhancements",
-        "target": "Security Vulnerabilities",
+        "target": "R-04: Security Vulnerabilities",
         "relation": "MENTIONS",
         "source_document": "023_project_memo.txt"
       },
@@ -8967,7 +8996,7 @@
       },
       {
         "source": "Neha Singh",
-        "target": "IT/Data Analytics",
+        "target": "Data Analytics",
         "relation": "WORKS_IN",
         "source_document": "023_project_memo.txt"
       },
@@ -9045,7 +9074,7 @@
       },
       {
         "source": "Sandeep Menon",
-        "target": "Security Vulnerabilities",
+        "target": "R-04: Security Vulnerabilities",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "023_project_memo.txt"
       },
@@ -9069,7 +9098,7 @@
       },
       {
         "source": "Q3 Data Infrastructure Upgrade & Security Enhancements",
-        "target": "Security Vulnerabilities",
+        "target": "R-04: Security Vulnerabilities",
         "relation": "HAS_RISK",
         "source_document": "023_project_memo.txt"
       },
@@ -9229,9 +9258,11 @@
       },
       {
         "type": "Vendor",
-        "name": "CloudKart Services",
+        "name": "CloudKart",
         "source_document": "001_employee_bio.txt",
-        "aliases": []
+        "aliases": [
+          "CloudKart Services"
+        ]
       },
       {
         "type": "Vendor",
@@ -9665,9 +9696,11 @@
       },
       {
         "type": "Vendor",
-        "name": "CloudKart Services",
+        "name": "CloudKart",
         "source_document": "001_employee_bio.txt",
-        "aliases": []
+        "aliases": [
+          "CloudKart Services"
+        ]
       },
       {
         "type": "Service",
@@ -10142,9 +10175,11 @@
       },
       {
         "type": "Vendor",
-        "name": "CloudKart Services",
+        "name": "CloudKart",
         "source_document": "001_employee_bio.txt",
-        "aliases": []
+        "aliases": [
+          "CloudKart Services"
+        ]
       },
       {
         "type": "Service",
@@ -10420,12 +10455,12 @@
       },
       {
         "source": "LD-TL-2405-001",
-        "target": "Q2 software license renewal",
+        "target": "Software license renewals",
         "relation": "RELATED_TO",
         "source_document": "026_transaction_log.txt"
       },
       {
-        "source": "Q2 software license renewal",
+        "source": "Software license renewals",
         "target": "TechNova Solutions Pvt Ltd",
         "relation": "PROVIDED_BY",
         "source_document": "026_transaction_log.txt"
@@ -10444,7 +10479,7 @@
       },
       {
         "source": "IT",
-        "target": "Q2 software license renewal",
+        "target": "Software license renewals",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "026_transaction_log.txt"
       },
@@ -10958,9 +10993,11 @@
       },
       {
         "type": "Vendor",
-        "name": "CloudKart Services",
+        "name": "CloudKart",
         "source_document": "001_employee_bio.txt",
-        "aliases": []
+        "aliases": [
+          "CloudKart Services"
+        ]
       },
       {
         "type": "Project",
@@ -11340,9 +11377,11 @@
       },
       {
         "type": "Vendor",
-        "name": "CloudKart Services",
+        "name": "CloudKart",
         "source_document": "001_employee_bio.txt",
-        "aliases": []
+        "aliases": [
+          "CloudKart Services"
+        ]
       },
       {
         "type": "Risk",
@@ -12248,9 +12287,11 @@
       },
       {
         "type": "Vendor",
-        "name": "CloudKart Services",
+        "name": "CloudKart",
         "source_document": "001_employee_bio.txt",
-        "aliases": []
+        "aliases": [
+          "CloudKart Services"
+        ]
       },
       {
         "type": "Project",
@@ -12661,9 +12702,11 @@
       },
       {
         "type": "Vendor",
-        "name": "CloudKart Services",
+        "name": "CloudKart",
         "source_document": "001_employee_bio.txt",
-        "aliases": []
+        "aliases": [
+          "CloudKart Services"
+        ]
       },
       {
         "type": "Service",
@@ -13838,9 +13881,11 @@
       },
       {
         "type": "Vendor",
-        "name": "CloudKart Services",
+        "name": "CloudKart",
         "source_document": "001_employee_bio.txt",
-        "aliases": []
+        "aliases": [
+          "CloudKart Services"
+        ]
       },
       {
         "type": "Vendor",
@@ -14453,9 +14498,11 @@
       },
       {
         "type": "Vendor",
-        "name": "CloudKart Services",
+        "name": "CloudKart",
         "source_document": "001_employee_bio.txt",
-        "aliases": []
+        "aliases": [
+          "CloudKart Services"
+        ]
       },
       {
         "type": "Vendor",
@@ -14780,9 +14827,11 @@
       },
       {
         "type": "Vendor",
-        "name": "CloudKart Services",
+        "name": "CloudKart",
         "source_document": "001_employee_bio.txt",
-        "aliases": []
+        "aliases": [
+          "CloudKart Services"
+        ]
       },
       {
         "type": "Person",
@@ -15302,9 +15351,11 @@
       },
       {
         "type": "Vendor",
-        "name": "CloudKart Services",
+        "name": "CloudKart",
         "source_document": "001_employee_bio.txt",
-        "aliases": []
+        "aliases": [
+          "CloudKart Services"
+        ]
       },
       {
         "type": "Project",
@@ -16998,9 +17049,11 @@
       },
       {
         "type": "Vendor",
-        "name": "CloudKart Services",
+        "name": "CloudKart",
         "source_document": "001_employee_bio.txt",
-        "aliases": []
+        "aliases": [
+          "CloudKart Services"
+        ]
       },
       {
         "type": "Department",
@@ -17296,9 +17349,11 @@
       },
       {
         "type": "Vendor",
-        "name": "CloudKart Services",
+        "name": "CloudKart",
         "source_document": "001_employee_bio.txt",
-        "aliases": []
+        "aliases": [
+          "CloudKart Services"
+        ]
       },
       {
         "type": "Vendor",
@@ -17486,7 +17541,7 @@
       },
       {
         "source": "Sandeep Menon",
-        "target": "Security Vulnerabilities",
+        "target": "R-04: Security Vulnerabilities",
         "relation": "RESPONSIBLE_FOR",
         "source_document": "042_project_memo.txt"
       },
@@ -17516,7 +17571,7 @@
       },
       {
         "source": "Cloud Migration Initiative - Phase 1",
-        "target": "Security Vulnerabilities",
+        "target": "R-04: Security Vulnerabilities",
         "relation": "HAS_RISK",
         "source_document": "042_project_memo.txt"
       },
@@ -17696,7 +17751,7 @@
       },
       {
         "source": "PROJECT MEMO: Cloud Migration Initiative - Phase 1 Progress & Upcoming Milestones",
-        "target": "Security Vulnerabilities",
+        "target": "R-04: Security Vulnerabilities",
         "relation": "MENTIONS",
         "source_document": "042_project_memo.txt"
       },
@@ -17794,9 +17849,11 @@
       },
       {
         "type": "Vendor",
-        "name": "CloudKart Services",
+        "name": "CloudKart",
         "source_document": "001_employee_bio.txt",
-        "aliases": []
+        "aliases": [
+          "CloudKart Services"
+        ]
       },
       {
         "type": "Vendor",
@@ -18186,9 +18243,11 @@
       },
       {
         "type": "Vendor",
-        "name": "CloudKart Services",
+        "name": "CloudKart",
         "source_document": "001_employee_bio.txt",
-        "aliases": []
+        "aliases": [
+          "CloudKart Services"
+        ]
       },
       {
         "type": "Vendor",
@@ -18352,9 +18411,11 @@
       },
       {
         "type": "Vendor",
-        "name": "CloudKart Services",
+        "name": "CloudKart",
         "source_document": "001_employee_bio.txt",
-        "aliases": []
+        "aliases": [
+          "CloudKart Services"
+        ]
       },
       {
         "type": "Service",
@@ -18603,7 +18664,7 @@
         "source_document": "045_transaction_log.txt"
       },
       {
-        "source": "Software license renewal",
+        "source": "Software license renewals",
         "target": "TechNova Solutions Pvt Ltd",
         "relation": "PROVIDED_BY",
         "source_document": "045_transaction_log.txt"

@@ -71,6 +71,7 @@ ORG_SUFFIXES = {
     "llc",
     "co",
     "company",
+    "services",
 }
 
 DEPARTMENT_SUFFIXES = {
@@ -378,8 +379,8 @@ def resolve_entities(documents: list[dict]):
             canonical = entity["name"]
             canonical_name_map[normalize_organization(canonical)] = canonical
 
-        for alias in entity.get("aliases", []):
-            canonical_name_map[normalize_organization(alias)] = canonical
+            for alias in entity.get("aliases", []):
+                canonical_name_map[normalize_organization(alias)] = canonical
 
     print(canonical_name_map.get("Finance department"))
     print(canonical_name_map.get("Procurement department"))

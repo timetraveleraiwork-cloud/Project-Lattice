@@ -17,4 +17,6 @@ Semantic retrieval improves robustness by finding relevant documents even when t
 Grounded prompting with citation validation and an explicit refusal path reduces hallucinations by ensuring answers are supported by the retrieved context.
 
 ## Week 6 Findings - 1
-During Week 6 graph analytics, I discovered a residual entity-resolution issue where one document referred to "Priya" while others used "Priya Nair". Graph algorithms (PageRank) exposed this because both appeared as separate nodes. This was traced back to incomplete canonicalization and is a candidate for an additional entity-resolution rule.
+During Week 6 graph analytics, I discovered a residual entity-resolution issue where one document referred to "Priya" while others used "Priya Nair".
+
+Graph algorithms (PageRank) exposed this because both appeared as separate nodes. This was traced back to incomplete canonicalization and is a candidate for an additional entity-resolution rule.
